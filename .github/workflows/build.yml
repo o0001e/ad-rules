@@ -24,8 +24,10 @@ jobs:
       contents: write
 
     steps:
-      - name: 检出仓库
+      - name: 检出仓库（浅克隆，只取最新一版）
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: 恢复爬虫缓存（DNS 与 CT 结果，跨运行复用）
         uses: actions/cache@v4
@@ -36,9 +38,13 @@ jobs:
             crawl-cache-v2-
 
       - name: 准备环境
-        run: |
-          python3 --version
-          pip install --quiet requests pypinyin
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 安装依赖
+        run: pip install --quiet requests pypinyin
 
       - name: 爬虫抓取（按需执行，限时 40 分钟，失败不阻断）
         if: ${{ github.event.inputs.skip_crawl != 'true' }}
