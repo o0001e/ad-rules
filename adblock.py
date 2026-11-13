@@ -10,11 +10,11 @@
   6. 按 app_list.json 的厂商根域拆出单 App 分组
 产物由工作流上传到 Release，仓库只放源码。
 """
-import os, re, sys, json, time, collections, urllib.request
+import os, re, sys, json, time, socket, collections, urllib.request
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(ROOT, "rules")
+OUT = os.environ.get("OUT_DIR") or os.path.join(ROOT, "rules")
 CACHE = os.path.join(ROOT, ".cache", "src")
 SOURCES = os.path.join(ROOT, "sources.txt")
 WHITE = os.path.join(ROOT, "whitelist.txt")
@@ -22,6 +22,7 @@ CUSTOM = os.path.join(ROOT, "custom.txt")
 APPS = os.path.join(ROOT, "app_list.json")
 DEAD = os.path.join(ROOT, "dead.txt")
 UA = {"User-Agent": "Mozilla/5.0 (AdQggFilters/1.0)"}
+socket.setdefaulttimeout(15)
 
 # 绝不拦截：登录 / 支付 / 政务 / 系统服务 / 仓库自身
 PROTECT = """

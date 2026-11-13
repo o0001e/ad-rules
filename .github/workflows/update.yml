@@ -68,7 +68,7 @@ jobs:
         run: |
           git config user.email "adqgg@users.noreply.github.com"
           git config user.name "adqgg"
-          git add -f -A rules hosts.txt all.txt adguard.txt
+          git add -f rules/hosts.txt rules/whitelist.txt rules/whitelist_adguard.txt             rules/all.txt rules/adguard.txt rules/domains.txt rules/dnsmasq.conf             rules/clash.yaml rules/surge.list rules/build_report.txt             rules/source_report.txt rules/source_score.txt rules/regress_report.txt             hosts.txt all.txt adguard.txt
           git commit -q -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
           git push origin HEAD:main || true
 

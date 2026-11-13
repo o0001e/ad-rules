@@ -6,7 +6,6 @@ main:
       stages:
         - name: 合并并产出
           script: |
-            python3 -m pip install --quiet requests
             python3 adblock.py
         - name: 提交产物
           script: |
@@ -28,7 +27,6 @@ main:
       stages:
         - name: 合并并产出
           script: |
-            python3 -m pip install --quiet requests
             python3 adblock.py
         - name: 提交产物
           script: |
