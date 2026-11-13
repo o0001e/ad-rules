@@ -1,0 +1,2 @@
+# yunsafe.top 广告拦截 1条
+0.0.0.0 sm-cloud.yunsafe.top

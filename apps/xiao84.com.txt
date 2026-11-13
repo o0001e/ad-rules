@@ -1,0 +1,4 @@
+# xiao84.com 广告拦截 3条
+0.0.0.0 b1.xiao84.com
+0.0.0.0 becode.xiao84.com
+0.0.0.0 salary.xiao84.com

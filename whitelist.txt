@@ -1,5 +1,5 @@
 # 配套白名单（精确放行：只放行该主机，广告子域仍被拦）
-# 条数: 436
+# 条数: 441
 
 12306.cn
 126.com
@@ -14,6 +14,7 @@ acs.m.taobao.com
 alibaba.com
 alicdn.com
 alipay.com
+aliyun.com
 aliyuncs.com
 amap.com
 amemv.com
@@ -279,6 +280,7 @@ open.weibo.com
 open.xiaohongshu.com
 open.youku.com
 open.zhihu.com
+oppo.com
 order.163.com
 order.amemv.com
 order.baidu.com
@@ -389,7 +391,9 @@ so.com
 sogou.com
 sohu.com
 taobao.com
+tencent.com
 tmall.com
+toutiao.com
 user.163.com
 user.amemv.com
 user.baidu.com
@@ -433,6 +437,7 @@ www.novelquickapp.com
 xhscdn.com
 xiaohongshu.com
 xiaojukeji.com
+xiaomi.com
 youku.com
 zhaopin.com
 zhihu.com

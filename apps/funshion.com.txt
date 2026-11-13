@@ -1,2 +1,3 @@
-# funshion.com 广告拦截 1条
+# funshion.com 广告拦截 2条
+0.0.0.0 adm.funshion.com
 0.0.0.0 pub.funshion.com

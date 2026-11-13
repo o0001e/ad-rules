@@ -1,0 +1,2 @@
+# adbottw.net 广告拦截 1条
+0.0.0.0 adbottw.net

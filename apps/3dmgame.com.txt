@@ -1,2 +1,3 @@
-# 3dmgame.com 广告拦截 1条
+# 3dmgame.com 广告拦截 2条
+0.0.0.0 fc.3dmgame.com
 0.0.0.0 ga1.3dmgame.com

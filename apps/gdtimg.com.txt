@@ -1,4 +1,2 @@
-# gdtimg.com 广告拦截 3条
-0.0.0.0 adsmind.gdtimg.com
+# gdtimg.com 广告拦截 1条
 0.0.0.0 gdtimg.com
-0.0.0.0 qzs.gdtimg.com

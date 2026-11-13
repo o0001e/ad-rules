@@ -1,0 +1,3 @@
+# realmemobile.com 广告拦截 2条
+0.0.0.0 bdapi-ads.realmemobile.com
+0.0.0.0 bdapi-in-ads.realmemobile.com

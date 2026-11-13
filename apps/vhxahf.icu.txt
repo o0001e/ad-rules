@@ -1,0 +1,2 @@
+# vhxahf.icu 广告拦截 1条
+0.0.0.0 vhxahf.icu

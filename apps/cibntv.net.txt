@@ -1,2 +1,0 @@
-# cibntv.net 广告拦截 1条
-0.0.0.0 pl.cp31.ott.cibntv.net

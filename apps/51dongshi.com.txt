@@ -1,0 +1,2 @@
+# 51dongshi.com 广告拦截 1条
+0.0.0.0 ghghgf.51dongshi.com

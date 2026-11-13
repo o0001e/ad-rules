@@ -1,0 +1,2 @@
+# businessweekly.com.tw 广告拦截 1条
+0.0.0.0 admsapi.businessweekly.com.tw

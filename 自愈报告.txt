@@ -1,4 +1,4 @@
 自愈报告 20261113（回滚源: HEAD）
-执行时间: 2026-11-13 10:00:43
+执行时间: 2026-11-13 10:34:24
 
-- 自动分组自然移除 158 个（['0av9w1ubbh.com.txt', '0fs3mb0hh7.com.txt', '0kplffrs42.com.txt']），无需恢复
+- 自动分组自然移除 974 个（['039ijdlg8.com.txt', '03mhpavj25.com.txt', '03mnj87wir.com.txt']），无需恢复

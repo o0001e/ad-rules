@@ -1,0 +1,2 @@
+# xxsmtz4.com 广告拦截 1条
+0.0.0.0 xxsmtz4.com

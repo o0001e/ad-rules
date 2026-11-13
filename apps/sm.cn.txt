@@ -1,5 +1,3 @@
-# sm.cn 广告拦截 4条
-0.0.0.0 c.sm.cn
-0.0.0.0 hc-ssp.sm.cn
-0.0.0.0 huichuan-mc.sm.cn
+# sm.cn 广告拦截 2条
 0.0.0.0 huichuan.sm.cn
+0.0.0.0 log.m.sm.cn

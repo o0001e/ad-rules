@@ -1,3 +1,2 @@
-# 赶集网 广告拦截 2条
+# 赶集网 广告拦截 1条
 0.0.0.0 ganji.com
-0.0.0.0 ganjituiguang.ganji.com

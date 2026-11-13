@@ -1,0 +1,2 @@
+# wesiedu.com 广告拦截 1条
+0.0.0.0 s1.wesiedu.com

@@ -1,0 +1,2 @@
+# dakawm.cc 广告拦截 1条
+0.0.0.0 pv.dakawm.cc

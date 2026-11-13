@@ -1,10 +1,9 @@
-# 抖音极速版 广告拦截 139条
+# 抖音极速版 广告拦截 136条
 0.0.0.0 abtest-ch.snssdk.com
 0.0.0.0 abtestvm.bytedance.com
 0.0.0.0 ad.douyin.com
 0.0.0.0 amcn.bytedance.com
 0.0.0.0 analytics.snssdk.com
-0.0.0.0 api-access.pangolin-sdk-toutiao.com
 0.0.0.0 api3-normal-c.amemv.com
 0.0.0.0 applog.snssdk.com
 0.0.0.0 aweme-hl.snssdk.com
@@ -27,7 +26,6 @@
 0.0.0.0 gecko-pangle-lq.snssdk.com
 0.0.0.0 gecko.snssdk.com
 0.0.0.0 gini.snssdk.com
-0.0.0.0 gromore.pangolin-sdk-toutiao.com
 0.0.0.0 haohuo.snssdk.com
 0.0.0.0 hotsoon.snssdk.com
 0.0.0.0 i-hl.snssdk.com
@@ -47,7 +45,6 @@
 0.0.0.0 lf.snssdk.com
 0.0.0.0 lianmengapi.snssdk.com
 0.0.0.0 life.douyin.com
-0.0.0.0 log-api.pangolin-sdk-toutiao.com
 0.0.0.0 log-hl.snssdk.com
 0.0.0.0 log-lf.snssdk.com
 0.0.0.0 log-lq.snssdk.com

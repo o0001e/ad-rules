@@ -1,4 +1,4 @@
-# 好看视频 广告拦截 293条
+# 好看视频 广告拦截 292条
 0.0.0.0 a.baidu.com
 0.0.0.0 activity.baidu.com
 0.0.0.0 ad.player.baidu.com
@@ -21,12 +21,10 @@
 0.0.0.0 appc.baidu.com
 0.0.0.0 appwk.baidu.com
 0.0.0.0 as.baidu.com
-0.0.0.0 as1.wenku.baidu.com
 0.0.0.0 ascdn.baidu.com
 0.0.0.0 b2b.baidu.com
 0.0.0.0 baichuan.baidu.com
 0.0.0.0 baidutv.baidu.com
-0.0.0.0 baifen.music.baidu.com
 0.0.0.0 baike.baidu.com
 0.0.0.0 banlv.baidu.com
 0.0.0.0 bar.baidu.com
@@ -55,6 +53,7 @@
 0.0.0.0 click.bes.baidu.com
 0.0.0.0 cm.baidu.com
 0.0.0.0 collector.dcdn.baidu.com
+0.0.0.0 conf.international.baidu.com
 0.0.0.0 cover.baidu.com
 0.0.0.0 cpro.baidu.com
 0.0.0.0 cpro2.baidu.com
@@ -146,6 +145,7 @@
 0.0.0.0 isite.baidu.com
 0.0.0.0 iwanad.baidu.com
 0.0.0.0 j.br.baidu.com
+0.0.0.0 jiaoyu.baidu.com
 0.0.0.0 jingyan.baidu.com
 0.0.0.0 jmy-pic.baidu.com
 0.0.0.0 js.mobojoy.baidu.com
@@ -170,7 +170,6 @@
 0.0.0.0 mobads-logs.baidu.com
 0.0.0.0 mobads-speed.baidu.com
 0.0.0.0 mobads.baidu.com
-0.0.0.0 mountain.zhidao.baidu.com
 0.0.0.0 mpro.baidu.com
 0.0.0.0 mshield.baidu.com
 0.0.0.0 msite.baidu.com
@@ -202,7 +201,6 @@
 0.0.0.0 publish-pic-cpu.baidu.com
 0.0.0.0 puncher.dcdn.baidu.com
 0.0.0.0 pups.baidu.com
-0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 qapm.baidu.com
 0.0.0.0 qianbao.baidu.com
 0.0.0.0 qianclick.baidu.com
@@ -283,12 +281,13 @@
 0.0.0.0 wkclick.baidu.com
 0.0.0.0 wkctj.baidu.com
 0.0.0.0 wm.baidu.com
-0.0.0.0 wn.pos.baidu.com
 0.0.0.0 www.baidu.com
 0.0.0.0 xiongzhang.baidu.com
 0.0.0.0 xsolid.baidu.com
 0.0.0.0 yingxiao.baidu.com
 0.0.0.0 youxi.baidu.com
+0.0.0.0 yuedu.baidu.com
 0.0.0.0 yun.baidu.com
+0.0.0.0 zhanzhang.baidu.com
 0.0.0.0 zhidao.baidu.com
 0.0.0.0 znsv.baidu.com

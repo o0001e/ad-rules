@@ -1,0 +1,3 @@
+# tiktok.com 广告拦截 2条
+0.0.0.0 ads.tiktok.com
+0.0.0.0 analytics.tiktok.com

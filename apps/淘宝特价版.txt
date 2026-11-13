@@ -1,10 +1,11 @@
-# 淘宝特价版 广告拦截 151条
+# 淘宝特价版 广告拦截 153条
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 accscdn.m.taobao.com
 0.0.0.0 accscdn4public.m.taobao.com
 0.0.0.0 acs.wapa.taobao.com
 0.0.0.0 acs4baichuan.m.taobao.com
 0.0.0.0 acs4public.m.taobao.com
+0.0.0.0 ad-cdn.alibaba.com
 0.0.0.0 ad.alimama.com
 0.0.0.0 adash-c.m.taobao.com
 0.0.0.0 adash-c.ut.taobao.com
@@ -48,20 +49,18 @@
 0.0.0.0 click.alibaba.com
 0.0.0.0 click.tanx.com
 0.0.0.0 click.taobao.com
+0.0.0.0 cmap.alibaba.com
 0.0.0.0 cmweb.ilike.alibaba.com
 0.0.0.0 count.taobao.com
 0.0.0.0 detail.taobao.com
-0.0.0.0 df.tanx.com
 0.0.0.0 dmtracking.alibaba.com
 0.0.0.0 dmtracking2.alibaba.com
 0.0.0.0 dsp.alibaba.com
 0.0.0.0 dsp.alicdn.com
 0.0.0.0 dsp.tanx.com
 0.0.0.0 eco.taobao.com
-0.0.0.0 ef-dongfeng.tanx.com
 0.0.0.0 err.taobao.com
 0.0.0.0 err.tmall.com
-0.0.0.0 et.tanx.com
 0.0.0.0 fans.m.tmall.com
 0.0.0.0 ff.win.taobao.com
 0.0.0.0 fourier.alibaba.com
@@ -117,6 +116,7 @@
 0.0.0.0 simba.m.taobao.com
 0.0.0.0 simba.taobao.com
 0.0.0.0 sjarvis.taobao.com
+0.0.0.0 ssp.alibaba.com
 0.0.0.0 ssp.alimama.com
 0.0.0.0 ssp.tanx.com
 0.0.0.0 stat.alibaba.com
@@ -125,11 +125,13 @@
 0.0.0.0 survey.china.alibaba.com
 0.0.0.0 tanx.com
 0.0.0.0 taoquan.taobao.com
+0.0.0.0 tbskip.taobao.com
 0.0.0.0 tdum.alibaba.com
 0.0.0.0 tejia.taobao.com
 0.0.0.0 temai.m.taobao.com
 0.0.0.0 temai.taobao.com
 0.0.0.0 tmallequity.taobao.com
+0.0.0.0 tracelog.www.alibaba.com
 0.0.0.0 track.alibaba.com
 0.0.0.0 tracker.alicdn.com
 0.0.0.0 trade.taobao.com

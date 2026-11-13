@@ -1,0 +1,3 @@
+# izuiyou.com 广告拦截 2条
+0.0.0.0 adapi.izuiyou.com
+0.0.0.0 adstat.izuiyou.com

@@ -1,4 +1,10 @@
-# 夸克网盘 广告拦截 3条
+# 夸克网盘 广告拦截 9条
+0.0.0.0 ads.uc.cn
 0.0.0.0 adtrack.quark.cn
+0.0.0.0 adtrack.uc.cn
+0.0.0.0 applog.uc.cn
+0.0.0.0 log.uc.cn
 0.0.0.0 splash.quark.cn
+0.0.0.0 track.uc.cn
 0.0.0.0 union.quark.cn
+0.0.0.0 union.uc.cn

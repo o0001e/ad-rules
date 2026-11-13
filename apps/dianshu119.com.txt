@@ -1,0 +1,3 @@
+# dianshu119.com 广告拦截 2条
+0.0.0.0 jb.dianshu119.com
+0.0.0.0 pic1.dianshu119.com

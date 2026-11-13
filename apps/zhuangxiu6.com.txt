@@ -1,0 +1,2 @@
+# zhuangxiu6.com 广告拦截 1条
+0.0.0.0 d1.zhuangxiu6.com

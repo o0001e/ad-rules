@@ -1,0 +1,2 @@
+# alading123.com 广告拦截 1条
+0.0.0.0 hxbt.alading123.com

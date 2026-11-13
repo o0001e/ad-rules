@@ -1,0 +1,2 @@
+# 99waiyu.com 广告拦截 1条
+0.0.0.0 r.99waiyu.com

@@ -1,4 +1,4 @@
-# 小米 广告拦截 27条
+# 小米 广告拦截 28条
 0.0.0.0 a.hl.mi.com
 0.0.0.0 ad.mi.com
 0.0.0.0 ads.mi.com
@@ -9,6 +9,7 @@
 0.0.0.0 fengchao-api.mgp.mi.com
 0.0.0.0 h5.tv.mi.com
 0.0.0.0 help.jr.mi.com
+0.0.0.0 home.mi.com
 0.0.0.0 idm.iot.mi.com
 0.0.0.0 in.tv.global.mi.com
 0.0.0.0 migc.g.mi.com

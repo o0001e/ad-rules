@@ -1,3 +1,2 @@
-# sigmob.cn 广告拦截 2条
-0.0.0.0 dc.sigmob.cn
+# sigmob.cn 广告拦截 1条
 0.0.0.0 sigmob.cn
