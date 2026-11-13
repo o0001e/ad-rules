@@ -27,9 +27,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 安装依赖
-        run: python3 -m pip install --quiet requests
-
       - name: 轻量检查
         run: python3 scripts/light.py
 
@@ -57,7 +54,13 @@ jobs:
         run: |
           git config user.email "adqgg@users.noreply.github.com"
           git config user.name "adqgg"
-          git add -f rules/hosts.txt rules/whitelist.txt rules/all.txt
+          cp rules/hosts.txt hosts.txt
+          cp rules/all.txt all.txt
+          cp rules/adguard.txt adguard.txt
+          rm -rf .cache/light_new.txt
+          git add -f rules/hosts.txt rules/all.txt rules/adguard.txt rules/domains.txt \
+            rules/dnsmasq.conf rules/clash.yaml rules/surge.list rules/whitelist.txt \
+            rules/whitelist_adguard.txt rules/all.txt hosts.txt all.txt adguard.txt
           git commit -q -m "轻量更新 $(date -u '+%F %H:%M') UTC" || true
           git push origin HEAD:main || true
 

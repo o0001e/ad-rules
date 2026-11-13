@@ -72,9 +72,6 @@ jobs:
           git commit -q -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
           git push origin HEAD:main || true
 
-      - name: Gitee 可用性体检
-        run: python3 scripts/gitee_check.py || true
-
       - name: 同步到 Gitee
         timeout-minutes: 8
         env:
@@ -98,6 +95,9 @@ jobs:
             echo "第 ${i} 次失败"; sleep 5
           done
           echo "::warning::Gitee 同步失败"
+
+      - name: Gitee 可用性体检
+        run: python3 scripts/gitee_check.py || true
 
       - name: 打版本快照标签
         if: success()
