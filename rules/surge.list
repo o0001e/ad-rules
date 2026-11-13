@@ -55,7 +55,6 @@ DOMAIN,ad-center.com
 DOMAIN,ad-channel.diwodiwo.xyz
 DOMAIN,ad-channel.wikawika.xyz
 DOMAIN,ad-cheers.com
-DOMAIN,ad-clicks.com
 DOMAIN,ad-cloud.jp
 DOMAIN,ad-cmp.hismarttv.com
 DOMAIN,ad-count.adwo.com
@@ -70,7 +69,6 @@ DOMAIN,ad-display.wikawika.xyz
 DOMAIN,ad-download.hismarttv.com
 DOMAIN,ad-drs-ipv6.52qumao.com
 DOMAIN,ad-drs.52qumao.com
-DOMAIN,ad-ebis.bookpass.auone.jp
 DOMAIN,ad-ebis.mynavi-job20s.jp
 DOMAIN,ad-ettoday.cdn.hinet.net
 DOMAIN,ad-fam.com
@@ -170,7 +168,6 @@ DOMAIN,ad.apl298.me
 DOMAIN,ad.apsalar.com
 DOMAIN,ad.aucfan.com
 DOMAIN,ad.aucview.com
-DOMAIN,ad.auditude.com
 DOMAIN,ad.baihemob.com
 DOMAIN,ad.bayescom.com
 DOMAIN,ad.bench.utorrent.com
@@ -260,7 +257,6 @@ DOMAIN,ad.icheck.com.vn
 DOMAIN,ad.ichiban-boshi.com
 DOMAIN,ad.ichiru.net
 DOMAIN,ad.iinfo.cz
-DOMAIN,ad.iloveinterracial.com
 DOMAIN,ad.imp.joins.com
 DOMAIN,ad.infoseek.com
 DOMAIN,ad.inhaabit.com
@@ -277,17 +273,14 @@ DOMAIN,ad.keenspace.com
 DOMAIN,ad.khan.co.kr
 DOMAIN,ad.kimcartoon.si
 DOMAIN,ad.kirara-support.jp
-DOMAIN,ad.kissanime.co
 DOMAIN,ad.kissanime.com.ru
 DOMAIN,ad.kissanime.org.ru
-DOMAIN,ad.kissanime.sx
 DOMAIN,ad.kisscartoon.nz
 DOMAIN,ad.kisscartoon.sh
 DOMAIN,ad.kisstvshow.ru
 DOMAIN,ad.krutilka.ru
 DOMAIN,ad.l2b.co.za
 DOMAIN,ad.land.to
-DOMAIN,ad.leadbolt.net
 DOMAIN,ad.leadboltapps.net
 DOMAIN,ad.leap.app
 DOMAIN,ad.letmeads.com
@@ -323,7 +316,6 @@ DOMAIN,ad.netmedia.hu
 DOMAIN,ad.netowl.jp
 DOMAIN,ad.nettvservices.com
 DOMAIN,ad.network60.com
-DOMAIN,ad.nicovideo.jp
 DOMAIN,ad.norfolkbroads.com
 DOMAIN,ad.nttnavi.co.jp
 DOMAIN,ad.ntvmsnbc.com
@@ -393,7 +385,6 @@ DOMAIN,ad.video.51togic.com
 DOMAIN,ad.vietbao.vn
 DOMAIN,ad.virtual-nights.com
 DOMAIN,ad.vivo.com.cn
-DOMAIN,ad.vkool.net
 DOMAIN,ad.wang502.com
 DOMAIN,ad.wavu.hu
 DOMAIN,ad.weibo.com
@@ -466,7 +457,6 @@ DOMAIN,ads-image.production-public.tubi.io
 DOMAIN,ads-img-al.xhscdn.com
 DOMAIN,ads-img.mozilla.org
 DOMAIN,ads-interfaces.sc-cdn.net
-DOMAIN,ads-jp.tiktok.com
 DOMAIN,ads-leaseweb.appsgeyser.com
 DOMAIN,ads-m.rustore.ru
 DOMAIN,ads-marketing-vivofs.vivo.com.cn
@@ -492,7 +482,6 @@ DOMAIN,ads-thanhnien-vn.cdn.ampproject.org
 DOMAIN,ads-tm-glb.click
 DOMAIN,ads-tracking.collectiveaudience.co
 DOMAIN,ads-tracking.com
-DOMAIN,ads-trk.vidible.tv
 DOMAIN,ads-twitter.com
 DOMAIN,ads-yallo-production.imgix.net
 DOMAIN,ads.123net.jp
@@ -518,14 +507,10 @@ DOMAIN,ads.adroar.com
 DOMAIN,ads.adstream.com.ro
 DOMAIN,ads.adsvtm.com
 DOMAIN,ads.adthrive.com
-DOMAIN,ads.adultfriendfinder.com
 DOMAIN,ads.adverline.com
 DOMAIN,ads.aitype.net
-DOMAIN,ads.albawaba.com
 DOMAIN,ads.allvertical.com
-DOMAIN,ads.almasdarnews.com
 DOMAIN,ads.alobacsi.vn
-DOMAIN,ads.alt.com
 DOMAIN,ads.amazingmedia.com
 DOMAIN,ads.amdmb.com
 DOMAIN,ads.amigos.com
@@ -534,7 +519,6 @@ DOMAIN,ads.aphex.me
 DOMAIN,ads.api.vungle.com
 DOMAIN,ads.aplus.pptv.com
 DOMAIN,ads.apn.co.nz
-DOMAIN,ads.apn.co.za
 DOMAIN,ads.appbundledownload.com
 DOMAIN,ads.appsgeyser.com
 DOMAIN,ads.araba.com
@@ -542,12 +526,10 @@ DOMAIN,ads.aralego.com
 DOMAIN,ads.aroundtherings.com
 DOMAIN,ads.as4x.tmcs.net
 DOMAIN,ads.as4x.tmcs.ticketmaster.com
-DOMAIN,ads.aspalliance.com
 DOMAIN,ads.associatedcontent.com
 DOMAIN,ads.atdove.org
 DOMAIN,ads.auctioncity.co.nz
 DOMAIN,ads.auctions.yahoo.com
-DOMAIN,ads.aws.viber.com
 DOMAIN,ads.b10f.jp
 DOMAIN,ads.baazee.com
 DOMAIN,ads.baddiesonlyporn.com
@@ -665,14 +647,12 @@ DOMAIN,ads.fnch.ch
 DOMAIN,ads.fool.com
 DOMAIN,ads.footymad.net
 DOMAIN,ads.forbes.net
-DOMAIN,ads.fortunecity.com
 DOMAIN,ads.fotosidan.se
 DOMAIN,ads.fox.com
 DOMAIN,ads.fpt.vn
 DOMAIN,ads.fptplay.net.vn
 DOMAIN,ads.fredericksburg.com
 DOMAIN,ads.freshmeat.net
-DOMAIN,ads.friendfinder.com
 DOMAIN,ads.fuckingmachines.com
 DOMAIN,ads.funmora.com
 DOMAIN,ads.game.net
@@ -721,7 +701,6 @@ DOMAIN,ads.illuminatednation.com
 DOMAIN,ads.imbc.com
 DOMAIN,ads.imgur.com
 DOMAIN,ads.indeed.com
-DOMAIN,ads.indiatimes.com
 DOMAIN,ads.indystar.com
 DOMAIN,ads.infi.net
 DOMAIN,ads.injersey.com
@@ -799,8 +778,6 @@ DOMAIN,ads.newgrounds.com
 DOMAIN,ads.newmedia.cz
 DOMAIN,ads.newsint.co.uk
 DOMAIN,ads.newsobserver.com
-DOMAIN,ads.newsquest.co.uk
-DOMAIN,ads.nexage.com
 DOMAIN,ads.nghenhinvietnam.vn
 DOMAIN,ads.nguoiduatin.vn
 DOMAIN,ads.nhadatmoi.net
@@ -867,7 +844,6 @@ DOMAIN,ads.rcgroups.com
 DOMAIN,ads.reader.yueyouxs.com
 DOMAIN,ads.realcities.com
 DOMAIN,ads.recoletos.es
-DOMAIN,ads.rediff.com
 DOMAIN,ads.register.com
 DOMAIN,ads.revjet.com
 DOMAIN,ads.roanoke.com
@@ -884,7 +860,6 @@ DOMAIN,ads.scifi.com
 DOMAIN,ads.scored.co
 DOMAIN,ads.scott-sports.com
 DOMAIN,ads.scottusa.com
-DOMAIN,ads.seniorfriendfinder.com
 DOMAIN,ads.servebom.com
 DOMAIN,ads.service.kugou.com
 DOMAIN,ads.sexyland.vn
@@ -895,7 +870,6 @@ DOMAIN,ads.simtel.com
 DOMAIN,ads.simtel.net
 DOMAIN,ads.sl.interpals.net
 DOMAIN,ads.smartclick.com
-DOMAIN,ads.smrtbid.com
 DOMAIN,ads.snapchat.com
 DOMAIN,ads.socialtheater.com
 DOMAIN,ads.sohu.com
@@ -1025,7 +999,6 @@ DOMAIN,ads.zunia.vn
 DOMAIN,adserver-2.ig.com.br
 DOMAIN,adserver-4.ig.com.br
 DOMAIN,adserver-5.ig.com.br
-DOMAIN,adserver-us.adtech.advertising.com
 DOMAIN,adserver.100free.com
 DOMAIN,adserver.3digit.de
 DOMAIN,adserver.71i.de
@@ -1350,7 +1323,6 @@ DOMAIN,analytics.adliners.de
 DOMAIN,analytics.admon.com.vn
 DOMAIN,analytics.adobe.io
 DOMAIN,analytics.adobe.ly
-DOMAIN,analytics.adultempire.com
 DOMAIN,analytics.adultswim.co.uk
 DOMAIN,analytics.afirstsoft.cn
 DOMAIN,analytics.agenedia.com
@@ -1383,7 +1355,6 @@ DOMAIN,analytics.asml.com
 DOMAIN,analytics.atlas5.co
 DOMAIN,analytics.atom.com
 DOMAIN,analytics.audioeye.com
-DOMAIN,analytics.audionow.de
 DOMAIN,analytics.autozone.com
 DOMAIN,analytics.avanser.com.au
 DOMAIN,analytics.avcdn.net
@@ -1433,7 +1404,6 @@ DOMAIN,analytics.cartoonnetwork.com.au
 DOMAIN,analytics.cartoonnetwork.jp
 DOMAIN,analytics.cartoonnetworkasia.com
 DOMAIN,analytics.cartoonnetworkindia.com
-DOMAIN,analytics.cartoonnetworkmena.com
 DOMAIN,analytics.carvana.io
 DOMAIN,analytics.castel.jp
 DOMAIN,analytics.cdf.cl
@@ -1463,7 +1433,6 @@ DOMAIN,analytics.cmn.com
 DOMAIN,analytics.cn.ru
 DOMAIN,analytics.cnblogs.com
 DOMAIN,analytics.cnd-motionmedia.de
-DOMAIN,analytics.cnfanart.com
 DOMAIN,analytics.cnnchile.com
 DOMAIN,analytics.cocolog-nifty.com
 DOMAIN,analytics.code.dccouncil.gov
@@ -1471,7 +1440,6 @@ DOMAIN,analytics.codigo.se
 DOMAIN,analytics.combatefreestyle.com
 DOMAIN,analytics.competitoor.com
 DOMAIN,analytics.conad.it
-DOMAIN,analytics.concorsicartoonito.it
 DOMAIN,analytics.consumerrights.wiki
 DOMAIN,analytics.contentexchange.me
 DOMAIN,analytics.contents.by-fw.jp
@@ -1479,7 +1447,6 @@ DOMAIN,analytics.cookiefirst.dev
 DOMAIN,analytics.corusent.com
 DOMAIN,analytics.cosmicstack.org
 DOMAIN,analytics.cosmonova.net
-DOMAIN,analytics.cosmopolitanmag.com.tr
 DOMAIN,analytics.crea.ca
 DOMAIN,analytics.crowdkeep.com
 DOMAIN,analytics.cyrillus.be
@@ -1529,7 +1496,6 @@ DOMAIN,analytics.elegela.us
 DOMAIN,analytics.emol.com
 DOMAIN,analytics.enjoymobiserver.com
 DOMAIN,analytics.erepublic.com
-DOMAIN,analytics.ericafischerphotography.com
 DOMAIN,analytics.esporteinterativo.com.br
 DOMAIN,analytics.eternagame.org
 DOMAIN,analytics.eventbrite.com
@@ -1661,7 +1627,6 @@ DOMAIN,analytics.liine.com
 DOMAIN,analytics.live.com
 DOMAIN,analytics.liveact-vault.com
 DOMAIN,analytics.liveact.cri-mw.jp
-DOMAIN,analytics.livestream.com
 DOMAIN,analytics.loadweb.com
 DOMAIN,analytics.loop-cloud.de
 DOMAIN,analytics.lunarclientprod.com
@@ -1855,7 +1820,6 @@ DOMAIN,analytics.salesanalytics.io
 DOMAIN,analytics.samsungknox.com
 DOMAIN,analytics.sanoma.fi
 DOMAIN,analytics.sayprimer.com
-DOMAIN,analytics.schoolwires.com
 DOMAIN,analytics.scorpion.co
 DOMAIN,analytics.seagate.com
 DOMAIN,analytics.services.kirra.nl
@@ -1941,7 +1905,6 @@ DOMAIN,analytics.tnt-tv.com
 DOMAIN,analytics.tnt-tv.de
 DOMAIN,analytics.tnt-tv.pl
 DOMAIN,analytics.tnt-tv.ro
-DOMAIN,analytics.tnt.africa
 DOMAIN,analytics.tntdram.com
 DOMAIN,analytics.tntdrama.com
 DOMAIN,analytics.tntdramma.com
@@ -2106,7 +2069,6 @@ DOMAIN,api.ad.logic-test.viasat.io
 DOMAIN,api.ad.logic.viasat.io
 DOMAIN,api.ads.newsdigest.jp
 DOMAIN,api.ads.watchabc.go.com
-DOMAIN,api.analytics.omgpop.com
 DOMAIN,api.cm.adv.br
 DOMAIN,api.data-analytics.pokemon.com
 DOMAIN,api.mobula.sdk.duapps.com
@@ -2188,7 +2150,6 @@ DOMAIN,beacon.walmart.com
 DOMAIN,beacon.watch.impress.co.jp
 DOMAIN,beacon.webpresence.work
 DOMAIN,beacon.wikia-services.com
-DOMAIN,beacon.www.theguardian.com
 DOMAIN,beacon.ztgame.com
 DOMAIN,behavior-tracking-event-gateway.imweb.me
 DOMAIN,beltanekwarta.click
@@ -2219,7 +2180,6 @@ DOMAIN,business-ad.cdn-go.cn
 DOMAIN,bylawskilnman.click
 DOMAIN,c-stat.eu
 DOMAIN,call-tracking.by
-DOMAIN,call-tracking.co.uk
 DOMAIN,cash-ads.com
 DOMAIN,cddp-track.aligames.com
 DOMAIN,cdn-ad.wtzw.com
@@ -2508,7 +2468,6 @@ DOMAIN,ebis-tracking.tcb-fukushima.com
 DOMAIN,ebis-tracking.tcb-mito.com
 DOMAIN,ebis-tracking.tcb-recruit.com
 DOMAIN,ebis-tracking.tcb-setagaya.com
-DOMAIN,ec-track.com
 DOMAIN,ecn-analytics-nssl.emc.com
 DOMAIN,ecn-analytics.emc.com
 DOMAIN,edge.ads.twitch.tv
@@ -2631,7 +2590,6 @@ DOMAIN,images.marketing.swhyhk.com
 DOMAIN,images.marketing.zeusinc.com
 DOMAIN,images.promo.mopar.eu
 DOMAIN,images.proxena-adserver.com
-DOMAIN,img.ad.zhangyue.com
 DOMAIN,img.ads.mobilefuse.net
 DOMAIN,imp.ad.xelements.cn
 DOMAIN,impact-ad.jp
@@ -3116,7 +3074,6 @@ DOMAIN,marketing.att-smb.com
 DOMAIN,marketing.attivoconsulting.com
 DOMAIN,marketing.attocube.com
 DOMAIN,marketing.attunelive.com
-DOMAIN,marketing.austiner.com
 DOMAIN,marketing.autopayplus.com
 DOMAIN,marketing.avantage.nl
 DOMAIN,marketing.aventel.nl
@@ -3361,7 +3318,6 @@ DOMAIN,marketing.ecgmc.com
 DOMAIN,marketing.echostarmobile.com
 DOMAIN,marketing.ecosystemintegrity.com
 DOMAIN,marketing.ecslearn.com
-DOMAIN,marketing.edpcomunicacao.com.br
 DOMAIN,marketing.efleets.com
 DOMAIN,marketing.ehimrx.com
 DOMAIN,marketing.ehy.com
@@ -3549,7 +3505,6 @@ DOMAIN,marketing.imatrix.com
 DOMAIN,marketing.impactinnovationgroup.com
 DOMAIN,marketing.impexium.com
 DOMAIN,marketing.inaani.com
-DOMAIN,marketing.income.com.sg
 DOMAIN,marketing.incrediwear.com
 DOMAIN,marketing.indianadunes.com
 DOMAIN,marketing.industrialspec.com
@@ -3595,7 +3550,6 @@ DOMAIN,marketing.joyridecoffee.com
 DOMAIN,marketing.jstokes.com
 DOMAIN,marketing.jtsa.edu
 DOMAIN,marketing.kainmcarthur.com
-DOMAIN,marketing.kestlerfinancial.com
 DOMAIN,marketing.keylane.com
 DOMAIN,marketing.keystonegp.com
 DOMAIN,marketing.kimble-chase.com
@@ -3606,7 +3560,6 @@ DOMAIN,marketing.kisales.com
 DOMAIN,marketing.knoxville.org
 DOMAIN,marketing.konareefresort.com
 DOMAIN,marketing.konecranes.com
-DOMAIN,marketing.kozzyavm.com
 DOMAIN,marketing.kpfilms.com
 DOMAIN,marketing.kurtzon.com
 DOMAIN,marketing.labdepotinc.com
@@ -3790,7 +3743,6 @@ DOMAIN,marketing.onececo.com
 DOMAIN,marketing.oni.co.uk
 DOMAIN,marketing.onkyousa.com
 DOMAIN,marketing.openskygroup.com
-DOMAIN,marketing.opexanalytics.com
 DOMAIN,marketing.opga.com
 DOMAIN,marketing.opoffice.com
 DOMAIN,marketing.optimumenergyco.com
@@ -3825,7 +3777,6 @@ DOMAIN,marketing.pax8.com
 DOMAIN,marketing.paysafe.com
 DOMAIN,marketing.pcsww.com
 DOMAIN,marketing.peakfinancialfreedomgroup.com
-DOMAIN,marketing.peerapp.com
 DOMAIN,marketing.pelotongroup.com
 DOMAIN,marketing.pentaho.com
 DOMAIN,marketing.peoplesafe.co.uk
@@ -3941,10 +3892,8 @@ DOMAIN,marketing.shurtapemail.com
 DOMAIN,marketing.sigmanest.com
 DOMAIN,marketing.signaltheory.com
 DOMAIN,marketing.simio.com
-DOMAIN,marketing.simpartners.com
 DOMAIN,marketing.simplion.com
 DOMAIN,marketing.sinctech.com
-DOMAIN,marketing.skorsports.nl
 DOMAIN,marketing.slocal.com
 DOMAIN,marketing.smartcoversystems.com
 DOMAIN,marketing.smartowner.com
@@ -4044,7 +3993,6 @@ DOMAIN,marketing.tidedrycleaners.com
 DOMAIN,marketing.tignl.eu
 DOMAIN,marketing.timmons.com
 DOMAIN,marketing.tmaonline.info
-DOMAIN,marketing.tmshealth.com
 DOMAIN,marketing.toolkitgroup.com
 DOMAIN,marketing.topekapartnership.com
 DOMAIN,marketing.topspotims.com
@@ -4195,7 +4143,6 @@ DOMAIN,marketing.visualskus.com
 DOMAIN,marketing.voicefirstsolutions.com
 DOMAIN,marketing.voltexelectrical.co.nz
 DOMAIN,marketing.voltexelectrical.com.au
-DOMAIN,marketing.voxer.com
 DOMAIN,marketing.wachsws.com
 DOMAIN,marketing.wainscotsolutions.com
 DOMAIN,marketing.waitrainer.com
@@ -4213,7 +4160,6 @@ DOMAIN,marketing.wealthhorizon.com
 DOMAIN,marketing.webdcmarketing.com
 DOMAIN,marketing.webgruppen.no
 DOMAIN,marketing.welending.com
-DOMAIN,marketing.wellingtonwealthstrategies.com
 DOMAIN,marketing.wesco.com.br
 DOMAIN,marketing.whysymphony.com
 DOMAIN,marketing.wildhorsepass.com
@@ -4247,7 +4193,6 @@ DOMAIN,master-push.com
 DOMAIN,master-shopify-tracker.s3.amazonaws.com
 DOMAIN,mathilde-ads.com
 DOMAIN,matzotipid.click
-DOMAIN,mb-tracking.com
 DOMAIN,mcs.snssdk.com
 DOMAIN,meadow-assets.click
 DOMAIN,media-ads.zaloapp.com
@@ -4332,7 +4277,6 @@ DOMAIN,pangolin-sdk-toutiao.com
 DOMAIN,pangolin-sdk-toutiao1.com
 DOMAIN,partner-ads.com
 DOMAIN,pay-ads.com
-DOMAIN,pay-click.ru
 DOMAIN,pc-ads.com
 DOMAIN,pd.ads.cn.miaozhen.com
 DOMAIN,peach-analytics.vercel.app
@@ -4437,7 +4381,6 @@ DOMAIN,raxesmutsje.click
 DOMAIN,re-ads.com
 DOMAIN,red-just-fit.click
 DOMAIN,regluespitons.click
-DOMAIN,rem-track.bild.de
 DOMAIN,report.tencentmusic.com
 DOMAIN,revetetupik.click
 DOMAIN,revive-adserver.net
@@ -4533,7 +4476,6 @@ DOMAIN,server.ad.logic-prod.viasat.io
 DOMAIN,server.ad.logic-test.viasat.io
 DOMAIN,server.ad.logic.viasat.io
 DOMAIN,service-ad-image-ga.prd.pluto.tv
-DOMAIN,service.ad.duomi.com
 DOMAIN,sf-ads.io
 DOMAIN,sgtm.cbd.market
 DOMAIN,shareasale-analytics.com
@@ -4613,7 +4555,6 @@ DOMAIN,spignetsidled.click
 DOMAIN,splash-ad.classting.com
 DOMAIN,splash-screen.net
 DOMAIN,splash.appsgeyser.com
-DOMAIN,srt94.click
 DOMAIN,ss.ad-ops.hu
 DOMAIN,ssp-ad.momento.dev
 DOMAIN,ssp-adx.ads.heytapmobi.com
@@ -4625,9 +4566,7 @@ DOMAIN,stat-rock.com
 DOMAIN,stat-ssl.autoway.jp
 DOMAIN,stat-ssl.bushikaku.net
 DOMAIN,stat-ssl.career-tasu.jp
-DOMAIN,stat-ssl.eiga.com
 DOMAIN,stat-ssl.hitosara.com
-DOMAIN,stat-ssl.icotto-jp.com
 DOMAIN,stat-ssl.icotto.jp
 DOMAIN,stat-ssl.idaten.ne.jp
 DOMAIN,stat-ssl.idou.me
@@ -4737,7 +4676,6 @@ DOMAIN,stat.mersz.hu
 DOMAIN,stat.mint.ca
 DOMAIN,stat.mixi.media
 DOMAIN,stat.moji.com
-DOMAIN,stat.mql5.com
 DOMAIN,stat.mtv3.fi
 DOMAIN,stat.mydaddy.cc
 DOMAIN,stat.nate.com
@@ -4867,10 +4805,8 @@ DOMAIN,stats.asp24.pl
 DOMAIN,stats.astrr.ru
 DOMAIN,stats.autofarm.network
 DOMAIN,stats.autohome.com.cn
-DOMAIN,stats.avg.com
 DOMAIN,stats.avito.ru
 DOMAIN,stats.backcountry.com
-DOMAIN,stats.bbc.co.uk
 DOMAIN,stats.bdc.ca
 DOMAIN,stats.becu.org
 DOMAIN,stats.betternet.de
@@ -4878,16 +4814,13 @@ DOMAIN,stats.big-boards.com
 DOMAIN,stats.bigsim.de
 DOMAIN,stats.bildconnect.de
 DOMAIN,stats.birgun.net
-DOMAIN,stats.bitgravity.com
 DOMAIN,stats.bjs.com
 DOMAIN,stats.blacksim.de
 DOMAIN,stats.blogg.se
 DOMAIN,stats.blogger.com
 DOMAIN,stats.blogoscoop.net
 DOMAIN,stats.bluebillywig.com
-DOMAIN,stats.bookingbuddy.co.uk
 DOMAIN,stats.bookingbuddy.com
-DOMAIN,stats.bookingbuddy.eu
 DOMAIN,stats.bradmax.com
 DOMAIN,stats.broddin.be
 DOMAIN,stats.browsertrix.com
@@ -4925,7 +4858,6 @@ DOMAIN,stats.craftybase.com
 DOMAIN,stats.cratco.ru
 DOMAIN,stats.creativinn.com
 DOMAIN,stats.cruisingpower.com
-DOMAIN,stats.curbnumberpro.com
 DOMAIN,stats.curd.io
 DOMAIN,stats.curds.io
 DOMAIN,stats.cybersim.de
@@ -4936,7 +4868,6 @@ DOMAIN,stats.davidickedelivery.com
 DOMAIN,stats.de
 DOMAIN,stats.defense.gov
 DOMAIN,stats.deutschlandsim.de
-DOMAIN,stats.dev.zaloapp.com
 DOMAIN,stats.developingperspective.com
 DOMAIN,stats.dice.com
 DOMAIN,stats.digital-natives.de
@@ -4962,11 +4893,6 @@ DOMAIN,stats.extendedstayamerica.com
 DOMAIN,stats.externulls.com
 DOMAIN,stats.fairmont.com
 DOMAIN,stats.falck.dk
-DOMAIN,stats.faluninfo.at
-DOMAIN,stats.faluninfo.ba
-DOMAIN,stats.faluninfo.mk
-DOMAIN,stats.faluninfo.rs
-DOMAIN,stats.faluninfo.si
 DOMAIN,stats.familyvacationcritic.com
 DOMAIN,stats.fastcompany.com
 DOMAIN,stats.fd.nl
@@ -5033,7 +4959,6 @@ DOMAIN,stats.imhsh.com
 DOMAIN,stats.independent.co.uk
 DOMAIN,stats.index.hr
 DOMAIN,stats.indianpornempire.com
-DOMAIN,stats.inergizedigitalmedia.com
 DOMAIN,stats.inps.it
 DOMAIN,stats.insighttimer.com
 DOMAIN,stats.instawares.com
@@ -5063,7 +4988,6 @@ DOMAIN,stats.kaltura.com
 DOMAIN,stats.kc.ie
 DOMAIN,stats.kev.bar
 DOMAIN,stats.klyma.de
-DOMAIN,stats.knowkit.cloud
 DOMAIN,stats.kroger.com
 DOMAIN,stats.ks-labs.de
 DOMAIN,stats.ksearchnet.com
@@ -5155,16 +5079,13 @@ DOMAIN,stats.plainsending.com
 DOMAIN,stats.polldaddy.com
 DOMAIN,stats.poochplaces.dog
 DOMAIN,stats.popcap.com
-DOMAIN,stats.popscreen.com
 DOMAIN,stats.posten.se
 DOMAIN,stats.postescanada-canadapost.ca
 DOMAIN,stats.postescanada.ca
 DOMAIN,stats.prebytes.com
 DOMAIN,stats.preeventualist.org
 DOMAIN,stats.premiumsim.de
-DOMAIN,stats.pri.org
 DOMAIN,stats.print.work
-DOMAIN,stats.procumeni.cz
 DOMAIN,stats.proff.no
 DOMAIN,stats.pronouns.page
 DOMAIN,stats.propublica.org
@@ -5215,7 +5136,6 @@ DOMAIN,stats.sfwmd.gov
 DOMAIN,stats.sg-light-edge.com
 DOMAIN,stats.sgs.com
 DOMAIN,stats.sharenet.co.za
-DOMAIN,stats.shepherd.com
 DOMAIN,stats.shh.io
 DOMAIN,stats.shopify.com
 DOMAIN,stats.sim.de
@@ -5226,7 +5146,6 @@ DOMAIN,stats.simzdarma.cz
 DOMAIN,stats.sixseven.at
 DOMAIN,stats.slashed.cloud
 DOMAIN,stats.slicedthread.com
-DOMAIN,stats.slideshare.net
 DOMAIN,stats.smartclip.net
 DOMAIN,stats.smartmobil.de
 DOMAIN,stats.someecards.com
@@ -5571,7 +5490,6 @@ DOMAIN,track.juststarz.com
 DOMAIN,track.kautel.de
 DOMAIN,track.kiafudousan.com
 DOMAIN,track.kiomi.com
-DOMAIN,track.klaay.com
 DOMAIN,track.krfof.com
 DOMAIN,track.kueez.com
 DOMAIN,track.kyna.vn
@@ -5641,7 +5559,6 @@ DOMAIN,track.nifty.com
 DOMAIN,track.ning.com
 DOMAIN,track.noddus.com
 DOMAIN,track.nopaperforms.com
-DOMAIN,track.nzz.ch
 DOMAIN,track.oasis.magictavern.com
 DOMAIN,track.olx.com.br
 DOMAIN,track.onef.pro
@@ -5680,7 +5597,6 @@ DOMAIN,track.sigmob.cn
 DOMAIN,track.simonton.com
 DOMAIN,track.sitetag.us
 DOMAIN,track.skymap.ro
-DOMAIN,track.slideshare.net
 DOMAIN,track.sniff.me
 DOMAIN,track.social.com
 DOMAIN,track.sodapdf.com
@@ -5693,11 +5609,9 @@ DOMAIN,track.sparta-tracking.xyz
 DOMAIN,track.spothero.com
 DOMAIN,track.ssg.com
 DOMAIN,track.starmakerstudios.com
-DOMAIN,track.storm.mg
 DOMAIN,track.sunmedia.tv
 DOMAIN,track.taimi.com
 DOMAIN,track.tappx.com
-DOMAIN,track.td3x.com
 DOMAIN,track.tenjin.com
 DOMAIN,track.tenjin.io
 DOMAIN,track.tesiteca.it
@@ -5730,7 +5644,6 @@ DOMAIN,track.vtcnews.vn
 DOMAIN,track.wattpad.com
 DOMAIN,track.webgains.com
 DOMAIN,track.wesell.co.il
-DOMAIN,track.wildblue.com
 DOMAIN,track.workframe.com
 DOMAIN,track.wpcare.me
 DOMAIN,track.xmarketech.com
@@ -5935,7 +5848,6 @@ DOMAIN,tracking.atea.fi
 DOMAIN,tracking.athlon.com
 DOMAIN,tracking.atreemo.com
 DOMAIN,tracking.att.com
-DOMAIN,tracking.attexperts.com
 DOMAIN,tracking.audio.thisisdax.com
 DOMAIN,tracking.averydennison.com
 DOMAIN,tracking.avladies.de
@@ -6104,7 +6016,6 @@ DOMAIN,tracking.happierleads.com
 DOMAIN,tracking.hardoxwearparts.com
 DOMAIN,tracking.health.bilh.org
 DOMAIN,tracking.health.bjc.org
-DOMAIN,tracking.health.lexmed.com
 DOMAIN,tracking.health.tmcaz.com
 DOMAIN,tracking.hibu.com
 DOMAIN,tracking.hiscox.com
@@ -6247,7 +6158,6 @@ DOMAIN,tracking.parcelpending.com
 DOMAIN,tracking.pdc.wisc.edu
 DOMAIN,tracking.peco.com
 DOMAIN,tracking.pella.com
-DOMAIN,tracking.pennmedicine.princetonhcs.org
 DOMAIN,tracking.pennypublications.com
 DOMAIN,tracking.pennystockpicks.net
 DOMAIN,tracking.peopleareeverything.com
@@ -6320,7 +6230,6 @@ DOMAIN,tracking.shop.hunter.easynet.de
 DOMAIN,tracking.shopback.com
 DOMAIN,tracking.shopee.com.br
 DOMAIN,tracking.simpleaccess.com
-DOMAIN,tracking.siriusdecisions.com
 DOMAIN,tracking.skyword.com
 DOMAIN,tracking.smartbusiness.samsung.com
 DOMAIN,tracking.smartmeapp.com
@@ -6481,7 +6390,6 @@ DOMAIN,vieon-tracking.vieon.vn
 DOMAIN,vietnamdaily-log.kienthuc.net.vn
 DOMAIN,vihtori-analytics.fi
 DOMAIN,vik-analytics.moonactive.net
-DOMAIN,villainous-track.pro
 DOMAIN,virasoncotland.click
 DOMAIN,visibility-stats.com
 DOMAIN,visitor-analytics.io
@@ -6514,7 +6422,6 @@ DOMAIN,webpageviews.click
 DOMAIN,whopping-click.com
 DOMAIN,widget.push.forja.ma
 DOMAIN,wikia-ads.wikia.com
-DOMAIN,wikia-beacon.com
 DOMAIN,willow-assets.click
 DOMAIN,wl-analytics.tsp.li
 DOMAIN,wmedia-track.uc.cn

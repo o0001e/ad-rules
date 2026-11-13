@@ -1,4 +1,3 @@
-0.0.0.0 img.ad.zhangyue.com
 0.0.0.0 log.ireader.com
 0.0.0.0 m.ad.zhangyue.com
 0.0.0.0 push.zhangyue.com
