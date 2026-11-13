@@ -1284,7 +1284,6 @@ DOMAIN,analytics-fe.digital-cloud-prem.medallia.eu
 DOMAIN,analytics-fe.digital-cloud.medallia.ca
 DOMAIN,analytics-fe.digital-cloud.medallia.com
 DOMAIN,analytics-fe.digital-cloud.medallia.eu
-DOMAIN,analytics-gateway.delta.dp.lightricks.com
 DOMAIN,analytics-gw.games.wanmei.com
 DOMAIN,analytics-helper.com
 DOMAIN,analytics-ingestion.production-public.tubi.io
@@ -5654,6 +5653,7 @@ DOMAIN,tracking-aws-5.com
 DOMAIN,tracking-config-service.glority.com
 DOMAIN,tracking-explore-uat.agilent.com
 DOMAIN,tracking-explore.agilent.com
+DOMAIN,tracking-lealcobrancaspremium.p-email.net
 DOMAIN,tracking-live.kr3m.com
 DOMAIN,tracking-na.hawksearch.com
 DOMAIN,tracking-rce.veeseo.com
