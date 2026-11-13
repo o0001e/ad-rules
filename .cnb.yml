@@ -1,23 +1,40 @@
-# CNB 流水线：每 8 小时全量合并 + 发布
 main:
-  cid: false
   push:
     - name: 规则合并
-      pipeline:
-        docker:
-          image: python:3.11
-        stages:
-          - name: 合并并产出
-            script: |
-              python3 -m pip install --quiet requests
-              python3 adblock.py
-          - name: 提交产物
-            script: |
-              git config user.email "adqgg@noreply.cnb.cool"
-              git config user.name "adqgg"
-              cp rules/hosts.txt hosts.txt
-              cp rules/all.txt all.txt
-              cp rules/adguard.txt adguard.txt
-              git add -f rules hosts.txt all.txt adguard.txt
-              git commit -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
-              git push origin HEAD:main || true
+      docker:
+        image: python:3.11
+      stages:
+        - name: 合并并产出
+          script: |
+            python3 -m pip install --quiet requests
+            python3 adblock.py
+        - name: 提交产物
+          script: |
+            git config user.email "adqgg@noreply.cnb.cool"
+            git config user.name "adqgg"
+            cp rules/hosts.txt hosts.txt
+            cp rules/all.txt all.txt
+            cp rules/adguard.txt adguard.txt
+            git add -f rules hosts.txt all.txt adguard.txt
+            git commit -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
+            git push origin HEAD:main || true
+
+  "crontab: 0 */8 * * *":
+    - name: 定时规则合并
+      docker:
+        image: python:3.11
+      stages:
+        - name: 合并并产出
+          script: |
+            python3 -m pip install --quiet requests
+            python3 adblock.py
+        - name: 提交产物
+          script: |
+            git config user.email "adqgg@noreply.cnb.cool"
+            git config user.name "adqgg"
+            cp rules/hosts.txt hosts.txt
+            cp rules/all.txt all.txt
+            cp rules/adguard.txt adguard.txt
+            git add -f rules hosts.txt all.txt adguard.txt
+            git commit -m "定时更新 $(date -u '+%F %H:%M') UTC" || true
+            git push origin HEAD:main || true

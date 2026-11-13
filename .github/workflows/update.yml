@@ -22,13 +22,6 @@ jobs:
             !rules/apps
           sparse-checkout-cone-mode: false
 
-      - name: 缓存源文件
-        uses: actions/cache@v4
-        with:
-          path: .cache/src
-          key: src-${{ github.run_id }}
-          restore-keys: src-
-
       - name: 准备 Python
         uses: actions/setup-python@v5
         with:
@@ -71,9 +64,7 @@ jobs:
         run: |
           git config user.email "adqgg@users.noreply.github.com"
           git config user.name "adqgg"
-          git rm -r --cached -q rules/apps 2>/dev/null || true
-          git rm --cached -q -r rules 2>/dev/null || true
-          git add -f rules/hosts.txt rules/whitelist.txt
+          git add -f -A rules hosts.txt all.txt adguard.txt
           git commit -q -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
           git push origin HEAD:main || true
 
@@ -92,7 +83,9 @@ jobs:
           export GIT_TERMINAL_PROMPT=0
           for i in 1 2 3; do
             if git fetch --depth=1 gitee m 2>/dev/null; then
-              git add -A
+              git rm -r --cached -q rules/apps 2>/dev/null || true
+              git rm --cached -q -r rules 2>/dev/null || true
+              git add -f rules/hosts.txt rules/whitelist.txt
               PARENT=$(git rev-parse FETCH_HEAD)
               TREE=$(git write-tree)
               C=$(git commit-tree "$TREE" -p "$PARENT" -m "同步自 GitHub 构建 $(date -u '+%F %H:%M') UTC")
