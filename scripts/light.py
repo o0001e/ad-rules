@@ -41,7 +41,7 @@ def main():
     cur = ab.load_current()
     new = fresh - cur
     # 按广告特征 + 收录次数排序，单轮最多并入 MAX_NEW 条，避免冲破总限额
-    ranked = sorted(new, key=lambda d: (ab.ad_like(d), doms[d], -len(d)), reverse=True)
+    ranked = sorted(new, key=lambda d: (ab.ad_like(d), doms[d] + (2 if d in cur else 0), -len(d)), reverse=True)
     new = set(ranked[:MAX_NEW])
     print("[轻量] 核心源 %d 条，当前产物 %d 条，本轮合并 %d 条" % (len(fresh), len(cur), len(new)))
     if len(new) < THRESHOLD:
@@ -49,7 +49,7 @@ def main():
         return 0
     merged = cur | new
     if len(merged) > ab.TARGET:
-        merged = set(sorted(merged, key=lambda d: (ab.ad_like(d), doms.get(d, 0), -len(d)), reverse=True)[:ab.TARGET])
+        merged = set(sorted(merged, key=lambda d: (ab.ad_like(d), doms.get(d, 0) + (2 if d in cur else 0), -len(d)), reverse=True)[:ab.TARGET])
     blocked, _ = ab.collapse(merged, white)
     dead = ab.load_dead()
     blocked -= dead

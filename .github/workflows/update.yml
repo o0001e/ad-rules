@@ -60,7 +60,6 @@ jobs:
             rules/domains.txt
             rules/all.txt
             rules/whitelist.txt
-            rules/apps.zip
 
       - name: 同步到 Gitee
         timeout-minutes: 8

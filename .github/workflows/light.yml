@@ -47,7 +47,6 @@ jobs:
             rules/domains.txt
             rules/all.txt
             rules/whitelist.txt
-            rules/apps.zip
 
       - name: 推送到 GitHub 主分支
         if: steps.pub.outputs.changed == '1'

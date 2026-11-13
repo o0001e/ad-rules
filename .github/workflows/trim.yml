@@ -49,6 +49,14 @@ jobs:
             rules/whitelist_adguard.txt
             rules/build_report.txt
 
+      - name: 推送 dead.txt 到 GitHub
+        run: |
+          git config user.email "adqgg@users.noreply.github.com"
+          git config user.name "adqgg"
+          git add -f dead.txt
+          git commit -q -m "修剪死域 $(date -u '+%F %H:%M') UTC" || true
+          git push origin HEAD:main || true
+
       - name: 同步到 Gitee
         timeout-minutes: 8
         env:

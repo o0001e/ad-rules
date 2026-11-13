@@ -219,8 +219,23 @@ def write(blocked, white, apps, srcs=None):
     ver = time.strftime("%Y%m%d %H:%M")
     n = len(blocked)
     if n < 1000:
-        print("[警告] 只生成 %d 条，低于安全线，拒绝覆盖" % n)
+        print("[熔断] 只生成 %d 条，低于安全线，拒绝覆盖" % n)
         sys.exit(2)
+    prev_f = os.path.join(OUT, "hosts.txt")
+    prev = 0
+    if os.path.exists(prev_f):
+        for l in open(prev_f, encoding="utf-8"):
+            if l.startswith("# Count:"):
+                try:
+                    prev = int(l.split(":")[1])
+                except Exception:
+                    prev = 0
+                break
+    if prev >= 1000:
+        ratio = n / float(prev)
+        if ratio < 0.75 or ratio > 1.35:
+            print("[熔断] 条数由 %d 变为 %d（%.0f%%），超出安全区间，中止发布" % (prev, n, ratio * 100))
+            sys.exit(3)
     print("[合并] 最终 %d 条（白名单 %d）" % (n, len(white)))
 
     with open(os.path.join(OUT, "hosts.txt"), "w", encoding="utf-8") as f:
@@ -276,23 +291,28 @@ def write(blocked, white, apps, srcs=None):
     with open(os.path.join(OUT, "all.txt"), "w", encoding="utf-8") as f:
         f.write("".join("0.0.0.0 %s\n" % d for d in sorted(allset)))
 
-    # 源评分：每个源贡献多少条、最终存活多少条
-    src_total = collections.Counter()
-    for d, ids in srcs.items():
-        for i in ids:
-            src_total[i] += 1
-    with open(os.path.join(OUT, "source_score.txt"), "w", encoding="utf-8") as f:
-        f.write("# 源编号\t解析域名数\t最终存活\t存活率\n")
-        for i in sorted(src_total):
-            live = sum(1 for d in blocked if i in srcs.get(d, ()))
-            f.write("%02d\t%d\t%d\t%.1f%%\n" % (i, src_total[i], live, live * 100.0 / max(src_total[i], 1)))
+    # 源评分：每个源贡献多少条、最终存活多少条（无来源数据时保留原文件）
+    if srcs:
+        src_total = collections.Counter()
+        for d, ids in srcs.items():
+            for i in ids:
+                src_total[i] += 1
+        live_cnt = collections.Counter()
+        for d in blocked:
+            for i in srcs.get(d, ()):
+                live_cnt[i] += 1
+        with open(os.path.join(OUT, "source_score.txt"), "w", encoding="utf-8") as f:
+            f.write("# 源编号\t解析域名数\t最终存活\t存活率\n")
+            for i in sorted(src_total):
+                f.write("%02d\t%d\t%d\t%.1f%%\n" % (i, src_total[i], live_cnt[i], live_cnt[i] * 100.0 / max(src_total[i], 1)))
 
-    # 来源统计：每个域名被几个独立源收录
-    with open(os.path.join(OUT, "source_report.txt"), "w", encoding="utf-8") as f:
-        f.write("# 域名\t收录源数\t来源编号\n")
-        for d in sorted(blocked):
-            ids = ",".join(str(x) for x in sorted(srcs.get(d, ())))
-            f.write("%s\t%d\t%s\n" % (d, len(srcs.get(d, ())), ids))
+    # 来源统计：无来源数据时保留原文件（修剪任务走这条分支）
+    if srcs:
+        with open(os.path.join(OUT, "source_report.txt"), "w", encoding="utf-8") as f:
+            f.write("# 域名\t收录源数\t来源编号\n")
+            for d in sorted(blocked):
+                ids = ",".join(str(x) for x in sorted(srcs.get(d, ())))
+                f.write("%s\t%d\t%s\n" % (d, len(srcs.get(d, ())), ids))
 
     # 白名单产物
     with open(os.path.join(OUT, "whitelist.txt"), "w", encoding="utf-8") as f:
@@ -405,6 +425,13 @@ def main():
     blocked = (keep | extra) - dead
     if dead:
         print("[死域] 跳过 %d 条已确认无效的域名" % len(dead & (keep | extra)))
+    def covered_by_white(d):
+        parts = d.split(".")
+        return any(".".join(parts[i:]) in white for i in range(len(parts) - 1))
+    fixed = {d for d in blocked if covered_by_white(d)}
+    if fixed:
+        print("[修复] 剔除 %d 个被白名单父域覆盖的域名" % len(fixed))
+        blocked -= fixed
     blocked, dropped = collapse(blocked, white)
     if dropped:
         print("[归并] 去掉 %d 个冗余子域" % dropped)
