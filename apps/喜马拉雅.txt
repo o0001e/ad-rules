@@ -1,4 +1,4 @@
-# 喜马拉雅 广告拦截 32条
+# 喜马拉雅 广告拦截 34条
 0.0.0.0 ad-incentive.ximalaya.com
 0.0.0.0 ad.c.ximalaya.com
 0.0.0.0 ad.c4.ximalaya.com
@@ -14,6 +14,7 @@
 0.0.0.0 adsebs.ximalaya.com
 0.0.0.0 adsehera.ximalaya.com
 0.0.0.0 adwbs.ximalaya.com
+0.0.0.0 adx.ximalaya.com
 0.0.0.0 collector.ximalaya.com
 0.0.0.0 collectorbs.ctc.ximalaya.com
 0.0.0.0 dns.ximalaya.com
@@ -28,6 +29,7 @@
 0.0.0.0 pcdn.xmcdn.com
 0.0.0.0 pns.ximalaya.com
 0.0.0.0 pull.ximalaya.com
+0.0.0.0 ssp.ximalaya.com
 0.0.0.0 xdcs-collector.ximalaya.com
 0.0.0.0 xmadsdk.cos.tx.xmcdn.com
 0.0.0.0 xuid-server.ximalaya.com

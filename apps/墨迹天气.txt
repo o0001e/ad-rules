@@ -1,2 +1,7 @@
-# 墨迹天气 广告拦截 1条
+# 墨迹天气 广告拦截 6条
+0.0.0.0 ad.moji.com
+0.0.0.0 adapi.moji.com
 0.0.0.0 moji.com
+0.0.0.0 monitor.moji.com
+0.0.0.0 promo.moji.com
+0.0.0.0 stat.moji.com

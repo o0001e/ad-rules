@@ -1,6 +1,7 @@
-# 小米 广告拦截 25条
+# 小米 广告拦截 27条
 0.0.0.0 a.hl.mi.com
 0.0.0.0 ad.mi.com
+0.0.0.0 ads.mi.com
 0.0.0.0 api.jr.mi.com
 0.0.0.0 d.g.mi.com
 0.0.0.0 dlg.io.mi.com
@@ -18,6 +19,7 @@
 0.0.0.0 pandora.mi.com
 0.0.0.0 partner.10046.mi.com
 0.0.0.0 predownload-admin.g.mi.com
+0.0.0.0 promo.mi.com
 0.0.0.0 sdk-anti-addiction.g.mi.com
 0.0.0.0 sentry.d.mi.com
 0.0.0.0 stat.youpin.mi.com

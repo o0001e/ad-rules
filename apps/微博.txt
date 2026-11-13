@@ -1,4 +1,4 @@
-# 微博 广告拦截 45条
+# 微博 广告拦截 48条
 0.0.0.0 ad.us.sinaimg.cn
 0.0.0.0 ad.weibo.com
 0.0.0.0 adbox.weibo.com
@@ -24,7 +24,9 @@
 0.0.0.0 dailynews.sina.com
 0.0.0.0 dsp.weibo.com
 0.0.0.0 game.weibo.com
+0.0.0.0 log.sina.com
 0.0.0.0 log.weibo.com
+0.0.0.0 monitor.sina.com
 0.0.0.0 n.sinaimg.cn
 0.0.0.0 oascentral.sina.com
 0.0.0.0 pfpip.sina.com
@@ -32,6 +34,7 @@
 0.0.0.0 s.weibo.com
 0.0.0.0 service.weibo.com
 0.0.0.0 ssp.weibo.com
+0.0.0.0 stats.sina.com
 0.0.0.0 stats.weibo.com
 0.0.0.0 track.weibo.com
 0.0.0.0 tui.weibo.com

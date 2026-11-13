@@ -1,2 +1,0 @@
-# cheshipin.com 广告拦截 1条
-0.0.0.0 qc1.cheshipin.com

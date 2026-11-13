@@ -1,4 +1,4 @@
-# 好看视频 广告拦截 292条
+# 好看视频 广告拦截 293条
 0.0.0.0 a.baidu.com
 0.0.0.0 activity.baidu.com
 0.0.0.0 ad.player.baidu.com
@@ -283,6 +283,7 @@
 0.0.0.0 wkclick.baidu.com
 0.0.0.0 wkctj.baidu.com
 0.0.0.0 wm.baidu.com
+0.0.0.0 wn.pos.baidu.com
 0.0.0.0 www.baidu.com
 0.0.0.0 xiongzhang.baidu.com
 0.0.0.0 xsolid.baidu.com

@@ -1,2 +1,3 @@
-# 腾讯会议 广告拦截 1条
+# 腾讯会议 广告拦截 2条
+0.0.0.0 monitor.meeting.tencent.com
 0.0.0.0 report.meeting.tencent.com

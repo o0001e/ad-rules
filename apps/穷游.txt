@@ -1,2 +1,4 @@
-# 穷游 广告拦截 1条
+# 穷游 广告拦截 3条
+0.0.0.0 ad.qyer.com
 0.0.0.0 hades.qyer.com
+0.0.0.0 monitor.qyer.com

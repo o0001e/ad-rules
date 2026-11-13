@@ -1,0 +1,5 @@
+# vivo 商城 广告拦截 4条
+0.0.0.0 adlog.vivo.com
+0.0.0.0 ads-api.vivo.com
+0.0.0.0 bhwkju.vivo.com
+0.0.0.0 guard-child-prd.vivo.com

@@ -1,0 +1,4 @@
+# 微盟 广告拦截 3条
+0.0.0.0 monitor.weimob.com
+0.0.0.0 report.weimob.com
+0.0.0.0 track.weimob.com

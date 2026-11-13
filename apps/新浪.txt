@@ -1,9 +1,21 @@
-# 新浪 广告拦截 8条
+# 新浪 广告拦截 20条
+0.0.0.0 ad.sina.com.cn
 0.0.0.0 adbox.sina.com.cn
+0.0.0.0 ads.sina.com.cn
+0.0.0.0 analytics.sina.com.cn
+0.0.0.0 beacon.sina.com.cn
+0.0.0.0 click.sina.com.cn
 0.0.0.0 d1.sina.com.cn
 0.0.0.0 d2.sina.com.cn
 0.0.0.0 d3.sina.com.cn
 0.0.0.0 d4.sina.com.cn
 0.0.0.0 d5.sina.com.cn
+0.0.0.0 log.sina.com.cn
 0.0.0.0 matwbp.iask.sina.com.cn
+0.0.0.0 monitor.sina.com.cn
 0.0.0.0 pfp.sina.com.cn
+0.0.0.0 ssp.sina.com.cn
+0.0.0.0 stat.sina.com.cn
+0.0.0.0 stats.sina.com.cn
+0.0.0.0 track.sina.com.cn
+0.0.0.0 tracker.sina.com.cn

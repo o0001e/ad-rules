@@ -1,9 +1,12 @@
-# 美团单车 广告拦截 18条
+# 美团单车 广告拦截 24条
 0.0.0.0 access-credit.meituan.com
+0.0.0.0 ad.meituan.com
 0.0.0.0 adgame.waimai.meituan.com
 0.0.0.0 alita.waimai.meituan.com
+0.0.0.0 analytics.meituan.com
 0.0.0.0 api-channel.waimai.meituan.com
 0.0.0.0 apimobile.meituan.com
+0.0.0.0 click.meituan.com
 0.0.0.0 cube.meituan.com
 0.0.0.0 grocery-channel-api.meituan.com
 0.0.0.0 hreport.meituan.com
@@ -12,8 +15,11 @@
 0.0.0.0 httpdnsmultiapivip.meituan.com
 0.0.0.0 i.meituan.com
 0.0.0.0 impdsp.meituan.com
+0.0.0.0 log.meituan.com
 0.0.0.0 mads.meituan.com
+0.0.0.0 promo.meituan.com
 0.0.0.0 report.meituan.com
 0.0.0.0 rms.meituan.com
 0.0.0.0 star.meituan.com
+0.0.0.0 union.meituan.com
 0.0.0.0 wmlog.meituan.com
