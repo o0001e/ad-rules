@@ -1,2 +1,0 @@
-0.0.0.0 ad.m.iqiyi.com
-0.0.0.0 tracker.sns.iqiyi.com

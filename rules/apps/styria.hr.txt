@@ -1,2 +1,0 @@
-# styria.hr 广告拦截 1条
-0.0.0.0 analytics.styria.hr

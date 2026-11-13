@@ -1,2 +1,0 @@
-# dns-shop.ru 广告拦截 1条
-0.0.0.0 analytics.dns-shop.ru

@@ -1,4 +1,0 @@
-# ad.nl 广告拦截 3条
-0.0.0.0 t.ad.nl
-0.0.0.0 temptation.ad.nl
-0.0.0.0 voordeel.ad.nl

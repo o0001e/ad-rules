@@ -1,2 +1,0 @@
-0.0.0.0 cloud-log.yy.com
-0.0.0.0 stat.game.yy.com

@@ -1,3 +1,0 @@
-# rankcldirect.com 广告拦截 2条
-0.0.0.0 click-v4.rankcldirect.com
-0.0.0.0 click.rankcldirect.com

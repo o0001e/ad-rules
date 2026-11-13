@@ -1,2 +1,0 @@
-# bushikaku.net 广告拦截 1条
-0.0.0.0 stat-ssl.bushikaku.net

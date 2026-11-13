@@ -1,3 +1,0 @@
-# csdn.net 广告拦截 2条
-0.0.0.0 ad.csdn.net
-0.0.0.0 ads.csdn.net

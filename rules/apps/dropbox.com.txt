@@ -1,3 +1,0 @@
-# dropbox.com 广告拦截 2条
-0.0.0.0 beacon.dropbox.com
-0.0.0.0 marketing.dropbox.com

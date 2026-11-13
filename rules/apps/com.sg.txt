@@ -1,4 +1,0 @@
-# com.sg 广告拦截 3条
-0.0.0.0 marketing.income.com.sg
-0.0.0.0 track.concur.com.sg
-0.0.0.0 tracking.m.mercedes-benz.com.sg

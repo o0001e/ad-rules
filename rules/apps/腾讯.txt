@@ -1,3 +1,0 @@
-0.0.0.0 cmshow.gtimg.cn
-0.0.0.0 pgdt.gtimg.cn
-0.0.0.0 tianshu.gtimg.cn

@@ -1,3 +1,0 @@
-0.0.0.0 ads-img.mozilla.org
-0.0.0.0 ads.mozilla.org
-0.0.0.0 download-stats.mozilla.org

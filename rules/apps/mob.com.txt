@@ -1,4 +1,0 @@
-# mob.com 广告拦截 3条
-0.0.0.0 log-verify.mob.com
-0.0.0.0 sdk.guard.mob.com
-0.0.0.0 sdk.push.mob.com

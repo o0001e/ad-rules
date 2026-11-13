@@ -1,3 +1,0 @@
-# vocus.com 广告拦截 2条
-0.0.0.0 click.vocus.com
-0.0.0.0 stat.vocus.com

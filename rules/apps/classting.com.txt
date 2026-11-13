@@ -1,4 +1,0 @@
-# classting.com 广告拦截 3条
-0.0.0.0 ad-files.classting.com
-0.0.0.0 log.classting.com
-0.0.0.0 splash-ad.classting.com

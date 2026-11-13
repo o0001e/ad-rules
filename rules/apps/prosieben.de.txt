@@ -1,2 +1,0 @@
-# prosieben.de 广告拦截 1条
-0.0.0.0 hbbtv-track.prosieben.de

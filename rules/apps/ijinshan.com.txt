@@ -1,3 +1,0 @@
-# ijinshan.com 广告拦截 2条
-0.0.0.0 sdk.mobad.ijinshan.com
-0.0.0.0 stat.ijinshan.com

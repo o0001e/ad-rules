@@ -1,2 +1,0 @@
-# ynu.edu.cn 广告拦截 1条
-0.0.0.0 analytics.ynu.edu.cn

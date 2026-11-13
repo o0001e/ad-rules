@@ -1,4 +1,0 @@
-# high-on-ads.com 广告拦截 3条
-0.0.0.0 xml-eu-v4.high-on-ads.com
-0.0.0.0 xml-v4.high-on-ads.com
-0.0.0.0 xml.high-on-ads.com

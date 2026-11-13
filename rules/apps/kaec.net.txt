@@ -1,2 +1,0 @@
-# kaec.net 广告拦截 1条
-0.0.0.0 images.marketing.kaec.net

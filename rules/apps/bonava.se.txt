@@ -1,2 +1,0 @@
-# bonava.se 广告拦截 1条
-0.0.0.0 tracking.bonava.se

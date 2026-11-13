@@ -1,2 +1,0 @@
-# design-market.fr 广告拦截 1条
-0.0.0.0 ahuvjy.design-market.fr

@@ -1,2 +1,0 @@
-# s-zt.at 广告拦截 1条
-0.0.0.0 stats.s-zt.at

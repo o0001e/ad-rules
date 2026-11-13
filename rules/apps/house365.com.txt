@@ -1,4 +1,0 @@
-# house365.com 广告拦截 3条
-0.0.0.0 ad.house365.com
-0.0.0.0 ads.house365.com
-0.0.0.0 stat.house365.com

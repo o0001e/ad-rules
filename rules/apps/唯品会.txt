@@ -1,2 +1,0 @@
-0.0.0.0 click.union.vip.com
-0.0.0.0 n-st.vip.com

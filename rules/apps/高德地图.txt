@@ -1,2 +1,0 @@
-0.0.0.0 dualstack-logs.amap.com
-0.0.0.0 logs.amap.com

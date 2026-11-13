@@ -1,4 +1,0 @@
-0.0.0.0 ads.service.kugou.com
-0.0.0.0 log.stat.kugou.com
-0.0.0.0 log.web.kugou.com
-0.0.0.0 push.mobile.kugou.com

@@ -1,2 +1,0 @@
-# mobiletracking.ru 广告拦截 1条
-0.0.0.0 rr.tracker.mobiletracking.ru

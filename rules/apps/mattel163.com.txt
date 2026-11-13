@@ -1,3 +1,0 @@
-# mattel163.com 广告拦截 2条
-0.0.0.0 ads-sdk.mattel163.com
-0.0.0.0 tc-log.mattel163.com

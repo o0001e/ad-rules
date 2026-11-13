@@ -1,3 +1,0 @@
-# anninhthudo.vn 广告拦截 2条
-0.0.0.0 beta-log.anninhthudo.vn
-0.0.0.0 log.anninhthudo.vn

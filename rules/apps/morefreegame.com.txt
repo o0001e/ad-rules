@@ -1,3 +1,0 @@
-# morefreegame.com 广告拦截 2条
-0.0.0.0 ad-api.morefreegame.com
-0.0.0.0 ads.morefreegame.com

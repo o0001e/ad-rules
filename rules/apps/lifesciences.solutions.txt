@@ -1,2 +1,0 @@
-# lifesciences.solutions 广告拦截 1条
-0.0.0.0 act-on-marketing.lifesciences.solutions

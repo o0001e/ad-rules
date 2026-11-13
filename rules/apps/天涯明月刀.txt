@@ -1,2 +1,0 @@
-0.0.0.0 log.tpns.gz2.tencent.com
-0.0.0.0 log.tpns.tencent.com

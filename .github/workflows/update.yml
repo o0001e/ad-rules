@@ -1,30 +1,25 @@
 name: Update Filters
+
+on:
+  schedule:
+    - cron: '0 3,11,19 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
 concurrency:
   group: rules-main
   cancel-in-progress: false
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: 0 */8 * * *
-
-env:
-  TZ: Asia/Shanghai
-
 jobs:
-  Update_Filters:
+  Update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: 检出仓库（浅克隆）
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          sparse-checkout: |
-            /*
-            !rules/apps
-          sparse-checkout-cone-mode: false
 
       - name: 准备 Python
         uses: actions/setup-python@v5
@@ -32,121 +27,54 @@ jobs:
           python-version: '3.11'
 
       - name: 合并上游规则
+        env:
+          OUT_DIR: rules
+          CACHE_DIR: .cache/src
         run: python3 adblock.py
 
-      - name: 安全检查
+      - name: 健康巡查
         run: |
+          echo "===== 健康巡查 ====="
           N=$(grep -c '^0.0.0.0' rules/hosts.txt || echo 0)
-          echo "规则数: $N"
-          if [ "$N" -lt 1000 ]; then echo "::error::规则数异常偏低"; exit 1; fi
-          if grep -qE 'gitee\.com|github\.com' rules/hosts.txt; then echo "::error::仓库域名被误拦"; exit 1; fi
+          A=$(grep -c '^||' rules/adguard.txt || echo 0)
+          D=$(grep -c . rules/domains.txt || echo 0)
+          W=$(grep -c '^0.0.0.0' rules/whitelist.txt || echo 0)
+          echo "hosts=$N adguard=$A domains=$D whitelist=$W"
+          [ "$N" -ge 4000 ] || { echo "规则数异常偏低"; exit 1; }
+          [ "$A" -eq "$N" ] || { echo "adguard 与 hosts 条数不一致"; exit 1; }
+          [ "$D" -eq "$N" ] || { echo "domains 与 hosts 条数不一致"; exit 1; }
+          [ "$W" -ge 300 ] || { echo "白名单过少"; exit 1; }
+          grep -qE 'gitee\.com|github\.com' rules/hosts.txt && { echo "仓库域名被误拦"; exit 1; } || true
+          for f in dnsmasq.conf clash.yaml surge.list whitelist_adguard.txt; do
+            [ -s "rules/$f" ] || { echo "$f 为空"; exit 1; }
+          done
+          echo "巡查通过"
 
-      - name: 误报回归检测
-        run: python3 scripts/regress.py
-
-      - name: 发布产物到 Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: rule
-          name: 规则产物
-          overwrite_files: true
-          fail_on_unmatched_files: false
-          files: |
-            rules/hosts.txt
-            rules/adguard.txt
-            rules/domains.txt
-            rules/all.txt
-            rules/dnsmasq.conf
-            rules/clash.yaml
-            rules/surge.list
-            rules/whitelist.txt
-            rules/whitelist_adguard.txt
-            rules/build_report.txt
-
-      - name: 根目录兼容副本
+      - name: 提交产物
         run: |
-          cp rules/hosts.txt hosts.txt
-          cp rules/all.txt all.txt
-          cp rules/adguard.txt adguard.txt
-
-      - name: 推送到 GitHub 主分支
-        run: |
-          git config user.email "adqgg@users.noreply.github.com"
+          git config user.email "adqgg@local"
           git config user.name "adqgg"
-          git add -f rules/hosts.txt rules/whitelist.txt rules/whitelist_adguard.txt             rules/all.txt rules/adguard.txt rules/domains.txt rules/dnsmasq.conf             rules/clash.yaml rules/surge.list rules/build_report.txt             rules/source_report.txt rules/source_score.txt rules/regress_report.txt             hosts.txt all.txt adguard.txt
-          git commit -q -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
-          PUSHED=0
+          git add -f -A rules
+          if git diff --cached --quiet; then echo "产物无变化，跳过提交"; exit 0; fi
+          git commit -m "规则更新 $(date -u '+%F %H:%M') UTC"
           for i in 1 2 3; do
-            if git push origin HEAD:main; then PUSHED=1; break; fi
-            echo "第 ${i} 次推送失败，对齐远端后重新提交"
-            git fetch -q --depth=1 origin main || true
-            git reset -q --mixed FETCH_HEAD || true
-            git add -f -A rules hosts.txt all.txt adguard.txt || true
-            git commit -q -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
-            sleep 3
+            if git push; then echo "推送成功（第 $i 次）"; PUSHED=1; break; fi
+            echo "推送失败，对齐远端后重试（第 $i 次）"
+            git fetch -q --depth=1 origin main
+            git reset -q --mixed FETCH_HEAD
+            git add -f -A rules
+            git commit -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
+            sleep 5
           done
-          if [ "$PUSHED" != "1" ]; then echo "::error::推送主分支失败"; exit 1; fi
+          [ "$PUSHED" = "1" ] || { echo "三次推送均失败"; exit 1; }
 
-      - name: 同步到 Gitee
-        timeout-minutes: 8
-        env:
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-        run: |
-          if [ -z "${GITEE_TOKEN}" ]; then echo "未配置 Token，跳过"; exit 0; fi
-          git config user.email "adqgg@users.noreply.github.com"
-          git config user.name "adqgg"
-          git remote add gitee "https://oauth2:${GITEE_TOKEN}@gitee.com/ADS9/ad.git"
-          export GIT_TERMINAL_PROMPT=0
-          for i in 1 2 3; do
-            if git fetch --depth=1 gitee m 2>/dev/null; then
-              git rm -r --cached -q rules/apps 2>/dev/null || true
-              git rm --cached -q -r rules 2>/dev/null || true
-              git add -f rules/hosts.txt rules/whitelist.txt
-              PARENT=$(git rev-parse FETCH_HEAD)
-              TREE=$(git write-tree)
-              C=$(git commit-tree "$TREE" -p "$PARENT" -m "同步自 GitHub 构建 $(date -u '+%F %H:%M') UTC")
-              if timeout 240 git push gitee "$C:m"; then echo "Gitee 同步成功"; exit 0; fi
-            fi
-            echo "第 ${i} 次失败"; sleep 5
-          done
-          echo "::warning::Gitee 同步失败"
-
-      - name: Gitee 可用性体检
-        run: python3 scripts/gitee_check.py || true
-
-      - name: 打版本快照标签
-        if: success()
-        run: |
-          git fetch -q --tags --depth=1 origin || true
-          TAG="v$(date -u '+%Y%m%d-%H%M')"
-          git tag -f "$TAG" >/dev/null
-          git push -f origin "$TAG" || true
-          git tag --sort=creatordate | head -n -30 | while read t; do
-            git push --delete origin "$t" >/dev/null 2>&1 || true
-            git tag -d "$t" >/dev/null 2>&1 || true
-          done
-
-  Notify_Failure:
-    needs: [ Update_Filters ]
-    if: failure()
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-    steps:
-      - name: 开 Issue 告警
+      - name: 失败告警
+        if: failure()
         uses: actions/github-script@v7
         with:
           script: |
-            const title = `构建失败 ${new Date().toISOString().slice(0,16).replace('T',' ')} UTC`;
-            const body = `工作流 [${{ github.workflow }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) 失败，请检查日志。`;
-            await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body });
-
-  Delete_Workflow_Runs:
-    needs: [ Update_Filters ]
-    runs-on: ubuntu-latest
-    if: always()
-    steps:
-      - uses: Mattraks/delete-workflow-runs@v2
-        with:
-          retain_days: 3
-          keep_minimum_runs: 6
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: `规则更新失败 ${new Date().toISOString().slice(0,16)}`,
+              body: `工作流 ${{ github.workflow }} 运行失败。\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`
+            })

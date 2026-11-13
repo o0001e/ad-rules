@@ -1,3 +1,0 @@
-# particlenews.com 广告拦截 2条
-0.0.0.0 ad.particlenews.com
-0.0.0.0 log.particlenews.com

@@ -1,3 +1,0 @@
-# onemarketinguxp.com 广告拦截 2条
-0.0.0.0 data.marketing.onemarketinguxp.com
-0.0.0.0 onem.marketing.onemarketinguxp.com

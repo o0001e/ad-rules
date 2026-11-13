@@ -1,4 +1,0 @@
-# snapchat.com 广告拦截 3条
-0.0.0.0 ads.snapchat.com
-0.0.0.0 app-analytics-v2.snapchat.com
-0.0.0.0 app-analytics.snapchat.com

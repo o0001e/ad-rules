@@ -1,3 +1,0 @@
-# airmiles.ca 广告拦截 2条
-0.0.0.0 adserver.airmiles.ca
-0.0.0.0 data.marketing-offers.airmiles.ca

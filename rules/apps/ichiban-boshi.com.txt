@@ -1,2 +1,0 @@
-# ichiban-boshi.com 广告拦截 1条
-0.0.0.0 ad.ichiban-boshi.com

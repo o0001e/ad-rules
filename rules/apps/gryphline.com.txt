@@ -1,3 +1,0 @@
-# gryphline.com 广告拦截 2条
-0.0.0.0 event-log-api-data-platform-data-lake-prod.gryphline.com
-0.0.0.0 native-log-collect.gryphline.com

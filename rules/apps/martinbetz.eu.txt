@@ -1,2 +1,0 @@
-# martinbetz.eu 广告拦截 1条
-0.0.0.0 stats.martinbetz.eu

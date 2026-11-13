@@ -1,2 +1,0 @@
-# yle.fi 广告拦截 1条
-0.0.0.0 analytics-sdk.yle.fi

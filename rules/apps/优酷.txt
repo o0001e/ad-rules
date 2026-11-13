@@ -1,3 +1,0 @@
-0.0.0.0 ad.youku.com
-0.0.0.0 adx-open-service.youku.com
-0.0.0.0 sdk.m.youku.com

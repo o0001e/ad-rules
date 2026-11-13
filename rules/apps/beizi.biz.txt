@@ -1,3 +1,0 @@
-# beizi.biz 广告拦截 2条
-0.0.0.0 sdk-event.beizi.biz
-0.0.0.0 sdk.beizi.biz

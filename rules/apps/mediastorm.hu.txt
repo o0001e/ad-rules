@@ -1,2 +1,0 @@
-# mediastorm.hu 广告拦截 1条
-0.0.0.0 ad.mediastorm.hu

@@ -1,2 +1,0 @@
-# in-tuition.net 广告拦截 1条
-0.0.0.0 stats.in-tuition.net

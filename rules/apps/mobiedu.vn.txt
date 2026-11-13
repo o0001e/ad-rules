@@ -1,3 +1,0 @@
-# mobiedu.vn 广告拦截 2条
-0.0.0.0 analytics-cds.mobiedu.vn
-0.0.0.0 analytics.mobiedu.vn

@@ -1,3 +1,0 @@
-# edu.vn 广告拦截 2条
-0.0.0.0 log.dav.edu.vn
-0.0.0.0 track.vio.edu.vn

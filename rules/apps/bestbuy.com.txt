@@ -1,3 +1,0 @@
-# bestbuy.com 广告拦截 2条
-0.0.0.0 str2-bbyca-track.bestbuy.com
-0.0.0.0 str2-fsca-track.bestbuy.com

@@ -1,3 +1,0 @@
-# omron.eu 广告拦截 2条
-0.0.0.0 tracking.acceptance.industrial.omron.eu
-0.0.0.0 tracking.omron.eu

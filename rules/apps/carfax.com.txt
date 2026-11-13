@@ -1,3 +1,0 @@
-# carfax.com 广告拦截 2条
-0.0.0.0 beacon.carfax.com
-0.0.0.0 tracking.carfax.com

@@ -1,2 +1,0 @@
-# direct-promo.pro 广告拦截 1条
-0.0.0.0 direct-promo.pro

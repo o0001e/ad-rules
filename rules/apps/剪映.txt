@@ -1,3 +1,0 @@
-0.0.0.0 pangolin-dsp-toutiao.com
-0.0.0.0 pangolin-sdk-toutiao-b.com
-0.0.0.0 pangolin-sdk-toutiao1.com

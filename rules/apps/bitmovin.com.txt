@@ -1,3 +1,0 @@
-# bitmovin.com 广告拦截 2条
-0.0.0.0 analytics-ingress-global.bitmovin.com
-0.0.0.0 analytics-ingress.bitmovin.com

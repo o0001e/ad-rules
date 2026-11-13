@@ -1,3 +1,0 @@
-# weibo.cn 广告拦截 2条
-0.0.0.0 gw5.push.mcp.weibo.cn
-0.0.0.0 gw6.push.mcp.weibo.cn

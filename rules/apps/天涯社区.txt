@@ -1,7 +1,0 @@
-0.0.0.0 801.tianya.cn
-0.0.0.0 803.tianya.cn
-0.0.0.0 806.tianya.cn
-0.0.0.0 808.tianya.cn
-0.0.0.0 bdj.tianya.cn
-0.0.0.0 click.tianya.cn
-0.0.0.0 dol.tianya.cn

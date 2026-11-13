@@ -1,4 +1,0 @@
-# edgesuite.net 广告拦截 3条
-0.0.0.0 ads.hulu.com.edgesuite.net
-0.0.0.0 ads.pro-market.net.edgesuite.net
-0.0.0.0 ads.yimg.com.edgesuite.net

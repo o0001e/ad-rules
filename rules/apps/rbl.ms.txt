@@ -1,3 +1,0 @@
-# rbl.ms 广告拦截 2条
-0.0.0.0 pages-stats.rbl.ms
-0.0.0.0 user-stats.rbl.ms

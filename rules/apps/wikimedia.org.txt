@@ -1,2 +1,0 @@
-# wikimedia.org 广告拦截 1条
-0.0.0.0 intake-analytics.wikimedia.org

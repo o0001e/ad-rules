@@ -1,2 +1,0 @@
-# mattersurfaces.com 广告拦截 1条
-0.0.0.0 tracking.mattersurfaces.com

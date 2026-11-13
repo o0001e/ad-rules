@@ -1,3 +1,0 @@
-# webmd.com 广告拦截 2条
-0.0.0.0 ads.webmd.com
-0.0.0.0 adv.webmd.com

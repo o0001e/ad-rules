@@ -1,3 +1,0 @@
-# hubspot.com 广告拦截 2条
-0.0.0.0 track-na2.hubspot.com
-0.0.0.0 track.hubspot.com

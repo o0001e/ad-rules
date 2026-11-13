@@ -1,3 +1,0 @@
-# com.ru 广告拦截 2条
-0.0.0.0 ad.kissanime.com.ru
-0.0.0.0 adx.com.ru

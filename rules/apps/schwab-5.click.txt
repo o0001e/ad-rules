@@ -1,2 +1,0 @@
-# schwab-5.click 广告拦截 1条
-0.0.0.0 security.schwab-5.click

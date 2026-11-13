@@ -1,9 +1,0 @@
-# unity3d.com 广告拦截 8条
-0.0.0.0 ads-privacy-api.prd.mz.internal.unity3d.com
-0.0.0.0 ads.prd.ie.internal.unity3d.com
-0.0.0.0 adserver.unityads.unity3d.com
-0.0.0.0 analytics.cloud.unity3d.com
-0.0.0.0 eloqua-tracking.unity3d.com
-0.0.0.0 o-sdk.mediation.unity3d.com
-0.0.0.0 stats.unity3d.com
-0.0.0.0 tracking.prd.mz.internal.unity3d.com

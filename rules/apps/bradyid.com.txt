@@ -1,4 +1,0 @@
-# bradyid.com 广告拦截 3条
-0.0.0.0 analytics-nssl.bradyid.com
-0.0.0.0 analytics-ssl.bradyid.com
-0.0.0.0 tracking.bradyid.com

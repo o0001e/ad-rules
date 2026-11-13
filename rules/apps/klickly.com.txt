@@ -1,3 +1,0 @@
-# klickly.com 广告拦截 2条
-0.0.0.0 analytics-api.klickly.com
-0.0.0.0 analytics.klickly.com

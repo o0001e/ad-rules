@@ -1,3 +1,0 @@
-# fiat.com 广告拦截 2条
-0.0.0.0 marketing-form.fiat.com
-0.0.0.0 promo.fiat.com

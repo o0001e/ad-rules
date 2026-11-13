@@ -1,3 +1,0 @@
-# usatoday.com 广告拦截 2条
-0.0.0.0 ad.usatoday.com
-0.0.0.0 ads.usatoday.com

@@ -1,8 +1,0 @@
-# adp.com 广告拦截 7条
-0.0.0.0 tracking.adp-iat.adp.com
-0.0.0.0 tracking.adp.com
-0.0.0.0 tracking.events.adp.com
-0.0.0.0 tracking.flowofwork.adp.com
-0.0.0.0 tracking.fr.adp.com
-0.0.0.0 tracking.online.nl.adp.com
-0.0.0.0 tracking.uk.adp.com

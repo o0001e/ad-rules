@@ -1,3 +1,0 @@
-# huami.com 广告拦截 2条
-0.0.0.0 api-analytics-cn.huami.com
-0.0.0.0 app-analytics-ru.huami.com

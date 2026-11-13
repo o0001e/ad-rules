@@ -1,2 +1,0 @@
-# bhaskarsaikia.in 广告拦截 1条
-0.0.0.0 analytics.bhaskarsaikia.in

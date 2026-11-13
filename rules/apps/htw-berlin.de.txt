@@ -1,2 +1,0 @@
-# htw-berlin.de 广告拦截 1条
-0.0.0.0 stat.rz.htw-berlin.de

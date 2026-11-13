@@ -1,2 +1,0 @@
-# proxyme.link 广告拦截 1条
-0.0.0.0 analytic.proxyme.link

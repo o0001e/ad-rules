@@ -1,3 +1,0 @@
-# numi.com 广告拦截 2条
-0.0.0.0 5363316.marketing.numi.com
-0.0.0.0 ablinks.marketing.numi.com

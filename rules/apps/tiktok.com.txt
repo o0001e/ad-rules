@@ -1,8 +1,0 @@
-# tiktok.com 广告拦截 7条
-0.0.0.0 ads-api.tiktok.com
-0.0.0.0 ads-jp.tiktok.com
-0.0.0.0 ads-sg.tiktok.com
-0.0.0.0 ads.tiktok.com
-0.0.0.0 analytics-sg.tiktok.com
-0.0.0.0 analytics.tiktok.com
-0.0.0.0 analytics.us.tiktok.com

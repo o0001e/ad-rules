@@ -1,6 +1,0 @@
-# igexin.com 广告拦截 5条
-0.0.0.0 sdk.conf.igexin.com
-0.0.0.0 sdk.open.amp.igexin.com
-0.0.0.0 sdk.open.lbs.igexin.com
-0.0.0.0 sdk.open.phone.igexin.com
-0.0.0.0 sdk.open.talk.igexin.com

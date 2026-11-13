@@ -1,2 +1,0 @@
-# netowl.jp 广告拦截 1条
-0.0.0.0 ad.netowl.jp

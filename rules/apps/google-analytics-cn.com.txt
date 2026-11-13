@@ -1,2 +1,0 @@
-# google-analytics-cn.com 广告拦截 1条
-0.0.0.0 google-analytics-cn.com

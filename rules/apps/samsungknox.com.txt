@@ -1,3 +1,0 @@
-# samsungknox.com 广告拦截 2条
-0.0.0.0 analytics-stg.samsungknox.com
-0.0.0.0 analytics.samsungknox.com

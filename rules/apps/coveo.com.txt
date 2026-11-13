@@ -1,3 +1,0 @@
-# coveo.com 广告拦截 2条
-0.0.0.0 analytics.cloud.coveo.com
-0.0.0.0 analytics.org.coveo.com

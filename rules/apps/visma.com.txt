@@ -1,3 +1,0 @@
-# visma.com 广告拦截 2条
-0.0.0.0 tracking.nl.visma.com
-0.0.0.0 tracking.visma.com

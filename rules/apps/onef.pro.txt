@@ -1,2 +1,0 @@
-# onef.pro 广告拦截 1条
-0.0.0.0 track.onef.pro

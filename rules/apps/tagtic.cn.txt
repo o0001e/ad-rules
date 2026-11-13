@@ -1,3 +1,0 @@
-# tagtic.cn 广告拦截 2条
-0.0.0.0 adopt-sdk.xg.tagtic.cn
-0.0.0.0 log.tagtic.cn

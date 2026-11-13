@@ -1,3 +1,0 @@
-# kakao.com 广告拦截 2条
-0.0.0.0 stat.tiara.kakao.com
-0.0.0.0 track.tiara.kakao.com

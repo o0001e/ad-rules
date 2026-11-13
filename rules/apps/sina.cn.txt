@@ -1,3 +1,0 @@
-# sina.cn 广告拦截 2条
-0.0.0.0 click.uve.mobile.sina.cn
-0.0.0.0 log.sina.cn

@@ -1,2 +1,0 @@
-# providence.org 广告拦截 1条
-0.0.0.0 tracker.providence.org

@@ -1,2 +1,0 @@
-# wettfreunde.net 广告拦截 1条
-0.0.0.0 tracking.wettfreunde.net

@@ -1,2 +1,0 @@
-# encore.dev 广告拦截 1条
-0.0.0.0 pa-stats.encore.dev

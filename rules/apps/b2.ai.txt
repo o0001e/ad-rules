@@ -1,2 +1,0 @@
-# b2.ai 广告拦截 1条
-0.0.0.0 analytics.b2.ai

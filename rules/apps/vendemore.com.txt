@@ -1,2 +1,0 @@
-# vendemore.com 广告拦截 1条
-0.0.0.0 analytics.vendemore.com

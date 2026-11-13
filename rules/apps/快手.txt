@@ -1,6 +1,0 @@
-0.0.0.0 p1-ad.adukwai.com
-0.0.0.0 p2-ad.adukwai.com
-0.0.0.0 p3-ad.adukwai.com
-0.0.0.0 p4-ad.adukwai.com
-0.0.0.0 p5-ad.adukwai.com
-0.0.0.0 p66-ad.adkwai.com

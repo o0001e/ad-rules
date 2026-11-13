@@ -1,4 +1,0 @@
-# ad.jp 广告拦截 3条
-0.0.0.0 a8cv.cpi.ad.jp
-0.0.0.0 a8cv.secure.sakura.ad.jp
-0.0.0.0 metrics.iij.ad.jp

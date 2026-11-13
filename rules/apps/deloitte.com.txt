@@ -1,4 +1,0 @@
-# deloitte.com 广告拦截 3条
-0.0.0.0 marketing.sap.events.deloitte.com
-0.0.0.0 stats.deloitte.com
-0.0.0.0 track.deloitte.com

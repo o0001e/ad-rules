@@ -1,2 +1,0 @@
-# leadfamly.com 广告拦截 1条
-0.0.0.0 analytics-zone-1.api.leadfamly.com

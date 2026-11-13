@@ -1,4 +1,0 @@
-# vietbao.vn 广告拦截 3条
-0.0.0.0 ad.vietbao.vn
-0.0.0.0 ads.vietbao.vn
-0.0.0.0 tracking.vietbao.vn

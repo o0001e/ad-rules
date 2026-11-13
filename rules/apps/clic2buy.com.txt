@@ -1,2 +1,0 @@
-# clic2buy.com 广告拦截 1条
-0.0.0.0 analytics.clic2buy.com

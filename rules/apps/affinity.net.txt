@@ -1,3 +1,0 @@
-# affinity.net 广告拦截 2条
-0.0.0.0 click-rtb2-apac.affinity.net
-0.0.0.0 click-rtb2-eu.affinity.net

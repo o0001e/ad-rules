@@ -1,3 +1,0 @@
-# virtual-nights.com 广告拦截 2条
-0.0.0.0 ad.virtual-nights.com
-0.0.0.0 ads.virtual-nights.com

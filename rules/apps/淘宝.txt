@@ -1,2 +1,0 @@
-0.0.0.0 click.tanx.com
-0.0.0.0 sdk-config.tanx.com

@@ -1,3 +1,0 @@
-# uk.com 广告拦截 2条
-0.0.0.0 marketing.rfl.uk.com
-0.0.0.0 marketing.teamspirit.uk.com

@@ -1,2 +1,0 @@
-# pipelife.lt 广告拦截 1条
-0.0.0.0 analytics.pipelife.lt

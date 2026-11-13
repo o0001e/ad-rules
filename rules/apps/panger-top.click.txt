@@ -1,2 +1,0 @@
-# panger-top.click 广告拦截 1条
-0.0.0.0 panger-top.click

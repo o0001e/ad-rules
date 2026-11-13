@@ -1,6 +1,0 @@
-# org.vn 广告拦截 5条
-0.0.0.0 ad.org.vn
-0.0.0.0 adv.baovemoitruong.org.vn
-0.0.0.0 log-dttc.sggp.org.vn
-0.0.0.0 log-en.sggp.org.vn
-0.0.0.0 log.sggp.org.vn

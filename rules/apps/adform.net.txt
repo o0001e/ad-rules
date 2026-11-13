@@ -1,3 +1,0 @@
-# adform.net 广告拦截 2条
-0.0.0.0 adx.adform.net
-0.0.0.0 track.adform.net

@@ -1,2 +1,0 @@
-0.0.0.0 images.biz.blackberry.com
-0.0.0.0 receiver.analytics.blackberry.com

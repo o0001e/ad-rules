@@ -1,3 +1,0 @@
-# home.pl 广告拦截 2条
-0.0.0.0 adserver.home.pl
-0.0.0.0 webhosting-ads.home.pl

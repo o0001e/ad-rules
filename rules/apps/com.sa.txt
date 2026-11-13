@@ -1,3 +1,0 @@
-# com.sa 广告拦截 2条
-0.0.0.0 analytics.alrajhibank.com.sa
-0.0.0.0 marketing.alkhaleej.com.sa

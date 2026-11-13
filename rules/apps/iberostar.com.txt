@@ -1,3 +1,0 @@
-# iberostar.com 广告拦截 2条
-0.0.0.0 marketing.net.iberostar.com
-0.0.0.0 stats.g.doubleclick.net.iberostar.com

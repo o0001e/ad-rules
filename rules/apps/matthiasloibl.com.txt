@@ -1,3 +1,0 @@
-# matthiasloibl.com 广告拦截 2条
-0.0.0.0 stats.lastfm.matthiasloibl.com
-0.0.0.0 stats.matthiasloibl.com

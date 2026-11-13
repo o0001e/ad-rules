@@ -1,5 +1,0 @@
-# 52qumao.com 广告拦截 4条
-0.0.0.0 ad-drs-ipv6.52qumao.com
-0.0.0.0 ad-drs.52qumao.com
-0.0.0.0 api-adx.52qumao.com
-0.0.0.0 t-adx.52qumao.com

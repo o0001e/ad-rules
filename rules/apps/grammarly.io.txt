@@ -1,3 +1,0 @@
-# grammarly.io 广告拦截 2条
-0.0.0.0 f-log-at.grammarly.io
-0.0.0.0 f-log-test.grammarly.io

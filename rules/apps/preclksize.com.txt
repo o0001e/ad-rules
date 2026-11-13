@@ -1,5 +1,0 @@
-# preclksize.com 广告拦截 4条
-0.0.0.0 click-eu-v4.preclksize.com
-0.0.0.0 click-eu.preclksize.com
-0.0.0.0 click-v4.preclksize.com
-0.0.0.0 click.preclksize.com

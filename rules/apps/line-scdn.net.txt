@@ -1,2 +1,0 @@
-# line-scdn.net 广告拦截 1条
-0.0.0.0 ad.line-scdn.net

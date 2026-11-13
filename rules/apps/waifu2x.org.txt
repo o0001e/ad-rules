@@ -1,2 +1,0 @@
-# waifu2x.org 广告拦截 1条
-0.0.0.0 analytics.waifu2x.org

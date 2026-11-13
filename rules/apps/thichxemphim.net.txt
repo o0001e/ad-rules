@@ -1,2 +1,0 @@
-# thichxemphim.net 广告拦截 1条
-0.0.0.0 tracker.thichxemphim.net

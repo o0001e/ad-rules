@@ -1,3 +1,0 @@
-# 4pyun.com 广告拦截 2条
-0.0.0.0 ad-api.4pyun.com
-0.0.0.0 ad-files.4pyun.com

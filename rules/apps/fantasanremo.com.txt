@@ -1,3 +1,0 @@
-# fantasanremo.com 广告拦截 2条
-0.0.0.0 delivery.ads.fantasanremo.com
-0.0.0.0 static.ads.fantasanremo.com

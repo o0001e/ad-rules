@@ -1,8 +1,0 @@
-0.0.0.0 ads.music.126.net
-0.0.0.0 analytics.126.net
-0.0.0.0 android.push.126.net
-0.0.0.0 news.push.126.net
-0.0.0.0 pg-ad-b1.nosdn.127.net
-0.0.0.0 pg-ad-b1.ws.126.net
-0.0.0.0 pg-ad-b2.ws.126.net
-0.0.0.0 stat.ws.126.net

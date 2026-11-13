@@ -1,2 +1,0 @@
-# boutiqaat.com 广告拦截 1条
-0.0.0.0 delivery.marketing.boutiqaat.com

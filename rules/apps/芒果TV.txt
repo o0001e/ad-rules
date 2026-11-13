@@ -1,2 +1,0 @@
-0.0.0.0 log.hunantv.com
-0.0.0.0 log.v2.hunantv.com

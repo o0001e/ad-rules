@@ -1,4 +1,0 @@
-# rabbit.click 广告拦截 3条
-0.0.0.0 owmedia.rabbit.click
-0.0.0.0 push.rabbit.click
-0.0.0.0 pushche.rabbit.click

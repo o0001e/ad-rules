@@ -1,6 +1,0 @@
-# mercedes-benz.com 广告拦截 5条
-0.0.0.0 analytics.smart.mercedes-benz.com
-0.0.0.0 tracking.mb.mercedes-benz.com
-0.0.0.0 tracking.socialpublish.mercedes-benz.com
-0.0.0.0 tracking.techcenter.mercedes-benz.com
-0.0.0.0 tracking.www5.mercedes-benz.com

@@ -1,2 +1,0 @@
-# eresmas.com 广告拦截 1条
-0.0.0.0 logs.eresmas.com

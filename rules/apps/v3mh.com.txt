@@ -1,3 +1,0 @@
-# v3mh.com 广告拦截 2条
-0.0.0.0 ad.v3mh.com
-0.0.0.0 ads.v3mh.com

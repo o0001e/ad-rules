@@ -1,4 +1,0 @@
-0.0.0.0 cj.qidian.com
-0.0.0.0 game.qidian.com
-0.0.0.0 o.if.qidian.com
-0.0.0.0 qdp.qidian.com

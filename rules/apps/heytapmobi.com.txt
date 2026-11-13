@@ -1,3 +1,0 @@
-# heytapmobi.com 广告拦截 2条
-0.0.0.0 ads.heytapmobi.com
-0.0.0.0 push-ads-cn.heytapmobi.com

@@ -1,6 +1,0 @@
-# carousell.com 广告拦截 5条
-0.0.0.0 click.carousell.com
-0.0.0.0 click.community.carousell.com
-0.0.0.0 click.mail.carousell.com
-0.0.0.0 click.marketing.carousell.com
-0.0.0.0 click.transactional.carousell.com

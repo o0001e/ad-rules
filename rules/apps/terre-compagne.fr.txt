@@ -1,2 +1,0 @@
-# terre-compagne.fr 广告拦截 1条
-0.0.0.0 stats.terre-compagne.fr

@@ -1,3 +1,0 @@
-# championhomes.com 广告拦截 2条
-0.0.0.0 dev.marketing.championhomes.com
-0.0.0.0 test.marketing.championhomes.com

@@ -1,5 +1,0 @@
-# zijieapi.com 广告拦截 4条
-0.0.0.0 ad.zijieapi.com
-0.0.0.0 ads.zijieapi.com
-0.0.0.0 log-klink.zijieapi.com
-0.0.0.0 log.zijieapi.com

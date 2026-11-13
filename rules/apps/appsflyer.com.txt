@@ -1,6 +1,0 @@
-# appsflyer.com 广告拦截 5条
-0.0.0.0 impression.appsflyer.com
-0.0.0.0 sdk-services.appsflyer.com
-0.0.0.0 sdk.appsflyer.com
-0.0.0.0 stats.appsflyer.com
-0.0.0.0 track.appsflyer.com

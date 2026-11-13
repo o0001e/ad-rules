@@ -1,1 +1,0 @@
-0.0.0.0 log-gateway.zoom.us

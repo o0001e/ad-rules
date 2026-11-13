@@ -1,3 +1,0 @@
-# kaltura.com 广告拦截 2条
-0.0.0.0 analytics.kaltura.com
-0.0.0.0 stats.kaltura.com

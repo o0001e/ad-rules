@@ -1,3 +1,0 @@
-# pluto.tv 广告拦截 2条
-0.0.0.0 service-ad-image-ga-weighted.prd.pluto.tv
-0.0.0.0 service-ad-image-ga.prd.pluto.tv

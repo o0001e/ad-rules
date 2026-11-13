@@ -1,2 +1,0 @@
-# cisco.com 广告拦截 1条
-0.0.0.0 tracking.securitymsp.cisco.com

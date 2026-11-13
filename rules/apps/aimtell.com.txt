@@ -1,4 +1,0 @@
-# aimtell.com 广告拦截 3条
-0.0.0.0 analytics.aimtell.com
-0.0.0.0 beacon.aimtell.com
-0.0.0.0 log.aimtell.com

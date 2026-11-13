@@ -1,2 +1,0 @@
-# afirstsoft.cn 广告拦截 1条
-0.0.0.0 analytics.afirstsoft.cn

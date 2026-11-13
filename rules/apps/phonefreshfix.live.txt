@@ -1,2 +1,0 @@
-# phonefreshfix.live 广告拦截 1条
-0.0.0.0 log.phonefreshfix.live

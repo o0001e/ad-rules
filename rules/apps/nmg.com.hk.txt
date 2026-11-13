@@ -1,2 +1,0 @@
-# nmg.com.hk 广告拦截 1条
-0.0.0.0 aws-analytics.nmg.com.hk

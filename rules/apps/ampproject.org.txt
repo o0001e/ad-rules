@@ -1,3 +1,0 @@
-# ampproject.org 广告拦截 2条
-0.0.0.0 ads-thanhnien-vn.cdn.ampproject.org
-0.0.0.0 log-vietnamplus-vn.cdn.ampproject.org

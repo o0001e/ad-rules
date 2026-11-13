@@ -1,2 +1,0 @@
-# ali213.net 广告拦截 1条
-0.0.0.0 click.ali213.net

@@ -1,4 +1,0 @@
-# vercel.app 广告拦截 3条
-0.0.0.0 fluffy-analytics.vercel.app
-0.0.0.0 fuck-ads.vercel.app
-0.0.0.0 peach-analytics.vercel.app

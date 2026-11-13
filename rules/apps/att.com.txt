@@ -1,4 +1,0 @@
-# att.com 广告拦截 3条
-0.0.0.0 cyber-tracking.att.com
-0.0.0.0 hc-analytics.idp.clogin.att.com
-0.0.0.0 tracking.att.com

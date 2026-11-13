@@ -1,6 +1,0 @@
-0.0.0.0 ads.uc.cn
-0.0.0.0 applog.lc.quark.cn
-0.0.0.0 ssp-sdk-config.uc.cn
-0.0.0.0 track.lc.quark.cn
-0.0.0.0 track.uc.cn
-0.0.0.0 wmedia-track.uc.cn

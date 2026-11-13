@@ -1,2 +1,0 @@
-# nyheter24.se 广告拦截 1条
-0.0.0.0 stat.nyheter24.se

@@ -1,2 +1,0 @@
-# page1solutions.com 广告拦截 1条
-0.0.0.0 marketing.page1solutions.com

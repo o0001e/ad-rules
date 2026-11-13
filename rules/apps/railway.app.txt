@@ -1,2 +1,0 @@
-# railway.app 广告拦截 1条
-0.0.0.0 bbm-ad-stack-production.up.railway.app

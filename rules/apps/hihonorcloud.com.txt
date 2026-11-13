@@ -1,3 +1,0 @@
-# hihonorcloud.com 广告拦截 2条
-0.0.0.0 ads-drcn.platform.hihonorcloud.com
-0.0.0.0 metrics-ad-drcn.dt.hihonorcloud.com

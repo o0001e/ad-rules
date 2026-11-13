@@ -1,2 +1,0 @@
-# abs-cbn.com 广告拦截 1条
-0.0.0.0 ads.abs-cbn.com

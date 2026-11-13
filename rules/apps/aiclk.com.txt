@@ -1,3 +1,0 @@
-# aiclk.com 广告拦截 2条
-0.0.0.0 ad-sdk.aiclk.com
-0.0.0.0 sdk-ab-config.aiclk.com

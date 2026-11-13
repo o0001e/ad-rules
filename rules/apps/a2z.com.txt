@@ -1,3 +1,0 @@
-# a2z.com 广告拦截 2条
-0.0.0.0 prod.tahoe-analytics.publishers.advertising.a2z.com
-0.0.0.0 video-ads.a2z.com

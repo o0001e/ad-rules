@@ -1,2 +1,0 @@
-# co.ke 广告拦截 1条
-0.0.0.0 marketing.net.jumia.co.ke

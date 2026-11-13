@@ -1,2 +1,0 @@
-0.0.0.0 ads.sohu.com
-0.0.0.0 track.sohu.com

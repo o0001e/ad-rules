@@ -1,8 +1,0 @@
-# miui.com 广告拦截 7条
-0.0.0.0 adv.sec.intl.miui.com
-0.0.0.0 adv.sec.miui.com
-0.0.0.0 log.avlyun.sec.intl.miui.com
-0.0.0.0 tracking.india.miui.com
-0.0.0.0 tracking.intl.miui.com
-0.0.0.0 tracking.miui.com
-0.0.0.0 tracking.rus.miui.com

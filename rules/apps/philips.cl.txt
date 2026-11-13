@@ -1,2 +1,0 @@
-# philips.cl 广告拦截 1条
-0.0.0.0 smetrics.marketing.lighting.philips.cl

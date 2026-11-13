@@ -1,3 +1,0 @@
-# palettesoftware.com 广告拦截 2条
-0.0.0.0 marketing-us.palettesoftware.com
-0.0.0.0 marketing.palettesoftware.com

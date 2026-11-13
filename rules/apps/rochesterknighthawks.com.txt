@@ -1,2 +1,0 @@
-# rochesterknighthawks.com 广告拦截 1条
-0.0.0.0 tracking.info.rochesterknighthawks.com

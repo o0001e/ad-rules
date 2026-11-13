@@ -1,3 +1,0 @@
-# pglstatp-toutiao.com 广告拦截 2条
-0.0.0.0 lf3-ad-union-sdk.pglstatp-toutiao.com
-0.0.0.0 lf6-ad-union-sdk.pglstatp-toutiao.com

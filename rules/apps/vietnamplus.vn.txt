@@ -1,7 +1,0 @@
-# vietnamplus.vn 广告拦截 6条
-0.0.0.0 en-log.vietnamplus.vn
-0.0.0.0 es-log.vietnamplus.vn
-0.0.0.0 fr-log.vietnamplus.vn
-0.0.0.0 log.vietnamplus.vn
-0.0.0.0 ru-log.vietnamplus.vn
-0.0.0.0 zh-log.vietnamplus.vn

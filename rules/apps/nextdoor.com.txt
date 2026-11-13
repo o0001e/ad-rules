@@ -1,3 +1,0 @@
-# nextdoor.com 广告拦截 2条
-0.0.0.0 tracking.nextdoor.com
-0.0.0.0 us-tracking.nextdoor.com

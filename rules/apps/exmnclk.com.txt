@@ -1,3 +1,0 @@
-# exmnclk.com 广告拦截 2条
-0.0.0.0 click-v4.exmnclk.com
-0.0.0.0 click.exmnclk.com

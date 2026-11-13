@@ -1,8 +1,0 @@
-# aaa.com 广告拦截 7条
-0.0.0.0 analytic.alabama.aaa.com
-0.0.0.0 analytic.calif.aaa.com
-0.0.0.0 analytic.hawaii.aaa.com
-0.0.0.0 analytic.newmexico.aaa.com
-0.0.0.0 analytic.northernnewengland.aaa.com
-0.0.0.0 analytic.texas.aaa.com
-0.0.0.0 analytic.tidewater.aaa.com

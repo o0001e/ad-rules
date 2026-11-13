@@ -1,3 +1,0 @@
-# adroi.com.cn 广告拦截 2条
-0.0.0.0 ads-go.adroi.com.cn
-0.0.0.0 ads.adroi.com.cn

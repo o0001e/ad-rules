@@ -1,3 +1,0 @@
-# ipadpresence.com 广告拦截 2条
-0.0.0.0 track-v4.ipadpresence.com
-0.0.0.0 track.ipadpresence.com

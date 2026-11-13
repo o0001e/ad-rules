@@ -1,3 +1,0 @@
-# medallia.com 广告拦截 2条
-0.0.0.0 analytics-fe.digital-cloud-prem.medallia.com
-0.0.0.0 analytics-fe.digital-cloud.medallia.com

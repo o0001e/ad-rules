@@ -1,3 +1,0 @@
-# intuit.com 广告拦截 2条
-0.0.0.0 data.marketing.aeptest.a.intuit.com
-0.0.0.0 monitoring-sdk.experimentation.intuit.com

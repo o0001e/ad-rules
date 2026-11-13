@@ -1,3 +1,0 @@
-# stanby.com 广告拦截 2条
-0.0.0.0 analytics.stanby.com
-0.0.0.0 cv-tracker.stanby.com

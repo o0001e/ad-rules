@@ -1,2 +1,0 @@
-# p3g.hu 广告拦截 1条
-0.0.0.0 adfree-stat.p3g.hu

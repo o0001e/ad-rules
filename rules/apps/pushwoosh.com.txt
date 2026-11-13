@@ -1,2 +1,0 @@
-# pushwoosh.com 广告拦截 1条
-0.0.0.0 post-log.pushwoosh.com

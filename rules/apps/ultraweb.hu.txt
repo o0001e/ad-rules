@@ -1,3 +1,0 @@
-# ultraweb.hu 广告拦截 2条
-0.0.0.0 advert.dyna.ultraweb.hu
-0.0.0.0 stat.dyna.ultraweb.hu

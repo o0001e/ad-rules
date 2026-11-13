@@ -1,2 +1,0 @@
-# almirallmed.es 广告拦截 1条
-0.0.0.0 tracking.almirallmed.es

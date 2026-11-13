@@ -1,8 +1,0 @@
-0.0.0.0 ad-static.pddpic.com
-0.0.0.0 adim.pinduoduo.com
-0.0.0.0 dspsdk.pinduoduo.com
-0.0.0.0 images.pinduoduo.com
-0.0.0.0 t-dsp.pinduoduo.com
-0.0.0.0 ta.pinduoduo.com
-0.0.0.0 ta.yangkeduo.com
-0.0.0.0 th.pinduoduo.com

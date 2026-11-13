@@ -1,2 +1,0 @@
-# 51togic.com 广告拦截 1条
-0.0.0.0 ad.video.51togic.com

@@ -1,2 +1,0 @@
-# click-for-preview.com 广告拦截 1条
-0.0.0.0 click-for-preview.com

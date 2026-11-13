@@ -1,8 +1,0 @@
-# 豆包 广告拦截 7条
-0.0.0.0 hm.baidu.com
-0.0.0.0 mon.snssdk.com
-0.0.0.0 mon.zijieapi.com
-0.0.0.0 time1.bytedance.com
-0.0.0.0 time1.cloud.tencent.com
-0.0.0.0 time2.bytedance.com
-0.0.0.0 www.bytedance.com

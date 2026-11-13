@@ -1,2 +1,0 @@
-# saikosoft.jp 广告拦截 1条
-0.0.0.0 analytics.saikosoft.jp

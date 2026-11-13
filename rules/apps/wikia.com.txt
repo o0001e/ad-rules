@@ -1,3 +1,0 @@
-# wikia.com 广告拦截 2条
-0.0.0.0 athena-ads.wikia.com
-0.0.0.0 wikia-ads.wikia.com

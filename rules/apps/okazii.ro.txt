@@ -1,2 +1,0 @@
-# okazii.ro 广告拦截 1条
-0.0.0.0 analytics.okazii.ro

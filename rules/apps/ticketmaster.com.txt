@@ -1,3 +1,0 @@
-# ticketmaster.com 广告拦截 2条
-0.0.0.0 ads.as4x.tmcs.ticketmaster.com
-0.0.0.0 analytics.ticketmaster.com

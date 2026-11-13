@@ -1,2 +1,0 @@
-# evergreenhealth.com 广告拦截 1条
-0.0.0.0 tracking.news.evergreenhealth.com

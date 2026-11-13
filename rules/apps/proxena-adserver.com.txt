@@ -1,3 +1,0 @@
-# proxena-adserver.com 广告拦截 2条
-0.0.0.0 images.proxena-adserver.com
-0.0.0.0 servedby.proxena-adserver.com

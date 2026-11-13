@@ -1,3 +1,0 @@
-# bandi.so 广告拦截 2条
-0.0.0.0 adv.bandi.so
-0.0.0.0 log.bandi.so

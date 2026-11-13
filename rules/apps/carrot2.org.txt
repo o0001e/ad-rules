@@ -1,2 +1,0 @@
-# carrot2.org 广告拦截 1条
-0.0.0.0 stats.carrot2.org

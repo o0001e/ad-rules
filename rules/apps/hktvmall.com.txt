@@ -1,3 +1,0 @@
-# hktvmall.com 广告拦截 2条
-0.0.0.0 ad-splash-tracking.hktvmall.com
-0.0.0.0 ad-splash.hktvmall.com

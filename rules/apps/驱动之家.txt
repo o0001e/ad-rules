@@ -1,2 +1,0 @@
-0.0.0.0 icons.mydrivers.com
-0.0.0.0 xc.mydrivers.com

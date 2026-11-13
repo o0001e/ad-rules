@@ -1,4 +1,0 @@
-0.0.0.0 ad-sdk-config.youdao.com
-0.0.0.0 dsp-click.youdao.com
-0.0.0.0 log-yex.youdao.com
-0.0.0.0 sdk-log-inter.youdao.com

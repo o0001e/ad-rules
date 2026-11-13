@@ -1,4 +1,0 @@
-# vnncdn.net 广告拦截 3条
-0.0.0.0 analytics.vnncdn.net
-0.0.0.0 tracking.vnncdn.net
-0.0.0.0 vnn-tracking.vnncdn.net

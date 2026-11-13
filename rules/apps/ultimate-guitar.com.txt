@@ -1,3 +1,0 @@
-# ultimate-guitar.com 广告拦截 2条
-0.0.0.0 ads.ultimate-guitar.com
-0.0.0.0 track.ultimate-guitar.com

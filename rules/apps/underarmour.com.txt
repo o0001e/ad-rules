@@ -1,3 +1,0 @@
-# underarmour.com 广告拦截 2条
-0.0.0.0 analytic.underarmour.com
-0.0.0.0 analytics.underarmour.com

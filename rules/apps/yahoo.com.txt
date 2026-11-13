@@ -1,9 +1,0 @@
-# yahoo.com 广告拦截 8条
-0.0.0.0 ads.auctions.yahoo.com
-0.0.0.0 ads.finance.yahoo.com
-0.0.0.0 ads.yahoo.com
-0.0.0.0 ads.yap.yahoo.com
-0.0.0.0 adserver.yahoo.com
-0.0.0.0 analytics.query.yahoo.com
-0.0.0.0 analytics.yahoo.com
-0.0.0.0 log.fc.yahoo.com

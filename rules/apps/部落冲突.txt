@@ -1,3 +1,0 @@
-0.0.0.0 analytics.support.supercell.com
-0.0.0.0 collector.snowplow.supercell.com
-0.0.0.0 mkt.supercell.com

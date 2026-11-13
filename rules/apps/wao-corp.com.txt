@@ -1,2 +1,0 @@
-# wao-corp.com 广告拦截 1条
-0.0.0.0 tracking.wao-corp.com

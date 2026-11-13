@@ -1,6 +1,0 @@
-0.0.0.0 ad-log.didiglobal.com
-0.0.0.0 ads.didiglobal.com
-0.0.0.0 adtrack.xiaojukeji.com
-0.0.0.0 omgup.didiglobal.com
-0.0.0.0 omgup.xiaojukeji.com
-0.0.0.0 omgup1.xiaojukeji.com

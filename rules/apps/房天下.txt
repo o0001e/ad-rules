@@ -1,4 +1,0 @@
-0.0.0.0 clickm.fang.com
-0.0.0.0 clickn.fang.com
-0.0.0.0 countpvn.light.fang.com
-0.0.0.0 mshow.fang.com

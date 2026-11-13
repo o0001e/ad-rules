@@ -1,4 +1,0 @@
-# truecaller.com 广告拦截 3条
-0.0.0.0 ads-config-engine-noneu.truecaller.com
-0.0.0.0 ads-router-noneu.truecaller.com
-0.0.0.0 ads-segment-profile-noneu.truecaller.com

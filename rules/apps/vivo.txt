@@ -1,2 +1,0 @@
-0.0.0.0 ads-api.vivo.com
-0.0.0.0 bhwkju.vivo.com

@@ -1,2 +1,0 @@
-0.0.0.0 adx.yiche.com
-0.0.0.0 log.ycapp.yiche.com

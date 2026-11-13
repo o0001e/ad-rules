@@ -1,4 +1,0 @@
-# bat-ads.com 广告拦截 3条
-0.0.0.0 login.bat-ads.com
-0.0.0.0 rtb-uswest.bat-ads.com
-0.0.0.0 static.bat-ads.com

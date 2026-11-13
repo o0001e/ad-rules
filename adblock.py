@@ -7,20 +7,19 @@
   3. 过滤噪音域名 + 应用白名单
   4. 按 eTLD+1 归并：父域已拦则删除子域（白名单子域保留）
   5. 一次输出多格式（hosts / AdGuard / dnsmasq / domains / Clash / Surge / Lite）
-  6. 按 app_list.json 的厂商根域拆出单 App 分组
 产物由工作流上传到 Release，仓库只放源码。
 """
-import os, re, sys, json, time, socket, collections, urllib.request
+import os, re, sys, json, time, socket, collections, datetime, urllib.request, urllib.parse
+import gzip, http.client, ssl, threading
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import wait as _wait, FIRST_COMPLETED
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT_DIR") or os.path.join(ROOT, "rules")
-CACHE = os.path.join(ROOT, ".cache", "src")
+CACHE = os.environ.get("CACHE_DIR") or os.path.join(ROOT, ".cache", "src")
 SOURCES = os.path.join(ROOT, "sources.txt")
 WHITE = os.path.join(ROOT, "whitelist.txt")
 CUSTOM = os.path.join(ROOT, "custom.txt")
-APPS = os.path.join(ROOT, "app_list.json")
 DEAD = os.path.join(ROOT, "dead.txt")
 UA = {"User-Agent": "Mozilla/5.0 (AdQggFilters/1.0)"}
 socket.setdefaulttimeout(15)
@@ -115,9 +114,108 @@ def normalize(line):
     return h
 
 
+
+# ---------------------------------------------------------------- HTTP 连接池
+_POOL_LOCAL = threading.local()
+
+
+class _Pool:
+    """按主机复用 TCP/TLS 连接，省掉每次握手的开销"""
+
+    def __init__(self):
+        self.ctx = ssl.create_default_context()
+
+    def _conns(self):
+        c = getattr(_POOL_LOCAL, "m", None)
+        if c is None:
+            c = _POOL_LOCAL.m = {}
+        return c
+
+    def _new(self, scheme, host):
+        if scheme == "https":
+            return http.client.HTTPSConnection(host, timeout=20, context=self.ctx)
+        return http.client.HTTPConnection(host, timeout=20)
+
+    def _get(self, scheme, host):
+        m = self._conns()
+        c = m.get(host)
+        if c is None:
+            c = m[host] = self._new(scheme, host)
+        return c
+
+    def request(self, url, headers, follow=2):
+        for _ in range(follow + 1):
+            parts = urllib.parse.urlsplit(url)
+            scheme = parts.scheme or "https"
+            host = parts.netloc
+            path = parts.path or "/"
+            if parts.query:
+                path += "?" + parts.query
+            for attempt in (0, 1):
+                conn = self._get(scheme, host)
+                try:
+                    conn.request("GET", path, headers=headers)
+                    resp = conn.getresponse()
+                    if attempt == 0 and resp.will_close:
+                        conn.close()
+                        self._conns()[host] = self._new(scheme, host)
+                        continue
+                    break
+                except Exception:
+                    try:
+                        conn.close()
+                    except Exception:
+                        pass
+                    self._conns()[host] = self._new(scheme, host)
+                    if attempt == 1:
+                        raise
+            if resp.status in (301, 302, 303, 307, 308):
+                loc = resp.getheader("Location")
+                body = resp.read()
+                if not loc:
+                    return resp, body
+                url = urllib.parse.urljoin(url, loc)
+                continue
+            return resp, resp.read()
+        raise RuntimeError("too many redirects")
+
+
+POOL = _Pool()
+
+
+_TIMING = {}
+_SRC_STATUS = {}
+_HOST_SEM = {}
+_HOST_LOCK = threading.Lock()
+PER_HOST = 6
+
+
+def _sem(url):
+    host = urllib.parse.urlsplit(url).netloc
+    with _HOST_LOCK:
+        sem = _HOST_SEM.get(host)
+        if sem is None:
+            sem = _HOST_SEM[host] = threading.BoundedSemaphore(PER_HOST)
+        return sem
+
+
 def download(url, idx):
+    t_start = time.time()
+    try:
+        with _sem(url):
+            return _download(url, idx)
+    finally:
+        _TIMING[idx] = time.time() - t_start
+
+
+def _cpath(url):
+    import hashlib as _h
+    return os.path.join(CACHE, "src-%s.txt" % _h.sha1(url.encode()).hexdigest()[:12])
+
+
+def _download(url, idx):
     os.makedirs(CACHE, exist_ok=True)
-    f = os.path.join(CACHE, "src%02d.txt" % idx)
+    f = _cpath(url)
     meta_f = os.path.join(CACHE, "meta.json")
     meta = {}
     if os.path.exists(meta_f):
@@ -140,32 +238,33 @@ def download(url, idx):
     if cached and meta.get(url):
         headers.update(meta[url])
 
+    headers["Accept-Encoding"] = "gzip"
     for attempt in range(2):
         try:
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=10) as r:
-                data = r.read()
+            resp, data = POOL.request(url, headers)
+            if resp.status == 304 and cached:
+                os.utime(f, None)
+                return f
+            if resp.status != 200:
+                raise RuntimeError("HTTP %s" % resp.status)
+            if (resp.getheader("Content-Encoding") or "").lower() == "gzip":
+                data = gzip.decompress(data)
+            if len(data) < 200:
+                raise RuntimeError("内容过短 %d 字节" % len(data))
             open(f, "wb").write(data)
-            etag = {"If-None-Match": r.headers.get("ETag")} if r.headers.get("ETag") else {}
-            lm = r.headers.get("Last-Modified")
+            etag = {"If-None-Match": resp.getheader("ETag")} if resp.getheader("ETag") else {}
+            lm = resp.getheader("Last-Modified")
             if lm:
                 etag["If-Modified-Since"] = lm
             if etag:
                 meta[url] = etag
                 save_meta()
             return f
-        except urllib.error.HTTPError as e:
-            if e.code == 304 and cached:
-                os.utime(f, None)
-                return f
-            if attempt == 1:
-                print(f"[源{idx}] 失败 {url} HTTP {e.code}")
-                return f if cached else None
         except Exception as e:
             if attempt == 1:
                 print(f"[源{idx}] 失败 {url} {e}")
                 return f if cached else None
-            time.sleep(0.5)
+            time.sleep(0.3)
     return f if cached else None
 
 
@@ -173,9 +272,12 @@ def read_sources():
     urls = [l.strip() for l in open(SOURCES, encoding="utf-8")
             if l.strip() and not l.strip().startswith("#")]
     files = []
-    ex = ThreadPoolExecutor(max_workers=24)
+    missing = [i for i, u in enumerate(urls)
+               if not os.path.exists(_cpath(u))]
+    budget = 45 if missing else 12
+    ex = ThreadPoolExecutor(max_workers=40)
     futs = {ex.submit(download, u, i): i for i, u in enumerate(urls)}
-    done, pending = _wait(futs, timeout=45)
+    done, pending = _wait(futs, timeout=budget)
     for f in done:
         try:
             p = f.result()
@@ -184,14 +286,27 @@ def read_sources():
         if p:
             files.append((futs[f], p))
     if pending:
-        print("[下载] %d 个源超时跳过" % len(pending))
+        for f in pending:
+            i = futs[f]
+            p = _cpath(urls[i])
+            _SRC_STATUS[i] = "超时用缓存" if os.path.exists(p) else "超时丢弃"
+            if os.path.exists(p):
+                files.append((i, p))
+            else:
+                print("[下载] 源%02d 超时且无缓存，丢弃" % i)
+        print("[下载] %d 个源超时，用旧缓存兜底" % len(pending))
     ex.shutdown(wait=False)
+    slow = sorted(_TIMING.items(), key=lambda kv: -kv[1])[:5]
+    print("[下载] 最慢: " + ", ".join("源%02d %.1fs" % (i, t) for i, t in slow))
     print("[下载] %d/%d 个源就绪" % (len(files), len(urls)))
     return files
 
 
 def ad_like(d):
     return bool(AD_WORDS.search(d))
+
+
+SRC_COUNTS = {}
 
 
 def collect(files):
@@ -206,6 +321,8 @@ def collect(files):
                     doms[d] += 1
                     srcs[d].add(idx)
                     n += 1
+        SRC_COUNTS[idx] = n
+        _SRC_STATUS[idx] = "缓存" if _TIMING.get(idx, 0) < 0.05 else "在线"
         print("[解析] 源%02d %d 条" % (idx, n))
     return doms, srcs
 
@@ -224,118 +341,32 @@ def collapse(blocked, white):
     return blocked - dropped, len(dropped)
 
 
-def write(blocked, white, apps, srcs=None):
-    os.makedirs(OUT, exist_ok=True)
-    srcs = srcs or {}
-    ver = time.strftime("%Y%m%d %H:%M")
-    n = len(blocked)
-    if n < 1000:
-        print("[熔断] 只生成 %d 条，低于安全线，拒绝覆盖" % n)
-        sys.exit(2)
-    prev_f = os.path.join(OUT, "hosts.txt")
-    prev = 0
-    if os.path.exists(prev_f):
-        for l in open(prev_f, encoding="utf-8"):
-            if l.startswith("# Count:"):
-                try:
-                    prev = int(l.split(":")[1])
-                except Exception:
-                    prev = 0
-                break
-    if prev >= 1000:
-        ratio = n / float(prev)
-        if ratio < 0.75 or ratio > 1.35:
-            print("[熔断] 条数由 %d 变为 %d（%.0f%%），超出安全区间，中止发布" % (prev, n, ratio * 100))
-            sys.exit(3)
-    print("[合并] 最终 %d 条（白名单 %d）" % (n, len(white)))
-
-    with open(os.path.join(OUT, "hosts.txt"), "w", encoding="utf-8") as f:
-        f.write("# AD-QGG Filter\n# Update: %s\n# Count: %d\n" % (ver, n))
+def write(blocked, white, srcs=None):
+    ver = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d %H:%M")
+    p = lambda n: os.path.join(OUT, n)
+    with open(p("hosts.txt"), "w", encoding="utf-8") as f:
+        f.write("# AD-QGG Filter\n# Update: %s\n# Count: %d\n" % (ver, len(blocked)))
         f.write("".join("0.0.0.0 %s\n" % d for d in sorted(blocked)))
-    with open(os.path.join(OUT, "adguard.txt"), "w", encoding="utf-8") as f:
+    with open(p("adguard.txt"), "w", encoding="utf-8") as f:
         f.write("! AD-QGG Filter\n! Update: %s\n" % ver)
         f.write("".join("||%s^\n" % d for d in sorted(blocked)))
-    with open(os.path.join(OUT, "domains.txt"), "w", encoding="utf-8") as f:
+    with open(p("domains.txt"), "w", encoding="utf-8") as f:
         f.write("".join(d + "\n" for d in sorted(blocked)))
-    with open(os.path.join(OUT, "dnsmasq.conf"), "w", encoding="utf-8") as f:
-        f.write("".join("address=/%s/0.0.0.0\n" % d for d in sorted(blocked)))
-    with open(os.path.join(OUT, "clash.yaml"), "w", encoding="utf-8") as f:
-        f.write("# AD-QGG Clash rule-provider (behavior: domain)\n# Update: %s\npayload:\n" % ver)
-        f.write("".join("  - '+.%s'\n" % d for d in sorted(blocked)))
-    with open(os.path.join(OUT, "surge.list"), "w", encoding="utf-8") as f:
+    with open(p("all.txt"), "w", encoding="utf-8") as f:
+        f.write("".join("0.0.0.0 %s\n" % d for d in sorted(blocked)))
+    with open(p("dnsmasq.conf"), "w", encoding="utf-8") as f:
+        f.write("".join("address=/%s/#\n" % d for d in sorted(blocked)))
+    with open(p("clash.yaml"), "w", encoding="utf-8") as f:
+        f.write("payload:\n")
+        f.write("".join("  - DOMAIN-SUFFIX,%s\n" % d for d in sorted(blocked)))
+    with open(p("surge.list"), "w", encoding="utf-8") as f:
         f.write("".join("DOMAIN,%s\n" % d for d in sorted(blocked)))
-
-    # 白名单产物（给 DNS App 的「放行」列表用）
-    with open(os.path.join(OUT, "whitelist.txt"), "w", encoding="utf-8") as f:
+    with open(p("whitelist.txt"), "w", encoding="utf-8") as f:
+        f.write("# AD-QGG 白名单\n# Count: %d\n" % len(white))
         f.write("".join("0.0.0.0 %s\n" % d for d in sorted(white)))
-    with open(os.path.join(OUT, "whitelist_adguard.txt"), "w", encoding="utf-8") as f:
-        f.write("! AD-QGG 白名单\n# Update: %s\n" % ver)
+    with open(p("whitelist_adguard.txt"), "w", encoding="utf-8") as f:
+        f.write("! AD-QGG 白名单\n")
         f.write("".join("@@||%s^\n" % d for d in sorted(white)))
-
-    # 按厂商根域拆分组
-    roots, names = {}, {}
-    for name, cfg in apps.items():
-        rs = cfg if isinstance(cfg, list) else [cfg]
-        for r in rs:
-            roots.setdefault(r.strip().lower(), []).append(name)
-            names[name] = rs
-    os.makedirs(os.path.join(OUT, "apps"), exist_ok=True)
-    groups = collections.defaultdict(list)
-    for d in blocked:
-        for r, ns in roots.items():
-            if d == r or d.endswith("." + r):
-                for nm in ns:
-                    groups[nm].append(d)
-                break
-    for nm, ds in sorted(groups.items()):
-        if not ds:
-            continue
-        safe = re.sub(r'[\\\\/:*?"<>|]', "_", nm)
-        with open(os.path.join(OUT, "apps", safe + ".txt"), "w", encoding="utf-8") as f:
-            f.write("".join("0.0.0.0 %s\n" % d for d in sorted(set(ds))))
-    print("[分组] %d 个 App 分组" % len(groups))
-
-    # all.txt：全量 + 全分组去重
-    allset = set(blocked)
-    for ds in groups.values():
-        allset.update(ds)
-    with open(os.path.join(OUT, "all.txt"), "w", encoding="utf-8") as f:
-        f.write("".join("0.0.0.0 %s\n" % d for d in sorted(allset)))
-
-    # 源评分：每个源贡献多少条、最终存活多少条（无来源数据时保留原文件）
-    if srcs:
-        src_total = collections.Counter()
-        for d, ids in srcs.items():
-            for i in ids:
-                src_total[i] += 1
-        live_cnt = collections.Counter()
-        for d in blocked:
-            for i in srcs.get(d, ()):
-                live_cnt[i] += 1
-        with open(os.path.join(OUT, "source_score.txt"), "w", encoding="utf-8") as f:
-            f.write("# 源编号\t解析域名数\t最终存活\t存活率\n")
-            for i in sorted(src_total):
-                f.write("%02d\t%d\t%d\t%.1f%%\n" % (i, src_total[i], live_cnt[i], live_cnt[i] * 100.0 / max(src_total[i], 1)))
-
-    # 来源统计：无来源数据时保留原文件（修剪任务走这条分支）
-    if srcs:
-        with open(os.path.join(OUT, "source_report.txt"), "w", encoding="utf-8") as f:
-            f.write("# 域名\t收录源数\t来源编号\n")
-            for d in sorted(blocked):
-                ids = ",".join(str(x) for x in sorted(srcs.get(d, ())))
-                f.write("%s\t%d\t%s\n" % (d, len(srcs.get(d, ())), ids))
-
-    # 白名单产物
-    with open(os.path.join(OUT, "whitelist.txt"), "w", encoding="utf-8") as f:
-        f.write("# AD-QGG 白名单（一行一个域名）\n# Update: %s\n# Count: %d\n" % (ver, len(white)))
-        f.write("".join(d + "\n" for d in sorted(white)))
-    with open(os.path.join(OUT, "whitelist_adguard.txt"), "w", encoding="utf-8") as f:
-        f.write("! AD-QGG 白名单\n# Update: %s\n" % ver)
-        f.write("".join("@@||%s^\n" % d for d in sorted(white)))
-
-    with open(os.path.join(OUT, "build_report.txt"), "w", encoding="utf-8") as f:
-        f.write("构建时间: %s\n总规则: %d\n白名单: %d\nApp 分组: %d\n"
-                % (ver, n, len(white), len(groups)))
 
 
 def read_sources_from(urls, base=90):
@@ -358,34 +389,19 @@ def load_white():
     return w
 
 
-def load_current():
-    f = os.path.join(OUT, "hosts.txt")
-    if not os.path.exists(f):
-        return set()
-    out = set()
-    for l in open(f, encoding="utf-8"):
-        if l.startswith("0.0.0.0 "):
-            out.add(l.split()[1].strip().lower())
-    return out
-
-
 def load_dead():
     if not os.path.exists(DEAD):
         return set()
     return {l.strip() for l in open(DEAD, encoding="utf-8") if l.strip() and not l.strip().startswith("#")}
 
 
-def load_apps():
-    try:
-        return json.load(open(APPS, encoding="utf-8"))
-    except Exception:
-        return {}
-
-
 def main():
     t0 = time.time()
     files = read_sources()
+    print("[计时] 下载+准备 %.1fs" % (time.time() - t0))
+    t1 = time.time()
     doms, srcs = collect(files)
+    print("[计时] 解析 %.1fs" % (time.time() - t1))
     white = set()
     for p in (WHITE, CUSTOM):
         if os.path.exists(p):
@@ -408,22 +424,6 @@ def main():
             continue   # 业务接口，非广告特征
         if c >= 2 or (ad_like(d) and not SHARED_INFRA.search(d)):
             keep.add(d)
-    # App 厂商根域下的域名一律保留（否则分组会空）
-    apps_pre = json.load(open(APPS, encoding="utf-8")) if os.path.exists(APPS) else {}
-    ap_roots = set()
-    for cfg in apps_pre.values():
-        for r in (cfg if isinstance(cfg, list) else [cfg]):
-            ap_roots.add(r.strip().lower())
-    def root2(d):
-        p = d.split(".")
-        return ".".join(p[-2:]) if len(p) >= 2 else d
-    for d in doms:
-        if d in white or is_protected(d):
-            continue
-        r = root2(d)
-        if r in ap_roots and not SAFE_WORDS.search(d):
-            keep.add(d)
-
     # 超出上限时按「出现次数 + 广告特征」排序截断
     if len(keep) > TARGET:
         ranked = sorted(keep, key=lambda d: (ad_like(d), doms[d], -len(d)), reverse=True)
@@ -439,15 +439,14 @@ def main():
     def covered_by_white(d):
         parts = d.split(".")
         return any(".".join(parts[i:]) in white for i in range(len(parts) - 1))
-    fixed = {d for d in blocked if covered_by_white(d)}
+    fixed = {d for d in (blocked - extra) if covered_by_white(d)}   # custom 里的规则优先，不被白名单父域吃掉
     if fixed:
         print("[修复] 剔除 %d 个被白名单父域覆盖的域名" % len(fixed))
         blocked -= fixed
     blocked, dropped = collapse(blocked, white)
     if dropped:
         print("[归并] 去掉 %d 个冗余子域" % dropped)
-    apps = json.load(open(APPS, encoding="utf-8")) if os.path.exists(APPS) else {}
-    write(blocked, white, apps, srcs)
+    write(blocked, white, srcs)
     print("[完成] 用时 %.1f 秒" % (time.time() - t0))
 
 

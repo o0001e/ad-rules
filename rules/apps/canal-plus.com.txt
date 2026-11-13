@@ -1,3 +1,0 @@
-# canal-plus.com 广告拦截 2条
-0.0.0.0 secure-stat.canal-plus.com
-0.0.0.0 stat.canal-plus.com

@@ -1,3 +1,0 @@
-# chinaliftoff.io 广告拦截 2条
-0.0.0.0 click.chinaliftoff.io
-0.0.0.0 impression-asia.chinaliftoff.io

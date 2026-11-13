@@ -1,2 +1,0 @@
-# zeusinc.com 广告拦截 1条
-0.0.0.0 images.marketing.zeusinc.com

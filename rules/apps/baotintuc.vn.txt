@@ -1,4 +1,0 @@
-# baotintuc.vn 广告拦截 3条
-0.0.0.0 adv.baotintuc.vn
-0.0.0.0 dantocmiennui-log.baotintuc.vn
-0.0.0.0 log-video.baotintuc.vn

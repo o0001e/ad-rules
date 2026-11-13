@@ -1,3 +1,0 @@
-# corusradionetwork.com 广告拦截 2条
-0.0.0.0 ads.corusradionetwork.com
-0.0.0.0 adserver.corusradionetwork.com

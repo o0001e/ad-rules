@@ -1,3 +1,0 @@
-# qcloud.com 广告拦截 2条
-0.0.0.0 log.qvb.qcloud.com
-0.0.0.0 tracker-00.qvb.qcloud.com

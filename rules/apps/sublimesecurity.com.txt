@@ -1,3 +1,0 @@
-# sublimesecurity.com 广告拦截 2条
-0.0.0.0 stats.blog.sublimesecurity.com
-0.0.0.0 stats.sublimesecurity.com

@@ -1,4 +1,0 @@
-# jiguang.cn 广告拦截 3条
-0.0.0.0 report-stats.ad.jiguang.cn
-0.0.0.0 sdk.verification.jiguang.cn
-0.0.0.0 update.sdk.jiguang.cn

@@ -1,2 +1,0 @@
-# home24.at 广告拦截 1条
-0.0.0.0 marketing.net.home24.at

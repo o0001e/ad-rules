@@ -1,2 +1,0 @@
-# swiss-equestrian.ch 广告拦截 1条
-0.0.0.0 ads.swiss-equestrian.ch

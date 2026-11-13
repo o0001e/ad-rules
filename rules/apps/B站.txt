@@ -1,7 +1,0 @@
-0.0.0.0 ali-web-player-tracker.biliapi.net
-0.0.0.0 data.bilibili.com
-0.0.0.0 httpdns.bilivideo.com
-0.0.0.0 hw-v2-web-player-tracker.biliapi.net
-0.0.0.0 mcdn.bilivideo.com
-0.0.0.0 miniapp.bilibili.com
-0.0.0.0 tracker.chat.bilibili.com

@@ -1,2 +1,0 @@
-# ndcjl.com 广告拦截 1条
-0.0.0.0 v66-ad.ndcjl.com

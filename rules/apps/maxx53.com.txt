@@ -1,2 +1,0 @@
-# maxx53.com 广告拦截 1条
-0.0.0.0 analytics.maxx53.com

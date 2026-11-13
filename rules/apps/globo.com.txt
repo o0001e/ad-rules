@@ -1,4 +1,0 @@
-# globo.com 广告拦截 3条
-0.0.0.0 ads.globo.com
-0.0.0.0 horizon-track.globo.com
-0.0.0.0 stats.video.globo.com

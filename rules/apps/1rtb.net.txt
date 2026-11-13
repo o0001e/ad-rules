@@ -1,2 +1,0 @@
-# 1rtb.net 广告拦截 1条
-0.0.0.0 sdk.1rtb.net

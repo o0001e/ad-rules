@@ -1,3 +1,0 @@
-# gamedock.io 广告拦截 2条
-0.0.0.0 tracker-v4.gamedock.io
-0.0.0.0 tracker.gamedock.io

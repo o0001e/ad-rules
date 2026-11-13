@@ -1,2 +1,0 @@
-# kubota.ca 广告拦截 1条
-0.0.0.0 tracking.kubota.ca

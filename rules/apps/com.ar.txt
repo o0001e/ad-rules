@@ -1,5 +1,0 @@
-# com.ar 广告拦截 4条
-0.0.0.0 adserver.lanacion.com.ar
-0.0.0.0 analytics.redlink.com.ar
-0.0.0.0 analytics.tntsports.com.ar
-0.0.0.0 smetrics.marketing.lighting.philips.com.ar

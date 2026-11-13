@@ -1,2 +1,0 @@
-# shinyokohama-beauty.com 广告拦截 1条
-0.0.0.0 ebis-tracking.shinyokohama-beauty.com

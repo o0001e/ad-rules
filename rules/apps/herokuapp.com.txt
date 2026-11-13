@@ -1,4 +1,0 @@
-# herokuapp.com 广告拦截 3条
-0.0.0.0 essential-apps-analytics.herokuapp.com
-0.0.0.0 filament-stats.herokuapp.com
-0.0.0.0 onespot-tracking.herokuapp.com

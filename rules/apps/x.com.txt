@@ -1,3 +1,0 @@
-# x.com 广告拦截 2条
-0.0.0.0 ads-api.x.com
-0.0.0.0 ads.x.com

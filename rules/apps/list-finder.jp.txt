@@ -1,2 +1,0 @@
-# list-finder.jp 广告拦截 1条
-0.0.0.0 track.list-finder.jp

@@ -1,3 +1,0 @@
-# dongqiudi.com 广告拦截 2条
-0.0.0.0 sensors-log.dongqiudi.com
-0.0.0.0 stat.dongqiudi.com

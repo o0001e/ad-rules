@@ -1,3 +1,0 @@
-# luizalabs.com 广告拦截 2条
-0.0.0.0 ad-tracker-api.luizalabs.com
-0.0.0.0 ads-collector.luizalabs.com

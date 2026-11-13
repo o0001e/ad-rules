@@ -1,4 +1,0 @@
-# byteoversea.com 广告拦截 3条
-0.0.0.0 log.byteoversea.com
-0.0.0.0 p16-ad.byteoversea.com
-0.0.0.0 v16-ad.byteoversea.com

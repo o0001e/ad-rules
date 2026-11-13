@@ -1,3 +1,0 @@
-# c4s-rd.services 广告拦截 2条
-0.0.0.0 native-ads-events-api.c4s-rd.services
-0.0.0.0 native-ads-events-api2.c4s-rd.services

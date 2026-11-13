@@ -1,3 +1,0 @@
-# veeseo.com 广告拦截 2条
-0.0.0.0 tracking-rce.veeseo.com
-0.0.0.0 tracking.rce.veeseo.com

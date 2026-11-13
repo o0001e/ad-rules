@@ -1,3 +1,0 @@
-# htmedia.in 广告拦截 2条
-0.0.0.0 analytics.dev.htmedia.in
-0.0.0.0 analytics.htmedia.in

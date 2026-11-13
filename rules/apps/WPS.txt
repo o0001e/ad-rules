@@ -1,2 +1,0 @@
-0.0.0.0 api-ad-adapter-sg.wps.com
-0.0.0.0 api-ad-adapter.wps.com
