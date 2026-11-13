@@ -130,13 +130,18 @@ def read_sources(offline=False):
 
 def parse(files):
     block = set()
+    support = {}          # 域名 -> 收录它的源数量
     for f in files:
+        seen_here = set()
         for line in open(f, encoding="utf-8", errors="ignore"):
             if "@@" in line:        # 源内条件式放行（$domain=），DNS 层无法按条件生效，忽略
                 continue
             h = normalize(line)
             if h:
                 block.add(h)
+                seen_here.add(h)
+        for h in seen_here:
+            support[h] = support.get(h, 0) + 1
     block |= {h for h in GLOBAL_AD if "." in h}
     # 自建补充清单（仓库内维护，随源一起并入）
     custom = os.path.join(ROOT, "custom.txt")
@@ -145,7 +150,12 @@ def parse(files):
             h = normalize(line)
             if h:
                 block.add(h)
+    global SOURCE_SUPPORT
+    SOURCE_SUPPORT = support
     return block
+
+
+SOURCE_SUPPORT = {}
 
 
 def build(block):
@@ -275,6 +285,24 @@ dmp.163.com.ad td.toutiao.com sf3g.com pglstatp-toutiao.com
         arr.sort(key=lambda x: (x.count("."), len(x)))
         capped.update(arr[:300])
     blocked = capped
+
+    # 共识补充：多家独立上游都收录的域名，即使没有广告特征词也纳入（上限 6000）
+    # 只补没有被白名单/业务接口保护的，且至少有 2 家源支持
+    TARGET = 6010
+    consensus = sorted((h for h, n in SOURCE_SUPPORT.items() if n >= 2),
+                       key=lambda h: (-SOURCE_SUPPORT[h], h.count("."), len(h)))
+    if len(blocked) < TARGET:
+        for h in consensus:
+            if len(blocked) >= TARGET:
+                break
+            if h in blocked or h in rescue or h in CURATED:
+                continue
+            if CORE_API.match(h) and not AD_TOKENS.search(h):
+                continue
+            if any(h == b or h.endswith("." + b) for b in APEX_NEVER_BLOCK):
+                continue
+            blocked.add(h)
+        print("[合并] 共识补充后规则数: %d" % len(blocked))
 
     # 白名单
     def ad_like(h):
