@@ -92,6 +92,7 @@ ad.wx.com	2026-11-14
 ad.xiaomi.com	2026-11-14
 ad.xxam.org	2026-11-14
 ad.yemeksepeti.com	2026-11-14
+ad.yixin.im	2026-11-14
 ad.zhangyue.com	2026-11-14
 adb-analytics.live-now.com	2026-11-14
 adebis.satori.marketing	2026-11-14
