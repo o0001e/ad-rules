@@ -1,5 +1,4 @@
 # 快手 广告拦截 70条
-0.0.0.0 ad.partner.gifshow.com
 0.0.0.0 adkwai.com
 0.0.0.0 ads.kwai.com
 0.0.0.0 adukwai.com

@@ -1,4 +1,4 @@
-# 爱奇艺 广告拦截 118条
+# 爱奇艺 广告拦截 114条
 0.0.0.0 access.if.iqiyi.com
 0.0.0.0 act.vip.iqiyi.com
 0.0.0.0 ad.iqiyi.com
@@ -108,7 +108,6 @@
 0.0.0.0 tracker.sns.iqiyi.com
 0.0.0.0 uestat.video.qiyi.com
 0.0.0.0 union.iqiyi.com
-0.0.0.0 v6-data.video.dns.iqiyi.com
 0.0.0.0 vertical-play.iqiyi.com
 0.0.0.0 verycloudcdncmnet.inter.iqiyi.com
 0.0.0.0 video.iqiyi.com

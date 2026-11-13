@@ -1,4 +1,4 @@
-# 淘宝 广告拦截 149条
+# 淘宝 广告拦截 151条
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 accscdn.m.taobao.com
 0.0.0.0 accscdn4public.m.taobao.com

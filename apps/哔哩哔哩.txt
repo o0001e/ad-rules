@@ -1,4 +1,4 @@
-# 哔哩哔哩 广告拦截 36条
+# 哔哩哔哩 广告拦截 37条
 0.0.0.0 activity.hdslb.com
 0.0.0.0 ad.bilibili.com
 0.0.0.0 ali-bj-pcdn-16.biliapi.net

@@ -1,4 +1,4 @@
-# 淘宝特价版 广告拦截 149条
+# 淘宝特价版 广告拦截 151条
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 accscdn.m.taobao.com
 0.0.0.0 accscdn4public.m.taobao.com
@@ -51,6 +51,7 @@
 0.0.0.0 cmweb.ilike.alibaba.com
 0.0.0.0 count.taobao.com
 0.0.0.0 detail.taobao.com
+0.0.0.0 df.tanx.com
 0.0.0.0 dmtracking.alibaba.com
 0.0.0.0 dmtracking2.alibaba.com
 0.0.0.0 dsp.alibaba.com
@@ -60,6 +61,7 @@
 0.0.0.0 ef-dongfeng.tanx.com
 0.0.0.0 err.taobao.com
 0.0.0.0 err.tmall.com
+0.0.0.0 et.tanx.com
 0.0.0.0 fans.m.tmall.com
 0.0.0.0 ff.win.taobao.com
 0.0.0.0 fourier.alibaba.com
