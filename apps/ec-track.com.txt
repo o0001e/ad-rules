@@ -1,0 +1,2 @@
+# ec-track.com 广告拦截 1条
+0.0.0.0 ec-track.com

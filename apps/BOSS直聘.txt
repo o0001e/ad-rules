@@ -1,0 +1,6 @@
+# BOSS直聘 广告拦截 5条
+0.0.0.0 logapi-and.zhipin.com
+0.0.0.0 logapi-ios.zhipin.com
+0.0.0.0 logapi.zhipin.com
+0.0.0.0 t.zhipin.com
+0.0.0.0 uni-shumeng.zhipin.com

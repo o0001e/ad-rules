@@ -108,6 +108,7 @@
 0.0.0.0 ad-v.jp
 0.0.0.0 ad-vanx.com
 0.0.0.0 ad-vice.biz
+0.0.0.0 ad-vortex.com
 0.0.0.0 ad-wheel.com
 0.0.0.0 ad.163.com
 0.0.0.0 ad.api.3g.youku.com
@@ -207,7 +208,6 @@
 0.0.0.0 ads-adv.top
 0.0.0.0 ads-api.vivo.com
 0.0.0.0 ads-bilek.com
-0.0.0.0 ads-click.com
 0.0.0.0 ads-i1.xhscdn.com
 0.0.0.0 ads-i10.xhscdn.com
 0.0.0.0 ads-i2.xhscdn.com
@@ -219,11 +219,13 @@
 0.0.0.0 ads-img-bak.xhscdn.com
 0.0.0.0 ads-img-qc.xhscdn.com
 0.0.0.0 ads-leona-s1.xhscdn.com
+0.0.0.0 ads-pixiv.net
 0.0.0.0 ads-splash-i1.xhscdn.com
 0.0.0.0 ads-splash-i2.xhscdn.com
 0.0.0.0 ads-splash-v1.xhscdn.com
 0.0.0.0 ads-splash-v2.xhscdn.com
 0.0.0.0 ads-static.xhscdn.com
+0.0.0.0 ads-stats.com
 0.0.0.0 ads-t.ru
 0.0.0.0 ads-union.jd.com
 0.0.0.0 ads-v1.xhscdn.com
@@ -617,6 +619,7 @@
 0.0.0.0 click-1.pl
 0.0.0.0 click-bes.baidu.com
 0.0.0.0 click-cdn.com
+0.0.0.0 click-url.com
 0.0.0.0 click.alibaba.com
 0.0.0.0 click.aliyun.com
 0.0.0.0 click.bes.baidu.com
@@ -627,7 +630,6 @@
 0.0.0.0 click.union.vip.com
 0.0.0.0 client-api.ele.me
 0.0.0.0 client.mail.163.com
-0.0.0.0 client.show.qq.com
 0.0.0.0 clk.wiki
 0.0.0.0 cloud.tencent.com
 0.0.0.0 cloudpush.iqiyi.com
@@ -728,7 +730,6 @@
 0.0.0.0 data.video.dns.iqiyi.com
 0.0.0.0 data.video.qiyi.com
 0.0.0.0 data159.click
-0.0.0.0 data284.click
 0.0.0.0 data369.click
 0.0.0.0 data527.click
 0.0.0.0 data741.click
@@ -740,6 +741,7 @@
 0.0.0.0 dc.bz.mgtv.com
 0.0.0.0 dd-static.jd.com
 0.0.0.0 de.pandora.xiaomi.com
+0.0.0.0 dealkhk.click
 0.0.0.0 dealmkm.click
 0.0.0.0 dealmvm.click
 0.0.0.0 default.ixigua.com
@@ -801,6 +803,7 @@
 0.0.0.0 down.qq.com
 0.0.0.0 download.bav.baidu.com
 0.0.0.0 download.sd.baidu.com
+0.0.0.0 download.sj.qq.com
 0.0.0.0 download.zhushou.sogou.com
 0.0.0.0 downmini.kugou.com
 0.0.0.0 downmobile.kugou.com
@@ -1117,6 +1120,7 @@
 0.0.0.0 hybrid.miniapp.taobao.com
 0.0.0.0 hydra.alibaba.com
 0.0.0.0 hz.youku.com
+0.0.0.0 i-game.book.qq.com
 0.0.0.0 i-hl.snssdk.com
 0.0.0.0 i-lq.snssdk.com
 0.0.0.0 i-shadow2.ke.com
@@ -1142,7 +1146,6 @@
 0.0.0.0 idm-su.baidu.com
 0.0.0.0 idm.iot.mi.com
 0.0.0.0 iebar.baidu.com
-0.0.0.0 if.mingxing.qq.com
 0.0.0.0 iface.iqiyi.com
 0.0.0.0 iface2.dns.iqiyi.com
 0.0.0.0 iface2.iqiyi.com
@@ -1219,7 +1222,6 @@
 0.0.0.0 is-lq.snssdk.com
 0.0.0.0 is.snssdk.com
 0.0.0.0 isdspeed.qq.com
-0.0.0.0 isee.weishi.qq.com
 0.0.0.0 isite.baidu.com
 0.0.0.0 isp-report.gifshow.com
 0.0.0.0 ist-track.com
@@ -1241,6 +1243,7 @@
 0.0.0.0 joeser.click
 0.0.0.0 jolmen.click
 0.0.0.0 jpush.cn
+0.0.0.0 jpush.html5.qq.com
 0.0.0.0 jpushjd.m.jd.com
 0.0.0.0 jpushsc.m.jd.com
 0.0.0.0 jqmt.qq.com
@@ -1250,7 +1253,6 @@
 0.0.0.0 jrclick.jd.com
 0.0.0.0 js.aq.qq.com
 0.0.0.0 js.mobojoy.baidu.com
-0.0.0.0 jsapi.html5.qq.com
 0.0.0.0 jsapi.qq.com
 0.0.0.0 jsqmt.qq.com
 0.0.0.0 jswebcollects.kugou.com
@@ -1371,6 +1373,7 @@
 0.0.0.0 log5-misc-hl.amemv.com
 0.0.0.0 log5-misc-lf.amemv.com
 0.0.0.0 log5-misc-lq.amemv.com
+0.0.0.0 log6.reader.qq.com
 0.0.0.0 logapi-and.zhipin.com
 0.0.0.0 logapi-ios.zhipin.com
 0.0.0.0 logapi.zhipin.com
@@ -1528,6 +1531,7 @@
 0.0.0.0 moupdate10332052.wps.cn
 0.0.0.0 moviets.tc.qq.com
 0.0.0.0 movip.wps.com
+0.0.0.0 movturs.click
 0.0.0.0 mp-live.iqiyi.com
 0.0.0.0 mp-manhattan.xiaojukeji.com
 0.0.0.0 mp.bz.mgtv.com
@@ -1658,7 +1662,6 @@
 0.0.0.0 orange-dc.alibaba.com
 0.0.0.0 orange-dc.youku.com
 0.0.0.0 orbit.jd.com
-0.0.0.0 orlenmy.click
 0.0.0.0 ornerp.click
 0.0.0.0 os-mon.snssdk.com
 0.0.0.0 osfota.cdn.aliyun.com
@@ -1771,7 +1774,6 @@
 0.0.0.0 plugin.mobopay.baidu.com
 0.0.0.0 pmmtk-a.pinduoduo.com
 0.0.0.0 pms.mb.qq.com
-0.0.0.0 pnewsapp.tc.qq.com
 0.0.0.0 pns.ximalaya.com
 0.0.0.0 policy.jd.com
 0.0.0.0 popme.163.com
@@ -1827,6 +1829,7 @@
 0.0.0.0 q-stats.nl
 0.0.0.0 qapm.baidu.com
 0.0.0.0 qautodl.qq.com
+0.0.0.0 qbdsp.html5.qq.com
 0.0.0.0 qbuc.html5.qq.com
 0.0.0.0 qdsdk.jd.com
 0.0.0.0 qgw.kugou.com
@@ -1855,7 +1858,6 @@
 0.0.0.0 r.release.qq.com
 0.0.0.0 r1.ykimg.com
 0.0.0.0 ranoby.click
-0.0.0.0 ravelin.click
 0.0.0.0 rc-boe.snssdk.com
 0.0.0.0 rc.snssdk.com
 0.0.0.0 rcd.iqiyi.com
@@ -1866,7 +1868,6 @@
 0.0.0.0 re.taobao.com
 0.0.0.0 reading-hl.snssdk.com
 0.0.0.0 reading-lq.snssdk.com
-0.0.0.0 red-track.xyz
 0.0.0.0 redirect.pandora.xiaomi.com
 0.0.0.0 referee.xiaohongshu.com
 0.0.0.0 register.xmpush.global.xiaomi.com
@@ -1878,7 +1879,6 @@
 0.0.0.0 report.meituan.com
 0.0.0.0 report.nfa.qq.com
 0.0.0.0 report.qq.com
-0.0.0.0 report.syzs.qq.com
 0.0.0.0 report.vip.qq.com
 0.0.0.0 res-danmu.youku.com
 0.0.0.0 res-ga.smzdm.com
@@ -1899,6 +1899,7 @@
 0.0.0.0 rmonitor.qq.com
 0.0.0.0 rmpad.imtt.qq.com
 0.0.0.0 rms.meituan.com
+0.0.0.0 roikrna.click
 0.0.0.0 rp.baidu.com
 0.0.0.0 rplog.baidu.com
 0.0.0.0 rprain.bz.mgtv.com
@@ -2051,7 +2052,6 @@
 0.0.0.0 starfish.pandora.xiaomi.com
 0.0.0.0 starry.xiaohongshu.com
 0.0.0.0 stat-common.youku.com
-0.0.0.0 stat-rock.com
 0.0.0.0 stat.alibaba.com
 0.0.0.0 stat.gamedl.qq.com
 0.0.0.0 stat.kugou.com
@@ -2082,6 +2082,7 @@
 0.0.0.0 static.g.iqiyi.com
 0.0.0.0 static.iqiyi.com
 0.0.0.0 static.pay.baidu.com
+0.0.0.0 static.qblv.qq.com
 0.0.0.0 static.qiyi.com
 0.0.0.0 static.ws.126.net
 0.0.0.0 static.zhihu.com
@@ -2141,6 +2142,7 @@
 0.0.0.0 tb1.bdstatic.com
 0.0.0.0 tbm.snssdk.com
 0.0.0.0 tbskip.qq.com
+0.0.0.0 tbsone.imtt.qq.com
 0.0.0.0 tcbox.baidu.com
 0.0.0.0 tcd-log.m.jd.com
 0.0.0.0 tcss.qq.com
@@ -2182,7 +2184,6 @@
 0.0.0.0 tmallequity.taobao.com
 0.0.0.0 tmead.y.qq.com
 0.0.0.0 tmeadbak.y.qq.com
-0.0.0.0 tmeadcomm.y.qq.com
 0.0.0.0 tmeadkg.y.qq.com
 0.0.0.0 tmfmazu.m.qq.com
 0.0.0.0 tmfsdk.m.qq.com
@@ -2206,7 +2207,6 @@
 0.0.0.0 tpstelemetry.tencent.com
 0.0.0.0 trace.qq.com
 0.0.0.0 track-js.link
-0.0.0.0 track-web.net
 0.0.0.0 track.58.com
 0.0.0.0 track.lt
 0.0.0.0 track.toutiao.com
@@ -2246,7 +2246,6 @@
 0.0.0.0 tvepg.pandora.xiaomi.com
 0.0.0.0 tvmanager.pandora.xiaomi.com
 0.0.0.0 tvmgr.pandora.xiaomi.com
-0.0.0.0 twns.p2ptun.qq.com
 0.0.0.0 tx100.liveplay.live.kugou.com
 0.0.0.0 tyh.taobao.com
 0.0.0.0 tz-dsp.com
@@ -2407,6 +2406,7 @@
 0.0.0.0 viprik.click
 0.0.0.0 vk-ads.ru
 0.0.0.0 vmgjt.click
+0.0.0.0 vmindhls.tc.qq.com
 0.0.0.0 vmonitor.ws.netease.com
 0.0.0.0 vod-box.bz.mgtv.com
 0.0.0.0 voodoo-ads.io

@@ -1,0 +1,2 @@
+# q-stats.nl 广告拦截 1条
+0.0.0.0 q-stats.nl

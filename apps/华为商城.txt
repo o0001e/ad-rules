@@ -1,2 +1,9 @@
-# 华为商城 广告拦截 1条
+# 华为商城 广告拦截 8条
+0.0.0.0 ads.cloud.huawei.com
 0.0.0.0 ads.huawei.com
+0.0.0.0 adservice.huawei.com
+0.0.0.0 appgallery.huawei.com
+0.0.0.0 connect-api.cloud.huawei.com
+0.0.0.0 drcn-weather.cloud.huawei.com
+0.0.0.0 eu-1.nebula-collector.huawei.com
+0.0.0.0 hwa.his.huawei.com
