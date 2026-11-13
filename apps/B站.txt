@@ -1,4 +1,4 @@
-# B站 广告拦截 38条
+# B站 广告拦截 41条
 0.0.0.0 activity.hdslb.com
 0.0.0.0 ad.bilibili.com
 0.0.0.0 ali-bj-pcdn-16.biliapi.net
@@ -33,7 +33,10 @@
 0.0.0.0 miniapp.bilibili.com
 0.0.0.0 new-service.biliapi.net
 0.0.0.0 proxy-tf-all-ws.bilivideo.com
+0.0.0.0 s1.hdslb.com
+0.0.0.0 search.bilibili.com
 0.0.0.0 space.bilibili.com
 0.0.0.0 stat.bilibili.com
 0.0.0.0 upos-sz-static.bilivideo.com
 0.0.0.0 upos-sz-staticcos.bilivideo.com
+0.0.0.0 www.bilibili.com

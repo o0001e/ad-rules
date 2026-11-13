@@ -1,3 +1,2 @@
-# yangshengtang123.com 广告拦截 2条
-0.0.0.0 a.yangshengtang123.com
+# yangshengtang123.com 广告拦截 1条
 0.0.0.0 img.yangshengtang123.com

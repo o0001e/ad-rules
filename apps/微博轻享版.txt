@@ -1,4 +1,4 @@
-# 微博轻享版 广告拦截 48条
+# 微博轻享版 广告拦截 49条
 0.0.0.0 ad.us.sinaimg.cn
 0.0.0.0 ad.weibo.com
 0.0.0.0 adbox.weibo.com
@@ -24,6 +24,7 @@
 0.0.0.0 dailynews.sina.com
 0.0.0.0 dsp.weibo.com
 0.0.0.0 game.weibo.com
+0.0.0.0 i2.sinaimg.cn
 0.0.0.0 log.sina.com
 0.0.0.0 log.weibo.com
 0.0.0.0 monitor.sina.com

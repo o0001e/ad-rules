@@ -1,8 +1,9 @@
-# 小米商城 广告拦截 28条
+# 小米商城 广告拦截 29条
 0.0.0.0 a.hl.mi.com
 0.0.0.0 ad.mi.com
 0.0.0.0 ads.mi.com
 0.0.0.0 api.jr.mi.com
+0.0.0.0 app.mi.com
 0.0.0.0 d.g.mi.com
 0.0.0.0 dlg.io.mi.com
 0.0.0.0 e.mi.com

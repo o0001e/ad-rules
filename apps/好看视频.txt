@@ -1,4 +1,4 @@
-# 好看视频 广告拦截 292条
+# 好看视频 广告拦截 294条
 0.0.0.0 a.baidu.com
 0.0.0.0 activity.baidu.com
 0.0.0.0 ad.player.baidu.com
@@ -51,6 +51,7 @@
 0.0.0.0 cleaner.baidu.com
 0.0.0.0 click-bes.baidu.com
 0.0.0.0 click.bes.baidu.com
+0.0.0.0 cloud.baidu.com
 0.0.0.0 cm.baidu.com
 0.0.0.0 collector.dcdn.baidu.com
 0.0.0.0 conf.international.baidu.com
@@ -170,6 +171,7 @@
 0.0.0.0 mobads-logs.baidu.com
 0.0.0.0 mobads-speed.baidu.com
 0.0.0.0 mobads.baidu.com
+0.0.0.0 mobile-global.baidu.com
 0.0.0.0 mpro.baidu.com
 0.0.0.0 mshield.baidu.com
 0.0.0.0 msite.baidu.com

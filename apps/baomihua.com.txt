@@ -1,4 +1,2 @@
-# baomihua.com 广告拦截 3条
+# baomihua.com 广告拦截 1条
 0.0.0.0 a.baomihua.com
-0.0.0.0 djs.baomihua.com
-0.0.0.0 resource.baomihua.com

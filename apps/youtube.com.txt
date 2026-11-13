@@ -1,2 +1,2 @@
 # youtube.com 广告拦截 1条
-0.0.0.0 ads.youtube.com
+0.0.0.0 youtube.com

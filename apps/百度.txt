@@ -1,8 +1,9 @@
-# 百度 广告拦截 31条
+# 百度 广告拦截 32条
 0.0.0.0 ae.bdstatic.com
 0.0.0.0 apps.bdimg.com
 0.0.0.0 b.bdstatic.com
 0.0.0.0 baikebcs.bdimg.com
+0.0.0.0 bce.bdstatic.com
 0.0.0.0 bcebos.com
 0.0.0.0 dss0.bdstatic.com
 0.0.0.0 dss2.bdstatic.com
