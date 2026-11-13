@@ -1,0 +1,7 @@
+# 网易 广告拦截 6条
+0.0.0.0 ads.netease.com
+0.0.0.0 analytics.netease.com
+0.0.0.0 h5.analytics.126.net
+0.0.0.0 m.analytics.126.net
+0.0.0.0 monitor.netease.com
+0.0.0.0 union.127.net

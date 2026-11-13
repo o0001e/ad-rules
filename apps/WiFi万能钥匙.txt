@@ -1,0 +1,4 @@
+# WiFi万能钥匙 广告拦截 3条
+0.0.0.0 ad.wifi.com
+0.0.0.0 adx.wifi.com
+0.0.0.0 log.wifi.com

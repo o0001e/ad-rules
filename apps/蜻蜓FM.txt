@@ -1,0 +1,6 @@
+# 蜻蜓FM 广告拦截 5条
+0.0.0.0 ad.qingting.fm
+0.0.0.0 adlog.qingting.fm
+0.0.0.0 dsp.qingting.fm
+0.0.0.0 monitor.qingting.fm
+0.0.0.0 ssp.qingting.fm

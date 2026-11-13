@@ -1,0 +1,9 @@
+# 天涯明月刀 广告拦截 8条
+0.0.0.0 ad.tencent.com
+0.0.0.0 adn.tencent.com
+0.0.0.0 ads.tencent.com
+0.0.0.0 beacon.tencent.com
+0.0.0.0 monitor.meeting.tencent.com
+0.0.0.0 report.meeting.tencent.com
+0.0.0.0 ssp.tencent.com
+0.0.0.0 union.tencent.com

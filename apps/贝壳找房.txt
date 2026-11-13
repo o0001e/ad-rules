@@ -1,0 +1,6 @@
+# 贝壳找房 广告拦截 5条
+0.0.0.0 adx.ke.com
+0.0.0.0 dsp.ke.com
+0.0.0.0 monitor.ke.com
+0.0.0.0 report.ke.com
+0.0.0.0 ssp.ke.com

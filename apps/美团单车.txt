@@ -1,0 +1,8 @@
+# 美团单车 广告拦截 7条
+0.0.0.0 ad.meituan.com
+0.0.0.0 analytics.meituan.com
+0.0.0.0 click.meituan.com
+0.0.0.0 log.meituan.com
+0.0.0.0 promo.meituan.com
+0.0.0.0 report.meituan.com
+0.0.0.0 union.meituan.com

@@ -1,0 +1,7 @@
+# 虎牙直播 广告拦截 6条
+0.0.0.0 ad.huya.com
+0.0.0.0 log.huya.com
+0.0.0.0 metric.huya.com
+0.0.0.0 monitor.huya.com
+0.0.0.0 report.huya.com
+0.0.0.0 ssp.huya.com

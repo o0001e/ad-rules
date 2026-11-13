@@ -1,0 +1,7 @@
+# 搜狐 广告拦截 6条
+0.0.0.0 ad.sohu.com
+0.0.0.0 ads.sohu.com
+0.0.0.0 adx.sohu.com
+0.0.0.0 monitor.sohucs.com
+0.0.0.0 ssp.sohu.com
+0.0.0.0 track.sohu.com

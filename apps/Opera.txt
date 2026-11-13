@@ -1,0 +1,3 @@
+# Opera 广告拦截 2条
+0.0.0.0 ads.opera.com
+0.0.0.0 promote.opera.com

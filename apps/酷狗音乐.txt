@@ -1,0 +1,4 @@
+# 酷狗音乐 广告拦截 3条
+0.0.0.0 ad.kugou.com
+0.0.0.0 adservice.kugou.com
+0.0.0.0 tracker.kugou.com

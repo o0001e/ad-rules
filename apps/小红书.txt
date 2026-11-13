@@ -1,0 +1,5 @@
+# 小红书 广告拦截 4条
+0.0.0.0 ad.xiaohongshu.com
+0.0.0.0 adapi.xiaohongshu.com
+0.0.0.0 ads.xiaohongshu.com
+0.0.0.0 dsp.xiaohongshu.com

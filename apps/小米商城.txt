@@ -1,0 +1,5 @@
+# 小米商城 广告拦截 4条
+0.0.0.0 ad.mi.com
+0.0.0.0 ads.mi.com
+0.0.0.0 promo.mi.com
+0.0.0.0 union.mi.com

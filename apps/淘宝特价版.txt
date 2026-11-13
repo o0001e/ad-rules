@@ -1,0 +1,19 @@
+# 淘宝特价版 广告拦截 18条
+0.0.0.0 ad.alimama.com
+0.0.0.0 ads.alibaba.com
+0.0.0.0 adx.alimama.com
+0.0.0.0 banner.alimama.com
+0.0.0.0 beacon.alicdn.com
+0.0.0.0 click.alibaba.com
+0.0.0.0 click.tanx.com
+0.0.0.0 dsp.alibaba.com
+0.0.0.0 dsp.alicdn.com
+0.0.0.0 dsp.tanx.com
+0.0.0.0 ssp.alimama.com
+0.0.0.0 ssp.tanx.com
+0.0.0.0 stat.alibaba.com
+0.0.0.0 stat.alimama.com
+0.0.0.0 stats.alibaba.com
+0.0.0.0 track.alibaba.com
+0.0.0.0 tracker.alicdn.com
+0.0.0.0 union.alibaba.com

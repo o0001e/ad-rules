@@ -1,0 +1,3 @@
+# 唯品会 广告拦截 2条
+0.0.0.0 stat.vip.com
+0.0.0.0 union.vip.com

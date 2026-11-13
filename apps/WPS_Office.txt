@@ -1,0 +1,6 @@
+# WPS Office 广告拦截 5条
+0.0.0.0 ads.wps.cn
+0.0.0.0 monitor.wps.com
+0.0.0.0 report.kingsoft.com
+0.0.0.0 tracker.wps.cn
+0.0.0.0 union.wps.cn

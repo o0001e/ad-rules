@@ -1,0 +1,4 @@
+# 知乎 广告拦截 3条
+0.0.0.0 ad.zhihu.com
+0.0.0.0 adx.zhihu.com
+0.0.0.0 beacon.zhihu.com

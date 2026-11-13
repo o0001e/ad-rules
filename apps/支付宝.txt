@@ -1,0 +1,12 @@
+# 支付宝 广告拦截 11条
+0.0.0.0 ad.alipay.com
+0.0.0.0 ads.alipay.com
+0.0.0.0 analytics.alipay.com
+0.0.0.0 csj.alipay.com
+0.0.0.0 log.alipay.com
+0.0.0.0 monitor.alipay.com
+0.0.0.0 report.alipay.com
+0.0.0.0 ssp.alipay.com
+0.0.0.0 stat.alipay.com
+0.0.0.0 stats.alipay.com
+0.0.0.0 track.alipay.com

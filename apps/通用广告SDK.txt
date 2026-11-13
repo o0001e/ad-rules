@@ -1,0 +1,12 @@
+# 通用广告SDK 广告拦截 11条
+0.0.0.0 ad.e.qq.com
+0.0.0.0 ads.e.qq.com
+0.0.0.0 adtrack.umeng.com
+0.0.0.0 adx.e.qq.com
+0.0.0.0 gromore.pangolin-sdk-toutiao.com
+0.0.0.0 monitor.gdt.qq.com
+0.0.0.0 sdk.e.qq.com
+0.0.0.0 sdk.gdt.qq.com
+0.0.0.0 track.gdt.qq.com
+0.0.0.0 track.umeng.com
+0.0.0.0 union.umeng.com

@@ -1,0 +1,15 @@
+# 抖音直播伴侣 广告拦截 14条
+0.0.0.0 ad.douyin.com
+0.0.0.0 analytics.snssdk.com
+0.0.0.0 dsp.bytedance.com
+0.0.0.0 gromore.pangolin-sdk-toutiao.com
+0.0.0.0 log.amemv.com
+0.0.0.0 log.snssdk.com
+0.0.0.0 monitor.snssdk.com
+0.0.0.0 pangolin.bytedance.com
+0.0.0.0 pangolin.snssdk.com
+0.0.0.0 report.bytedance.com
+0.0.0.0 report.snssdk.com
+0.0.0.0 track.snssdk.com
+0.0.0.0 union.bytedance.com
+0.0.0.0 union.douyin.com

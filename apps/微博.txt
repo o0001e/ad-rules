@@ -1,0 +1,8 @@
+# 微博 广告拦截 7条
+0.0.0.0 ad.weibo.com
+0.0.0.0 ads.sina.com
+0.0.0.0 ads.sinaimg.cn
+0.0.0.0 log.sina.com
+0.0.0.0 monitor.sina.com
+0.0.0.0 ssp.weibo.com
+0.0.0.0 stats.sina.com
