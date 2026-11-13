@@ -1,0 +1,73 @@
+name: Trim Dead Domains
+
+on:
+  workflow_run:
+    workflows: ["Update Filters"]
+    types: [completed]
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Trim:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: 检出仓库（浅克隆）
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 校验并修剪
+        run: python3 scripts/trim.py
+
+      - name: 重新发布产物
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: rule
+          name: 规则产物
+          overwrite_files: true
+          fail_on_unmatched_files: false
+          files: |
+            rules/hosts.txt
+            rules/adguard.txt
+            rules/domains.txt
+            rules/dnsmasq.conf
+            rules/clash.yaml
+            rules/surge.list
+            rules/lite.txt
+            rules/lite_domains.txt
+            rules/all.txt
+            rules/whitelist.txt
+            rules/whitelist_adguard.txt
+            rules/build_report.txt
+
+      - name: 同步到 Gitee
+        timeout-minutes: 8
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          if [ -z "${GITEE_TOKEN}" ]; then echo "未配置 Token，跳过"; exit 0; fi
+          git config user.email "adqgg@users.noreply.github.com"
+          git config user.name "adqgg"
+          git remote add gitee "https://oauth2:${GITEE_TOKEN}@gitee.com/ADS9/ad.git" 2>/dev/null || true
+          export GIT_TERMINAL_PROMPT=0
+          for i in 1 2 3; do
+            if git fetch --depth=1 gitee m 2>/dev/null; then
+              git add -f -A rules dead.txt
+              TREE=$(git write-tree)
+              C=$(git commit-tree "$TREE" -p FETCH_HEAD -m "修剪死域 $(date -u '+%F %H:%M') UTC")
+              if timeout 240 git push gitee "$C:m"; then echo "Gitee 已同步"; exit 0; fi
+            fi
+            echo "第 ${i} 次失败"; sleep 5
+          done
+          echo "::warning::Gitee 同步失败"
