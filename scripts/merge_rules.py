@@ -98,6 +98,8 @@ def normalize(line):
     m = re.match(r"^(domain-suffix|domain|host|domain-wildcard)\s*,\s*(.*)$", h)
     if m:
         h = m.group(2).strip().lstrip(".")
+    # dnsmasq wildcard：+.qq.com / *.qq.com
+    h = re.sub(r"^[+*]\.", "", h)
     h = h.replace("||", "").replace("^", "").replace("@@", "").strip(". ")
     h = h.split("$")[0].split("/")[0].strip()
     if re.fullmatch(r"[a-z0-9.-]+", h) and "." in h and len(h) < 80:

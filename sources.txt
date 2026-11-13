@@ -19,6 +19,8 @@ https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns
 https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
 https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt
+https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt
+https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt
 # === 国际/标准源 ===
 https://filters.adtidy.org/android/filters/224_optimized.txt
 https://filters.adtidy.org/extension/ublock/filters/224.txt
