@@ -1,0 +1,45 @@
+name: health-check
+
+on:
+  schedule:
+    # 每 6 小时巡检一次（UTC 0/6/12/18 点 = 北京 8/14/20/2 点）
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: health-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 规则健康巡检（抽样 DNS 验活）
+        id: hc
+        continue-on-error: true
+        run: python3 -u scripts/health_check.py
+
+      - name: 存活率过低 → 触发全量重建
+        if: ${{ steps.hc.outcome == 'failure' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "检测到规则大面积失效，触发重建"
+          gh api -X POST "repos/${{ github.repository }}/actions/workflows/build.yml/dispatches" \
+            -f ref=main -f inputs[skip_crawl]=false
+          echo "::warning::已触发全量重建"
+
+      - name: 保存巡检报告
+        if: always()
+        run: |
+          if [ -f health_report.txt ]; then
+            cat health_report.txt >> "$GITHUB_STEP_SUMMARY"
+          fi

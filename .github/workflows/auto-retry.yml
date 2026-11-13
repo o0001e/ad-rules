@@ -1,0 +1,31 @@
+name: auto-retry
+
+on:
+  workflow_run:
+    workflows: ["ad-rule-build", "gkd-rule-update"]
+    types: [completed]
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  retry:
+    # 只在失败、且还没跑满 3 次时重跑
+    if: ${{ github.event.workflow_run.conclusion == 'failure' && github.event.workflow_run.run_attempt < 3 }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 自动重跑失败的任务
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RUN_ID=${{ github.event.workflow_run.id }}
+          ATTEMPT=${{ github.event.workflow_run.run_attempt }}
+          echo "任务「${{ github.event.workflow_run.name }}」第 ${ATTEMPT} 次运行失败，自动重跑"
+          gh api -X POST "repos/${{ github.repository }}/actions/runs/${RUN_ID}/rerun-failed-jobs" \
+            && echo "已提交重跑请求" \
+            || echo "::warning::重跑请求失败（可能已超出限制）"
+
+      - name: 第三次仍失败则留记录
+        if: ${{ github.event.workflow_run.run_attempt >= 3 }}
+        run: echo "::error::连续 3 次失败，需要人工介入"

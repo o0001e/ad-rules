@@ -34,15 +34,31 @@ def log(msg):
     print("[自愈] " + msg)
 
 
-def git_show(path):
-    """取上一次提交里的文件内容，失败返回 None。"""
+def _best_ref():
+    """优先用最近一次成功快照标签 ok-latest 作为回滚源，没有则退回 HEAD。"""
     try:
-        out = subprocess.run(["git", "show", "HEAD:" + path], cwd=ROOT,
-                             capture_output=True, timeout=20)
-        if out.returncode == 0:
-            return out.stdout.decode("utf-8", "ignore")
+        r = subprocess.run(["git", "rev-parse", "--verify", "ok-latest"],
+                           cwd=ROOT, capture_output=True, timeout=10)
+        if r.returncode == 0:
+            return "ok-latest"
     except Exception:
         pass
+    return "HEAD"
+
+
+RESTORE_REF = _best_ref()
+
+
+def git_show(path):
+    """取回滚源里的文件内容，失败返回 None。"""
+    for ref in (RESTORE_REF, "HEAD"):
+        try:
+            out = subprocess.run(["git", "show", ref + ":" + path], cwd=ROOT,
+                                 capture_output=True, timeout=20)
+            if out.returncode == 0:
+                return out.stdout.decode("utf-8", "ignore")
+        except Exception:
+            pass
     return None
 
 
@@ -214,7 +230,7 @@ def main():
     import datetime
     ver = datetime.datetime.now().strftime("%Y%m%d")
     code = run(ver)
-    lines = ["自愈报告 %s" % ver, "执行时间: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), ""]
+    lines = ["自愈报告 %s（回滚源: %s）" % (ver, RESTORE_REF), "执行时间: " + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), ""]
     lines += ["- " + a for a in actions] or ["- 未发现异常，无需修复"]
     if errors:
         lines += ["", "错误:"] + ["- " + e for e in errors]

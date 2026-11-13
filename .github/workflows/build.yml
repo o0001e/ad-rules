@@ -90,6 +90,17 @@ jobs:
             sleep 3
           done
 
+      - name: 打成功快照标签（回滚用）
+        run: |
+          if [ -f hosts.txt ] && [ "$(grep -c '^0.0.0.0' hosts.txt)" -ge 1000 ]; then
+            TAG="ok-$(date -u '+%Y%m%d-%H%M')"
+            git tag -f "$TAG" && git push -f origin "$TAG" || true
+            git tag -f ok-latest && git push -f origin ok-latest || true
+            echo "已打标签 $TAG 与 ok-latest"
+          else
+            echo "本次结果不达标，不打标签"
+          fi
+
       - name: 同步到 Gitee
         if: ${{ vars.SYNC_GITEE == 'true' }}
         timeout-minutes: 8
