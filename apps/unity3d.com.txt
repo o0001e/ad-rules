@@ -1,2 +1,3 @@
-# unity3d.com 广告拦截 1条
+# unity3d.com 广告拦截 2条
+0.0.0.0 perf-events.cloud.unity3d.com
 0.0.0.0 unityads.unity3d.com

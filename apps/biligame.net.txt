@@ -1,0 +1,2 @@
+# biligame.net 广告拦截 1条
+0.0.0.0 line1-log.biligame.net

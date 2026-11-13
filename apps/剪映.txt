@@ -1,2 +1,4 @@
-# 剪映 广告拦截 1条
+# 剪映 广告拦截 3条
+0.0.0.0 api-access.pangolin-sdk-toutiao1.com
 0.0.0.0 gromore.pangolin-sdk-toutiao-b.com
+0.0.0.0 pangolin-sdk-toutiao-b.com

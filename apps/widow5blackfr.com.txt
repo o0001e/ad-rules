@@ -1,0 +1,2 @@
+# widow5blackfr.com 广告拦截 1条
+0.0.0.0 widow5blackfr.com

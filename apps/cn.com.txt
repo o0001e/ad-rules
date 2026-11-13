@@ -1,2 +1,3 @@
-# cn.com 广告拦截 1条
+# cn.com 广告拦截 2条
+0.0.0.0 cxsh.cn.com
 0.0.0.0 zisu.cn.com

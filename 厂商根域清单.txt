@@ -3,7 +3,7 @@
 12306	12306.cn	1
 21世纪不动产	21cn.com	2
 2345天气	2345.com	1
-360浏览器	360.cn 360.com	4
+360浏览器	360.cn 360.com	5
 58同城	58.com	16
 BOSS直聘	zhipin.com	5
 Bitwarden	bitwarden.com	1
@@ -19,16 +19,16 @@ MOMO陌陌	immomo.com	1
 MiniMax	minimaxi.com	1
 NOW直播	now.qq.com	1
 Opera	opera.com	2
-QQ	qq.com	326
+QQ	qq.com	327
 QQ浏览器	browser.qq.com	2
 QQ炫舞	x5.qq.com	1
-QQ空间	qq.com	326
-QQ邮箱	qq.com	326
+QQ空间	qq.com	327
+QQ邮箱	qq.com	327
 QQ音乐	y.qq.com qqmusic.com	4
 QQ飞车	speed.qq.com	1
 Soul	soulapp.cn	3
 T3出行	t3go.cn	1
-UC浏览器	uc.cn ucweb.com	8
+UC浏览器	uc.cn ucweb.com	9
 WPS	wps.cn wps.com kingsoft.com kdocs.cn	37
 WPS Office	wps.cn wps.com kingsoft.com kdocs.cn	37
 WiFi万能钥匙	wifi.com	3
@@ -40,6 +40,7 @@ vivo	vivo.com	4
 vivo 商城	vivo.com	4
 一起作业	17zuoye.com	1
 七猫小说	qimao.com	1
+三星	samsung.com	2
 世纪佳缘	jiayuan.com	4
 中公教育	offcn.com	2
 中关村在线	zol.com.cn	8
@@ -67,10 +68,10 @@ vivo 商城	vivo.com	4
 凤凰FM	ifeng.com	6
 创客贴	chuangkit.com	1
 前程无忧	51job.com	5
-剪映	pangolin-sdk-toutiao1.com pangolin-sdk-toutiao-b.com pangolin-dsp-toutiao.com gromore.pangolin-sdk-toutiao.com lemon.lv	1
+剪映	pangolin-sdk-toutiao1.com pangolin-sdk-toutiao-b.com pangolin-dsp-toutiao.com gromore.pangolin-sdk-toutiao.com lemon.lv	3
 努比亚	nubia.com	3
 千千音乐	qianqian.com	4
-华为商城	huawei.com hicloud.com	11
+华为商城	huawei.com hicloud.com	12
 华为运动健康	huawei.com	8
 华图教育	huatu.com	1
 华泰证券	htsc.com.cn	1
@@ -115,7 +116,7 @@ vivo 商城	vivo.com	4
 微博	weibo.com sina.com sinaimg.cn	49
 微博轻享版	weibo.com sina.com sinaimg.cn	49
 微盟	weimob.com	3
-微视	weishi.qq.com	3
+微视	weishi.qq.com	4
 快手	kuaishou.com gifshow.com kwai.com kuaishouzt.com kwcdn.com adkwai.com	70
 快手极速版	kuaishou.com gifshow.com kwai.com kuaishouzt.com kwcdn.com adkwai.com	70
 懂车帝	dongchedi.com	1
@@ -133,9 +134,9 @@ vivo 商城	vivo.com	4
 掌阅	zhangyue.com ireader.com	1
 探探	tantanapp.com	4
 探探－探索精彩探索爱	tantanapp.com	4
-搜狐	sohu.com sohucs.com	13
-搜狐焦点	focus.cn	2
-搜狐视频关注流	sohu.com sohucs.com	13
+搜狐	sohu.com sohucs.com	15
+搜狐焦点	focus.cn	3
+搜狐视频关注流	sohu.com sohucs.com	15
 搜狗	so.com	7
 搜狗浏览器	sogou.com	51
 携程	ctrip.com qunar.com trip.com	15
@@ -145,7 +146,7 @@ vivo 商城	vivo.com	4
 斗鱼	douyu.com douyucdn.cn	3
 新东方	xdf.cn	5
 新东方在线	koolearn.com	3
-新浪	sina.com.cn	19
+新浪	sina.com.cn	20
 新浪乐居	leju.com	4
 星愿浏览器	twinkstar.com	1
 智联招聘	zhaopin.com	1
@@ -219,7 +220,7 @@ vivo 商城	vivo.com	4
 荣耀	honor.com	3
 荣耀商城	honor.com	3
 薄荷健康	boohee.com	1
-虎扑	hupu.com hoopchina.com	3
+虎扑	hupu.com hoopchina.com	4
 虎牙	huya.com	7
 虎牙直播	huya.com	7
 蚂蚁财富	antfortune.com	1
@@ -235,7 +236,7 @@ vivo 商城	vivo.com	4
 跟谁学	genshuixue.com	1
 车轮查违章	chelun.com	2
 转转	zhuanzhuan.com	1
-迅雷	xunlei.com	2
+迅雷	xunlei.com	5
 途牛	tuniu.com	2
 通用广告SDK	pangle.io gromore.com csjplatform.com pangolin-sdk-toutiao.com gdt.qq.com e.qq.com	19
 酷我音乐	kuwo.cn kuwo.com	3
@@ -252,4 +253,5 @@ vivo 商城	vivo.com	4
 陌陌	immomo.com	1
 饿了么	ele.me elemecdn.com	13
 高德地图	amap.com gaode.com	29
+魅族	meizu.com	1
 黑莓	blackberry.com	2

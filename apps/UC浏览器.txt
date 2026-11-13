@@ -1,9 +1,10 @@
-# UC浏览器 广告拦截 8条
+# UC浏览器 广告拦截 9条
 0.0.0.0 ads.uc.cn
 0.0.0.0 adtrack.uc.cn
 0.0.0.0 adtrack.ucweb.com
 0.0.0.0 applog.uc.cn
 0.0.0.0 log.uc.cn
+0.0.0.0 px.ucweb.com
 0.0.0.0 ssp.ucweb.com
 0.0.0.0 track.uc.cn
 0.0.0.0 union.uc.cn

@@ -1,3 +1,4 @@
-# 搜狐焦点 广告拦截 2条
+# 搜狐焦点 广告拦截 3条
 0.0.0.0 adv-sv-show.focus.cn
+0.0.0.0 adv-sv-stat.focus.cn
 0.0.0.0 bdu.focus.cn

@@ -1,0 +1,2 @@
+# qtfm.cn 广告拦截 1条
+0.0.0.0 adlaunch.qtfm.cn

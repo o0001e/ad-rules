@@ -1,0 +1,2 @@
+# world-ad.jp 广告拦截 1条
+0.0.0.0 world-ad.jp

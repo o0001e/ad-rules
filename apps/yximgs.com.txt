@@ -1,3 +1,4 @@
-# yximgs.com 广告拦截 2条
+# yximgs.com 广告拦截 3条
 0.0.0.0 ali-ad.a.yximgs.com
+0.0.0.0 hw-ot-ad.a.yximgs.com
 0.0.0.0 tx-ad.a.yximgs.com

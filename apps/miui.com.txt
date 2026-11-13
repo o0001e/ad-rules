@@ -1,2 +1,4 @@
-# miui.com 广告拦截 1条
+# miui.com 广告拦截 3条
+0.0.0.0 adv.sec.miui.com
+0.0.0.0 logupdate.avlyun.sec.miui.com
 0.0.0.0 tracking.miui.com

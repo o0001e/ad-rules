@@ -1,0 +1,3 @@
+# yandex.net 广告拦截 2条
+0.0.0.0 extmaps-api.yandex.net
+0.0.0.0 offerwall.yandex.net

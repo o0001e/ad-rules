@@ -1,2 +1,0 @@
-# city-ad.com 广告拦截 1条
-0.0.0.0 city-ad.com

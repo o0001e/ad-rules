@@ -1,2 +1,3 @@
-# google.com 广告拦截 1条
+# google.com 广告拦截 2条
 0.0.0.0 adservice.google.com
+0.0.0.0 fundingchoicesmessages.google.com

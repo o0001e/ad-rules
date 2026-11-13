@@ -1,0 +1,2 @@
+# hoyoverse.com 广告拦截 1条
+0.0.0.0 log-upload-os.hoyoverse.com

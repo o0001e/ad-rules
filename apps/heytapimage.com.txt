@@ -1,0 +1,3 @@
+# heytapimage.com 广告拦截 2条
+0.0.0.0 adsfs-sdkconfig.heytapimage.com
+0.0.0.0 adsfs.heytapimage.com
