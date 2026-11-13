@@ -81,10 +81,7 @@ jobs:
           export GIT_TERMINAL_PROMPT=0
           for i in 1 2 3; do
             if git fetch --depth=1 gitee m 2>/dev/null; then
-              cp -a rules/apps /tmp/apps_new
-              git checkout -q -B tmp FETCH_HEAD
-              rm -rf rules/apps && cp -a /tmp/apps_new rules/apps
-              git add -A
+              git add -f -A rules/apps
               TREE=$(git write-tree)
               C=$(git commit-tree "$TREE" -p FETCH_HEAD -m "分组更新 $(date -u '+%F %H:%M') UTC")
               if timeout 240 git push gitee "$C:m"; then echo "Gitee 分组已同步"; exit 0; fi
