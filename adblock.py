@@ -390,9 +390,17 @@ def load_white():
 
 
 def load_dead():
+    """dead.txt 每行：域名<TAB>YYYY-MM-DD（最后确认失效的日期）"""
     if not os.path.exists(DEAD):
-        return set()
-    return {l.strip() for l in open(DEAD, encoding="utf-8") if l.strip() and not l.strip().startswith("#")}
+        return {}
+    out = {}
+    for l in open(DEAD, encoding="utf-8"):
+        s = l.strip()
+        if not s or s.startswith("#"):
+            continue
+        p = s.split("\t")
+        out[p[0]] = p[1] if len(p) > 1 else ""
+    return out
 
 
 def dns_alive(d, tries=2):
@@ -423,16 +431,27 @@ def check_dead(blocked, workers=60):
     return dead
 
 
-def save_dead(dead):
-    old = set()
-    if os.path.exists(DEAD):
-        old = {l.strip() for l in open(DEAD, encoding="utf-8")
-               if l.strip() and not l.strip().startswith("#")}
-    new = sorted(old | dead)
+def save_dead(dead, dead_days=30, workers=60):
+    """已确认失效的域名带日期入库；超过 30 天（或没有日期）的重新解析一次，能解析就放回规则"""
+    today = datetime.date.today()
+    old = load_dead()
+    expired = [d for d, dt in old.items() if not dt or (today - datetime.date.fromisoformat(dt)).days >= dead_days]
+    revived = set()
+    if expired:
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            res = list(ex.map(dns_alive, expired))
+        revived = {d for d, ok in zip(expired, res) if ok}
+        for d in expired:
+            if d not in revived:
+                old[d] = today.isoformat()
+        print("[死域复核] %d 条到期复验，%d 条已恢复解析，移出 dead.txt" % (len(expired), len(revived)))
+    for d in dead:
+        old[d] = today.isoformat()
     with open(DEAD, "w", encoding="utf-8") as f:
-        f.write("# 已确认失效的域名（DNS 解析失败），合并时跳过\n")
-        f.write("".join(d + "\n" for d in new))
-    print("[死域] dead.txt 累计 %d 条" % len(new))
+        f.write("# 已确认失效的域名（域名 + 最后确认日期），超过 30 天自动复验\n")
+        f.write("".join("%s\t%s\n" % (d, dt or today.isoformat()) for d, dt in sorted(old.items())))
+    print("[死域] dead.txt 累计 %d 条" % len(old))
+    return revived
 
 
 def main():
@@ -469,10 +488,7 @@ def main():
         ranked = sorted(keep, key=lambda d: (ad_like(d), doms[d], -len(d)), reverse=True)
         keep = set(ranked[:TARGET])
         print("[限额] 截断到 %d 条" % TARGET)
-    dead = set()
-    if os.path.exists(DEAD):
-        dead = {l.strip() for l in open(DEAD, encoding="utf-8")
-                if l.strip() and not l.strip().startswith("#")}
+    dead = set(load_dead().keys())
     blocked = (keep | extra) - dead
     if dead:
         print("[死域] 跳过 %d 条已确认无效的域名" % len(dead & (keep | extra)))
@@ -490,7 +506,7 @@ def main():
         dead = check_dead(sorted(blocked))
         if dead:
             blocked -= dead
-            save_dead(dead)
+        save_dead(dead)
     write(blocked, white, srcs)
     print("[完成] 用时 %.1f 秒" % (time.time() - t0))
 
