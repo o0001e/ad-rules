@@ -1,0 +1,2 @@
+# kiuee8.com 广告拦截 1条
+0.0.0.0 kiuee8.com

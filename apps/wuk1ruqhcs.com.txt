@@ -1,0 +1,2 @@
+# wuk1ruqhcs.com 广告拦截 1条
+0.0.0.0 wuk1ruqhcs.com

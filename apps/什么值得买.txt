@@ -1,0 +1,7 @@
+# 什么值得买 广告拦截 6条
+0.0.0.0 analytics-api-01.smzdm.com
+0.0.0.0 analytics-api.smzdm.com
+0.0.0.0 app-api.smzdm.com
+0.0.0.0 mz-api.smzdm.com
+0.0.0.0 res-ga.smzdm.com
+0.0.0.0 rtx.smzdm.com

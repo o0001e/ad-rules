@@ -1,0 +1,2 @@
+# bajiu.cn 广告拦截 1条
+0.0.0.0 a1.bajiu.cn

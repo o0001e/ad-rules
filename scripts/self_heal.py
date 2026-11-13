@@ -140,7 +140,7 @@ def run(ver):
         log("已回滚到上一版 %d 条" % pn)
         return 0
     if pn and n > pn * 1.6:
-        log("主规则从 %d 条暴涨到 %d 条，疑似上游混入垃圾，保留但仍记录" % (pn, n))
+        log("主规则从 %d 条增长到 %d 条（放宽收录后的正常变化）" % (pn, n))
 
     # 2. 清洗：格式 + 去重
     bad = [h for h in cur if not DOMAIN_RE.match(h)]

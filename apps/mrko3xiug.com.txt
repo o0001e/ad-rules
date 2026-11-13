@@ -1,0 +1,2 @@
+# mrko3xiug.com 广告拦截 1条
+0.0.0.0 mrko3xiug.com

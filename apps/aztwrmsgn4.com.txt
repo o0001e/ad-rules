@@ -1,0 +1,2 @@
+# aztwrmsgn4.com 广告拦截 1条
+0.0.0.0 aztwrmsgn4.com

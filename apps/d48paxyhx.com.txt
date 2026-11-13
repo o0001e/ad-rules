@@ -1,0 +1,2 @@
+# d48paxyhx.com 广告拦截 1条
+0.0.0.0 d48paxyhx.com

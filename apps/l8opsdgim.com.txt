@@ -1,0 +1,2 @@
+# l8opsdgim.com 广告拦截 1条
+0.0.0.0 l8opsdgim.com

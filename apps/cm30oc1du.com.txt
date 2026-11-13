@@ -1,0 +1,2 @@
+# cm30oc1du.com 广告拦截 1条
+0.0.0.0 cm30oc1du.com

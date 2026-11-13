@@ -1,0 +1,2 @@
+# xsfaya.com 广告拦截 1条
+0.0.0.0 bchina-1.xsfaya.com

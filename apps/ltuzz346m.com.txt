@@ -1,0 +1,2 @@
+# ltuzz346m.com 广告拦截 1条
+0.0.0.0 ltuzz346m.com

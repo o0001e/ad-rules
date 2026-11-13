@@ -147,12 +147,24 @@ def main():
         return
 
     expected = set()
+    written = skipped = 0
     for company, keep in groups.items():
         fn = safe_name(company) + ".txt"
         expected.add(fn)
-        with open(os.path.join(APPS_DIR, fn), "w", encoding="utf-8") as f:
-            f.write("# %s 广告拦截 %d条\n" % (company, len(keep)))
-            f.write("\n".join("0.0.0.0 " + h for h in keep) + "\n")
+        content = "# %s 广告拦截 %d条\n" % (company, len(keep)) + \
+                  "\n".join("0.0.0.0 " + h for h in keep) + "\n"
+        path = os.path.join(APPS_DIR, fn)
+        # 内容未变就不落盘，避免每次构建都把几千个文件全改一遍（省时间、免冲突）
+        try:
+            if open(path, encoding="utf-8").read() == content:
+                skipped += 1
+                continue
+        except OSError:
+            pass
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        written += 1
+    print("[分组] 实际写入 %d 个文件，未变化跳过 %d 个" % (written, skipped))
 
     # 清理不在 app_list.json 里的旧分组文件
     removed = 0

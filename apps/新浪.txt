@@ -1,0 +1,9 @@
+# 新浪 广告拦截 8条
+0.0.0.0 adbox.sina.com.cn
+0.0.0.0 d1.sina.com.cn
+0.0.0.0 d2.sina.com.cn
+0.0.0.0 d3.sina.com.cn
+0.0.0.0 d4.sina.com.cn
+0.0.0.0 d5.sina.com.cn
+0.0.0.0 matwbp.iask.sina.com.cn
+0.0.0.0 pfp.sina.com.cn

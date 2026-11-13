@@ -40,9 +40,17 @@ jobs:
           python3 --version
           pip install --quiet requests pypinyin
 
-      - name: 爬虫抓取（限时 40 分钟，失败不阻断）
+      - name: 爬虫抓取（按需执行，限时 40 分钟，失败不阻断）
         if: ${{ github.event.inputs.skip_crawl != 'true' }}
-        run: timeout 2400 python3 -u scripts/crawl_rules.py || echo "爬虫超时或失败，跳过"
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null | tr '\n' ' ')
+            if [ -n "$CHANGED" ] && ! echo "$CHANGED" | tr ' ' '\n' | grep -qvE '^(app_list\.json|README\.md|scripts/gen_apps\.py|scripts/app_rank\.py|厂商根域清单\.txt)$'; then
+              echo "::notice::本次只改动配置/分组脚本，跳过爬虫，复用现有规则"
+              exit 0
+            fi
+          fi
+          timeout 2400 python3 -u scripts/crawl_rules.py || echo "爬虫超时或失败，跳过"
 
       - name: 合并上游源与自建规则
         run: python3 scripts/merge_rules.py

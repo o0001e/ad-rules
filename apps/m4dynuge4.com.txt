@@ -1,0 +1,2 @@
+# m4dynuge4.com 广告拦截 1条
+0.0.0.0 m4dynuge4.com

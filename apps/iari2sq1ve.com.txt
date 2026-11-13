@@ -1,0 +1,2 @@
+# iari2sq1ve.com 广告拦截 1条
+0.0.0.0 iari2sq1ve.com

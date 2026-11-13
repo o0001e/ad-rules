@@ -1,0 +1,2 @@
+# nxyzabhy3.com 广告拦截 1条
+0.0.0.0 nxyzabhy3.com

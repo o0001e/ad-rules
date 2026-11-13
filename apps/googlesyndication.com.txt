@@ -1,0 +1,3 @@
+# googlesyndication.com 广告拦截 2条
+0.0.0.0 googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com

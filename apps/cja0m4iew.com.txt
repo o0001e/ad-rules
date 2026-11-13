@@ -1,0 +1,2 @@
+# cja0m4iew.com 广告拦截 1条
+0.0.0.0 cja0m4iew.com

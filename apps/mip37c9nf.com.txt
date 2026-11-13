@@ -1,0 +1,2 @@
+# mip37c9nf.com 广告拦截 1条
+0.0.0.0 mip37c9nf.com

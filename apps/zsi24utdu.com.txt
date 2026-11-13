@@ -1,0 +1,2 @@
+# zsi24utdu.com 广告拦截 1条
+0.0.0.0 zsi24utdu.com

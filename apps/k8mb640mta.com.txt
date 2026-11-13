@@ -1,0 +1,2 @@
+# k8mb640mta.com 广告拦截 1条
+0.0.0.0 k8mb640mta.com

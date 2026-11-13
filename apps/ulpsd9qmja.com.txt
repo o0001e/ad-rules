@@ -1,0 +1,2 @@
+# ulpsd9qmja.com 广告拦截 1条
+0.0.0.0 ulpsd9qmja.com

@@ -1,0 +1,2 @@
+# aickw1c4w.com 广告拦截 1条
+0.0.0.0 aickw1c4w.com

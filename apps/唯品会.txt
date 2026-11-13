@@ -1,0 +1,5 @@
+# 唯品会 广告拦截 4条
+0.0.0.0 api.union.vip.com
+0.0.0.0 click.union.vip.com
+0.0.0.0 dmp-data.vip.com
+0.0.0.0 n-st.vip.com

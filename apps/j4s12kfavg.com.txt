@@ -1,0 +1,2 @@
+# j4s12kfavg.com 广告拦截 1条
+0.0.0.0 j4s12kfavg.com

@@ -1,0 +1,23 @@
+# 高德地图 广告拦截 22条
+0.0.0.0 adashx.ut.amap.com
+0.0.0.0 adiu.amap.com
+0.0.0.0 amap-aos-info-nogw.amap.com
+0.0.0.0 apsrgeo.amap.com
+0.0.0.0 awaken.amap.com
+0.0.0.0 cache.gaode.com
+0.0.0.0 cgicol.amap.com
+0.0.0.0 dualstack-cgicol.amap.com
+0.0.0.0 dualstack-logs.amap.com
+0.0.0.0 h-adashx.ut.amap.com
+0.0.0.0 logs.amap.com
+0.0.0.0 maps.testing.amap.com
+0.0.0.0 nav1.gaode.com
+0.0.0.0 optimus-ads-ykx.amap.com
+0.0.0.0 optimus-ads.amap.com
+0.0.0.0 oss.amap.com
+0.0.0.0 page.amap.com
+0.0.0.0 render-prod-backup-tile.amap.com
+0.0.0.0 restsdk.amap.com
+0.0.0.0 rgeo-aloc.amap.com
+0.0.0.0 ts.amap.com
+0.0.0.0 v6-adashx.ut.amap.com

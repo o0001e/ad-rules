@@ -1,0 +1,2 @@
+# dgrpeldt54.com 广告拦截 1条
+0.0.0.0 dgrpeldt54.com

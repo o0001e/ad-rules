@@ -368,6 +368,17 @@ def per_company_stats(blocked):
     return rows
 
 
+
+def _save(path, content):
+    """内容与磁盘一致时不重写，减少无意义变更。"""
+    try:
+        if open(path, encoding="utf-8").read() == content:
+            return False
+    except OSError:
+        pass
+    open(path, "w", encoding="utf-8").write(content)
+    return True
+
 def write(blocked, white, suffix_ok, suffix_exact):
     os.makedirs(OUT, exist_ok=True)
     ver = datetime.datetime.now().strftime("%Y%m%d")
@@ -402,8 +413,8 @@ def write(blocked, white, suffix_ok, suffix_exact):
            f"! 拦截条数: {n}",
            "! 配套白名单: whitelist.txt / whitelist_adguard.txt", ""]
     adg += ["||" + h + "^" for h in sorted(blocked)]
-    open(os.path.join(OUT, "adguard.txt"), "w", encoding="utf-8").write("\n".join(adg) + "\n")
-    open(os.path.join(OUT, "domains.txt"), "w", encoding="utf-8").write("\n".join(sorted(blocked)) + "\n")
+    _save(os.path.join(OUT, "adguard.txt"), "\n".join(adg) + "\n")
+    _save(os.path.join(OUT, "domains.txt"), "\n".join(sorted(blocked)) + "\n")
     open(os.path.join(OUT, "hosts.txt"), "w", encoding="utf-8").write(
         "\n".join([f"# AD-QGG hosts {ver} 条数: {n}"] + ["0.0.0.0 " + h for h in sorted(blocked)]) + "\n")
 

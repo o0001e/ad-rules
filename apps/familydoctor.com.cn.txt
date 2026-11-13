@@ -1,0 +1,2 @@
+# familydoctor.com.cn 广告拦截 1条
+0.0.0.0 kdewa111.familydoctor.com.cn

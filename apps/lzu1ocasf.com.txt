@@ -1,0 +1,2 @@
+# lzu1ocasf.com 广告拦截 1条
+0.0.0.0 lzu1ocasf.com

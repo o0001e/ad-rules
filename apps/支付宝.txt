@@ -1,0 +1,9 @@
+# 支付宝 广告拦截 8条
+0.0.0.0 amdc.alipay.com
+0.0.0.0 collect.alipay.com
+0.0.0.0 datagw-edge.alipay.com
+0.0.0.0 loggw-ex.alipay.com
+0.0.0.0 loggw-exsdk.alipay.com
+0.0.0.0 loggw-extiny.alipay.com
+0.0.0.0 loggw.alipay.com
+0.0.0.0 openmonitor.alipay.com

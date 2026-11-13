@@ -1,0 +1,2 @@
+# gpu2rbzpe.com 广告拦截 1条
+0.0.0.0 gpu2rbzpe.com

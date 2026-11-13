@@ -1,0 +1,2 @@
+# tg0val4vb.com 广告拦截 1条
+0.0.0.0 tg0val4vb.com

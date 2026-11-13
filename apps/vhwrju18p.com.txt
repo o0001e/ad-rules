@@ -1,0 +1,2 @@
+# vhwrju18p.com 广告拦截 1条
+0.0.0.0 vhwrju18p.com

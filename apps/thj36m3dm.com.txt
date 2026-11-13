@@ -1,0 +1,2 @@
+# thj36m3dm.com 广告拦截 1条
+0.0.0.0 thj36m3dm.com

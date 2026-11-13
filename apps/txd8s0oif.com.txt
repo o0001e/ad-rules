@@ -1,0 +1,2 @@
+# txd8s0oif.com 广告拦截 1条
+0.0.0.0 txd8s0oif.com

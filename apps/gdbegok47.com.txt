@@ -1,0 +1,2 @@
+# gdbegok47.com 广告拦截 1条
+0.0.0.0 gdbegok47.com

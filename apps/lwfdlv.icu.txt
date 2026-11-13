@@ -1,0 +1,2 @@
+# lwfdlv.icu 广告拦截 1条
+0.0.0.0 lwfdlv.icu

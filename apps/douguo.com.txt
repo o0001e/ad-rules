@@ -1,0 +1,4 @@
+# douguo.com 广告拦截 3条
+0.0.0.0 abc.douguo.com
+0.0.0.0 kpshx.douguo.com
+0.0.0.0 leabd.douguo.com

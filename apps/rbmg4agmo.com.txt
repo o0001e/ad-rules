@@ -1,0 +1,2 @@
+# rbmg4agmo.com 广告拦截 1条
+0.0.0.0 rbmg4agmo.com

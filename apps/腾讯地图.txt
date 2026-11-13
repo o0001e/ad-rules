@@ -1,0 +1,7 @@
+# 腾讯地图 广告拦截 6条
+0.0.0.0 5gimg.map.qq.com
+0.0.0.0 apikey.map.qq.com
+0.0.0.0 apollo.map.qq.com
+0.0.0.0 cc.map.qq.com
+0.0.0.0 corssdk.map.qq.com
+0.0.0.0 lhp.map.qq.com

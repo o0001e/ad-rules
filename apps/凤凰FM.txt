@@ -1,0 +1,5 @@
+# 凤凰FM 广告拦截 4条
+0.0.0.0 9fum.ifeng.com
+0.0.0.0 ax.ifeng.com
+0.0.0.0 qcvf.ifeng.com
+0.0.0.0 ztyumn.ifeng.com

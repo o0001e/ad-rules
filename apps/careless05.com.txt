@@ -1,0 +1,2 @@
+# careless05.com 广告拦截 1条
+0.0.0.0 careless05.com

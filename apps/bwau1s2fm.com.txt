@@ -1,0 +1,2 @@
+# bwau1s2fm.com 广告拦截 1条
+0.0.0.0 bwau1s2fm.com

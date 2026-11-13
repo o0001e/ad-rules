@@ -1,0 +1,2 @@
+# n6pepvekwa.com 广告拦截 1条
+0.0.0.0 n6pepvekwa.com

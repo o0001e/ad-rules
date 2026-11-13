@@ -1,0 +1,2 @@
+# vidsgs4x4.com 广告拦截 1条
+0.0.0.0 vidsgs4x4.com
