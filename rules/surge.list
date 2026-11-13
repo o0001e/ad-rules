@@ -1090,7 +1090,6 @@ DOMAIN,adserver.hwupgrade.it
 DOMAIN,adserver.icmedienhaus.de
 DOMAIN,adserver.infotorg.se
 DOMAIN,adserver.interfree.it
-DOMAIN,adserver.irishwebmasterforum.com
 DOMAIN,adserver.ision.de
 DOMAIN,adserver.isonews.com
 DOMAIN,adserver.janes.org
@@ -2123,6 +2122,7 @@ DOMAIN,api-analytics.pelikan.sk
 DOMAIN,api-analytics.prod.birdapp.com
 DOMAIN,api-analytics.rozetka.com.ua
 DOMAIN,api-hotmart-tracking-manager.hotmart.com
+DOMAIN,api-log-upload.wenext.technology
 DOMAIN,api-push.com
 DOMAIN,api-push.meizu.com
 DOMAIN,api-visitor-analytics.intercom.com
@@ -2302,7 +2302,6 @@ DOMAIN,click-performance.assets.rndtech.de
 DOMAIN,click-plus.net
 DOMAIN,click-rtb2-apac.affinity.net
 DOMAIN,click-rtb2-apac.applabs.live
-DOMAIN,click-rtb2-apac.onenativeads.com
 DOMAIN,click-rtb2-eu.affinity.net
 DOMAIN,click-rtb2-eu.mediarise.io
 DOMAIN,click-rtb2-eu.n-data.io
@@ -2621,6 +2620,7 @@ DOMAIN,globalapi.ad.xiaomi.com
 DOMAIN,globale-analytics-sdk.global-e.com
 DOMAIN,go-g3t-push.net
 DOMAIN,go-marketing.comed.com
+DOMAIN,goo-access-analytics.appspot.com
 DOMAIN,good-ads-online.com
 DOMAIN,google-ads.hara.vn
 DOMAIN,google-analytics-cn.com

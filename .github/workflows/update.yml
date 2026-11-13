@@ -33,6 +33,9 @@ jobs:
           if [ "$N" -lt 1000 ]; then echo "::error::规则数异常偏低"; exit 1; fi
           if grep -qE 'gitee\.com|github\.com' rules/hosts.txt; then echo "::error::仓库域名被误拦"; exit 1; fi
 
+      - name: 误报回归检测
+        run: python3 scripts/regress.py
+
       - name: 发布产物到 Release
         uses: softprops/action-gh-release@v2
         with:
@@ -47,8 +50,6 @@ jobs:
             rules/dnsmasq.conf
             rules/clash.yaml
             rules/surge.list
-            rules/lite.txt
-            rules/lite_domains.txt
             rules/all.txt
             rules/whitelist.txt
             rules/whitelist_adguard.txt
@@ -75,6 +76,30 @@ jobs:
             echo "第 ${i} 次失败"; sleep 5
           done
           echo "::warning::Gitee 同步失败"
+
+      - name: 打版本快照标签
+        if: success()
+        run: |
+          TAG="v$(date -u '+%Y%m%d-%H%M')"
+          git tag -f "$TAG"
+          git push -f origin "$TAG" || true
+          git tag | sort | head -n -30 | xargs -r -n1 git push --delete origin || true
+          git tag | sort | head -n -30 | xargs -r git tag -d || true
+
+  Notify_Failure:
+    needs: [ Update_Filters ]
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: 开 Issue 告警
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `构建失败 ${new Date().toISOString().slice(0,16).replace('T',' ')} UTC`;
+            const body = `工作流 [${{ github.workflow }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) 失败，请检查日志。`;
+            await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body });
 
   Delete_Workflow_Runs:
     needs: [ Update_Filters ]

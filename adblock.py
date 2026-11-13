@@ -113,6 +113,7 @@ def ad_like(d):
 
 def collect(files):
     doms = collections.Counter()
+    srcs = collections.defaultdict(set)
     for idx, f in files:
         n = 0
         with open(f, encoding="utf-8", errors="ignore") as fh:
@@ -120,9 +121,10 @@ def collect(files):
                 d = normalize(line)
                 if d and not is_protected(d):
                     doms[d] += 1
+                    srcs[d].add(idx)
                     n += 1
         print("[解析] 源%02d %d 条" % (idx, n))
-    return doms
+    return doms, srcs
 
 
 def collapse(blocked, white):
@@ -139,8 +141,9 @@ def collapse(blocked, white):
     return blocked - dropped, len(dropped)
 
 
-def write(blocked, white, apps):
+def write(blocked, white, apps, srcs=None):
     os.makedirs(OUT, exist_ok=True)
+    srcs = srcs or {}
     ver = time.strftime("%Y%m%d %H:%M")
     n = len(blocked)
     if n < 1000:
@@ -194,30 +197,6 @@ def write(blocked, white, apps):
             f.write("".join("0.0.0.0 %s\n" % d for d in sorted(set(ds))))
     print("[分组] %d 个 App 分组" % len(groups))
 
-    # Lite：只留国内厂商 + .cn
-    def root_of(d):
-        p = d.split(".")
-        if len(p) >= 3 and p[-2] in ("com", "net", "org", "gov") and p[-1] == "cn":
-            return ".".join(p[-3:])
-        return ".".join(p[-2:]) if len(p) >= 2 else d
-    lite = {d for d in blocked
-            if root_of(d) in roots or root_of(d) in CN_VENDORS or d.endswith(".cn")}
-    with open(os.path.join(OUT, "lite.txt"), "w", encoding="utf-8") as f:
-        f.write("# AD-QGG Lite（国内）\n# Update: %s\n" % ver)
-        f.write("".join("0.0.0.0 %s\n" % d for d in sorted(lite)))
-    with open(os.path.join(OUT, "lite_domains.txt"), "w", encoding="utf-8") as f:
-        f.write("".join(d + "\n" for d in sorted(lite)))
-    print("[Lite] %d 条" % len(lite))
-
-    # 白名单（配套：把不想拦的域加入 whitelist.txt 即可）
-    with open(os.path.join(OUT, "whitelist.txt"), "w", encoding="utf-8") as f:
-        f.write("# AD-QGG 白名单（一行一个域名）\n# Update: %s\n# Count: %d\n"
-                % (ver, len(white)))
-        f.write("".join(d + "\n" for d in sorted(white)))
-    with open(os.path.join(OUT, "whitelist_adguard.txt"), "w", encoding="utf-8") as f:
-        f.write("! AD-QGG 白名单（AdGuard 语法）\n! Update: %s\n" % ver)
-        f.write("".join("@@||%s^\n" % d for d in sorted(white)))
-
     # all.txt：全量 + 全分组去重
     allset = set(blocked)
     for ds in groups.values():
@@ -225,15 +204,30 @@ def write(blocked, white, apps):
     with open(os.path.join(OUT, "all.txt"), "w", encoding="utf-8") as f:
         f.write("".join("0.0.0.0 %s\n" % d for d in sorted(allset)))
 
+    # 来源统计：每个域名被几个独立源收录
+    with open(os.path.join(OUT, "source_report.txt"), "w", encoding="utf-8") as f:
+        f.write("# 域名\t收录源数\t来源编号\n")
+        for d in sorted(blocked):
+            ids = ",".join(str(x) for x in sorted(srcs.get(d, ())))
+            f.write("%s\t%d\t%s\n" % (d, len(srcs.get(d, ())), ids))
+
+    # 白名单产物
+    with open(os.path.join(OUT, "whitelist.txt"), "w", encoding="utf-8") as f:
+        f.write("# AD-QGG 白名单（一行一个域名）\n# Update: %s\n# Count: %d\n" % (ver, len(white)))
+        f.write("".join(d + "\n" for d in sorted(white)))
+    with open(os.path.join(OUT, "whitelist_adguard.txt"), "w", encoding="utf-8") as f:
+        f.write("! AD-QGG 白名单\n# Update: %s\n" % ver)
+        f.write("".join("@@||%s^\n" % d for d in sorted(white)))
+
     with open(os.path.join(OUT, "build_report.txt"), "w", encoding="utf-8") as f:
-        f.write("构建时间: %s\n总规则: %d\n白名单: %d\nApp 分组: %d\nLite: %d\n"
-                % (ver, n, len(white), len(groups), len(lite)))
+        f.write("构建时间: %s\n总规则: %d\n白名单: %d\nApp 分组: %d\n"
+                % (ver, n, len(white), len(groups)))
 
 
 def main():
     t0 = time.time()
     files = read_sources()
-    doms = collect(files)
+    doms, srcs = collect(files)
     white = set()
     for p in (WHITE, CUSTOM):
         if os.path.exists(p):
@@ -288,7 +282,7 @@ def main():
     if dropped:
         print("[归并] 去掉 %d 个冗余子域" % dropped)
     apps = json.load(open(APPS, encoding="utf-8")) if os.path.exists(APPS) else {}
-    write(blocked, white, apps)
+    write(blocked, white, apps, srcs)
     print("[完成] 用时 %.1f 秒" % (time.time() - t0))
 
 

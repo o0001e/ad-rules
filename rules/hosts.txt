@@ -1,5 +1,5 @@
 # AD-QGG Filter
-# Update: 20261113 19:52
+# Update: 20261113 20:14
 # Count: 6479
 0.0.0.0 123-tracker.com
 0.0.0.0 5363316.marketing.numi.com
@@ -1093,7 +1093,6 @@
 0.0.0.0 adserver.icmedienhaus.de
 0.0.0.0 adserver.infotorg.se
 0.0.0.0 adserver.interfree.it
-0.0.0.0 adserver.irishwebmasterforum.com
 0.0.0.0 adserver.ision.de
 0.0.0.0 adserver.isonews.com
 0.0.0.0 adserver.janes.org
@@ -2126,6 +2125,7 @@
 0.0.0.0 api-analytics.prod.birdapp.com
 0.0.0.0 api-analytics.rozetka.com.ua
 0.0.0.0 api-hotmart-tracking-manager.hotmart.com
+0.0.0.0 api-log-upload.wenext.technology
 0.0.0.0 api-push.com
 0.0.0.0 api-push.meizu.com
 0.0.0.0 api-visitor-analytics.intercom.com
@@ -2305,7 +2305,6 @@
 0.0.0.0 click-plus.net
 0.0.0.0 click-rtb2-apac.affinity.net
 0.0.0.0 click-rtb2-apac.applabs.live
-0.0.0.0 click-rtb2-apac.onenativeads.com
 0.0.0.0 click-rtb2-eu.affinity.net
 0.0.0.0 click-rtb2-eu.mediarise.io
 0.0.0.0 click-rtb2-eu.n-data.io
@@ -2624,6 +2623,7 @@
 0.0.0.0 globale-analytics-sdk.global-e.com
 0.0.0.0 go-g3t-push.net
 0.0.0.0 go-marketing.comed.com
+0.0.0.0 goo-access-analytics.appspot.com
 0.0.0.0 good-ads-online.com
 0.0.0.0 google-ads.hara.vn
 0.0.0.0 google-analytics-cn.com

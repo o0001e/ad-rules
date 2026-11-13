@@ -10,7 +10,6 @@
 | hosts（国内 CDN） | `https://gitee.com/ADS9/ad/raw/m/rules/hosts.txt` |
 | AdGuard | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/adguard.txt` |
 | 纯域名 | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/domains.txt` |
-| Lite（仅国内） | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/lite.txt` |
 | Clash | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/clash.yaml` |
 | dnsmasq | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/dnsmasq.conf` |
 | 全量（含单 App 分组） | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/all.txt` |

@@ -44,8 +44,6 @@ jobs:
             rules/dnsmasq.conf
             rules/clash.yaml
             rules/surge.list
-            rules/lite.txt
-            rules/lite_domains.txt
             rules/all.txt
             rules/whitelist.txt
             rules/whitelist_adguard.txt

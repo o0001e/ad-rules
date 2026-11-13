@@ -1,5 +1,5 @@
 ! AD-QGG Filter
-! Update: 20261113 19:52
+! Update: 20261113 20:14
 ||123-tracker.com^
 ||5363316.marketing.numi.com^
 ||a-ads.com^
@@ -1092,7 +1092,6 @@
 ||adserver.icmedienhaus.de^
 ||adserver.infotorg.se^
 ||adserver.interfree.it^
-||adserver.irishwebmasterforum.com^
 ||adserver.ision.de^
 ||adserver.isonews.com^
 ||adserver.janes.org^
@@ -2125,6 +2124,7 @@
 ||api-analytics.prod.birdapp.com^
 ||api-analytics.rozetka.com.ua^
 ||api-hotmart-tracking-manager.hotmart.com^
+||api-log-upload.wenext.technology^
 ||api-push.com^
 ||api-push.meizu.com^
 ||api-visitor-analytics.intercom.com^
@@ -2304,7 +2304,6 @@
 ||click-plus.net^
 ||click-rtb2-apac.affinity.net^
 ||click-rtb2-apac.applabs.live^
-||click-rtb2-apac.onenativeads.com^
 ||click-rtb2-eu.affinity.net^
 ||click-rtb2-eu.mediarise.io^
 ||click-rtb2-eu.n-data.io^
@@ -2623,6 +2622,7 @@
 ||globale-analytics-sdk.global-e.com^
 ||go-g3t-push.net^
 ||go-marketing.comed.com^
+||goo-access-analytics.appspot.com^
 ||good-ads-online.com^
 ||google-ads.hara.vn^
 ||google-analytics-cn.com^
