@@ -1,5 +1,5 @@
 ! AD-QGG Filter
-! Update: 20261113 19:50
+! Update: 20261113 19:52
 ||123-tracker.com^
 ||5363316.marketing.numi.com^
 ||a-ads.com^
@@ -1092,6 +1092,7 @@
 ||adserver.icmedienhaus.de^
 ||adserver.infotorg.se^
 ||adserver.interfree.it^
+||adserver.irishwebmasterforum.com^
 ||adserver.ision.de^
 ||adserver.isonews.com^
 ||adserver.janes.org^
@@ -2303,6 +2304,7 @@
 ||click-plus.net^
 ||click-rtb2-apac.affinity.net^
 ||click-rtb2-apac.applabs.live^
+||click-rtb2-apac.onenativeads.com^
 ||click-rtb2-eu.affinity.net^
 ||click-rtb2-eu.mediarise.io^
 ||click-rtb2-eu.n-data.io^
@@ -2443,7 +2445,6 @@
 ||coitionultime.click^
 ||coldongjiffies.click^
 ||collecting.click^
-||collector-analytics.efigence.com^
 ||colloidsaga.click^
 ||commercial-analytics-collector.news.co.uk^
 ||conduit-beacon.mtvnservices.com^
@@ -5815,7 +5816,6 @@
 ||tracking.abraservice.com^
 ||tracking.abrdn.com^
 ||tracking.acceptance.industrial.omron.eu^
-||tracking.adactioninteractive.com^
 ||tracking.adalyser.com^
 ||tracking.adgoon.it^
 ||tracking.adp-iat.adp.ca^

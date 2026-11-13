@@ -164,6 +164,13 @@ def write(blocked, white, apps):
     with open(os.path.join(OUT, "surge.list"), "w", encoding="utf-8") as f:
         f.write("".join("DOMAIN,%s\n" % d for d in sorted(blocked)))
 
+    # 白名单产物（给 DNS App 的「放行」列表用）
+    with open(os.path.join(OUT, "whitelist.txt"), "w", encoding="utf-8") as f:
+        f.write("".join("0.0.0.0 %s\n" % d for d in sorted(white)))
+    with open(os.path.join(OUT, "whitelist_adguard.txt"), "w", encoding="utf-8") as f:
+        f.write("! AD-QGG 白名单\n# Update: %s\n" % ver)
+        f.write("".join("@@||%s^\n" % d for d in sorted(white)))
+
     # 按厂商根域拆分组
     roots, names = {}, {}
     for name, cfg in apps.items():
@@ -201,6 +208,15 @@ def write(blocked, white, apps):
     with open(os.path.join(OUT, "lite_domains.txt"), "w", encoding="utf-8") as f:
         f.write("".join(d + "\n" for d in sorted(lite)))
     print("[Lite] %d 条" % len(lite))
+
+    # 白名单（配套：把不想拦的域加入 whitelist.txt 即可）
+    with open(os.path.join(OUT, "whitelist.txt"), "w", encoding="utf-8") as f:
+        f.write("# AD-QGG 白名单（一行一个域名）\n# Update: %s\n# Count: %d\n"
+                % (ver, len(white)))
+        f.write("".join(d + "\n" for d in sorted(white)))
+    with open(os.path.join(OUT, "whitelist_adguard.txt"), "w", encoding="utf-8") as f:
+        f.write("! AD-QGG 白名单（AdGuard 语法）\n! Update: %s\n" % ver)
+        f.write("".join("@@||%s^\n" % d for d in sorted(white)))
 
     # all.txt：全量 + 全分组去重
     allset = set(blocked)

@@ -1090,6 +1090,7 @@ DOMAIN,adserver.hwupgrade.it
 DOMAIN,adserver.icmedienhaus.de
 DOMAIN,adserver.infotorg.se
 DOMAIN,adserver.interfree.it
+DOMAIN,adserver.irishwebmasterforum.com
 DOMAIN,adserver.ision.de
 DOMAIN,adserver.isonews.com
 DOMAIN,adserver.janes.org
@@ -2301,6 +2302,7 @@ DOMAIN,click-performance.assets.rndtech.de
 DOMAIN,click-plus.net
 DOMAIN,click-rtb2-apac.affinity.net
 DOMAIN,click-rtb2-apac.applabs.live
+DOMAIN,click-rtb2-apac.onenativeads.com
 DOMAIN,click-rtb2-eu.affinity.net
 DOMAIN,click-rtb2-eu.mediarise.io
 DOMAIN,click-rtb2-eu.n-data.io
@@ -2441,7 +2443,6 @@ DOMAIN,cn.hotclips.click
 DOMAIN,coitionultime.click
 DOMAIN,coldongjiffies.click
 DOMAIN,collecting.click
-DOMAIN,collector-analytics.efigence.com
 DOMAIN,colloidsaga.click
 DOMAIN,commercial-analytics-collector.news.co.uk
 DOMAIN,conduit-beacon.mtvnservices.com
@@ -5813,7 +5814,6 @@ DOMAIN,tracking.aapa.org
 DOMAIN,tracking.abraservice.com
 DOMAIN,tracking.abrdn.com
 DOMAIN,tracking.acceptance.industrial.omron.eu
-DOMAIN,tracking.adactioninteractive.com
 DOMAIN,tracking.adalyser.com
 DOMAIN,tracking.adgoon.it
 DOMAIN,tracking.adp-iat.adp.ca

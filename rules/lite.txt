@@ -1,5 +1,5 @@
 # AD-QGG Lite（国内）
-# Update: 20261113 19:50
+# Update: 20261113 19:52
 0.0.0.0 abtest-ch.snssdk.com
 0.0.0.0 ad-api.adn-plus.com.cn
 0.0.0.0 ad-cdn.qingting.fm
