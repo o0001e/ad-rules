@@ -29,18 +29,6 @@ jobs:
           key: src-${{ github.run_id }}
           restore-keys: src-
 
-      - name: 计算缓存周期
-        id: ck
-        run: echo "bucket=$(( $(date +%s) / 21600 ))" >> "$GITHUB_OUTPUT"
-
-      - name: 恢复源缓存
-        uses: actions/cache@v4
-        with:
-          path: .cache/src
-          key: src-${{ steps.ck.outputs.bucket }}
-          restore-keys: |
-            src-
-
       - name: 准备 Python
         uses: actions/setup-python@v5
         with:
