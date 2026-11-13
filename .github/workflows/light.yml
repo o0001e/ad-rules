@@ -1,7 +1,7 @@
 name: Hourly Light
 
 concurrency:
-  group: rules-light
+  group: rules-main
   cancel-in-progress: false
 
 on:
@@ -70,7 +70,10 @@ jobs:
           PUSHED=0
           for i in 1 2 3; do
             if git push origin HEAD:main; then PUSHED=1; break; fi
-            echo "第 ${i} 次推送失败"; sleep 5
+            echo "第 ${i} 次推送失败，先 rebase 远端再试"
+            git fetch -q --depth=5 origin main || true
+            git rebase -q FETCH_HEAD 2>/dev/null || git rebase --abort 2>/dev/null || true
+            sleep 3
           done
           if [ "$PUSHED" != "1" ]; then echo "::error::推送主分支失败"; exit 1; fi
 
