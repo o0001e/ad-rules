@@ -395,6 +395,46 @@ def load_dead():
     return {l.strip() for l in open(DEAD, encoding="utf-8") if l.strip() and not l.strip().startswith("#")}
 
 
+def dns_alive(d, tries=2):
+    for _ in range(tries):
+        try:
+            socket.setdefaulttimeout(2.5)
+            socket.getaddrinfo(d, None, socket.AF_INET)
+            return True
+        except Exception:
+            continue
+    return False
+
+
+def check_dead(blocked, workers=60):
+    """DNS 巡检：解析不出来的域名判为失效，直接从结果里删掉"""
+    t = time.time()
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        res = list(ex.map(dns_alive, blocked))
+    dead = {d for d, ok in zip(blocked, res) if not ok}
+    cost = time.time() - t
+    if not dead:
+        print("[死域] DNS 巡检 %.1fs，无失效域名" % cost)
+        return dead
+    if len(dead) > len(blocked) * 0.2:
+        print("[死域] 警告：失效 %d/%d 超过 20%%，疑似 DNS 异常，本轮不删除" % (len(dead), len(blocked)))
+        return set()
+    print("[死域] DNS 巡检 %.1fs，失效 %d 条，已删除" % (cost, len(dead)))
+    return dead
+
+
+def save_dead(dead):
+    old = set()
+    if os.path.exists(DEAD):
+        old = {l.strip() for l in open(DEAD, encoding="utf-8")
+               if l.strip() and not l.strip().startswith("#")}
+    new = sorted(old | dead)
+    with open(DEAD, "w", encoding="utf-8") as f:
+        f.write("# 已确认失效的域名（DNS 解析失败），合并时跳过\n")
+        f.write("".join(d + "\n" for d in new))
+    print("[死域] dead.txt 累计 %d 条" % len(new))
+
+
 def main():
     t0 = time.time()
     files = read_sources()
@@ -446,6 +486,11 @@ def main():
     blocked, dropped = collapse(blocked, white)
     if dropped:
         print("[归并] 去掉 %d 个冗余子域" % dropped)
+    if os.environ.get("DNS_CHECK", "1") == "1":
+        dead = check_dead(sorted(blocked))
+        if dead:
+            blocked -= dead
+            save_dead(dead)
     write(blocked, white, srcs)
     print("[完成] 用时 %.1f 秒" % (time.time() - t0))
 

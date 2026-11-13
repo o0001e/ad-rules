@@ -30,6 +30,7 @@ jobs:
         env:
           OUT_DIR: rules
           CACHE_DIR: .cache/src
+          DNS_CHECK: "1"
         run: python3 adblock.py
 
       - name: 健康巡查
