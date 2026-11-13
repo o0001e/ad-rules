@@ -56,7 +56,12 @@ jobs:
             rules/adguard.txt
             rules/domains.txt
             rules/all.txt
+            rules/dnsmasq.conf
+            rules/clash.yaml
+            rules/surge.list
             rules/whitelist.txt
+            rules/whitelist_adguard.txt
+            rules/build_report.txt
 
       - name: 根目录兼容副本
         run: |
