@@ -22,6 +22,10 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+          sparse-checkout: |
+            /*
+            !rules/apps
+          sparse-checkout-cone-mode: false
 
       - uses: actions/setup-python@v5
         with:
@@ -47,7 +51,12 @@ jobs:
             rules/adguard.txt
             rules/domains.txt
             rules/all.txt
+            rules/dnsmasq.conf
+            rules/clash.yaml
+            rules/surge.list
             rules/whitelist.txt
+            rules/whitelist_adguard.txt
+            rules/build_report.txt
 
       - name: 推送到 GitHub 主分支
         if: steps.pub.outputs.changed == '1'
@@ -62,7 +71,10 @@ jobs:
             rules/dnsmasq.conf rules/clash.yaml rules/surge.list rules/whitelist.txt \
             rules/whitelist_adguard.txt rules/all.txt hosts.txt all.txt adguard.txt
           git commit -q -m "轻量更新 $(date -u '+%F %H:%M') UTC" || true
-          git push origin HEAD:main || true
+          for i in 1 2 3; do
+            git push origin HEAD:main && break || { echo "第 ${i} 次推送失败"; sleep 5; }
+            [ "$i" = 3 ] && { echo "::error::推送主分支失败"; exit 1; }
+          done
 
       - name: 同步 Gitee
         if: steps.pub.outputs.changed == '1'

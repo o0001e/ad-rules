@@ -62,7 +62,10 @@ jobs:
           cp rules/adguard.txt adguard.txt
           git add -f -A rules dead.txt hosts.txt all.txt adguard.txt
           git commit -q -m "修剪死域 $(date -u '+%F %H:%M') UTC" || true
-          git push origin HEAD:main || true
+          for i in 1 2 3; do
+            git push origin HEAD:main && break || { echo "第 ${i} 次推送失败"; sleep 5; }
+            [ "$i" = 3 ] && { echo "::error::推送主分支失败"; exit 1; }
+          done
 
       - name: Gitee 可用性体检
         run: python3 scripts/gitee_check.py || true
@@ -81,7 +84,7 @@ jobs:
             if git fetch --depth=1 gitee m 2>/dev/null; then
               git rm -r --cached -q rules/apps 2>/dev/null || true
               git rm --cached -q -r rules 2>/dev/null || true
-              git add -f rules/hosts.txt rules/whitelist.txt dead.txt
+              git add -f rules/hosts.txt rules/whitelist.txt
               TREE=$(git write-tree)
               C=$(git commit-tree "$TREE" -p FETCH_HEAD -m "修剪死域 $(date -u '+%F %H:%M') UTC")
               if timeout 240 git push gitee "$C:m"; then echo "Gitee 已同步"; exit 0; fi
