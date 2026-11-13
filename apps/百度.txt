@@ -1,4 +1,4 @@
-# 百度 广告拦截 33条
+# 百度 广告拦截 34条
 0.0.0.0 ae.bdstatic.com
 0.0.0.0 apps.bdimg.com
 0.0.0.0 b.bdstatic.com
@@ -16,6 +16,7 @@
 0.0.0.0 gg88.bj.bcebos.com
 0.0.0.0 mbdp02.bdstatic.com
 0.0.0.0 mipcache.bdstatic.com
+0.0.0.0 mobads-pre-config.cdn.bcebos.com
 0.0.0.0 ms.bdimg.com
 0.0.0.0 mss0.bdstatic.com
 0.0.0.0 nspt.bdstatic.com

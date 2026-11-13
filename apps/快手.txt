@@ -37,6 +37,7 @@
 0.0.0.0 multi-az-ulog.gifshow.com
 0.0.0.0 ntp.en.gifshow.com
 0.0.0.0 open.kuaishouzt.com
+0.0.0.0 partner.gifshow.com
 0.0.0.0 pay.ssl.kuaishou.com
 0.0.0.0 promotion-partner.kuaishou.com
 0.0.0.0 push.gifshow.com

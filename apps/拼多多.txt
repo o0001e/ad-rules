@@ -1,7 +1,11 @@
-# 拼多多 广告拦截 27条
+# 拼多多 广告拦截 36条
 0.0.0.0 adim.pinduoduo.com
 0.0.0.0 apm-a.pinduoduo.com
+0.0.0.0 apm.pinduoduo.com
 0.0.0.0 at.pinduoduo.com
+0.0.0.0 cd-1.pddpic.com
+0.0.0.0 cdl-1.pddpic.com
+0.0.0.0 cdl-p2.pddpic.com
 0.0.0.0 cfg-2.pddpic.com
 0.0.0.0 dspsdk.pinduoduo.com
 0.0.0.0 funimg.pddpic.com
@@ -18,11 +22,16 @@
 0.0.0.0 pmmtk-a.pinduoduo.com
 0.0.0.0 social.pinduoduo.com
 0.0.0.0 t-dsp.pinduoduo.com
+0.0.0.0 ta-a.pinduoduo.com
 0.0.0.0 ta.pinduoduo.com
+0.0.0.0 th-a.pinduoduo.com
+0.0.0.0 th-b.pinduoduo.com
 0.0.0.0 th.pinduoduo.com
+0.0.0.0 titan.pinduoduo.com
 0.0.0.0 video-dsp.pddpic.com
 0.0.0.0 video-snapshot.pddpic.com
 0.0.0.0 video3-2.pddpic.com
 0.0.0.0 video3.pddpic.com
 0.0.0.0 video4-4.pddpic.com
 0.0.0.0 video4.pddpic.com
+0.0.0.0 xg.pinduoduo.com

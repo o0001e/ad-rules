@@ -96,6 +96,7 @@
 0.0.0.0 wan.youku.com
 0.0.0.0 xpgw-xcdn.youku.com
 0.0.0.0 xpis-mob-xcdn.youku.com
+0.0.0.0 xpis-tel-xcdn.youku.com
 0.0.0.0 xpis-xcdn.youku.com
 0.0.0.0 ykad-data.youku.com
 0.0.0.0 ykad-gateway.youku.com

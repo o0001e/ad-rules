@@ -19,7 +19,6 @@
 0.0.0.0 baiducdncmn3.inter.iqiyi.com
 0.0.0.0 baiducdnct.inter.iqiyi.com
 0.0.0.0 bar-i.iqiyi.com
-0.0.0.0 bj.vip.waf.dns.iqiyi.com
 0.0.0.0 bscloudcdncmnet.inter.iqiyi.com
 0.0.0.0 c.uaa.iqiyi.com
 0.0.0.0 cache.m.iqiyi.com
@@ -34,8 +33,8 @@
 0.0.0.0 cr-status.iqiyi.com
 0.0.0.0 cs-feige.iqiyi.com
 0.0.0.0 cupid.iqiyi.com
-0.0.0.0 data.video.dns.iqiyi.com
 0.0.0.0 data.video.qiyi.com
+0.0.0.0 dns.iqiyi.com
 0.0.0.0 dns.qiyipic.iqiyi.com
 0.0.0.0 doh.iqiyi.com
 0.0.0.0 dsp.iqiyi.com
@@ -54,9 +53,7 @@
 0.0.0.0 huaweicdncmnet.inter.iqiyi.com
 0.0.0.0 i.vip.iqiyi.com
 0.0.0.0 iface.iqiyi.com
-0.0.0.0 iface2.dns.iqiyi.com
 0.0.0.0 iface2.iqiyi.com
-0.0.0.0 ifacelog.dns.iqiyi.com
 0.0.0.0 ifacelog.iqiyi.com
 0.0.0.0 info.vip.iqiyi.com
 0.0.0.0 intl.iqiyi.com

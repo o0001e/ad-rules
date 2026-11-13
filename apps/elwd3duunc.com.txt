@@ -1,0 +1,2 @@
+# elwd3duunc.com 广告拦截 1条
+0.0.0.0 elwd3duunc.com

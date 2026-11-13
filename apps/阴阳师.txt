@@ -34,6 +34,7 @@
 0.0.0.0 g1.corp.163.com
 0.0.0.0 gb.corp.163.com
 0.0.0.0 gw.m.163.com
+0.0.0.0 iad.g.163.com
 0.0.0.0 ipservice.163.com
 0.0.0.0 ir-sdk.dun.163.com
 0.0.0.0 ir.mail.163.com

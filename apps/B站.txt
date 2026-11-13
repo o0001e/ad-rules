@@ -4,6 +4,7 @@
 0.0.0.0 ali-bj-pcdn-16.biliapi.net
 0.0.0.0 ali-bj-pcdn-27.biliapi.net
 0.0.0.0 ali-web-player-tracker.biliapi.net
+0.0.0.0 api.biliapi.net
 0.0.0.0 api.live.bilibili.com
 0.0.0.0 api.vc.bilibili.com
 0.0.0.0 app.biliapi.net
