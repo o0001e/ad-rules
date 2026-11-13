@@ -1,0 +1,2 @@
+# kthul22k2z.com 广告拦截 1条
+0.0.0.0 kthul22k2z.com
