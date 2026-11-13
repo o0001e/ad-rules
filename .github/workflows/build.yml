@@ -84,14 +84,27 @@ jobs:
             exit 0
           fi
           git commit -m "自动构建规则 $(date -u '+%F %H:%M') UTC"
+          pushed=0
           for i in 1 2 3; do
-            if git pull --rebase origin main && git push; then
+            # 构建产物是权威版本：冲突时一律用本轮生成的内容（-X ours）
+            if git pull --rebase -X ours origin main && git push; then
               echo "推送成功"
+              pushed=1
+              break
+            fi
+            git rebase --abort 2>/dev/null || true
+            if git pull --no-rebase -X ours origin main && git push; then
+              echo "推送成功（合并方式）"
+              pushed=1
               break
             fi
             echo "第 ${i} 次推送失败，重试"
-            sleep 3
+            sleep 5
           done
+          if [ "$pushed" != "1" ]; then
+            echo "::error::构建产物推送失败，本轮规则未上线"
+            exit 1
+          fi
 
       - name: 打成功快照标签（回滚用）
         run: |
