@@ -58,7 +58,6 @@ ad-center.com
 ad-channel.diwodiwo.xyz
 ad-channel.wikawika.xyz
 ad-cheers.com
-ad-clicks.com
 ad-cloud.jp
 ad-cmp.hismarttv.com
 ad-count.adwo.com
@@ -73,7 +72,6 @@ ad-display.wikawika.xyz
 ad-download.hismarttv.com
 ad-drs-ipv6.52qumao.com
 ad-drs.52qumao.com
-ad-ebis.bookpass.auone.jp
 ad-ebis.mynavi-job20s.jp
 ad-ettoday.cdn.hinet.net
 ad-fam.com
@@ -173,7 +171,6 @@ ad.apsalar.com
 ad.atown.jp
 ad.aucfan.com
 ad.aucview.com
-ad.auditude.com
 ad.baihemob.com
 ad.bayescom.com
 ad.bench.utorrent.com
@@ -263,7 +260,6 @@ ad.icheck.com.vn
 ad.ichiban-boshi.com
 ad.ichiru.net
 ad.iinfo.cz
-ad.iloveinterracial.com
 ad.imp.joins.com
 ad.infoseek.com
 ad.inhaabit.com
@@ -282,17 +278,14 @@ ad.keenspace.com
 ad.khan.co.kr
 ad.kimcartoon.si
 ad.kirara-support.jp
-ad.kissanime.co
 ad.kissanime.com.ru
 ad.kissanime.org.ru
-ad.kissanime.sx
 ad.kisscartoon.nz
 ad.kisscartoon.sh
 ad.kisstvshow.ru
 ad.krutilka.ru
 ad.l2b.co.za
 ad.land.to
-ad.leadbolt.net
 ad.leadboltapps.net
 ad.leap.app
 ad.letmeads.com
@@ -324,14 +317,12 @@ ad.mox.tv
 ad.musicmatch.com
 ad.nachtagenten.de
 ad.naver.com
-ad.ne.com
 ad.net
 ad.net-tool.jp
 ad.netmedia.hu
 ad.netowl.jp
 ad.nettvservices.com
 ad.network60.com
-ad.nicovideo.jp
 ad.norfolkbroads.com
 ad.nttnavi.co.jp
 ad.ntvmsnbc.com
@@ -401,7 +392,6 @@ ad.video.51togic.com
 ad.vietbao.vn
 ad.virtual-nights.com
 ad.vivo.com.cn
-ad.vkool.net
 ad.wang502.com
 ad.wavu.hu
 ad.weplayer.cc
@@ -472,7 +462,6 @@ ads-go.adroi.com.cn
 ads-image.production-public.tubi.io
 ads-img.mozilla.org
 ads-interfaces.sc-cdn.net
-ads-jp.tiktok.com
 ads-leaseweb.appsgeyser.com
 ads-lot.ru
 ads-m.rustore.ru
@@ -499,7 +488,6 @@ ads-thanhnien-vn.cdn.ampproject.org
 ads-tm-glb.click
 ads-tracking.collectiveaudience.co
 ads-tracking.com
-ads-trk.vidible.tv
 ads-twitter.com
 ads-yallo-production.imgix.net
 ads.123net.jp
@@ -525,15 +513,10 @@ ads.administrator.de
 ads.adroar.com
 ads.adstream.com.ro
 ads.adthrive.com
-ads.adultfriendfinder.com
 ads.adverline.com
 ads.aitype.net
-ads.al.com
-ads.albawaba.com
 ads.allvertical.com
-ads.almasdarnews.com
 ads.alobacsi.vn
-ads.alt.com
 ads.amazingmedia.com
 ads.amdmb.com
 ads.amigos.com
@@ -542,7 +525,6 @@ ads.aphex.me
 ads.api.vungle.com
 ads.aplus.pptv.com
 ads.apn.co.nz
-ads.apn.co.za
 ads.appbundledownload.com
 ads.appsgeyser.com
 ads.araba.com
@@ -550,11 +532,9 @@ ads.aralego.com
 ads.aroundtherings.com
 ads.as4x.tmcs.net
 ads.as4x.tmcs.ticketmaster.com
-ads.aspalliance.com
 ads.associatedcontent.com
 ads.auctioncity.co.nz
 ads.auctions.yahoo.com
-ads.aws.viber.com
 ads.b10f.jp
 ads.baazee.com
 ads.baddiesonlyporn.com
@@ -624,7 +604,6 @@ ads.cvut.cz
 ads.cybersales.cz
 ads.dada.it
 ads.dandelionchocolate.jp
-ads.data.pplive.com
 ads.datateam.co.uk
 ads.ddj.com
 ads.deltha.hu
@@ -673,14 +652,12 @@ ads.flurry.com
 ads.fool.com
 ads.footymad.net
 ads.forbes.net
-ads.fortunecity.com
 ads.fotosidan.se
 ads.fox.com
 ads.fpt.vn
 ads.fptplay.net.vn
 ads.fredericksburg.com
 ads.freshmeat.net
-ads.friendfinder.com
 ads.fuckingmachines.com
 ads.funmora.com
 ads.game.net
@@ -730,7 +707,6 @@ ads.illuminatednation.com
 ads.imbc.com
 ads.imgur.com
 ads.indeed.com
-ads.indiatimes.com
 ads.indystar.com
 ads.infi.net
 ads.injersey.com
@@ -808,13 +784,10 @@ ads.newgrounds.com
 ads.newmedia.cz
 ads.newsint.co.uk
 ads.newsobserver.com
-ads.newsquest.co.uk
-ads.nexage.com
 ads.nghenhinvietnam.vn
 ads.nguoiduatin.vn
 ads.nhadatmoi.net
 ads.nicovideo.jp
-ads.nj.com
 ads.nordichardware.com
 ads.nordichardware.se
 ads.northjersey.com
@@ -858,7 +831,6 @@ ads.planet.nl
 ads.platform.zalo.me
 ads.playground.xyz
 ads.pni.com
-ads.pno.net
 ads.poconorecord.com
 ads.postandparcel.info
 ads.pressdemo.com
@@ -878,7 +850,6 @@ ads.rcgroups.com
 ads.reader.yueyouxs.com
 ads.realcities.com
 ads.recoletos.es
-ads.rediff.com
 ads.register.com
 ads.revjet.com
 ads.roanoke.com
@@ -894,7 +865,6 @@ ads.scifi.com
 ads.scored.co
 ads.scott-sports.com
 ads.scottusa.com
-ads.seniorfriendfinder.com
 ads.servebom.com
 ads.service.kugou.com
 ads.sexyland.vn
@@ -905,7 +875,6 @@ ads.simtel.com
 ads.simtel.net
 ads.sl.interpals.net
 ads.smartclick.com
-ads.smrtbid.com
 ads.snapchat.com
 ads.socialtheater.com
 ads.songmoi.vn
@@ -921,7 +890,6 @@ ads.suckhoegiadinh.com.vn
 ads.sumotorrent.com
 ads.sun.com
 ads.suomiautomaatti.com
-ads.sup.com
 ads.superad.cc
 ads.superawesome.tv
 ads.superonline.com
@@ -930,7 +898,6 @@ ads.swiftnews.com
 ads.swiss-equestrian.ch
 ads.taboola.com
 ads.talksport.com
-ads.tbs.com
 ads.techvibes.com
 ads.thanhnien.vn
 ads.the-saleroom.com
@@ -945,7 +912,6 @@ ads.tiktok.com
 ads.timesunion.com
 ads.tiscali.it
 ads.tmcs.net
-ads.tnt.tv
 ads.topsex.cc
 ads.toronto.com
 ads.townhall.com
@@ -1037,10 +1003,8 @@ ads.zorvec.name
 ads.zunia.vn
 adserver-1277986481.ap-northeast-1.elb.amazonaws.com
 adserver-2.ig.com.br
-adserver-2084671375.us-east-1.elb.amazonaws.com
 adserver-4.ig.com.br
 adserver-5.ig.com.br
-adserver-us.adtech.advertising.com
 adserver-vpc-alb-0-2072243822.us-east-1.elb.amazonaws.com
 adserver-vpc-alb-0-2075095491.us-west-2.elb.amazonaws.com
 adserver-vpc-alb-1-2048135467.us-east-1.elb.amazonaws.com
@@ -1372,7 +1336,6 @@ analytics.adliners.de
 analytics.admon.com.vn
 analytics.adobe.io
 analytics.adobe.ly
-analytics.adultempire.com
 analytics.adultswim.co.uk
 analytics.afirstsoft.cn
 analytics.agenedia.com
@@ -1404,7 +1367,6 @@ analytics.asml.com
 analytics.atlas5.co
 analytics.atom.com
 analytics.audioeye.com
-analytics.audionow.de
 analytics.autozone.com
 analytics.avanser.com.au
 analytics.avcdn.net
@@ -1454,7 +1416,6 @@ analytics.cartoonnetwork.com.au
 analytics.cartoonnetwork.jp
 analytics.cartoonnetworkasia.com
 analytics.cartoonnetworkindia.com
-analytics.cartoonnetworkmena.com
 analytics.carvana.io
 analytics.castel.jp
 analytics.cdf.cl
@@ -1483,7 +1444,6 @@ analytics.cmn.com
 analytics.cn.ru
 analytics.cnblogs.com
 analytics.cnd-motionmedia.de
-analytics.cnfanart.com
 analytics.cnnchile.com
 analytics.cocolog-nifty.com
 analytics.code.dccouncil.gov
@@ -1491,7 +1451,6 @@ analytics.codigo.se
 analytics.combatefreestyle.com
 analytics.competitoor.com
 analytics.conad.it
-analytics.concorsicartoonito.it
 analytics.consumerrights.wiki
 analytics.contentexchange.me
 analytics.contents.by-fw.jp
@@ -1548,7 +1507,6 @@ analytics.elegela.us
 analytics.emol.com
 analytics.enjoymobiserver.com
 analytics.erepublic.com
-analytics.ericafischerphotography.com
 analytics.esporteinterativo.com.br
 analytics.eternagame.org
 analytics.eventbrite.com
@@ -1679,7 +1637,6 @@ analytics.liine.com
 analytics.live.com
 analytics.liveact-vault.com
 analytics.liveact.cri-mw.jp
-analytics.livestream.com
 analytics.loadweb.com
 analytics.loop-cloud.de
 analytics.lunarclientprod.com
@@ -1873,7 +1830,6 @@ analytics.salesanalytics.io
 analytics.samsungknox.com
 analytics.sanoma.fi
 analytics.sayprimer.com
-analytics.schoolwires.com
 analytics.scorpion.co
 analytics.seagate.com
 analytics.services.kirra.nl
@@ -2122,7 +2078,6 @@ api.ad.logic-test.viasat.io
 api.ad.logic.viasat.io
 api.ads.newsdigest.jp
 api.ads.watchabc.go.com
-api.analytics.omgpop.com
 api.data-analytics.pokemon.com
 api.mobula.sdk.duapps.com
 apm-log-upload-os.hoyoverse.com
@@ -2202,7 +2157,6 @@ beacon.walmart.com
 beacon.watch.impress.co.jp
 beacon.webpresence.work
 beacon.wikia-services.com
-beacon.www.theguardian.com
 beacon.ztgame.com
 behavior-tracking-event-gateway.imweb.me
 beltanekwarta.click
@@ -2233,7 +2187,6 @@ business-ad.cdn-go.cn
 bylawskilnman.click
 c-stat.eu
 call-tracking.by
-call-tracking.co.uk
 cash-ads.com
 cddp-track.aligames.com
 cdn-ad.wtzw.com
@@ -2519,7 +2472,6 @@ ebis-tracking.tcb-fukushima.com
 ebis-tracking.tcb-mito.com
 ebis-tracking.tcb-recruit.com
 ebis-tracking.tcb-setagaya.com
-ec-track.com
 ecn-analytics-nssl.emc.com
 ecn-analytics.emc.com
 edge.ads.twitch.tv
@@ -2643,7 +2595,6 @@ images.marketing.swhyhk.com
 images.marketing.zeusinc.com
 images.promo.mopar.eu
 images.proxena-adserver.com
-img.ad.zhangyue.com
 img.ads.mobilefuse.net
 imp.ad.xelements.cn
 impact-ad.jp
@@ -2690,7 +2641,6 @@ launch-analytics-plugin.launchpotato.com
 layer-ad.de
 layer-ad.org
 layer-ads.de
-lead-ad.jp
 leadlab.click
 legerpirate.click
 lehmergambits.click
@@ -2939,7 +2889,6 @@ log.vnay.vn
 log.vneconomy.vn
 log.voicecloud.cn
 log.vov.vn
-log.wat.tv
 log.weathertrip.net
 log.web.kugou.com
 log.webnovel.com
@@ -3120,7 +3069,6 @@ marketing.att-smb.com
 marketing.attivoconsulting.com
 marketing.attocube.com
 marketing.attunelive.com
-marketing.austiner.com
 marketing.autopayplus.com
 marketing.avantage.nl
 marketing.aventel.nl
@@ -3365,7 +3313,6 @@ marketing.ecgmc.com
 marketing.echostarmobile.com
 marketing.ecosystemintegrity.com
 marketing.ecslearn.com
-marketing.edpcomunicacao.com.br
 marketing.efleets.com
 marketing.ehimrx.com
 marketing.ehy.com
@@ -3553,7 +3500,6 @@ marketing.imatrix.com
 marketing.impactinnovationgroup.com
 marketing.impexium.com
 marketing.inaani.com
-marketing.income.com.sg
 marketing.incrediwear.com
 marketing.indianadunes.com
 marketing.industrialspec.com
@@ -3599,7 +3545,6 @@ marketing.joyridecoffee.com
 marketing.jstokes.com
 marketing.jtsa.edu
 marketing.kainmcarthur.com
-marketing.kestlerfinancial.com
 marketing.keylane.com
 marketing.keystonegp.com
 marketing.kimble-chase.com
@@ -3610,7 +3555,6 @@ marketing.kisales.com
 marketing.knoxville.org
 marketing.konareefresort.com
 marketing.konecranes.com
-marketing.kozzyavm.com
 marketing.kpfilms.com
 marketing.kurtzon.com
 marketing.labdepotinc.com
@@ -3793,7 +3737,6 @@ marketing.onececo.com
 marketing.oni.co.uk
 marketing.onkyousa.com
 marketing.openskygroup.com
-marketing.opexanalytics.com
 marketing.opga.com
 marketing.opoffice.com
 marketing.optimumenergyco.com
@@ -3828,7 +3771,6 @@ marketing.pax8.com
 marketing.paysafe.com
 marketing.pcsww.com
 marketing.peakfinancialfreedomgroup.com
-marketing.peerapp.com
 marketing.pelotongroup.com
 marketing.pentaho.com
 marketing.peoplesafe.co.uk
@@ -3944,10 +3886,8 @@ marketing.shurtapemail.com
 marketing.sigmanest.com
 marketing.signaltheory.com
 marketing.simio.com
-marketing.simpartners.com
 marketing.simplion.com
 marketing.sinctech.com
-marketing.skorsports.nl
 marketing.slocal.com
 marketing.smartcoversystems.com
 marketing.smartowner.com
@@ -4047,7 +3987,6 @@ marketing.tidedrycleaners.com
 marketing.tignl.eu
 marketing.timmons.com
 marketing.tmaonline.info
-marketing.tmshealth.com
 marketing.toolkitgroup.com
 marketing.topekapartnership.com
 marketing.topspotims.com
@@ -4197,7 +4136,6 @@ marketing.visualskus.com
 marketing.voicefirstsolutions.com
 marketing.voltexelectrical.co.nz
 marketing.voltexelectrical.com.au
-marketing.voxer.com
 marketing.wachsws.com
 marketing.wainscotsolutions.com
 marketing.waitrainer.com
@@ -4215,7 +4153,6 @@ marketing.wealthhorizon.com
 marketing.webdcmarketing.com
 marketing.webgruppen.no
 marketing.welending.com
-marketing.wellingtonwealthstrategies.com
 marketing.wesco.com.br
 marketing.whysymphony.com
 marketing.wildhorsepass.com
@@ -4249,7 +4186,6 @@ master-push.com
 master-shopify-tracker.s3.amazonaws.com
 mathilde-ads.com
 matzotipid.click
-mb-tracking.com
 meadow-assets.click
 media-ads.zaloapp.com
 media-analytic.com
@@ -4334,7 +4270,6 @@ pangolin-sdk-toutiao.com
 pangolin-sdk-toutiao1.com
 partner-ads.com
 pay-ads.com
-pay-click.ru
 pc-ads.com
 pd.ads.cn.miaozhen.com
 peach-analytics.vercel.app
@@ -4438,7 +4373,6 @@ raxesmutsje.click
 re-ads.com
 red-just-fit.click
 regluespitons.click
-rem-track.bild.de
 report.tencentmusic.com
 revengine-tracker.remp.dailymaverick.co.za
 revetetupik.click
@@ -4533,7 +4467,6 @@ server.ad.logic-test.viasat.io
 server.ad.logic.viasat.io
 service-ad-image-ga.prd.pluto.tv
 service-ad-impression-proxy-use1-1.prd.pluto.tv
-service.ad.duomi.com
 sf-ads.io
 shareasale-analytics.com
 showmethat.click
@@ -4611,7 +4544,6 @@ spignetsidled.click
 splash-ad.classting.com
 splash-screen.net
 splash.appsgeyser.com
-srt94.click
 ssp-ad.momento.dev
 ssp-adx.ads.heytapmobi.com
 ssp-sdk-config.uc.cn
@@ -4622,9 +4554,7 @@ stat-rock.com
 stat-ssl.autoway.jp
 stat-ssl.bushikaku.net
 stat-ssl.career-tasu.jp
-stat-ssl.eiga.com
 stat-ssl.hitosara.com
-stat-ssl.icotto-jp.com
 stat-ssl.icotto.jp
 stat-ssl.idaten.ne.jp
 stat-ssl.idou.me
@@ -4721,7 +4651,6 @@ stat.mersz.hu
 stat.mint.ca
 stat.mixi.media
 stat.moji.com
-stat.mql5.com
 stat.mtv3.fi
 stat.mydaddy.cc
 stat.nate.com
@@ -4838,25 +4767,20 @@ stats.asp24.pl
 stats.astrr.ru
 stats.autofarm.network
 stats.autohome.com.cn
-stats.avg.com
 stats.avito.ru
 stats.backcountry.com
-stats.bbc.co.uk
 stats.bdc.ca
 stats.becu.org
 stats.betternet.de
 stats.big-boards.com
 stats.bildconnect.de
 stats.birgun.net
-stats.bitgravity.com
 stats.blacksim.de
 stats.blogg.se
 stats.blogger.com
 stats.blogoscoop.net
 stats.bluebillywig.com
-stats.bookingbuddy.co.uk
 stats.bookingbuddy.com
-stats.bookingbuddy.eu
 stats.bradmax.com
 stats.broddin.be
 stats.browsertrix.com
@@ -4890,7 +4814,6 @@ stats.coursepad.com
 stats.craftybase.com
 stats.creativinn.com
 stats.cruisingpower.com
-stats.curbnumberpro.com
 stats.curds.io
 stats.cybersim.de
 stats.darkreader.app
@@ -4900,7 +4823,6 @@ stats.davidickedelivery.com
 stats.de
 stats.defense.gov
 stats.deutschlandsim.de
-stats.dev.zaloapp.com
 stats.developingperspective.com
 stats.dice.com
 stats.digital-natives.de
@@ -4920,11 +4842,6 @@ stats.extendedstayamerica.com
 stats.externulls.com
 stats.fairmont.com
 stats.falck.dk
-stats.faluninfo.at
-stats.faluninfo.ba
-stats.faluninfo.mk
-stats.faluninfo.rs
-stats.faluninfo.si
 stats.familyvacationcritic.com
 stats.fastcompany.com
 stats.fd.nl
@@ -4981,7 +4898,6 @@ stats.img2go.com
 stats.independent.co.uk
 stats.index.hr
 stats.indianpornempire.com
-stats.inergizedigitalmedia.com
 stats.insighttimer.com
 stats.instawares.com
 stats.interestfree.com.au
@@ -4999,7 +4915,6 @@ stats.jpush.cn
 stats.justpaste.it
 stats.kaltura.com
 stats.kc.ie
-stats.knowkit.cloud
 stats.kroger.com
 stats.ks-labs.de
 stats.ksearchnet.com
@@ -5071,15 +4986,12 @@ stats.pixeldrain.com
 stats.plainsending.com
 stats.polldaddy.com
 stats.popcap.com
-stats.popscreen.com
 stats.postescanada-canadapost.ca
 stats.postescanada.ca
 stats.prebytes.com
 stats.preeventualist.org
 stats.premiumsim.de
-stats.pri.org
 stats.print.work
-stats.procumeni.cz
 stats.proff.no
 stats.pronouns.page
 stats.propublica.org
@@ -5120,7 +5032,6 @@ stats.sfwmd.gov
 stats.sg-light-edge.com
 stats.sgs.com
 stats.sharenet.co.za
-stats.shepherd.com
 stats.shh.io
 stats.shopify.com
 stats.sim.de
@@ -5130,7 +5041,6 @@ stats.simzdarma.cz
 stats.sixseven.at
 stats.slashed.cloud
 stats.slicedthread.com
-stats.slideshare.net
 stats.smartclip.net
 stats.smartmobil.de
 stats.someecards.com
@@ -5500,7 +5410,6 @@ track.sendo.vn
 track.shrinkplus.com
 track.sigmob.cn
 track.simonton.com
-track.slideshare.net
 track.social.com
 track.sodapdf.com
 track.solutions.ostechnology.co.jp
@@ -5511,11 +5420,9 @@ track.sparta-tracking.xyz
 track.spothero.com
 track.ssg.com
 track.starmakerstudios.com
-track.storm.mg
 track.sunmedia.tv
 track.taimi.com
 track.tappx.com
-track.td3x.com
 track.tenjin.com
 track.tenjin.io
 track.tesiteca.it
@@ -5542,7 +5449,6 @@ track.vtcnews.vn
 track.wattpad.com
 track.webgains.com
 track.wesell.co.il
-track.wildblue.com
 track.workframe.com
 track.xmarketech.com
 track.yellostrom.de
@@ -5743,7 +5649,6 @@ tracking.atea.fi
 tracking.athlon.com
 tracking.atreemo.com
 tracking.att.com
-tracking.attexperts.com
 tracking.audio.thisisdax.com
 tracking.averydennison.com
 tracking.avladies.de
@@ -5908,7 +5813,6 @@ tracking.happierleads.com
 tracking.hardoxwearparts.com
 tracking.health.bilh.org
 tracking.health.bjc.org
-tracking.health.lexmed.com
 tracking.health.tmcaz.com
 tracking.hibu.com
 tracking.hiscox.com
@@ -6048,7 +5952,6 @@ tracking.parcelpending.com
 tracking.pdc.wisc.edu
 tracking.peco.com
 tracking.pella.com
-tracking.pennmedicine.princetonhcs.org
 tracking.pennypublications.com
 tracking.pennystockpicks.net
 tracking.peopleareeverything.com
@@ -6121,7 +6024,6 @@ tracking.shop.hunter.easynet.de
 tracking.shopback.com
 tracking.shopee.com.br
 tracking.simpleaccess.com
-tracking.siriusdecisions.com
 tracking.skyword.com
 tracking.smartbusiness.samsung.com
 tracking.smartmeapp.com
@@ -6276,7 +6178,6 @@ vieon-tracking.vieon.vn
 vietnamdaily-log.kienthuc.net.vn
 vihtori-analytics.fi
 vik-analytics.moonactive.net
-villainous-track.pro
 virasoncotland.click
 visibility-stats.com
 visitor-analytics.io
@@ -6308,7 +6209,6 @@ webpageviews.click
 whopping-click.com
 widget.push.forja.ma
 wikia-ads.wikia.com
-wikia-beacon.com
 willow-assets.click
 wl-analytics.tsp.li
 wmedia-track.uc.cn

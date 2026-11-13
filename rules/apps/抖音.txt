@@ -1,8 +1,1 @@
-0.0.0.0 bds.snssdk.com
-0.0.0.0 log.amemv.com
-0.0.0.0 mcs.snssdk.com
-0.0.0.0 mon.snssdk.com
-0.0.0.0 open.snssdk.com
 0.0.0.0 pangolin-sdk-toutiao.com
-0.0.0.0 ug.snssdk.com
-0.0.0.0 xlog.snssdk.com
