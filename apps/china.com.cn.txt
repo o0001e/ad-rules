@@ -1,2 +1,0 @@
-# china.com.cn 广告拦截 1条
-0.0.0.0 union.china.com.cn

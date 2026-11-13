@@ -1,3 +1,0 @@
-# zle.com 广告拦截 2条
-0.0.0.0 abcd.zle.com
-0.0.0.0 efg.zle.com

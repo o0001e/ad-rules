@@ -1,2 +1,0 @@
-# z-face.cn 广告拦截 1条
-0.0.0.0 cdnjs.z-face.cn

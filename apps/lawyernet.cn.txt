@@ -1,2 +1,0 @@
-# lawyernet.cn 广告拦截 1条
-0.0.0.0 un1.lawyernet.cn

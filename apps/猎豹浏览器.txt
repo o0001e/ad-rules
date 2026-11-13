@@ -1,7 +1,0 @@
-# 猎豹浏览器 广告拦截 6条
-0.0.0.0 adsdk.cmcm.com
-0.0.0.0 dsp.cmcm.com
-0.0.0.0 log.cmcm.com
-0.0.0.0 report.cmcm.com
-0.0.0.0 sdk.cmcm.com
-0.0.0.0 track.cmcm.com

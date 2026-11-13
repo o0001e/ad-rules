@@ -1,2 +1,0 @@
-# ysdui.com 广告拦截 1条
-0.0.0.0 daima.ysdui.com

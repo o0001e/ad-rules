@@ -1,8 +1,0 @@
-# aliyun.com 广告拦截 7条
-0.0.0.0 acjs.aliyun.com
-0.0.0.0 click.aliyun.com
-0.0.0.0 market.aliyun.com
-0.0.0.0 mpush-api.aliyun.com
-0.0.0.0 oa-panther.data.aliyun.com
-0.0.0.0 osfota.cdn.aliyun.com
-0.0.0.0 update.aegis.aliyun.com

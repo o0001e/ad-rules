@@ -1,2 +1,0 @@
-# ao2doihore.com 广告拦截 1条
-0.0.0.0 ao2doihore.com

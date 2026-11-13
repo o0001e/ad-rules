@@ -1,2 +1,0 @@
-# wasu.tv 广告拦截 1条
-0.0.0.0 adsc.wasu.tv

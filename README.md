@@ -4,6 +4,26 @@
 
 ## 订阅地址
 
+### 一条地址搞定（推荐）
+
+只需要这一条，全局规则 + 全部分组已合并去重：
+
+```
+# 国内加速（jsDelivr）
+https://cdn.jsdelivr.net/gh/o0001e/ad-rules@main/all.txt
+
+# GitHub 源（备用）
+https://raw.githubusercontent.com/o0001e/ad-rules/main/all.txt
+```
+
+配对白名单（避免误拦登录/支付）：
+
+```
+https://cdn.jsdelivr.net/gh/o0001e/ad-rules@main/whitelist.txt
+```
+
+### 分格式订阅（需要特定格式时用）
+
 ### 国内加速（jsDelivr CDN，推荐）
 
 ```

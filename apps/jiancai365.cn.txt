@@ -1,2 +1,0 @@
-# jiancai365.cn 广告拦截 1条
-0.0.0.0 wj.jiancai365.cn

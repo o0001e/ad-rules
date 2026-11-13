@@ -1,3 +1,0 @@
-# 元气骑士 广告拦截 2条
-0.0.0.0 promo.chillyroom.com
-0.0.0.0 sdk.chillyroom.com

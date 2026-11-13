@@ -1,3 +1,0 @@
-# DU Booster 广告拦截 2条
-0.0.0.0 ad.duapps.com
-0.0.0.0 union.duapps.com

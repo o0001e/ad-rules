@@ -1,3 +1,0 @@
-# xilu.com 广告拦截 2条
-0.0.0.0 1.xilu.com
-0.0.0.0 tongj.xilu.com

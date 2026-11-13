@@ -1,2 +1,0 @@
-# qianzhan.com 广告拦截 1条
-0.0.0.0 jsb.qianzhan.com

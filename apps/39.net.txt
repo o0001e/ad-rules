@@ -1,4 +1,0 @@
-# 39.net 广告拦截 3条
-0.0.0.0 abody.39.net
-0.0.0.0 d-test.39.net
-0.0.0.0 thetestpage.39.net

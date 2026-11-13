@@ -1,2 +1,0 @@
-# zig1te84n.com 广告拦截 1条
-0.0.0.0 zig1te84n.com

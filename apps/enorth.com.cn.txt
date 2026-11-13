@@ -1,3 +1,0 @@
-# enorth.com.cn 广告拦截 2条
-0.0.0.0 eap.big5.enorth.com.cn
-0.0.0.0 eap.enorth.com.cn

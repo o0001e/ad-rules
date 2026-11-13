@@ -1,3 +1,0 @@
-# 美柚 广告拦截 2条
-0.0.0.0 dsp.meiyou.com
-0.0.0.0 monitor.meiyou.com

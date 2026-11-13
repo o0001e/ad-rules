@@ -1,2 +1,0 @@
-# fwol.cn 广告拦截 1条
-0.0.0.0 dmym.fwol.cn

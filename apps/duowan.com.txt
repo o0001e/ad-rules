@@ -1,4 +1,0 @@
-# duowan.com 广告拦截 3条
-0.0.0.0 gt.duowan.com
-0.0.0.0 market.duowan.com
-0.0.0.0 vupload.duowan.com

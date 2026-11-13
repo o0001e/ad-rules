@@ -1,3 +1,0 @@
-# QQ浏览器 广告拦截 2条
-0.0.0.0 ad.browser.qq.com
-0.0.0.0 ps.browser.qq.com

@@ -1,5 +1,0 @@
-# myqcloud.com 广告拦截 4条
-0.0.0.0 ad-1258444056.cos.accelerate.myqcloud.com
-0.0.0.0 adstore-1252524079.file.myqcloud.com
-0.0.0.0 adstore-index-1252524079.file.myqcloud.com
-0.0.0.0 ggtp-1255424916.cos.ap-chengdu.myqcloud.com

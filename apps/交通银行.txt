@@ -1,2 +1,0 @@
-# 交通银行 广告拦截 1条
-0.0.0.0 track.bankcomm.com

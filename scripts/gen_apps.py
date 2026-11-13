@@ -9,7 +9,7 @@
     python3 scripts/gen_apps.py
 """
 import json
-import os
+import os, time
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -161,6 +161,19 @@ def main():
             continue
         os.remove(os.path.join(APPS_DIR, fn))
         removed += 1
+
+    # 统一订阅：全局规则 + 所有 App 分组，合并去重后写 all.txt
+    unified = set()
+    for h in blocked:
+        unified.add(h)
+    for company, doms in groups.items():
+        unified |= set(doms)
+    with open(os.path.join(ROOT, "all.txt"), "w", encoding="utf-8") as f:
+        f.write("# AD-QGG 统一订阅（全局 + 全部 App 分组，去重合并）\n")
+        f.write("# Version: %s\n" % time.strftime("%Y%m%d"))
+        for h in sorted(unified):
+            f.write("0.0.0.0 %s\n" % h)
+    print("[统一] all.txt 共 %d 条（全局 %d + 分组补充）" % (len(unified), len(blocked)))
 
     # 厂商根域覆盖清单
     lines = ["# 厂商根域覆盖清单", "# 厂商\t根域\t拦截子域数"]

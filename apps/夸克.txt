@@ -1,4 +1,0 @@
-# 夸克 广告拦截 3条
-0.0.0.0 adtrack.quark.cn
-0.0.0.0 splash.quark.cn
-0.0.0.0 union.quark.cn

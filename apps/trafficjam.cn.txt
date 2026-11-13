@@ -1,2 +1,0 @@
-# trafficjam.cn 广告拦截 1条
-0.0.0.0 trafficjam.cn

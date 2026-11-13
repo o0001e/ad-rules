@@ -1,8 +1,0 @@
-# 美团 广告拦截 7条
-0.0.0.0 analytics.meituan.net
-0.0.0.0 catdot.dianping.com
-0.0.0.0 catfront.dianping.com
-0.0.0.0 d.meituan.net
-0.0.0.0 dpmtpush.dianping.com
-0.0.0.0 dreport.meituan.net
-0.0.0.0 img.meituan.net

@@ -1,8 +1,0 @@
-# 360浏览器 广告拦截 7条
-0.0.0.0 c.sayhi.360.cn
-0.0.0.0 commercial.shouji.360.cn
-0.0.0.0 lianmeng.360.cn
-0.0.0.0 p.s.360.cn
-0.0.0.0 sdk.s.360.cn
-0.0.0.0 ssp.360.cn
-0.0.0.0 tf.360.cn

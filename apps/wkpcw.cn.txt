@@ -1,2 +1,0 @@
-# wkpcw.cn 广告拦截 1条
-0.0.0.0 lm1.wkpcw.cn

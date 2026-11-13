@@ -1,2 +1,0 @@
-# adbanner.ro 广告拦截 1条
-0.0.0.0 adbanner.ro

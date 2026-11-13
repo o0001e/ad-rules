@@ -1,2 +1,0 @@
-# xssncc2tv.com 广告拦截 1条
-0.0.0.0 xssncc2tv.com

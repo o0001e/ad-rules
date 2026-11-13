@@ -1,4 +1,0 @@
-# huanqiu.com 广告拦截 3条
-0.0.0.0 17.huanqiu.com
-0.0.0.0 32.huanqiu.com
-0.0.0.0 boardx.huanqiu.com

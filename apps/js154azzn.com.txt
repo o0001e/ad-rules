@@ -1,2 +1,0 @@
-# js154azzn.com 广告拦截 1条
-0.0.0.0 js154azzn.com

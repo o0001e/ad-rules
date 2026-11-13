@@ -1,3 +1,0 @@
-# dyq.cn 广告拦截 2条
-0.0.0.0 by.dyq.cn
-0.0.0.0 hl.dyq.cn

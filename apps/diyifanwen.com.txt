@@ -1,2 +1,0 @@
-# diyifanwen.com 广告拦截 1条
-0.0.0.0 img16.diyifanwen.com

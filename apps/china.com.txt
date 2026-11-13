@@ -1,4 +1,0 @@
-# china.com 广告拦截 3条
-0.0.0.0 dvs.china.com
-0.0.0.0 dvser.china.com
-0.0.0.0 sssvd.china.com

@@ -1,3 +1,0 @@
-# 人人车 广告拦截 2条
-0.0.0.0 ad.renrenche.com
-0.0.0.0 log.renrenche.com

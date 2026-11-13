@@ -1,3 +1,0 @@
-# xywy.com 广告拦截 2条
-0.0.0.0 a.xywy.com
-0.0.0.0 bdmjs.xywy.com

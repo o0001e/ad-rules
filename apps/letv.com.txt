@@ -1,3 +1,0 @@
-# letv.com 广告拦截 2条
-0.0.0.0 apple.www.letv.com
-0.0.0.0 ark.letv.com

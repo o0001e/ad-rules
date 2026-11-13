@@ -1,3 +1,0 @@
-# 黑莓 广告拦截 2条
-0.0.0.0 adservice.blackberry.com
-0.0.0.0 analytics.blackberry.com

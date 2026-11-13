@@ -1,2 +1,0 @@
-# tb1mdkeni.com 广告拦截 1条
-0.0.0.0 tb1mdkeni.com

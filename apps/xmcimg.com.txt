@@ -1,3 +1,0 @@
-# xmcimg.com 广告拦截 2条
-0.0.0.0 z1hihu.xmcimg.com
-0.0.0.0 zhihu.xmcimg.com

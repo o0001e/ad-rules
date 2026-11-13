@@ -1,4 +1,0 @@
-# weather.com.cn 广告拦截 3条
-0.0.0.0 ctc.weather.com.cn
-0.0.0.0 mc.weather.com.cn
-0.0.0.0 poster.weather.com.cn
