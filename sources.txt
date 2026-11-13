@@ -21,6 +21,11 @@ https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt
 https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt
 https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt
+https://gcore.jsdelivr.net/gh/jk278/Ad-J/Ad-J.txt
+https://gcore.jsdelivr.net/gh/Noyllopa/NoAppDownload@master/NoAppDownload.txt
+https://gcore.jsdelivr.net/gh/xinggsf/Adblock-Plus-Rule@master/mv.txt
+https://bitbucket.org/hacamer/adrules/raw/main/adblock.txt
+https://bitbucket.org/hacamer/adrules/raw/main/adblock_lite.txt
 # === 国际/标准源 ===
 https://filters.adtidy.org/android/filters/224_optimized.txt
 https://filters.adtidy.org/extension/ublock/filters/224.txt
