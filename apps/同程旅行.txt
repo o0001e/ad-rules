@@ -1,0 +1,6 @@
+# 同程旅行 广告拦截 5条
+0.0.0.0 ad.ly.com
+0.0.0.0 ads.ly.com
+0.0.0.0 adx.ly.com
+0.0.0.0 ssp.ly.com
+0.0.0.0 union.ly.com

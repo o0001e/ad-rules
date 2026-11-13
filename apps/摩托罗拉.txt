@@ -1,0 +1,3 @@
+# 摩托罗拉 广告拦截 2条
+0.0.0.0 analytics.motorola.com
+0.0.0.0 promo.motorola.com

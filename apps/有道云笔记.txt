@@ -1,0 +1,2 @@
+# 有道云笔记 广告拦截 1条
+0.0.0.0 promo.note.youdao.com

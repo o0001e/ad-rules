@@ -1,0 +1,4 @@
+# 石墨文档 广告拦截 3条
+0.0.0.0 log.shimo.im
+0.0.0.0 sdk.shimo.im
+0.0.0.0 track.shimo.im

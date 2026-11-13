@@ -1,0 +1,6 @@
+# 优信二手车 广告拦截 5条
+0.0.0.0 ads.xin.com
+0.0.0.0 log.xin.com
+0.0.0.0 monitor.xin.com
+0.0.0.0 stat.xin.com
+0.0.0.0 union.xin.com

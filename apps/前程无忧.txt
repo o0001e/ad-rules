@@ -1,0 +1,6 @@
+# 前程无忧 广告拦截 5条
+0.0.0.0 ad.51job.com
+0.0.0.0 appapi.51job.com
+0.0.0.0 scdata.51job.com
+0.0.0.0 sdk.51job.com
+0.0.0.0 union.51job.com

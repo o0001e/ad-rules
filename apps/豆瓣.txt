@@ -1,0 +1,9 @@
+# 豆瓣 广告拦截 8条
+0.0.0.0 ad.doubanio.com
+0.0.0.0 artery.douban.com
+0.0.0.0 at1.doubanio.com
+0.0.0.0 at2.doubanio.com
+0.0.0.0 at3.doubanio.com
+0.0.0.0 erebor.douban.com
+0.0.0.0 frodo.douban.com
+0.0.0.0 push.douban.com

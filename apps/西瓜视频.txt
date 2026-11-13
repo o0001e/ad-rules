@@ -1,0 +1,19 @@
+# 西瓜视频 广告拦截 18条
+0.0.0.0 api5-normal-quic-lf.ixigua.com
+0.0.0.0 default.ixigua.com
+0.0.0.0 log.ixigua.com
+0.0.0.0 novelapp.ixigua.com
+0.0.0.0 pull-rtmp-l6-xg.ixigua.com
+0.0.0.0 pull-rtmp-l6.ixigua.com
+0.0.0.0 search.ixigua.com
+0.0.0.0 search3-search.ixigua.com
+0.0.0.0 search5-search-hl.ixigua.com
+0.0.0.0 search5-search.ixigua.com
+0.0.0.0 v1-ad.ixigua.com
+0.0.0.0 v1-dc-ad.ixigua.com
+0.0.0.0 v3-ad.ixigua.com
+0.0.0.0 v3-dc-ad.ixigua.com
+0.0.0.0 v6-ad.ixigua.com
+0.0.0.0 v6-dc-ad.ixigua.com
+0.0.0.0 v9-ad.ixigua.com
+0.0.0.0 v9-dc-ad.ixigua.com

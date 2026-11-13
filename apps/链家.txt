@@ -1,0 +1,3 @@
+# 链家 广告拦截 2条
+0.0.0.0 ad.data.lianjia.com
+0.0.0.0 dig.lianjia.com

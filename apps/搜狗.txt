@@ -1,0 +1,8 @@
+# 搜狗 广告拦截 7条
+0.0.0.0 e.so.com
+0.0.0.0 mbrowser.news.so.com
+0.0.0.0 mbsug.ssl.so.com
+0.0.0.0 p.sug.so.com
+0.0.0.0 spro.so.com
+0.0.0.0 tran.news.so.com
+0.0.0.0 wenku.so.com

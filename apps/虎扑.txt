@@ -1,0 +1,4 @@
+# 虎扑 广告拦截 3条
+0.0.0.0 adx.hupu.com
+0.0.0.0 stat.hupu.com
+0.0.0.0 stats.hupu.com
