@@ -53,9 +53,7 @@
 @@||bilibili.com^
 @@||bilivideo.com^
 @@||bytecdn.cn^
-@@||bytedance.com^
 @@||bytedance.net^
-@@||byteimg.com^
 @@||cdn.163.com^
 @@||cdn.amemv.com^
 @@||cdn.baidu.com^
@@ -379,7 +377,6 @@
 @@||qunar.com^
 @@||qzmanhua.com^
 @@||qznovel.com^
-@@||qznovelvod.com^
 @@||raw.giteeusercontent.com^
 @@||sina.com^
 @@||sinaimg.cn^
