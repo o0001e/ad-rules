@@ -102,11 +102,14 @@ jobs:
       - name: 打版本快照标签
         if: success()
         run: |
+          git fetch -q --tags --depth=1 origin || true
           TAG="v$(date -u '+%Y%m%d-%H%M')"
-          git tag -f "$TAG"
+          git tag -f "$TAG" >/dev/null
           git push -f origin "$TAG" || true
-          git tag | sort | head -n -30 | xargs -r -n1 git push --delete origin || true
-          git tag | sort | head -n -30 | xargs -r git tag -d || true
+          git tag --sort=creatordate | head -n -30 | while read t; do
+            git push --delete origin "$t" >/dev/null 2>&1 || true
+            git tag -d "$t" >/dev/null 2>&1 || true
+          done
 
   Notify_Failure:
     needs: [ Update_Filters ]
