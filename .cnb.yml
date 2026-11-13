@@ -12,6 +12,8 @@ main:
           script: |
             git config user.email "adqgg@noreply.cnb.cool"
             git config user.name "adqgg"
+            date -u '+%F %H:%M UTC' > rules/cnb_last.txt
+            grep -c '^0.0.0.0' rules/hosts.txt >> rules/cnb_last.txt
             cp rules/hosts.txt hosts.txt
             cp rules/all.txt all.txt
             cp rules/adguard.txt adguard.txt
@@ -32,6 +34,8 @@ main:
           script: |
             git config user.email "adqgg@noreply.cnb.cool"
             git config user.name "adqgg"
+            date -u '+%F %H:%M UTC' > rules/cnb_last.txt
+            grep -c '^0.0.0.0' rules/hosts.txt >> rules/cnb_last.txt
             cp rules/hosts.txt hosts.txt
             cp rules/all.txt all.txt
             cp rules/adguard.txt adguard.txt
