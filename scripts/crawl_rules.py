@@ -345,18 +345,19 @@ def resolvable(host, timeout=3.0):
         if not c.get("v") and now - c.get("t", 0) < DEAD_TTL:
             return False
 
-    ok = _doh_lookup(host, timeout=max(timeout, 4.0))
-    if ok is None:
-        # 用系统解析兜底；系统解析成功即可确信存活，失败则这次不下结论
+    # 系统解析优先：NXDOMAIN 能立刻判定为死，_比每个域名都走一次 DoH 快一个数量级
+    ok = None
+    try:
+        socket.setdefaulttimeout(timeout)
+        socket.gethostbyname(host)
+        ok = True
+    except socket.gaierror as e:
+        if e.errno == -2:      # EAI_NONAME / NXDOMAIN，确定不存在
+            ok = False
+    except Exception:
         ok = None
-        for _ in range(2):
-            try:
-                socket.setdefaulttimeout(timeout)
-                socket.gethostbyname(host)
-                ok = True
-                break
-            except Exception:
-                _t.sleep(0.3)
+    if ok is None:             # 超时或解析器异常才用 DoH 复核
+        ok = _doh_lookup(host, timeout=max(timeout, 2.0))
 
     if ok is not None:
         with _cache_lock:
@@ -505,12 +506,14 @@ def main():
 
     print("候选总数:", len(all_candidates), flush=True)
 
+    # CT 日志里的名字来自真实签发的证书，一定存在，不用再花时间校验
+    ct_confirmed = {n for v in ct_map.values() for n in v}
+    resolved = {h: True for h in ct_confirmed if h in all_candidates}
     # 并发 DNS 校验（带进度，避免 CI 日志长时间无输出像卡死）
-    resolved = {}
-    clist = sorted(all_candidates)
+    clist = sorted(all_candidates - ct_confirmed)
     total = len(clist)
-    print("开始 DNS 校验 %d 个候选…" % total, flush=True)
-    with cf.ThreadPoolExecutor(max_workers=100) as ex:
+    print("开始 DNS 校验 %d 个候选（CT 已证实 %d 个免校验）…" % (total, len(all_candidates) - total), flush=True)
+    with cf.ThreadPoolExecutor(max_workers=300) as ex:
         for i, (h, ok) in enumerate(zip(clist, ex.map(resolvable, clist)), 1):
             if ok:
                 resolved[h] = True
