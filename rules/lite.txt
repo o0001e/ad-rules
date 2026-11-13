@@ -1,5 +1,6 @@
 # AD-QGG Lite（国内）
-# Update: 20261113 19:09
+# Update: 20261113 19:16
+0.0.0.0 a.market.xiaomi.com
 0.0.0.0 abtest-ch.snssdk.com
 0.0.0.0 ad-api.adn-plus.com.cn
 0.0.0.0 ad-cdn.qingting.fm
@@ -32,6 +33,7 @@
 0.0.0.0 ad.hpplay.cn
 0.0.0.0 ad.huajiao.com
 0.0.0.0 ad.hunyuan.tencent.com
+0.0.0.0 ad.intl.xiaomi.com
 0.0.0.0 ad.iot.360.cn
 0.0.0.0 ad.iwhop.cn
 0.0.0.0 ad.jia.360.cn
@@ -49,16 +51,20 @@
 0.0.0.0 ad.richmob.cn
 0.0.0.0 ad.sina.com.cn
 0.0.0.0 ad.sohu.com
+0.0.0.0 ad.tencentmusic.com
 0.0.0.0 ad.thepaper.cn
 0.0.0.0 ad.thsi.cn
+0.0.0.0 ad.toutiao.com
 0.0.0.0 ad.us.sinaimg.cn
 0.0.0.0 ad.vivo.com.cn
 0.0.0.0 ad.weibo.com
 0.0.0.0 ad.winrar.com.cn
+0.0.0.0 ad.xiaomi.com
 0.0.0.0 ad.ximalaya.com
 0.0.0.0 ad.youku.com
 0.0.0.0 ad.zhangyue.com
 0.0.0.0 ad.zhuanzhuan.com
+0.0.0.0 ad.zijieapi.com
 0.0.0.0 adopt-sdk.xg.tagtic.cn
 0.0.0.0 ads-go.adroi.com.cn
 0.0.0.0 ads-i1.xhscdn.com
@@ -93,6 +99,7 @@
 0.0.0.0 ads.waps.cn
 0.0.0.0 ads.wapx.cn
 0.0.0.0 ads.zhinengxiyifang.cn
+0.0.0.0 ads.zijieapi.com
 0.0.0.0 adv-sv-show.focus.cn
 0.0.0.0 adv-sv-stat.focus.cn
 0.0.0.0 advert.api.thejoyrun.com
@@ -145,6 +152,7 @@
 0.0.0.0 apm-track.xiaohongshu.com
 0.0.0.0 app-log-lab.immomo.com
 0.0.0.0 app-log-oversea.immomo.com
+0.0.0.0 app.market.xiaomi.com
 0.0.0.0 applog.lc.quark.cn
 0.0.0.0 applog.snssdk.com
 0.0.0.0 atom-log.3.cn
@@ -153,11 +161,13 @@
 0.0.0.0 baichuan-sdk.alicdn.com
 0.0.0.0 bd1.click.com.cn
 0.0.0.0 bds.snssdk.com
+0.0.0.0 beacon.gtimg.com
 0.0.0.0 beacon.sina.com.cn
 0.0.0.0 beta2-ad-open-api.test.gifshow.com
 0.0.0.0 bid-adx.vlion.cn
 0.0.0.0 business-ad.cdn-go.cn
 0.0.0.0 click.admaster.com.cn
+0.0.0.0 click.aliyun.com
 0.0.0.0 click.dangdang.com
 0.0.0.0 click.ganji.com
 0.0.0.0 click.hd.sohu.com.cn
@@ -205,6 +215,7 @@
 0.0.0.0 log-gateway.zoom.us
 0.0.0.0 log-h5.imdada.cn
 0.0.0.0 log-hl.snssdk.com
+0.0.0.0 log-klink.zijieapi.com
 0.0.0.0 log-sdk.gifshow.com
 0.0.0.0 log-upload-eur.mihoyo.com
 0.0.0.0 log-upload-os.mihoyo.com
@@ -237,6 +248,7 @@
 0.0.0.0 log.web.kugou.com
 0.0.0.0 log.ycapp.yiche.com
 0.0.0.0 log.zcool.com.cn
+0.0.0.0 log.zijieapi.com
 0.0.0.0 logs-bigdata.yeehaw.com.cn
 0.0.0.0 logs.amap.com
 0.0.0.0 logs.chelaile.net.cn
@@ -294,6 +306,7 @@
 0.0.0.0 push.zhangyue.com
 0.0.0.0 reading-lq.snssdk.com
 0.0.0.0 report-stats.ad.jiguang.cn
+0.0.0.0 report.tencentmusic.com
 0.0.0.0 rtapplog.snssdk.com
 0.0.0.0 s-adx.op-mobile.opera.com
 0.0.0.0 scc.bytedance.com
@@ -326,6 +339,7 @@
 0.0.0.0 stat.lianmeng.360.cn
 0.0.0.0 stat.m.360.cn
 0.0.0.0 stat.moji.com
+0.0.0.0 stat.pandora.xiaomi.com
 0.0.0.0 stat.tf.360.cn
 0.0.0.0 stat.ts.cn
 0.0.0.0 stat.ws.126.net
@@ -361,6 +375,7 @@
 0.0.0.0 track.sohu.com
 0.0.0.0 track.uc.cn
 0.0.0.0 tracker-prd.aldi.com.cn
+0.0.0.0 tracker.ai.xiaomi.com
 0.0.0.0 tracker.sns.iqiyi.com
 0.0.0.0 tracking-adnet.vivo.com.cn
 0.0.0.0 tracking.americas.business.samsung.com
@@ -391,8 +406,10 @@
 0.0.0.0 vas-hl-x.snssdk.com
 0.0.0.0 vcl-brain.snssdk.com
 0.0.0.0 video-ad.sm.cn
+0.0.0.0 video.market.xiaomi.com
 0.0.0.0 web-analytics.lastpass.com
 0.0.0.0 wmedia-track.uc.cn
+0.0.0.0 wtradv.market.xiaomi.com
 0.0.0.0 xlog.snssdk.com
 0.0.0.0 yt-adv.bn.netease.com
 0.0.0.0 zhihu-web-analytics.zhihu.com

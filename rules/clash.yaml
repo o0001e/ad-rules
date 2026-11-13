@@ -1,5 +1,5 @@
 # AD-QGG Clash rule-provider (behavior: domain)
-# Update: 20261113 19:09
+# Update: 20261113 19:16
 payload:
   - '+.123-tracker.com'
   - '+.5363316.marketing.numi.com'
@@ -2546,6 +2546,7 @@ payload:
   - '+.click-plus.net'
   - '+.click-rtb2-apac.affinity.net'
   - '+.click-rtb2-apac.applabs.live'
+  - '+.click-rtb2-apac.onenativeads.com'
   - '+.click-rtb2-eu.affinity.net'
   - '+.click-rtb2-eu.mediarise.io'
   - '+.click-rtb2-eu.n-data.io'
@@ -6973,7 +6974,6 @@ payload:
   - '+.tracking.academicyear.org'
   - '+.tracking.accent-technologies.com'
   - '+.tracking.acceptance.industrial.omron.eu'
-  - '+.tracking.adactioninteractive.com'
   - '+.tracking.adalyser.com'
   - '+.tracking.adgoon.it'
   - '+.tracking.adp-iat.adp.ca'

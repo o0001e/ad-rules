@@ -42,6 +42,16 @@ SAFE_WORDS = re.compile(r"(^|[-.])(api|login|passport|pay|cashier|order|user|acc
                         r"mail|im|chat|upload|download|static|img|image|video|vod|play|live|cdn|"
                         r"frontier|pull|stream)([-.]|$)")
 
+CN_VENDORS = set("""
+qq.com gtimg.cn gtimg.com qpic.cn qlogo.cn weixin.qq.com wechat.com
+bytedance.com snssdk.com zijieapi.com byteimg.com bytednsdoc.com toutiao.com
+umeng.com aliyun.com alibaba.com taobao.com tmall.com alipay.com
+baidu.com bdstatic.com sina.com.cn weibo.com sohu.com 163.com 126.net
+tencentmusic.com kugou.com migu.cn iqiyi.com youku.com bilibili.com
+mi.com xiaomi.com huawei.com honor.com oppo.com vivo.com meizu.com
+jd.com pinduoduo.com xiaohongshu.com kuaishou.com
+""".split())
+
 TARGET = 8000
 
 
@@ -182,7 +192,8 @@ def write(blocked, white, apps):
         if len(p) >= 3 and p[-2] in ("com", "net", "org", "gov") and p[-1] == "cn":
             return ".".join(p[-3:])
         return ".".join(p[-2:]) if len(p) >= 2 else d
-    lite = {d for d in blocked if root_of(d) in roots or d.endswith(".cn")}
+    lite = {d for d in blocked
+            if root_of(d) in roots or root_of(d) in CN_VENDORS or d.endswith(".cn")}
     with open(os.path.join(OUT, "lite.txt"), "w", encoding="utf-8") as f:
         f.write("# AD-QGG Lite（国内）\n# Update: %s\n" % ver)
         f.write("".join("0.0.0.0 %s\n" % d for d in sorted(lite)))

@@ -1,3 +1,4 @@
+a.market.xiaomi.com
 abtest-ch.snssdk.com
 ad-api.adn-plus.com.cn
 ad-cdn.qingting.fm
@@ -30,6 +31,7 @@ ad.gmw.cn
 ad.hpplay.cn
 ad.huajiao.com
 ad.hunyuan.tencent.com
+ad.intl.xiaomi.com
 ad.iot.360.cn
 ad.iwhop.cn
 ad.jia.360.cn
@@ -47,16 +49,20 @@ ad.qyer.com
 ad.richmob.cn
 ad.sina.com.cn
 ad.sohu.com
+ad.tencentmusic.com
 ad.thepaper.cn
 ad.thsi.cn
+ad.toutiao.com
 ad.us.sinaimg.cn
 ad.vivo.com.cn
 ad.weibo.com
 ad.winrar.com.cn
+ad.xiaomi.com
 ad.ximalaya.com
 ad.youku.com
 ad.zhangyue.com
 ad.zhuanzhuan.com
+ad.zijieapi.com
 adopt-sdk.xg.tagtic.cn
 ads-go.adroi.com.cn
 ads-i1.xhscdn.com
@@ -91,6 +97,7 @@ ads.voiceads.cn
 ads.waps.cn
 ads.wapx.cn
 ads.zhinengxiyifang.cn
+ads.zijieapi.com
 adv-sv-show.focus.cn
 adv-sv-stat.focus.cn
 advert.api.thejoyrun.com
@@ -143,6 +150,7 @@ api.mobula.sdk.duapps.com
 apm-track.xiaohongshu.com
 app-log-lab.immomo.com
 app-log-oversea.immomo.com
+app.market.xiaomi.com
 applog.lc.quark.cn
 applog.snssdk.com
 atom-log.3.cn
@@ -151,11 +159,13 @@ aweme.snssdk.com
 baichuan-sdk.alicdn.com
 bd1.click.com.cn
 bds.snssdk.com
+beacon.gtimg.com
 beacon.sina.com.cn
 beta2-ad-open-api.test.gifshow.com
 bid-adx.vlion.cn
 business-ad.cdn-go.cn
 click.admaster.com.cn
+click.aliyun.com
 click.dangdang.com
 click.ganji.com
 click.hd.sohu.com.cn
@@ -203,6 +213,7 @@ log-dmp.suishenyun.cn
 log-gateway.zoom.us
 log-h5.imdada.cn
 log-hl.snssdk.com
+log-klink.zijieapi.com
 log-sdk.gifshow.com
 log-upload-eur.mihoyo.com
 log-upload-os.mihoyo.com
@@ -235,6 +246,7 @@ log.voicecloud.cn
 log.web.kugou.com
 log.ycapp.yiche.com
 log.zcool.com.cn
+log.zijieapi.com
 logs-bigdata.yeehaw.com.cn
 logs.amap.com
 logs.chelaile.net.cn
@@ -292,6 +304,7 @@ push.yuedu.163.com
 push.zhangyue.com
 reading-lq.snssdk.com
 report-stats.ad.jiguang.cn
+report.tencentmusic.com
 rtapplog.snssdk.com
 s-adx.op-mobile.opera.com
 scc.bytedance.com
@@ -324,6 +337,7 @@ stat.jc001.cn
 stat.lianmeng.360.cn
 stat.m.360.cn
 stat.moji.com
+stat.pandora.xiaomi.com
 stat.tf.360.cn
 stat.ts.cn
 stat.ws.126.net
@@ -359,6 +373,7 @@ track.sigmob.cn
 track.sohu.com
 track.uc.cn
 tracker-prd.aldi.com.cn
+tracker.ai.xiaomi.com
 tracker.sns.iqiyi.com
 tracking-adnet.vivo.com.cn
 tracking.americas.business.samsung.com
@@ -389,8 +404,10 @@ v3-ad.ixigua.com
 vas-hl-x.snssdk.com
 vcl-brain.snssdk.com
 video-ad.sm.cn
+video.market.xiaomi.com
 web-analytics.lastpass.com
 wmedia-track.uc.cn
+wtradv.market.xiaomi.com
 xlog.snssdk.com
 yt-adv.bn.netease.com
 zhihu-web-analytics.zhihu.com

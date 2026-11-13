@@ -1,5 +1,5 @@
 # AD-QGG Filter
-# Update: 20261113 19:09
+# Update: 20261113 19:16
 # Count: 7860
 0.0.0.0 123-tracker.com
 0.0.0.0 5363316.marketing.numi.com
@@ -2546,6 +2546,7 @@
 0.0.0.0 click-plus.net
 0.0.0.0 click-rtb2-apac.affinity.net
 0.0.0.0 click-rtb2-apac.applabs.live
+0.0.0.0 click-rtb2-apac.onenativeads.com
 0.0.0.0 click-rtb2-eu.affinity.net
 0.0.0.0 click-rtb2-eu.mediarise.io
 0.0.0.0 click-rtb2-eu.n-data.io
@@ -6973,7 +6974,6 @@
 0.0.0.0 tracking.academicyear.org
 0.0.0.0 tracking.accent-technologies.com
 0.0.0.0 tracking.acceptance.industrial.omron.eu
-0.0.0.0 tracking.adactioninteractive.com
 0.0.0.0 tracking.adalyser.com
 0.0.0.0 tracking.adgoon.it
 0.0.0.0 tracking.adp-iat.adp.ca
