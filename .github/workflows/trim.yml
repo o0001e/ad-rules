@@ -1,5 +1,9 @@
 name: Trim Dead Domains
 
+concurrency:
+  group: rules-trim
+  cancel-in-progress: false
+
 on:
   workflow_run:
     workflows: ["Update Filters"]

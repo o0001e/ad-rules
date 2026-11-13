@@ -1,4 +1,8 @@
 name: Update Filters
+concurrency:
+  group: rules-main
+  cancel-in-progress: false
+
 on:
   workflow_dispatch:
   schedule:

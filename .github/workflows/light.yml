@@ -1,5 +1,9 @@
 name: Hourly Light
 
+concurrency:
+  group: rules-light
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: '0 * * * *'
