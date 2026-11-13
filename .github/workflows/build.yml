@@ -38,7 +38,7 @@ jobs:
       - name: 准备环境
         run: |
           python3 --version
-          pip install --quiet requests
+          pip install --quiet requests pypinyin
 
       - name: 爬虫抓取（限时 40 分钟，失败不阻断）
         if: ${{ github.event.inputs.skip_crawl != 'true' }}
@@ -47,7 +47,10 @@ jobs:
       - name: 合并上游源与自建规则
         run: python3 scripts/merge_rules.py
 
-      - name: 生成 App 分组（按 app_list.json 拆分）
+      - name: 抓取热门 App 名单并匹配域名（前 500）
+        run: python3 -u scripts/app_rank.py || echo "::warning::榜单抓取失败，使用既有 app_list"
+
+      - name: 生成 App 分组（按 app_list.json + 榜单自动映射拆分）
         run: python3 -u scripts/gen_apps.py || echo "::warning::分组生成失败，跳过"
 
       - name: 规则数安全检查

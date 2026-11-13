@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .publish/
 dist/
+src_cache/
+app_list_auto.json

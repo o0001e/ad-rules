@@ -39,9 +39,17 @@ def load_blocked():
     return doms
 
 
+AUTO_LIST = os.path.join(ROOT, "app_list_auto.json")
+
+
 def load_apps():
-    with open(APP_LIST, encoding="utf-8") as f:
-        data = json.load(f)
+    data = {}
+    for pth in (APP_LIST, AUTO_LIST):
+        if os.path.exists(pth):
+            try:
+                data.update(json.load(open(pth, encoding="utf-8")))
+            except Exception:
+                pass
     result = {}
     for name, hosts in data.items():
         if isinstance(hosts, str):
@@ -81,6 +89,59 @@ def main():
         )
         if keep:
             groups[company] = keep
+
+    # 上游全量域名按注册根域归组，补足到 1000 个分组（对上 app_list 的优先）
+    MAX_GROUPS = 1000
+    MULTI = {"com.cn", "net.cn", "org.cn", "gov.cn", "edu.cn", "com.hk", "com.tw"}
+
+    def root_of(host):
+        parts = host.split(".")
+        if len(parts) < 2:
+            return host
+        if ".".join(parts[-2:]) in MULTI and len(parts) >= 3:
+            return ".".join(parts[-3:])
+        return ".".join(parts[-2:])
+
+    matched = set()
+    for keep in groups.values():
+        matched |= set(keep)
+
+    leftover = {}
+    for h in blocked - matched:
+        leftover.setdefault(root_of(h), []).append(h)
+
+    auto_names = {}
+    for root, doms in leftover.items():
+        cand = apps.get(root) or apps.get(root.split(".")[0])
+        name = root if not cand else None
+        if cand:
+            # 根域能对上某个 App 的域名列表，就并进那个已有分组
+            for company, hosts in apps.items():
+                if root in hosts:
+                    auto_names[root] = company
+                    groups.setdefault(company, [])
+                    groups[company] = sorted(set(groups[company]) | set(doms))
+                    break
+            continue
+        auto_names[root] = root
+
+    for root, doms in leftover.items():
+        nm = auto_names.get(root)
+        if nm is None:
+            continue
+        groups.setdefault(nm, [])
+        groups[nm] = sorted(set(groups[nm]) | set(doms))
+
+    # 分组太多时按域名数排序截断，保证每组至少 2 条
+    if len(groups) > MAX_GROUPS:
+        ordered = sorted(((k, v) for k, v in groups.items() if len(v) >= 2),
+                         key=lambda kv: -len(kv[1]))
+        keep_names = {k for k, _ in ordered[:MAX_GROUPS]}
+        for k in list(groups):
+            if k not in keep_names and len(groups[k]) < 2:
+                groups.pop(k, None)
+        if len(groups) > MAX_GROUPS:
+            groups = {k: v for k, v in ordered[:MAX_GROUPS]}
 
     total = sum(len(v) for v in groups.values())
     generated = len(groups)
