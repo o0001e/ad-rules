@@ -1284,7 +1284,6 @@ analytics-fe.digital-cloud-prem.medallia.eu
 analytics-fe.digital-cloud.medallia.ca
 analytics-fe.digital-cloud.medallia.com
 analytics-fe.digital-cloud.medallia.eu
-analytics-gateway.delta.dp.lightricks.com
 analytics-gw.games.wanmei.com
 analytics-helper.com
 analytics-ingestion.production-public.tubi.io
@@ -5654,6 +5653,7 @@ tracking-aws-5.com
 tracking-config-service.glority.com
 tracking-explore-uat.agilent.com
 tracking-explore.agilent.com
+tracking-lealcobrancaspremium.p-email.net
 tracking-live.kr3m.com
 tracking-na.hawksearch.com
 tracking-rce.veeseo.com

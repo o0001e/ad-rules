@@ -1285,7 +1285,6 @@ analytics-fe.digital-cloud-prem.medallia.eu	10	1,9,13,14,17,22,32,33,37,42
 analytics-fe.digital-cloud.medallia.ca	9	1,9,13,14,17,22,32,37,42
 analytics-fe.digital-cloud.medallia.com	10	1,9,11,13,14,17,22,32,37,42
 analytics-fe.digital-cloud.medallia.eu	9	1,9,11,13,14,17,32,37,42
-analytics-gateway.delta.dp.lightricks.com	5	11,13,14,17,37
 analytics-gw.games.wanmei.com	8	1,9,11,13,17,22,32,42
 analytics-helper.com	7	1,9,13,22,24,32,42
 analytics-ingestion.production-public.tubi.io	7	4,9,11,13,14,17,37
@@ -2657,7 +2656,7 @@ kv-analytics.kiotviet.vn	6	9,11,13,14,17,37
 lacergrippy.click	7	1,9,14,17,34,37,42
 lathielustly.click	7	1,9,14,17,34,37,42
 launch-analytics-plugin.launchpotato.com	10	1,9,11,13,14,17,22,32,37,42
-layer-ad.de	5	9,11,13,17,24
+layer-ad.de	6	9,11,13,17,24,33
 layer-ad.org	12	1,3,9,11,13,14,17,22,24,34,37,42
 layer-ads.de	8	4,9,11,13,14,17,24,33
 leadlab.click	9	1,9,13,14,22,24,32,37,42
@@ -5655,6 +5654,7 @@ tracking-aws-5.com	7	1,9,11,14,17,37,42
 tracking-config-service.glority.com	5	11,13,14,17,37
 tracking-explore-uat.agilent.com	10	1,9,11,13,14,17,22,32,37,42
 tracking-explore.agilent.com	10	1,9,11,13,14,17,22,32,37,42
+tracking-lealcobrancaspremium.p-email.net	5	4,9,13,14,17
 tracking-live.kr3m.com	10	1,9,11,13,14,17,22,32,37,42
 tracking-na.hawksearch.com	10	1,9,11,13,14,17,22,32,37,42
 tracking-rce.veeseo.com	5	11,13,14,17,37
