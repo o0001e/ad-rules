@@ -1,0 +1,2 @@
+# mya2pg8cdg.com 广告拦截 1条
+0.0.0.0 mya2pg8cdg.com

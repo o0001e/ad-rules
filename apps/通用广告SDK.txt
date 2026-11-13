@@ -1,4 +1,4 @@
-# 通用广告SDK 广告拦截 23条
+# 通用广告SDK 广告拦截 24条
 0.0.0.0 aaid.umeng.com
 0.0.0.0 ad.e.qq.com
 0.0.0.0 adkwai.com
@@ -22,3 +22,4 @@
 0.0.0.0 track.umeng.com
 0.0.0.0 umeng.com
 0.0.0.0 union.umeng.com
+0.0.0.0 wn.pos.baidu.com

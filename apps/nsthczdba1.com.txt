@@ -1,0 +1,2 @@
+# nsthczdba1.com 广告拦截 1条
+0.0.0.0 nsthczdba1.com

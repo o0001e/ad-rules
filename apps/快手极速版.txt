@@ -1,5 +1,4 @@
 # 快手极速版 广告拦截 70条
-0.0.0.0 ad.partner.gifshow.com
 0.0.0.0 adkwai.com
 0.0.0.0 ads.kwai.com
 0.0.0.0 adukwai.com
@@ -37,6 +36,7 @@
 0.0.0.0 multi-az-ulog.gifshow.com
 0.0.0.0 ntp.en.gifshow.com
 0.0.0.0 open.kuaishouzt.com
+0.0.0.0 partner.gifshow.com
 0.0.0.0 pay.ssl.kuaishou.com
 0.0.0.0 promotion-partner.kuaishou.com
 0.0.0.0 push.gifshow.com

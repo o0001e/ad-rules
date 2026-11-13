@@ -1,4 +1,4 @@
-# 腾讯地图 广告拦截 8条
+# 腾讯地图 广告拦截 9条
 0.0.0.0 5gimg.map.qq.com
 0.0.0.0 analytics.map.qq.com
 0.0.0.0 apikey.map.qq.com
