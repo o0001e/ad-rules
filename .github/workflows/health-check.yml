@@ -2,8 +2,9 @@ name: health-check
 
 on:
   schedule:
-    # 每 6 小时巡检一次（UTC 0/6/12/18 点 = 北京 8/14/20/2 点）
-    - cron: '0 */6 * * *'
+    # 每 6 小时巡检一次，避开 02:00 的全量构建
+    # UTC 21/3/9/15 = 北京 05/11/17/23
+    - cron: '0 21,3,9,15 * * *'
   workflow_dispatch:
 
 permissions:
