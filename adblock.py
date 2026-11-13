@@ -12,6 +12,7 @@
 """
 import os, re, sys, json, time, socket, collections, urllib.request
 from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import wait as _wait, FIRST_COMPLETED
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT_DIR") or os.path.join(ROOT, "rules")
@@ -172,10 +173,19 @@ def read_sources():
     urls = [l.strip() for l in open(SOURCES, encoding="utf-8")
             if l.strip() and not l.strip().startswith("#")]
     files = []
-    with ThreadPoolExecutor(max_workers=24) as ex:
-        for i, f in enumerate(ex.map(lambda a: download(*a), [(u, i) for i, u in enumerate(urls)]), 1):
-            if f:
-                files.append((i, f))
+    ex = ThreadPoolExecutor(max_workers=24)
+    futs = {ex.submit(download, u, i): i for i, u in enumerate(urls)}
+    done, pending = _wait(futs, timeout=150)
+    for f in done:
+        try:
+            p = f.result()
+        except Exception:
+            p = None
+        if p:
+            files.append((futs[f], p))
+    if pending:
+        print("[下载] %d 个源超时跳过" % len(pending))
+    ex.shutdown(wait=False)
     print("[下载] %d/%d 个源就绪" % (len(files), len(urls)))
     return files
 
@@ -443,3 +453,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    sys.stdout.flush()
+    sys.stderr.flush()
+    os._exit(0)
