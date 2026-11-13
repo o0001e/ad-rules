@@ -1,4 +1,0 @@
-# 商汤商量 广告拦截 3条
-0.0.0.0 log.sensetime.com
-0.0.0.0 monitor.sensetime.com
-0.0.0.0 report.sensetime.com

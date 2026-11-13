@@ -1,4 +1,0 @@
-# 学习强国 广告拦截 3条
-0.0.0.0 ad.xuexi.cn
-0.0.0.0 log.xuexi.cn
-0.0.0.0 report.xuexi.cn

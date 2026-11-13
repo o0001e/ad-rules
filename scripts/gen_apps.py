@@ -91,7 +91,7 @@ def main():
             groups[company] = keep
 
     # 上游全量域名按注册根域归组，补足到 1000 个分组（对上 app_list 的优先）
-    MAX_GROUPS = 1000
+    MAX_GROUPS = 5000   # 每个厂商一组，不人为截断
     MULTI = {"com.cn", "net.cn", "org.cn", "gov.cn", "edu.cn", "com.hk", "com.tw"}
 
     def root_of(host):
@@ -134,14 +134,8 @@ def main():
 
     # 分组太多时按域名数排序截断，保证每组至少 2 条
     if len(groups) > MAX_GROUPS:
-        ordered = sorted(((k, v) for k, v in groups.items() if len(v) >= 2),
-                         key=lambda kv: -len(kv[1]))
-        keep_names = {k for k, _ in ordered[:MAX_GROUPS]}
-        for k in list(groups):
-            if k not in keep_names and len(groups[k]) < 2:
-                groups.pop(k, None)
-        if len(groups) > MAX_GROUPS:
-            groups = {k: v for k, v in ordered[:MAX_GROUPS]}
+        ordered = sorted(groups.items(), key=lambda kv: -len(kv[1]))[:MAX_GROUPS]
+        groups = dict(ordered)
 
     total = sum(len(v) for v in groups.values())
     generated = len(groups)

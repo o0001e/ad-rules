@@ -1,3 +1,0 @@
-# 瓜子二手车 广告拦截 2条
-0.0.0.0 csj.guazi.com
-0.0.0.0 promo.guazi.com

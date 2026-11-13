@@ -1,3 +1,0 @@
-# 阿里健康 广告拦截 2条
-0.0.0.0 ads.alihealth.cn
-0.0.0.0 monitor.alihealth.cn

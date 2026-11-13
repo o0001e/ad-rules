@@ -1,3 +1,0 @@
-# 微信读书 广告拦截 2条
-0.0.0.0 oss.weread.qq.com
-0.0.0.0 push.weread.qq.com

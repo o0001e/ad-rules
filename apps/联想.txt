@@ -1,4 +1,0 @@
-# 联想 广告拦截 3条
-0.0.0.0 ads.lenovo.com
-0.0.0.0 analytics.lenovo.com
-0.0.0.0 click.lenovo.com

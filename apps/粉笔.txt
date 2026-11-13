@@ -1,3 +1,0 @@
-# 粉笔 广告拦截 2条
-0.0.0.0 data-api.fenbi.com
-0.0.0.0 log.fenbi.com

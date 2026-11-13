@@ -1,3 +1,0 @@
-# 中公教育 广告拦截 2条
-0.0.0.0 ssp.offcn.com
-0.0.0.0 union.offcn.com

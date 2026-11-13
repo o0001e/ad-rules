@@ -1,8 +1,0 @@
-# 中关村在线 广告拦截 7条
-0.0.0.0 click.zol.com.cn
-0.0.0.0 dsp.zol.com.cn
-0.0.0.0 log.zol.com.cn
-0.0.0.0 monitor.zol.com.cn
-0.0.0.0 report.zol.com.cn
-0.0.0.0 stat.zol.com.cn
-0.0.0.0 union.zol.com.cn

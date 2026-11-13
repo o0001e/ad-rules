@@ -1,4 +1,0 @@
-# 微视 广告拦截 3条
-0.0.0.0 h5.weishi.qq.com
-0.0.0.0 m.weishi.qq.com
-0.0.0.0 report.weishi.qq.com

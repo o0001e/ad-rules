@@ -1,5 +1,0 @@
-# 探探 广告拦截 4条
-0.0.0.0 ads.tantanapp.com
-0.0.0.0 dsp.tantanapp.com
-0.0.0.0 report.tantanapp.com
-0.0.0.0 tracker.tantanapp.com
