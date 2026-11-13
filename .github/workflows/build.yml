@@ -44,7 +44,7 @@ jobs:
           cache: 'pip'
 
       - name: 安装依赖
-        run: pip install --quiet requests pypinyin
+        run: pip install --quiet -r requirements.txt
 
       - name: 爬虫抓取（按需执行，限时 40 分钟，失败不阻断）
         if: ${{ github.event.inputs.skip_crawl != 'true' }}
