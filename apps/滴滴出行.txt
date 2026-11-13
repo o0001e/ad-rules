@@ -1,0 +1,25 @@
+# 滴滴出行 广告拦截 24条
+0.0.0.0 ad.didi.cn
+0.0.0.0 ad.xiaojukeji.com
+0.0.0.0 ads.didiglobal.com
+0.0.0.0 ads.xiaojukeji.com
+0.0.0.0 adtrack.xiaojukeji.com
+0.0.0.0 adx.xiaojukeji.com
+0.0.0.0 assets.xiaojukeji.com
+0.0.0.0 c.didi.cn
+0.0.0.0 dsp.didiglobal.com
+0.0.0.0 dsp.xiaojukeji.com
+0.0.0.0 gungnir.xiaojukeji.com
+0.0.0.0 gwp.xiaojukeji.com
+0.0.0.0 hd.xiaojukeji.com
+0.0.0.0 monitor.didiglobal.com
+0.0.0.0 mp-manhattan.xiaojukeji.com
+0.0.0.0 omgup.xiaojukeji.com
+0.0.0.0 omgup1.xiaojukeji.com
+0.0.0.0 omgup2.xiaojukeji.com
+0.0.0.0 sdk.xiaojukeji.com
+0.0.0.0 stat.xiaojukeji.com
+0.0.0.0 tracker.didiglobal.com
+0.0.0.0 tracker.xiaojukeji.com
+0.0.0.0 union.didi.cn
+0.0.0.0 v.didi.cn

@@ -1,0 +1,2 @@
+# cash-ads.com 广告拦截 1条
+0.0.0.0 cash-ads.com

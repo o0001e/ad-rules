@@ -1,0 +1,17 @@
+# 58同城 广告拦截 16条
+0.0.0.0 adshow.58.com
+0.0.0.0 advert.58.com
+0.0.0.0 brandshow.58.com
+0.0.0.0 dmpdata.58.com
+0.0.0.0 im58log.58.com
+0.0.0.0 jing.58.com
+0.0.0.0 jumpluna.58.com
+0.0.0.0 luna.58.com
+0.0.0.0 news.58.com
+0.0.0.0 poro.58.com
+0.0.0.0 ptracker.58.com
+0.0.0.0 track.58.com
+0.0.0.0 tracklog.58.com
+0.0.0.0 usdtop.58.com
+0.0.0.0 zpservice.58.com
+0.0.0.0 zzpush.58.com

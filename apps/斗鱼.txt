@@ -1,0 +1,4 @@
+# 斗鱼 广告拦截 3条
+0.0.0.0 ad.douyu.com
+0.0.0.0 ads.douyu.com
+0.0.0.0 dsp.douyu.com

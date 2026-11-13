@@ -1,0 +1,6 @@
+# 钉钉 广告拦截 5条
+0.0.0.0 click.dingtalk.com
+0.0.0.0 log.dingtalk.com
+0.0.0.0 report.dingtalk.com
+0.0.0.0 track.dingtalk.com
+0.0.0.0 union.dingtalk.com

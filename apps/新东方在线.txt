@@ -1,0 +1,4 @@
+# 新东方在线 广告拦截 3条
+0.0.0.0 ad.koolearn.com
+0.0.0.0 log.koolearn.com
+0.0.0.0 union.koolearn.com

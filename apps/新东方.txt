@@ -1,0 +1,6 @@
+# 新东方 广告拦截 5条
+0.0.0.0 ad.xdf.cn
+0.0.0.0 analytics.xdf.cn
+0.0.0.0 click.xdf.cn
+0.0.0.0 monitor.xdf.cn
+0.0.0.0 track.xdf.cn

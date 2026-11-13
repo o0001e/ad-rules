@@ -1,0 +1,5 @@
+# 千千音乐 广告拦截 4条
+0.0.0.0 click.qianqian.com
+0.0.0.0 ttmsg.qianqian.com
+0.0.0.0 ttpack.qianqian.com
+0.0.0.0 ttplayer.qianqian.com
