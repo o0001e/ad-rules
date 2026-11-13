@@ -542,7 +542,6 @@ cfg-2.pddpic.com
 cfg.imtt.qq.com
 cgi.connect.qq.com
 cgi.pub.qq.com
-cgi.qianbao.qq.com
 cgicol.amap.com
 channel.m.163.com
 charge.adapp.baidu.com
@@ -719,7 +718,6 @@ dmd-ilp-hd.youku.com
 dmp-data.vip.com
 dmpdata.58.com
 dmplog.qq.com
-dmtrack.buy.qq.com
 dmtracking.alibaba.com
 dmtracking2.alibaba.com
 dmym.fwol.cn
@@ -739,6 +737,7 @@ down-wsh.qq.com
 down.qq.com
 download.bav.baidu.com
 download.sd.baidu.com
+download.sj.qq.com
 download.zhushou.sogou.com
 downmini.kugou.com
 downmobile.kugou.com
@@ -899,7 +898,6 @@ game.html5.qq.com
 game.kuaishouzt.com
 game.kugou.com
 game.weibo.com
-game.weixin.qq.com
 gamebox.kugou.com
 gamecenter.baidu.com
 gamecenter.iqiyi.com
@@ -1173,6 +1171,7 @@ jingjia.qq.com
 jingyan.baidu.com
 jmy-pic.baidu.com
 jpush.cn
+jpush.html5.qq.com
 jpushjd.m.jd.com
 jpushsc.m.jd.com
 jqmt.qq.com
@@ -1183,7 +1182,6 @@ jrclick.jd.com
 jrge.cn
 js.aq.qq.com
 js.mobojoy.baidu.com
-jsapi.html5.qq.com
 jsapi.qq.com
 jsqmt.qq.com
 jswebcollects.kugou.com
@@ -1279,7 +1277,6 @@ log.uu.163.com
 log.web.kugou.com
 log.weibo.com
 log.weixin.qq.com
-log.wtlogin.qq.com
 log0-applog-lf.fqnovel.com
 log0-applog-lq.fqnovel.com
 log0-misc-alinc2.amemv.com
@@ -2000,6 +1997,7 @@ static.g.iqiyi.com
 static.gaomaer.cn
 static.iqiyi.com
 static.pay.baidu.com
+static.qblv.qq.com
 static.qiyi.com
 static.ws.126.net
 static.youku.com

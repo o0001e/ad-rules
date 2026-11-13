@@ -1,0 +1,2 @@
+# fast-adv.it 广告拦截 1条
+0.0.0.0 fast-adv.it

@@ -1,2 +1,0 @@
-# jotedd.icu 广告拦截 1条
-0.0.0.0 jotedd.icu
