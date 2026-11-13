@@ -1,23 +1,27 @@
 白名单被拦截冲突: 0
-抽样 60 个，解析失败 21，无法判定 0
-  x user.hongguoduanju.com
-  x passport.zhihu.com
-  x message.changdunovel.com
-  x live.amemv.com
-  x qzmanhua.com
-  x live.hongguoduanju.com
-  x message.baidu.com
-  x pay.mi.com
-  x cdn.qzmanhua.com
-  x passport.novelquickapp.com
-  x live.zhihu.com
-  x message.qznovel.com
-  x message.mi.com
-  x www.fqnovel.com
+抽样 60 个，解析失败 25，无法判定 0
+  x order.163.com
+  x order.baidu.com
+  x api.douyin.com
+  x live.qznovel.com
   x order.bilibili.com
-  x order.ctrip.com
-  x m.qznovel.com
-  x user.meituan.com
-  x cdn.mgtv.com
+  x qzmanhua.com
+  x m.hongguoduanju.com
+  x open.qzmanhua.com
+  x user.hongguoduanju.com
+  x user.xiaohongshu.com
+  x user.weibo.com
+  x live.novelquickapp.com
+  x pay.fqnovel.com
+  x pay.changdunovel.com
+  x live.qzmanhua.com
+  x pay.qznovel.com
+  x api.hongguoduanju.com
+  x live.fqmanhua.com
+  x pay.douban.com
+  x passport.mgtv.com
   x cdn.kuaishou.com
-  x user.fqnovel.com
+  x message.huawei.com
+  x message.mi.com
+  x fqmanhua.com
+  x user.huawei.com

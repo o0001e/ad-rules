@@ -259,7 +259,6 @@ ad.houkei-shinjuku.com	9	0,8,10,12,13,16,29,34,39
 ad.house365.com	6	0,8,10,12,16,39
 ad.hpplay.cn	10	0,2,3,4,8,10,14,38,39,40
 ad.huajiao.com	6	0,2,8,10,39,40
-ad.hutor.ru	4	10,12,13,34
 ad.hyena.cz	6	8,10,12,13,16,30
 ad.icheck.com.vn	6	8,10,12,13,16,34
 ad.ichiban-boshi.com	9	0,8,10,12,13,16,29,34,39
@@ -654,6 +653,7 @@ ads.einmedia.com	6	3,8,10,12,13,16
 ads.eircom.net	5	3,8,12,13,16
 ads.electrocelt.com	6	8,10,12,13,16,30
 ads.emirates.net.ae	6	8,10,12,13,16,30
+ads.enrt.eu	4	10,12,13,34
 ads.epi.sk	4	8,12,13,30
 ads.eu.msn.com	12	0,2,3,8,10,12,13,14,16,30,39,40
 ads.exoclick.com	9	0,2,7,8,9,10,31,41,42
@@ -771,7 +771,6 @@ ads.lmmob.com	5	3,8,12,13,16
 ads.lot-tissimo.com	7	2,10,12,13,16,31,34
 ads.luffy.my.id	7	2,10,12,13,16,31,34
 ads.ma7.tv	4	8,12,13,30
-ads.mail.bg	4	8,12,13,30
 ads.markettimes.vn	6	8,10,12,13,16,34
 ads.marry.vn	6	8,10,12,13,16,34
 ads.massinfra.nl	6	8,10,12,13,16,30
@@ -932,6 +931,7 @@ ads.swiftnews.com	5	3,8,12,13,16
 ads.swiss-equestrian.ch	5	10,12,13,16,34
 ads.taboola.com	5	2,8,31,39,40
 ads.talksport.com	10	0,2,8,10,12,13,16,31,34,39
+ads.tbs.com	4	3,8,13,16
 ads.techvibes.com	5	3,8,12,13,16
 ads.thanhnien.vn	5	8,12,13,16,34
 ads.the-saleroom.com	7	2,10,12,13,16,31,34
@@ -1219,7 +1219,6 @@ adx.ads.heytapmobi.com	12	0,2,3,4,8,10,12,14,35,37,38,39
 adx.ads.oppomobile.com	10	0,2,3,4,8,10,14,38,40,42
 adx.baolongan.vn	6	8,10,12,13,16,34
 adx.chinmedia.vn	6	8,10,12,13,16,34
-adx.chip.de	4	0,8,10,39
 adx.com.ru	7	0,8,12,13,29,34,39
 adx.doumpaq.com	5	0,3,8,14,39
 adx.fulcrum.com.fj	10	0,2,8,10,12,13,16,31,34,39
@@ -2866,6 +2865,7 @@ log.medietall.no	10	0,3,8,10,12,13,16,29,34,39
 log.mix.sina.com.cn	11	0,2,8,10,12,13,16,29,34,39,40
 log.mmstat.com	12	2,3,5,7,8,10,12,20,25,34,39,40
 log.mofa.go.kr	9	0,8,10,12,13,16,29,34,39
+log.mopo.de	4	12,13,16,34
 log.mp3.zing.vn	6	8,10,12,13,16,34
 log.newsvine.com	7	8,10,12,13,16,17,34
 log.ngaynay.vn	6	8,10,12,13,16,34
@@ -4787,7 +4787,6 @@ stat.wolterskluwer.es	9	0,8,10,12,13,16,29,34,39
 stat.wolterskluwer.pl	9	0,8,10,12,13,16,29,34,39
 stat.wolterskluwer.pt	9	0,8,10,12,13,16,29,34,39
 stat.ws.126.net	11	0,2,8,10,12,13,16,29,34,39,40
-stat.www.fi	4	3,8,13,16
 stat.xgo.com.cn	10	0,2,8,10,12,16,28,39,40,42
 stat.zenon.net	6	8,10,12,13,16,30
 stat.zol.com.cn	7	0,8,10,12,16,29,39
@@ -5000,6 +4999,7 @@ stats.jkdesa.com	9	0,8,10,12,13,16,29,34,39
 stats.jpush.cn	9	0,2,3,5,8,10,14,35,40
 stats.justpaste.it	7	0,8,10,12,16,29,39
 stats.kaltura.com	9	0,8,10,12,13,16,29,34,39
+stats.kc.ie	4	12,13,16,34
 stats.knowkit.cloud	6	0,8,10,16,29,39
 stats.kroger.com	9	0,8,10,12,13,16,29,34,39
 stats.ks-labs.de	7	0,8,10,12,16,29,39
