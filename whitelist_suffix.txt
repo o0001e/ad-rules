@@ -1,11 +1,8 @@
-# 可后缀放行主域（32 条）：无被拦广告子域，可写 *.域名
+# 可后缀放行主域（28 条）：无被拦广告子域，可写 *.域名
 
-*.12306.cn
-*.360.cn
 *.360.com
 *.58cdn.com
 *.alicdn.com
-*.aliyuncs.com
 *.b23.tv
 *.bytedance.net
 *.byteimg.com
@@ -23,7 +20,6 @@
 *.jdimg.com
 *.kuaishouapp.com
 *.kwaicdn.com
-*.myqcloud.com
 *.novelquickapp.com
 *.pddcdn.com
 *.qcloud.com
@@ -33,12 +29,15 @@
 *.qznovel.com
 *.weixin.com
 
-# 必须精确放行主域（54 条）：有广告子域被拦，禁止写 *.
+# 必须精确放行主域（58 条）：有广告子域被拦，禁止写 *.
 
+# 12306.cn
 # 163.com
+# 360.cn
 # 360buyimg.com
 # 51job.com
 # alipay.com
+# aliyuncs.com
 # amap.com
 # amemv.com
 # baidu.com
@@ -69,6 +68,7 @@
 # meituan.net
 # mgtv.com
 # mi.com
+# myqcloud.com
 # pddpic.com
 # pinduoduo.com
 # qq.com

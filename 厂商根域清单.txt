@@ -1,8 +1,9 @@
 # 厂商根域覆盖清单
 # 厂商	根域	拦截子域数
 12306	12306.cn	1
-21世纪不动产	21cn.com	1
-360浏览器	360.cn 360.com	2
+21世纪不动产	21cn.com	2
+2345天气	2345.com	1
+360浏览器	360.cn 360.com	7
 58同城	58.com	16
 BOSS直聘	zhipin.com	5
 Bitwarden	bitwarden.com	1
@@ -18,20 +19,22 @@ MOMO陌陌	immomo.com	1
 MiniMax	minimaxi.com	1
 NOW直播	now.qq.com	1
 Opera	opera.com	2
-QQ	qq.com	326
+PP视频	ashiping.com chenshipin.com cheshipin.com	1
+QQ	qq.com	334
 QQ浏览器	browser.qq.com	2
 QQ炫舞	x5.qq.com	1
-QQ空间	qq.com	326
-QQ邮箱	qq.com	326
-QQ音乐	y.qq.com qqmusic.com	8
+QQ空间	qq.com	334
+QQ邮箱	qq.com	334
+QQ音乐	y.qq.com qqmusic.com	9
 QQ飞车	speed.qq.com	1
 Soul	soulapp.cn	3
 T3出行	t3go.cn	1
 Talkin	talkingdata.cn talkingdata.com talkingdata.com.cn	1
-UC浏览器	uc.cn ucweb.com	7
+UC浏览器	uc.cn ucweb.com	8
 WPS	wps.cn wps.com kingsoft.com kdocs.cn	42
 WPS Office	wps.cn wps.com kingsoft.com kdocs.cn	42
 WiFi万能钥匙	wifi.com	3
+YY直播	yy.com	1
 Zoom	zoom.us	7
 ai荔枝	lizhi.fm	3
 ofo小黄车	ofo.com	2
@@ -41,7 +44,7 @@ vivo 商城	vivo.com	4
 七猫小说	qimao.com	1
 世纪佳缘	jiayuan.com	4
 中公教育	offcn.com	2
-中关村在线	zol.com.cn	7
+中关村在线	zol.com.cn	8
 中原地产	centanet.com	2
 中国工商银行	icbc.com.cn	1
 亚马逊中国	amazon.cn	1
@@ -60,9 +63,10 @@ vivo 商城	vivo.com	4
 使命召唤手游	codm.qq.com	1
 傲游浏览器	maxthon.cn	1
 元气骑士	chillyroom.com	2
+光·遇	guangyuanol.cn guangyukeji.com	1
 光大证券	ebscn.com	1
 全民K歌	kg.qq.com	4
-凤凰FM	ifeng.com	1
+凤凰FM	ifeng.com	5
 创客贴	chuangkit.com	1
 前程无忧	51job.com	5
 努比亚	nubia.com	3
@@ -86,12 +90,12 @@ vivo 商城	vivo.com	4
 墨迹天气	moji.com	6
 天工AI	tiangong.cn	1
 天涯明月刀	tencent.com	27
-太平洋电脑网	pconline.com.cn	1
+太平洋电脑网	pconline.com.cn	2
 夸克	quark.cn quark.com	3
 夸克网盘	quark.cn quark.com	3
 奇秀直播	qx.com	2
 好物分享	haowu.com	1
-好看视频	baidu.com	289
+好看视频	baidu.com	292
 字节跳动	bytecdn.cn byteimg.com	1
 学习强国	xuexi.cn	3
 学堂在线	xuetangx.com	1
@@ -107,7 +111,7 @@ vivo 商城	vivo.com	4
 平安银行	pingan.com	1
 当当	dangdang.com	4
 微信	weixin.com wechat.com	2
-微信读书	weread.qq.com	2
+微信读书	weread.qq.com	1
 微博	weibo.com sina.com sinaimg.cn	48
 微博轻享版	weibo.com sina.com sinaimg.cn	48
 微盟	weimob.com	3
@@ -117,20 +121,21 @@ vivo 商城	vivo.com	4
 懂车帝	dongchedi.com	1
 扫描全能王	camscanner.com	1
 找靓机	zhaoliangji.com	1
-抖音	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	137
-抖音商城	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	137
-抖音极速版	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	137
-抖音火山版	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	137
-抖音直播伴侣	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	137
-抖音精选	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	137
+抖音	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	139
+抖音商城	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	139
+抖音极速版	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	139
+抖音火山版	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	139
+抖音直播伴侣	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	139
+抖音精选	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	139
 拉勾网	lagou.com	1
 招商银行	cmbchina.com	1
 拼多多	pinduoduo.com pddpic.com pddcdn.com yangkeduo.com	27
 掌阅	zhangyue.com ireader.com	1
 探探	tantanapp.com	4
 探探－探索精彩探索爱	tantanapp.com	4
-搜狐	sohu.com sohucs.com	6
-搜狐视频关注流	sohu.com sohucs.com	6
+搜狐	sohu.com sohucs.com	13
+搜狐焦点	focus.cn	2
+搜狐视频关注流	sohu.com sohucs.com	13
 搜狗	so.com	7
 搜狗浏览器	sogou.com	50
 携程	ctrip.com qunar.com trip.com	15
@@ -140,12 +145,12 @@ vivo 商城	vivo.com	4
 斗鱼	douyu.com douyucdn.cn	3
 新东方	xdf.cn	5
 新东方在线	koolearn.com	3
-新浪	sina.com.cn	12
+新浪	sina.com.cn	20
 新浪乐居	leju.com	4
 星愿浏览器	twinkstar.com	1
 智联招聘	zhaopin.com	1
 智谱清言	chatglm.cn	1
-有道	youdao.com	5
+有道	youdao.com	7
 有道云笔记	note.youdao.com	1
 机锋	gfan.com	1
 来疯直播	laifeng.com	1
@@ -154,13 +159,14 @@ vivo 商城	vivo.com	4
 植物大战僵尸2	popcap.com	1
 植物大战僵尸3	popcap.com	1
 沪江网校	hujiang.com	1
+泡泡网	pcpop.com	1
 波波视频	bobo.com	1
 海豚浏览器	dolphin.com	1
-淘宝	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	148
-淘宝特价版	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	148
+淘宝	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	149
+淘宝特价版	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	149
 滴滴	didiglobal.com xiaojukeji.com	20
 滴滴出行	didi.cn xiaojukeji.com didiglobal.com	24
-爱卡汽车	xcar.com.cn	4
+爱卡汽车	xcar.com.cn	5
 爱回收	aihuishou.com	1
 爱奇艺	iqiyi.com qiyi.com iqiyipic.com	118
 爱奇艺随刻	iqiyi.com qiyi.com iqiyipic.com	118
@@ -172,15 +178,15 @@ vivo 商城	vivo.com	4
 瓜子二手车	guazi.com	2
 用友	yonyou.com	1
 百合网	baihe.com	5
-百度	bdstatic.com bdimg.com baidubcs.com bcebos.com	30
+百度	bdstatic.com bdimg.com baidubcs.com bcebos.com	33
 百度地图	map.baidu.com	1
-百度文库	wenku.baidu.com	1
+百度文库	wenku.baidu.com	2
 百度网盘	pan.baidu.com	1
 百度贴吧	tieba.baidu.com	1
 知乎	zhihu.com zhimg.com	26
 石墨文档	shimo.im	3
 神州专车	zuche.com	1
-穷游	qyer.com	2
+穷游	qyer.com	3
 粉笔	fenbi.com	2
 红果短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	61
 网易	netease.com 126.net 127.net	79
@@ -199,12 +205,12 @@ vivo 商城	vivo.com	4
 联想	lenovo.com	3
 腾讯	gtimg.cn qlogo.cn	17
 腾讯会议	meeting.tencent.com	2
-腾讯地图	map.qq.com	9
+腾讯地图	map.qq.com	8
 腾讯欢乐斗地主	gtimg.cn qlogo.cn	17
 腾讯视频	v.qq.com qqlive.com	5
 芒果TV	mgtv.com hunantv.com	50
 花椒直播	huajiao.com	1
-苏宁易购	suning.com	1
+苏宁易购	suning.com	2
 英雄联盟手游	riotgames.com	1
 荔枝	lizhi.fm	3
 荣耀	honor.com	3
@@ -222,14 +228,14 @@ vivo 商城	vivo.com	4
 豆瓣	douban.com doubanio.com	8
 贝壳找房	ke.com	7
 贴吧	tieba.baidu.com	1
-赶集网	ganji.com	1
+赶集网	ganji.com	2
 跟谁学	genshuixue.com	1
 车轮查违章	chelun.com	2
 转转	zhuanzhuan.com	1
-迅雷	xunlei.com	2
+迅雷	xunlei.com	3
 途牛	tuniu.com	2
-通用广告SDK	pangle.io gromore.com csjplatform.com pangolin-sdk-toutiao.com gdt.qq.com e.qq.com	20
-酷我音乐	kuwo.cn kuwo.com	2
+通用广告SDK	pangle.io gromore.com csjplatform.com pangolin-sdk-toutiao.com gdt.qq.com e.qq.com	23
+酷我音乐	kuwo.cn kuwo.com	3
 酷狗音乐	kugou.com kglink.com	87
 钉钉	dingtalk.com dingtalkapps.com	5
 铁路12306	12306.cn	1

@@ -1,0 +1,2 @@
+# taisantech.com 广告拦截 1条
+0.0.0.0 sanme2.taisantech.com

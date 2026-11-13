@@ -1,0 +1,2 @@
+# 68td4yete.com 广告拦截 1条
+0.0.0.0 68td4yete.com

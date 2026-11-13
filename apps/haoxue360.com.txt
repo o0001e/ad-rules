@@ -1,0 +1,2 @@
+# haoxue360.com 广告拦截 1条
+0.0.0.0 2.haoxue360.com

@@ -1,0 +1,2 @@
+# rt5x78mhcq.com 广告拦截 1条
+0.0.0.0 rt5x78mhcq.com

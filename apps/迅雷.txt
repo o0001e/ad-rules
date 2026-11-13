@@ -1,3 +1,4 @@
-# 迅雷 广告拦截 2条
+# 迅雷 广告拦截 3条
+0.0.0.0 adsp.xunlei.com
 0.0.0.0 ssp.xunlei.com
 0.0.0.0 union.xunlei.com

@@ -1,0 +1,3 @@
+# tianqistatic.com 广告拦截 2条
+0.0.0.0 datas.tianqistatic.com
+0.0.0.0 yptqys.tianqistatic.com

@@ -1,0 +1,2 @@
+# preserved32.top 广告拦截 1条
+0.0.0.0 preserved32.top

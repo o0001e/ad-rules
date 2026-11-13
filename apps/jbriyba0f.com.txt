@@ -1,0 +1,2 @@
+# jbriyba0f.com 广告拦截 1条
+0.0.0.0 jbriyba0f.com

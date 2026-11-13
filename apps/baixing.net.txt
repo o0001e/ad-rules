@@ -1,0 +1,3 @@
+# baixing.net 广告拦截 2条
+0.0.0.0 bd-s.baixing.net
+0.0.0.0 script-bd.baixing.net

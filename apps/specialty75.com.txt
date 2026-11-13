@@ -1,0 +1,2 @@
+# specialty75.com 广告拦截 1条
+0.0.0.0 specialty75.com

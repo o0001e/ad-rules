@@ -1,0 +1,2 @@
+# hbiaz6xxya.com 广告拦截 1条
+0.0.0.0 hbiaz6xxya.com

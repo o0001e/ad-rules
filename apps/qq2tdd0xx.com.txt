@@ -1,0 +1,2 @@
+# qq2tdd0xx.com 广告拦截 1条
+0.0.0.0 qq2tdd0xx.com

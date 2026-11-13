@@ -1,0 +1,2 @@
+# 7xx3jbcil.com 广告拦截 1条
+0.0.0.0 7xx3jbcil.com

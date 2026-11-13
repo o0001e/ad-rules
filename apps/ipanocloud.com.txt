@@ -1,0 +1,2 @@
+# ipanocloud.com 广告拦截 1条
+0.0.0.0 c81.ipanocloud.com

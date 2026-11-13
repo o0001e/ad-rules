@@ -1,4 +1,4 @@
-# xiaomi.com 广告拦截 78条
+# xiaomi.com 广告拦截 79条
 0.0.0.0 a0.app.xiaomi.com
 0.0.0.0 actfile.cdn.pandora.xiaomi.com
 0.0.0.0 ad.intl.xiaomi.com
@@ -76,4 +76,5 @@
 0.0.0.0 tvmanager.pandora.xiaomi.com
 0.0.0.0 tvmgr.pandora.xiaomi.com
 0.0.0.0 tz.sec.xiaomi.com
+0.0.0.0 video.market.xiaomi.com
 0.0.0.0 w.pandora.xiaomi.com

@@ -1,0 +1,2 @@
+# 8proe3xx6.com 广告拦截 1条
+0.0.0.0 8proe3xx6.com

@@ -1,0 +1,2 @@
+# guitarpro.cc 广告拦截 1条
+0.0.0.0 guitarpro.cc

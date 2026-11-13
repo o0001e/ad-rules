@@ -1,0 +1,4 @@
+# iteye.com 广告拦截 3条
+0.0.0.0 cee1.iteye.com
+0.0.0.0 mpb1.iteye.com
+0.0.0.0 rabc1.iteye.com

@@ -1,0 +1,2 @@
+# lnme1q1qa.com 广告拦截 1条
+0.0.0.0 lnme1q1qa.com

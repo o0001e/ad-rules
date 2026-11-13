@@ -1,0 +1,2 @@
+# hdo0zseqy.com 广告拦截 1条
+0.0.0.0 hdo0zseqy.com

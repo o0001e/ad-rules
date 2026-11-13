@@ -1,0 +1,2 @@
+# avh3nuhxm.com 广告拦截 1条
+0.0.0.0 avh3nuhxm.com

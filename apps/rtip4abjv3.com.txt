@@ -1,0 +1,2 @@
+# rtip4abjv3.com 广告拦截 1条
+0.0.0.0 rtip4abjv3.com

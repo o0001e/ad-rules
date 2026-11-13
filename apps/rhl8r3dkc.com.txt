@@ -1,0 +1,2 @@
+# rhl8r3dkc.com 广告拦截 1条
+0.0.0.0 rhl8r3dkc.com

@@ -1,0 +1,2 @@
+# chuimg.com 广告拦截 1条
+0.0.0.0 y66xvgo5i.chuimg.com

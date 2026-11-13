@@ -1,2 +1,3 @@
-# 百度文库 广告拦截 1条
+# 百度文库 广告拦截 2条
+0.0.0.0 as1.wenku.baidu.com
 0.0.0.0 wenku.baidu.com

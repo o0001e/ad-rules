@@ -1,0 +1,2 @@
+# mt1exxfnf.com 广告拦截 1条
+0.0.0.0 mt1exxfnf.com

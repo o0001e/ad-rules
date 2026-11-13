@@ -1,0 +1,2 @@
+# bfitra1eho.com 广告拦截 1条
+0.0.0.0 bfitra1eho.com

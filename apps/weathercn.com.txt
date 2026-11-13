@@ -1,0 +1,3 @@
+# weathercn.com 广告拦截 2条
+0.0.0.0 cbdm.weathercn.com
+0.0.0.0 zgzxm.weathercn.com

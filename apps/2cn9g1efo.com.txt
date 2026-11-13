@@ -1,0 +1,2 @@
+# 2cn9g1efo.com 广告拦截 1条
+0.0.0.0 2cn9g1efo.com

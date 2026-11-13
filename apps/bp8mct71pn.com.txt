@@ -1,0 +1,2 @@
+# bp8mct71pn.com 广告拦截 1条
+0.0.0.0 bp8mct71pn.com

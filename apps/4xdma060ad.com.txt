@@ -1,0 +1,2 @@
+# 4xdma060ad.com 广告拦截 1条
+0.0.0.0 4xdma060ad.com

@@ -1,0 +1,2 @@
+# 7car.com.cn 广告拦截 1条
+0.0.0.0 7car.com.cn

@@ -1,0 +1,2 @@
+# 5edrgrnqg.com 广告拦截 1条
+0.0.0.0 5edrgrnqg.com

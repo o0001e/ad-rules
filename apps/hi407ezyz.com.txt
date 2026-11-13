@@ -1,0 +1,2 @@
+# hi407ezyz.com 广告拦截 1条
+0.0.0.0 hi407ezyz.com

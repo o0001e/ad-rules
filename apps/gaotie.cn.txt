@@ -1,0 +1,2 @@
+# gaotie.cn 广告拦截 1条
+0.0.0.0 images8.gaotie.cn

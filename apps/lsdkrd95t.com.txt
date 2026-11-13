@@ -1,0 +1,2 @@
+# lsdkrd95t.com 广告拦截 1条
+0.0.0.0 lsdkrd95t.com

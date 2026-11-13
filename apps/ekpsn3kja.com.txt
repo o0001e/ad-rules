@@ -1,0 +1,2 @@
+# ekpsn3kja.com 广告拦截 1条
+0.0.0.0 ekpsn3kja.com

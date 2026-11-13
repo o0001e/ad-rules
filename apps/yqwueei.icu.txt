@@ -1,0 +1,2 @@
+# yqwueei.icu 广告拦截 1条
+0.0.0.0 yqwueei.icu

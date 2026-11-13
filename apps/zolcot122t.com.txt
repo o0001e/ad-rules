@@ -1,0 +1,2 @@
+# zolcot122t.com 广告拦截 1条
+0.0.0.0 zolcot122t.com

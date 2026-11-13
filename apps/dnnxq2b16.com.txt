@@ -1,0 +1,2 @@
+# dnnxq2b16.com 广告拦截 1条
+0.0.0.0 dnnxq2b16.com

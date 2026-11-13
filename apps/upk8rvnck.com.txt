@@ -1,0 +1,2 @@
+# upk8rvnck.com 广告拦截 1条
+0.0.0.0 upk8rvnck.com

@@ -1,4 +1,4 @@
-# QQ音乐 广告拦截 8条
+# QQ音乐 广告拦截 9条
 0.0.0.0 ad.y.qq.com
 0.0.0.0 monitor.y.qq.com
 0.0.0.0 stat.y.qq.com
@@ -6,4 +6,5 @@
 0.0.0.0 test.y.qq.com
 0.0.0.0 tmead.y.qq.com
 0.0.0.0 tmeadbak.y.qq.com
+0.0.0.0 tmeadcomm.y.qq.com
 0.0.0.0 tmeadkg.y.qq.com

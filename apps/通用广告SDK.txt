@@ -1,13 +1,16 @@
-# 通用广告SDK 广告拦截 20条
+# 通用广告SDK 广告拦截 23条
+0.0.0.0 aaid.umeng.com
 0.0.0.0 ad.e.qq.com
 0.0.0.0 adkwai.com
 0.0.0.0 ads.e.qq.com
 0.0.0.0 adtrack.umeng.com
 0.0.0.0 adx.e.qq.com
+0.0.0.0 api-access.pangolin-sdk-toutiao.com
 0.0.0.0 csjplatform.com
 0.0.0.0 e.qq.com
 0.0.0.0 gdt.qq.com
 0.0.0.0 gromore.pangolin-sdk-toutiao.com
+0.0.0.0 log-api.pangolin-sdk-toutiao.com
 0.0.0.0 mobads.baidu.com
 0.0.0.0 monitor.gdt.qq.com
 0.0.0.0 pangle.io

@@ -1,0 +1,2 @@
+# 9txnu9rlmd.com 广告拦截 1条
+0.0.0.0 9txnu9rlmd.com

@@ -1,0 +1,2 @@
+# rbru3ubey.com 广告拦截 1条
+0.0.0.0 rbru3ubey.com

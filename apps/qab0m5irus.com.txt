@@ -1,0 +1,2 @@
+# qab0m5irus.com 广告拦截 1条
+0.0.0.0 qab0m5irus.com

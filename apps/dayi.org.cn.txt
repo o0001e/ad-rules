@@ -1,0 +1,2 @@
+# dayi.org.cn 广告拦截 1条
+0.0.0.0 bun1.dayi.org.cn

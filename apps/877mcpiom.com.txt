@@ -1,0 +1,2 @@
+# 877mcpiom.com 广告拦截 1条
+0.0.0.0 877mcpiom.com

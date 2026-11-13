@@ -1,0 +1,2 @@
+# entm.top 广告拦截 1条
+0.0.0.0 js.entm.top

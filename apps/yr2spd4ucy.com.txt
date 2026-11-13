@@ -1,0 +1,2 @@
+# yr2spd4ucy.com 广告拦截 1条
+0.0.0.0 yr2spd4ucy.com

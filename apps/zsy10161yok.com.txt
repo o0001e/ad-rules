@@ -1,0 +1,2 @@
+# zsy10161yok.com 广告拦截 1条
+0.0.0.0 zsy10161yok.com
