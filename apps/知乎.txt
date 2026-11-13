@@ -1,9 +1,12 @@
-# 知乎 广告拦截 23条
+# 知乎 广告拦截 26条
+0.0.0.0 ad.zhihu.com
 0.0.0.0 adstatic.zhihu.com
+0.0.0.0 adx.zhihu.com
 0.0.0.0 apk.zhimg.com
 0.0.0.0 appcloud.zhihu.com
 0.0.0.0 appcloud2.in.zhihu.com
 0.0.0.0 appcloud2.zhihu.com
+0.0.0.0 beacon.zhihu.com
 0.0.0.0 coreuserbiz.zhihu.com
 0.0.0.0 crash2.zhihu.com
 0.0.0.0 datahub.zhihu.com

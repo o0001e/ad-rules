@@ -1,4 +1,5 @@
-# 饿了么 广告拦截 8条
+# 饿了么 广告拦截 10条
+0.0.0.0 ad.ele.me
 0.0.0.0 adashx.ut.ele.me
 0.0.0.0 app-monitor.ele.me
 0.0.0.0 client-api.ele.me
@@ -6,4 +7,5 @@
 0.0.0.0 h-adashx.ut.ele.me
 0.0.0.0 mobile-pubt.ele.me
 0.0.0.0 newton-api.ele.me
+0.0.0.0 union.ele.me
 0.0.0.0 v6-adashx.ut.ele.me

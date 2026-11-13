@@ -1,10 +1,11 @@
-# 淘宝 广告拦截 133条
+# 淘宝 广告拦截 149条
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 accscdn.m.taobao.com
 0.0.0.0 accscdn4public.m.taobao.com
 0.0.0.0 acs.wapa.taobao.com
 0.0.0.0 acs4baichuan.m.taobao.com
 0.0.0.0 acs4public.m.taobao.com
+0.0.0.0 ad.alimama.com
 0.0.0.0 adash-c.m.taobao.com
 0.0.0.0 adash-c.ut.taobao.com
 0.0.0.0 adash.m.taobao.com
@@ -18,7 +19,9 @@
 0.0.0.0 adashx4sg.ut.taobao.com
 0.0.0.0 adashx4yt.m.taobao.com
 0.0.0.0 adashxgc.ut.taobao.com
+0.0.0.0 ads.alibaba.com
 0.0.0.0 adsh.m.taobao.com
+0.0.0.0 adx.alimama.com
 0.0.0.0 ae-alimelog.taobao.com
 0.0.0.0 agoodm.m.taobao.com
 0.0.0.0 agoodm.wapa.taobao.com
@@ -37,16 +40,22 @@
 0.0.0.0 audid-api-sg.taobao.com
 0.0.0.0 audid-api.taobao.com
 0.0.0.0 baichuan-sdk.taobao.com
+0.0.0.0 banner.alimama.com
 0.0.0.0 bcfeedback.taobao.com
+0.0.0.0 beacon.alicdn.com
 0.0.0.0 c-adash.m.taobao.com
 0.0.0.0 campaigncdn.m.taobao.com
 0.0.0.0 click.alibaba.com
+0.0.0.0 click.tanx.com
 0.0.0.0 click.taobao.com
 0.0.0.0 cmweb.ilike.alibaba.com
 0.0.0.0 count.taobao.com
 0.0.0.0 detail.taobao.com
 0.0.0.0 dmtracking.alibaba.com
 0.0.0.0 dmtracking2.alibaba.com
+0.0.0.0 dsp.alibaba.com
+0.0.0.0 dsp.alicdn.com
+0.0.0.0 dsp.tanx.com
 0.0.0.0 eco.taobao.com
 0.0.0.0 ef-dongfeng.tanx.com
 0.0.0.0 err.taobao.com
@@ -106,7 +115,11 @@
 0.0.0.0 simba.m.taobao.com
 0.0.0.0 simba.taobao.com
 0.0.0.0 sjarvis.taobao.com
+0.0.0.0 ssp.alimama.com
+0.0.0.0 ssp.tanx.com
 0.0.0.0 stat.alibaba.com
+0.0.0.0 stat.alimama.com
+0.0.0.0 stats.alibaba.com
 0.0.0.0 survey.china.alibaba.com
 0.0.0.0 tanx.com
 0.0.0.0 taoquan.taobao.com
@@ -115,6 +128,8 @@
 0.0.0.0 temai.m.taobao.com
 0.0.0.0 temai.taobao.com
 0.0.0.0 tmallequity.taobao.com
+0.0.0.0 track.alibaba.com
+0.0.0.0 tracker.alicdn.com
 0.0.0.0 trade.taobao.com
 0.0.0.0 tui.taobao.com
 0.0.0.0 tunion-api.m.taobao.com
@@ -125,6 +140,7 @@
 0.0.0.0 umengacs.m.taobao.com
 0.0.0.0 umengjmacs.m.taobao.com
 0.0.0.0 umlazada.alibaba.com
+0.0.0.0 union.alibaba.com
 0.0.0.0 unitacs.m.taobao.com
 0.0.0.0 v6-adashx.ut.taobao.com
 0.0.0.0 w.m.taobao.com

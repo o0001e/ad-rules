@@ -1,0 +1,5 @@
+# 新浪乐居 广告拦截 4条
+0.0.0.0 ad.leju.com
+0.0.0.0 click.leju.com
+0.0.0.0 monitor.leju.com
+0.0.0.0 stat.leju.com

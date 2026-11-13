@@ -1,4 +1,4 @@
-# 芒果TV 广告拦截 49条
+# 芒果TV 广告拦截 50条
 0.0.0.0 android.bz.mgtv.com
 0.0.0.0 api.game.mgtv.com
 0.0.0.0 as.mgtv.com
@@ -45,6 +45,7 @@
 0.0.0.0 res.hunantv.com
 0.0.0.0 res.mgtv.com
 0.0.0.0 rprain.bz.mgtv.com
+0.0.0.0 ssp.mgtv.com
 0.0.0.0 v2.hunantv.com
 0.0.0.0 vip.bz.mgtv.com
 0.0.0.0 vod-box.bz.mgtv.com

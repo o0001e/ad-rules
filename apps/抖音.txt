@@ -1,6 +1,7 @@
-# 抖音 广告拦截 129条
+# 抖音 广告拦截 139条
 0.0.0.0 abtest-ch.snssdk.com
 0.0.0.0 abtestvm.bytedance.com
+0.0.0.0 ad.douyin.com
 0.0.0.0 amcn.bytedance.com
 0.0.0.0 analytics.snssdk.com
 0.0.0.0 api-access.pangolin-sdk-toutiao.com
@@ -13,6 +14,7 @@
 0.0.0.0 creativelab-proxy.bytedance.com
 0.0.0.0 csjplatform.com
 0.0.0.0 dm.bytedance.com
+0.0.0.0 dsp.bytedance.com
 0.0.0.0 effect.snssdk.com
 0.0.0.0 extlog.snssdk.com
 0.0.0.0 f-cashloan.snssdk.com
@@ -25,6 +27,7 @@
 0.0.0.0 gecko-pangle-lq.snssdk.com
 0.0.0.0 gecko.snssdk.com
 0.0.0.0 gini.snssdk.com
+0.0.0.0 gromore.pangolin-sdk-toutiao.com
 0.0.0.0 haohuo.snssdk.com
 0.0.0.0 hotsoon.snssdk.com
 0.0.0.0 i-hl.snssdk.com
@@ -65,6 +68,7 @@
 0.0.0.0 mercury.snssdk.com
 0.0.0.0 microapp.bytedance.com
 0.0.0.0 mon.snssdk.com
+0.0.0.0 monitor.snssdk.com
 0.0.0.0 mssdk-bu.bytedance.com
 0.0.0.0 mssdk-bu.snssdk.com
 0.0.0.0 mssdk.bytedance.com
@@ -77,12 +81,15 @@
 0.0.0.0 pangolin-lf.snssdk.com
 0.0.0.0 pangolin-lq.snssdk.com
 0.0.0.0 pangolin-sdk-toutiao.com
+0.0.0.0 pangolin.bytedance.com
 0.0.0.0 pangolin.snssdk.com
 0.0.0.0 pitaya.bytedance.com
 0.0.0.0 rc-boe.snssdk.com
 0.0.0.0 rc.snssdk.com
 0.0.0.0 reading-hl.snssdk.com
 0.0.0.0 reading-lq.snssdk.com
+0.0.0.0 report.bytedance.com
+0.0.0.0 report.snssdk.com
 0.0.0.0 rtapplog.snssdk.com
 0.0.0.0 rtlog.snssdk.com
 0.0.0.0 rtlog3-applog-hl.amemv.com
@@ -105,10 +112,13 @@
 0.0.0.0 tnc3-bjlgy.snssdk.com
 0.0.0.0 toblog.snssdk.com
 0.0.0.0 toutiao-frontier.snssdk.com
+0.0.0.0 track.snssdk.com
 0.0.0.0 tsearch-lq.snssdk.com
 0.0.0.0 tsearch.snssdk.com
 0.0.0.0 tv.snssdk.com
 0.0.0.0 ug.snssdk.com
+0.0.0.0 union.bytedance.com
+0.0.0.0 union.douyin.com
 0.0.0.0 vas-hl-x.snssdk.com
 0.0.0.0 vas-lf-x.snssdk.com
 0.0.0.0 vc-brain.snssdk.com

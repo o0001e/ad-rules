@@ -95,6 +95,7 @@
 0.0.0.0 dns.weixin.qq.com
 0.0.0.0 down-wsh.qq.com
 0.0.0.0 down.qq.com
+0.0.0.0 download.sj.qq.com
 0.0.0.0 downv6.qq.com
 0.0.0.0 dp3.qq.com
 0.0.0.0 dsp.qq.com
@@ -118,6 +119,7 @@
 0.0.0.0 htest.tdm.qq.com
 0.0.0.0 httpring.qq.com
 0.0.0.0 huatuo.qq.com
+0.0.0.0 i-game.book.qq.com
 0.0.0.0 iask.qq.com
 0.0.0.0 if.mingxing.qq.com
 0.0.0.0 img1.sj.qq.com
@@ -175,13 +177,13 @@
 0.0.0.0 moviets.tc.qq.com
 0.0.0.0 mp.weixin.qq.com
 0.0.0.0 mpush.qq.com
-0.0.0.0 mqqad.html5.qq.com
 0.0.0.0 msdk.qq.com
 0.0.0.0 msm.qq.com
 0.0.0.0 mta.qq.com
 0.0.0.0 mtrace.qq.com
 0.0.0.0 mugcdn.x5.qq.com
 0.0.0.0 mw.app.qq.com
+0.0.0.0 newsc.html5.qq.com
 0.0.0.0 novelvideocdn.qq.com
 0.0.0.0 oi.rb.qq.com
 0.0.0.0 oimsgad.qq.com
@@ -204,6 +206,7 @@
 0.0.0.0 pingtcss.qq.com
 0.0.0.0 playlet.qq.com
 0.0.0.0 pms.mb.qq.com
+0.0.0.0 pnewsapp.tc.qq.com
 0.0.0.0 privacy.qq.com
 0.0.0.0 prom.b.qq.com
 0.0.0.0 ps.browser.qq.com
@@ -212,7 +215,6 @@
 0.0.0.0 push.qq.com
 0.0.0.0 qappcenterv6.3g.qq.com
 0.0.0.0 qautodl.qq.com
-0.0.0.0 qbdsp.html5.qq.com
 0.0.0.0 qbuc.html5.qq.com
 0.0.0.0 qqdata.ab.qq.com
 0.0.0.0 qqlogo.qq.com
@@ -226,6 +228,7 @@
 0.0.0.0 r.inews.qq.com
 0.0.0.0 r.release.qq.com
 0.0.0.0 rdelivery.qq.com
+0.0.0.0 recmd.html5.qq.com
 0.0.0.0 report.cms.qq.com
 0.0.0.0 report.gp.qq.com
 0.0.0.0 report.kg.qq.com

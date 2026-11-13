@@ -1,0 +1,3 @@
+# 密码管理器 广告拦截 2条
+0.0.0.0 client-log-forwarder.1password.com
+0.0.0.0 client-log-forwarder.ent.1password.com

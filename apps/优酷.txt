@@ -1,4 +1,4 @@
-# 优酷 广告拦截 96条
+# 优酷 广告拦截 105条
 0.0.0.0 a-dxk.play.api.3g.youku.com
 0.0.0.0 acg.youku.com
 0.0.0.0 acs.youku.com
@@ -11,8 +11,11 @@
 0.0.0.0 ad.mobile.youku.com
 0.0.0.0 ad.youku.com
 0.0.0.0 adashx.ut.youku.com
+0.0.0.0 adimg.youku.com
 0.0.0.0 adx-core.youku.com
 0.0.0.0 adx-open-service.youku.com
+0.0.0.0 adx.ykimg.com
+0.0.0.0 adx.youku.com
 0.0.0.0 amdc.m.youku.com
 0.0.0.0 apiv4-iyes.youku.com
 0.0.0.0 appdownload.youku.com
@@ -45,6 +48,7 @@
 0.0.0.0 missile.youku.com
 0.0.0.0 mobilemsg.youku.com
 0.0.0.0 module.youku.com
+0.0.0.0 monitor.youku.com
 0.0.0.0 msg.youku.com
 0.0.0.0 mus-nettech.youku.com
 0.0.0.0 myes.youku.com
@@ -63,6 +67,7 @@
 0.0.0.0 player-mob-lg.youku.com
 0.0.0.0 playlog.youku.com
 0.0.0.0 pre-acs.youku.com
+0.0.0.0 promo.youku.com
 0.0.0.0 push.m.youku.com
 0.0.0.0 r1.ykimg.com
 0.0.0.0 res-danmu.youku.com
@@ -72,7 +77,9 @@
 0.0.0.0 sealine.youku.com
 0.0.0.0 service.danmu.youku.com
 0.0.0.0 sf.ykimg.com
+0.0.0.0 ssp.youku.com
 0.0.0.0 stat-common.youku.com
+0.0.0.0 stat.ykimg.com
 0.0.0.0 stat.youku.com
 0.0.0.0 static.arm.youku.com
 0.0.0.0 statis.api.3g.youku.com
@@ -83,6 +90,8 @@
 0.0.0.0 tdrec.youku.com
 0.0.0.0 test.ott.youku.com
 0.0.0.0 un-acs.youku.com
+0.0.0.0 union.ykimg.com
+0.0.0.0 union.youku.com
 0.0.0.0 val.api.youku.com
 0.0.0.0 wan.youku.com
 0.0.0.0 xpgw-xcdn.youku.com

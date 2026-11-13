@@ -1,2 +1,6 @@
-# 爱卡汽车 广告拦截 1条
+# 爱卡汽车 广告拦截 5条
+0.0.0.0 ad.xcar.com.cn
+0.0.0.0 ads.xcar.com.cn
+0.0.0.0 click.xcar.com.cn
 0.0.0.0 d0.xcar.com.cn
+0.0.0.0 stat.xcar.com.cn

@@ -1,0 +1,6 @@
+# 百合网 广告拦截 5条
+0.0.0.0 ad.baihe.com
+0.0.0.0 ads.baihe.com
+0.0.0.0 adx.baihe.com
+0.0.0.0 click.baihe.com
+0.0.0.0 log.baihe.com

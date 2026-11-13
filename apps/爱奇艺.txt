@@ -1,8 +1,11 @@
-# 爱奇艺 广告拦截 111条
+# 爱奇艺 广告拦截 118条
 0.0.0.0 access.if.iqiyi.com
 0.0.0.0 act.vip.iqiyi.com
+0.0.0.0 ad.iqiyi.com
 0.0.0.0 ad.m.iqiyi.com
+0.0.0.0 ad.qiyi.com
 0.0.0.0 ads.game.iqiyi.com
+0.0.0.0 adx.iqiyi.com
 0.0.0.0 afp.iqiyi.com
 0.0.0.0 afp.qiyi.com
 0.0.0.0 api-t.iqiyi.com
@@ -35,6 +38,7 @@
 0.0.0.0 data.video.qiyi.com
 0.0.0.0 dns.qiyipic.iqiyi.com
 0.0.0.0 doh.iqiyi.com
+0.0.0.0 dsp.iqiyi.com
 0.0.0.0 du-feige.iqiyi.com
 0.0.0.0 dx-cards-css.iqiyi.com
 0.0.0.0 dx-static-s.iqiyi.com
@@ -86,10 +90,12 @@
 0.0.0.0 qiyu.iqiyi.com
 0.0.0.0 qosp.iqiyi.com
 0.0.0.0 rcd.iqiyi.com
+0.0.0.0 report.iqiyi.com
 0.0.0.0 scs-x.iqiyi.com
 0.0.0.0 serv.vip.iqiyi.com
 0.0.0.0 sns-paopao.iqiyi.com
 0.0.0.0 sports.iqiyi.com
+0.0.0.0 ssp.iqiyi.com
 0.0.0.0 ssports.iqiyi.com
 0.0.0.0 static-d.iqiyi.com
 0.0.0.0 static-s.iqiyi.com
@@ -104,6 +110,7 @@
 0.0.0.0 tracker-sns.iqiyi.com
 0.0.0.0 tracker.sns.iqiyi.com
 0.0.0.0 uestat.video.qiyi.com
+0.0.0.0 union.iqiyi.com
 0.0.0.0 v6-data.video.dns.iqiyi.com
 0.0.0.0 vertical-play.iqiyi.com
 0.0.0.0 verycloudcdncmnet.inter.iqiyi.com

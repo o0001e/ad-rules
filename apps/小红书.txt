@@ -1,5 +1,6 @@
-# 小红书 广告拦截 46条
+# 小红书 广告拦截 49条
 0.0.0.0 ad.xiaohongshu.com
+0.0.0.0 adapi.xiaohongshu.com
 0.0.0.0 ads-i1.xhscdn.com
 0.0.0.0 ads-i10.xhscdn.com
 0.0.0.0 ads-i2.xhscdn.com
@@ -19,6 +20,7 @@
 0.0.0.0 ads-video-al.xhscdn.com
 0.0.0.0 ads-video-qc.xhscdn.com
 0.0.0.0 ads-vp5.xhscdn.com
+0.0.0.0 ads.xiaohongshu.com
 0.0.0.0 apm-fe.xiaohongshu.com
 0.0.0.0 apm-native.xiaohongshu.com
 0.0.0.0 apm-track.xiaohongshu.com
@@ -27,6 +29,7 @@
 0.0.0.0 as.xiaohongshu.com
 0.0.0.0 ci.xiaohongshu.com
 0.0.0.0 crash.xiaohongshu.com
+0.0.0.0 dsp.xiaohongshu.com
 0.0.0.0 e.xiaohongshu.com
 0.0.0.0 edith-seb.xiaohongshu.com
 0.0.0.0 fe-video-qc.xhscdn.com

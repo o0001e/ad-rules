@@ -1,3 +1,4 @@
-# 荣耀 广告拦截 2条
+# 荣耀 广告拦截 3条
 0.0.0.0 ads-adnet-drcn.cloud.honor.com
 0.0.0.0 ads.honor.com
+0.0.0.0 union.honor.com
