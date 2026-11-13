@@ -1,0 +1,1742 @@
+{
+ "红果短剧": [
+  "fqnovel.com",
+  "novelquickapp.com",
+  "hongguoduanju.com",
+  "fqnovelvod.com",
+  "qznovel.com",
+  "qznovelvod.com",
+  "fqmanhua.com",
+  "fqmanhua.cn",
+  "qzmanhua.com",
+  "changdunovel.com"
+ ],
+ "红果漫剧": [
+  "fqnovel.com",
+  "novelquickapp.com",
+  "hongguoduanju.com",
+  "fqnovelvod.com",
+  "qznovel.com",
+  "qznovelvod.com",
+  "fqmanhua.com",
+  "fqmanhua.cn",
+  "qzmanhua.com",
+  "changdunovel.com"
+ ],
+ "番茄小说": [
+  "fanqienovel.com",
+  "fanqie.com"
+ ],
+ "七猫小说": [
+  "qimao.com"
+ ],
+ "米读小说": [
+  "midu.com"
+ ],
+ "疯读小说": [
+  "fengdu.com"
+ ],
+ "塔读文学": [
+  "tadu.com"
+ ],
+ "书旗小说": [
+  "shuqi.com"
+ ],
+ "起点读书": [
+  "qidian.com"
+ ],
+ "晋江文学": [
+  "jjwxc.net"
+ ],
+ "掌阅": [
+  "zhangyue.com",
+  "ireader.com"
+ ],
+ "微信读书": [
+  "weread.qq.com"
+ ],
+ "QQ阅读": [
+  "yuewen.com"
+ ],
+ "追书神器": [
+  "zhuishushenqi.com"
+ ],
+ "懒人听书": [
+  "lrts.me"
+ ],
+ "喜马拉雅": [
+  "ximalaya.com",
+  "xmcdn.com"
+ ],
+ "蜻蜓FM": [
+  "qingting.fm"
+ ],
+ "荔枝": [
+  "lizhi.fm"
+ ],
+ "企鹅FM": [
+  "企鹅FM.com"
+ ],
+ "考拉FM": [
+  "kaolafm.com"
+ ],
+ "凤凰FM": [
+  "ifeng.com"
+ ],
+ "小宇宙播客": [
+  "xiaoyuzhoufm.com"
+ ],
+ "抖音": [
+  "douyin.com",
+  "bytedance.com",
+  "amemv.com",
+  "snssdk.com",
+  "pangle.io",
+  "gromore.com",
+  "csjplatform.com",
+  "pangolin-sdk-toutiao.com"
+ ],
+ "快手": [
+  "kuaishou.com",
+  "gifshow.com",
+  "kwai.com",
+  "kuaishouzt.com",
+  "kwcdn.com",
+  "adkwai.com",
+  "adukwai.com"
+ ],
+ "西瓜视频": [
+  "ixigua.com"
+ ],
+ "好看视频": [
+  "baidu.com"
+ ],
+ "微视": [
+  "weishi.qq.com"
+ ],
+ "梨视频": [
+  "pearvideo.com"
+ ],
+ "B站": [
+  "bilibili.com",
+  "hdslb.com",
+  "bilivideo.com",
+  "biliapi.net",
+  "b23.tv"
+ ],
+ "斗鱼": [
+  "douyu.com",
+  "douyucdn.cn"
+ ],
+ "虎牙": [
+  "huya.com"
+ ],
+ "YY直播": [
+  "yy.com"
+ ],
+ "映客": [
+  "inke.com"
+ ],
+ "花椒直播": [
+  "huajiao.com"
+ ],
+ "全民K歌": [
+  "kg.qq.com"
+ ],
+ "唱吧": [
+  "changba.com"
+ ],
+ "剪映": [
+  "pangolin-sdk-toutiao1.com",
+  "pangolin-sdk-toutiao-b.com",
+  "pangolin-dsp-toutiao.com",
+  "gromore.pangolin-sdk-toutiao.com",
+  "lemon.lv"
+ ],
+ "醒图": [
+  "xingtu.com"
+ ],
+ "轻颜相机": [
+  "qingyan.com"
+ ],
+ "美图秀秀": [
+  "meitu.com"
+ ],
+ "无他相机": [
+  "wuta.com"
+ ],
+ "黄油相机": [
+  "huangyou.com"
+ ],
+ "B612": [
+  "b612camera.com"
+ ],
+ "一甜相机": [
+  "yitian.com"
+ ],
+ "甜盐相机": [
+  "tianyan.com"
+ ],
+ "Foodie": [
+  "foodie.com"
+ ],
+ "NOMO": [
+  "nomo.com"
+ ],
+ "Dazz": [
+  "dazz.com"
+ ],
+ "OldRoll": [
+  "oldroll.com"
+ ],
+ "VSCO": [
+  "vsco.com"
+ ],
+ "Snapseed": [
+  "snapseed.com"
+ ],
+ "泼辣修图": [
+  "polarr.com"
+ ],
+ "微信": [
+  "weixin.com",
+  "wechat.com"
+ ],
+ "陌陌": [
+  "immomo.com"
+ ],
+ "探探": [
+  "tantanapp.com"
+ ],
+ "Soul": [
+  "soulapp.cn"
+ ],
+ "积目": [
+  "jimu.com"
+ ],
+ "他趣": [
+  "taqu.com"
+ ],
+ "美柚": [
+  "meiyou.com"
+ ],
+ "微博": [
+  "weibo.com",
+  "sina.com",
+  "sinaimg.cn"
+ ],
+ "知乎": [
+  "zhihu.com",
+  "zhimg.com"
+ ],
+ "豆瓣": [
+  "douban.com",
+  "doubanio.com"
+ ],
+ "贴吧": [
+  "tieba.baidu.com"
+ ],
+ "虎扑": [
+  "hupu.com",
+  "hoopchina.com"
+ ],
+ "NGA": [
+  "ngabbs.com"
+ ],
+ "Chiphell": [
+  "chiphell.com"
+ ],
+ "酷安": [
+  "coolapk.com"
+ ],
+ "小红书": [
+  "xiaohongshu.com",
+  "xhscdn.com"
+ ],
+ "宝宝树": [
+  "babytree.com"
+ ],
+ "妈妈网": [
+  "mama.cn"
+ ],
+ "珍爱网": [
+  "zhenai.com"
+ ],
+ "世纪佳缘": [
+  "jiayuan.com"
+ ],
+ "百合网": [
+  "baihe.com"
+ ],
+ "有缘网": [
+  "youyuan.com"
+ ],
+ "伊对": [
+  "yidui.com"
+ ],
+ "淘宝": [
+  "taobao.com",
+  "tmall.com",
+  "alibaba.com",
+  "alicdn.com",
+  "alimama.com",
+  "tanx.com"
+ ],
+ "京东": [
+  "jd.com",
+  "360buyimg.com"
+ ],
+ "拼多多": [
+  "pinduoduo.com",
+  "pddpic.com",
+  "pddcdn.com",
+  "yangkeduo.com"
+ ],
+ "唯品会": [
+  "vip.com",
+  "vipcdn.com"
+ ],
+ "苏宁易购": [
+  "suning.com"
+ ],
+ "国美": [
+  "gome.com.cn"
+ ],
+ "当当": [
+  "dangdang.com"
+ ],
+ "蘑菇街": [
+  "mogujie.com"
+ ],
+ "美丽说": [
+  "meilishuo.com"
+ ],
+ "折800": [
+  "zhe800.com"
+ ],
+ "卷皮": [
+  "juanpi.com"
+ ],
+ "蜜芽": [
+  "miya.com"
+ ],
+ "贝贝网": [
+  "beibei.com"
+ ],
+ "孩子王": [
+  "haiziwang.com"
+ ],
+ "什么值得买": [
+  "smzdm.com"
+ ],
+ "识货": [
+  "shihuo.cn"
+ ],
+ "得物": [
+  "dewu.com",
+  "poizon.com"
+ ],
+ "闲鱼": [
+  "goofish.com"
+ ],
+ "转转": [
+  "zhuanzhuan.com"
+ ],
+ "找靓机": [
+  "zhaoliangji.com"
+ ],
+ "爱回收": [
+  "aihuishou.com"
+ ],
+ "回收宝": [
+  "huishoubao.com"
+ ],
+ "有赞": [
+  "youzan.com"
+ ],
+ "微店": [
+  "weidian.com"
+ ],
+ "微盟": [
+  "weimob.com"
+ ],
+ "WPS": [
+  "wps.cn",
+  "wps.com",
+  "kingsoft.com",
+  "kdocs.cn"
+ ],
+ "腾讯文档": [
+  "docs.qq.com"
+ ],
+ "石墨文档": [
+  "shimo.im"
+ ],
+ "飞书": [
+  "feishu.cn",
+  "larksuite.com"
+ ],
+ "钉钉": [
+  "dingtalk.com",
+  "dingtalkapps.com"
+ ],
+ "企业微信": [
+  "work.weixin.qq.com"
+ ],
+ "腾讯会议": [
+  "meeting.tencent.com"
+ ],
+ "Zoom": [
+  "zoom.us"
+ ],
+ "迅雷": [
+  "xunlei.com"
+ ],
+ "百度网盘": [
+  "pan.baidu.com"
+ ],
+ "阿里云盘": [
+  "alipan.com"
+ ],
+ "夸克": [
+  "uc.cn",
+  "quark.cn"
+ ],
+ "UC浏览器": [
+  "uc.cn",
+  "ucweb.com"
+ ],
+ "QQ浏览器": [
+  "browser.qq.com"
+ ],
+ "360浏览器": [
+  "360.cn",
+  "360.com"
+ ],
+ "搜狗浏览器": [
+  "sogou.com"
+ ],
+ "猎豹浏览器": [
+  "cmcm.com"
+ ],
+ "扫描全能王": [
+  "camscanner.com"
+ ],
+ "白描": [
+  "baimiao.tech"
+ ],
+ "ES文件浏览器": [
+  "estrongs.com"
+ ],
+ "MT管理器": [
+  "mt2.com"
+ ],
+ "ZArchiver": [
+  "zdevs.com"
+ ],
+ "录屏大师": [
+  "lupingdashi.com"
+ ],
+ "WiFi万能钥匙": [
+  "wifi.com"
+ ],
+ "LBE安全大师": [
+  "lbeapp.com"
+ ],
+ "平行空间": [
+  "lbe.com"
+ ],
+ "双开助手": [
+  "shuangkaizhushou.com"
+ ],
+ "太极": [
+  "taiji.app"
+ ],
+ "冰箱": [
+  "bingshiang.com"
+ ],
+ "绿色守护": [
+  "greedous.com"
+ ],
+ "网易云音乐": [
+  "music.163.com"
+ ],
+ "QQ音乐": [
+  "y.qq.com",
+  "qqmusic.com"
+ ],
+ "酷狗音乐": [
+  "kugou.com",
+  "kglink.com"
+ ],
+ "酷我音乐": [
+  "kuwo.cn",
+  "kuwo.com"
+ ],
+ "汽水音乐": [
+  "luoo.net"
+ ],
+ "咪咕音乐": [
+  "music.migu.cn"
+ ],
+ "爱音乐": [
+  "118100.cn"
+ ],
+ "沃音乐": [
+  "10155.com"
+ ],
+ "千千音乐": [
+  "qianqian.com"
+ ],
+ "多米音乐": [
+  "duomi.com"
+ ],
+ "虾米音乐": [
+  "xiami.com"
+ ],
+ "高德地图": [
+  "amap.com",
+  "gaode.com"
+ ],
+ "百度地图": [
+  "map.baidu.com"
+ ],
+ "腾讯地图": [
+  "map.qq.com"
+ ],
+ "搜狗地图": [
+  "map.sogou.com"
+ ],
+ "滴滴出行": [
+  "didi.cn",
+  "xiaojukeji.com",
+  "didiglobal.com"
+ ],
+ "嘀嗒出行": [
+  "didapinche.com"
+ ],
+ "哈啰出行": [
+  "hello-inc.com",
+  "hellobike.com"
+ ],
+ "青桔单车": [
+  "qingju.com"
+ ],
+ "美团单车": [
+  "meituan.com"
+ ],
+ "T3出行": [
+  "t3go.cn"
+ ],
+ "曹操出行": [
+  "caocao.com"
+ ],
+ "花小猪": [
+  "huaxiaozhu.com"
+ ],
+ "阳光出行": [
+  "yangguang.com"
+ ],
+ "首汽约车": [
+  "shouqi.com"
+ ],
+ "神州专车": [
+  "zuche.com"
+ ],
+ "一嗨租车": [
+  "1hai.cn"
+ ],
+ "悟空租车": [
+  "wukongzuche.com"
+ ],
+ "凹凸租车": [
+  "atzuche.com"
+ ],
+ "携程": [
+  "ctrip.com",
+  "qunar.com",
+  "trip.com"
+ ],
+ "飞猪": [
+  "fliggy.com"
+ ],
+ "同程旅行": [
+  "ly.com"
+ ],
+ "艺龙": [
+  "elong.com"
+ ],
+ "马蜂窝": [
+  "mafengwo.cn"
+ ],
+ "穷游": [
+  "qyer.com"
+ ],
+ "美团": [
+  "meituan.net",
+  "dianping.com"
+ ],
+ "饿了么": [
+  "ele.me",
+  "elemecdn.com"
+ ],
+ "支付宝": [
+  "alipay.com",
+  "alipayobjects.com"
+ ],
+ "云闪付": [
+  "yunshanfu.cn",
+  "unionpay.com"
+ ],
+ "翼支付": [
+  "bestpay.com.cn"
+ ],
+ "和包支付": [
+  "AndPay.com"
+ ],
+ "度小满": [
+  "duxiaoman.com"
+ ],
+ "蚂蚁财富": [
+  "antfortune.com"
+ ],
+ "招商银行": [
+  "cmbchina.com"
+ ],
+ "工商银行": [
+  "icbc.com.cn"
+ ],
+ "建设银行": [
+  "ccb.com"
+ ],
+ "农业银行": [
+  "abchina.com"
+ ],
+ "中国银行": [
+  "boc.cn"
+ ],
+ "交通银行": [
+  "bankcomm.com"
+ ],
+ "浦发银行": [
+  "spdb.com.cn"
+ ],
+ "民生银行": [
+  "cmbc.com.cn"
+ ],
+ "兴业银行": [
+  "cib.com.cn"
+ ],
+ "光大银行": [
+  "cebbank.com"
+ ],
+ "平安银行": [
+  "pingan.com"
+ ],
+ "中信银行": [
+  "citicbank.com"
+ ],
+ "广发银行": [
+  "cgbchina.com.cn"
+ ],
+ "北京银行": [
+  "bankofbeijing.com.cn"
+ ],
+ "上海银行": [
+  "bosc.cn"
+ ],
+ "微医": [
+  "guahao.com"
+ ],
+ "好大夫在线": [
+  "haodf.com"
+ ],
+ "丁香医生": [
+  "dxy.cn"
+ ],
+ "春雨医生": [
+  "chunyuyisheng.com"
+ ],
+ "平安好医生": [
+  "jkh.com"
+ ],
+ "阿里健康": [
+  "alihealth.cn"
+ ],
+ "薄荷健康": [
+  "boohee.com"
+ ],
+ "Keep": [
+  "keep.com"
+ ],
+ "咕咚": [
+  "codoon.com"
+ ],
+ "悦跑圈": [
+  "thejoyrun.com"
+ ],
+ "小米运动": [
+  "miho.com"
+ ],
+ "华为运动健康": [
+  "huawei.com"
+ ],
+ "墨迹天气": [
+  "moji.com"
+ ],
+ "原神": [
+  "mihoyo.com",
+  "yuanshen.com"
+ ],
+ "王者荣耀": [
+  "pvp.qq.com"
+ ],
+ "和平精英": [
+  "gp.qq.com"
+ ],
+ "阴阳师": [
+  "163.com"
+ ],
+ "明日方舟": [
+  "hypergryph.com"
+ ],
+ "碧蓝航线": [
+  "bilibiligames.com"
+ ],
+ "光遇": [
+  "thatskygame.com"
+ ],
+ "恋与制作人": [
+  "papergames.com"
+ ],
+ "英雄联盟手游": [
+  "riotgames.com"
+ ],
+ "永劫无间": [
+  "24 Entertainment.com"
+ ],
+ "天涯明月刀": [
+  "tencent.com"
+ ],
+ "我的世界": [
+  "minecraft.net"
+ ],
+ "迷你世界": [
+  "minitech.com"
+ ],
+ "元气骑士": [
+  "chillyroom.com"
+ ],
+ "QQ飞车": [
+  "speed.qq.com"
+ ],
+ "QQ炫舞": [
+  "x5.qq.com"
+ ],
+ "CF手游": [
+  "cfm.qq.com"
+ ],
+ "使命召唤手游": [
+  "codm.qq.com"
+ ],
+ "作业帮": [
+  "zuoyebang.com"
+ ],
+ "小猿搜题": [
+  "yuanfudao.com"
+ ],
+ "学而思": [
+  "tal.com"
+ ],
+ "学霸君": [
+  "xuebajun.com"
+ ],
+ "腾讯课堂": [
+  "ke.qq.com"
+ ],
+ "网易云课堂": [
+  "study.163.com"
+ ],
+ "中国大学MOOC": [
+  "icourses163.com"
+ ],
+ "学堂在线": [
+  "xuetangx.com"
+ ],
+ "得到": [
+  "dedao.cn"
+ ],
+ "樊登读书": [
+  "dushu.io"
+ ],
+ "十点读书": [
+  "sd.com"
+ ],
+ "学习强国": [
+  "xuexi.cn"
+ ],
+ "有道": [
+  "youdao.com"
+ ],
+ "班级小管家": [
+  "xiaoguajia.com"
+ ],
+ "校宝": [
+  "xiaobao.com"
+ ],
+ "校讯通": [
+  "10086.cn"
+ ],
+ "汽车之家": [
+  "autohome.com"
+ ],
+ "懂车帝": [
+  "dongchedi.com"
+ ],
+ "易车": [
+  "yiche.com"
+ ],
+ "爱卡汽车": [
+  "xcar.com.cn"
+ ],
+ "瓜子二手车": [
+  "guazi.com"
+ ],
+ "人人车": [
+  "renrenche.com"
+ ],
+ "优信二手车": [
+  "xin.com"
+ ],
+ "机锋": [
+  "gfan.com"
+ ],
+ "数码之家": [
+  "mydigit.cn"
+ ],
+ "数字尾巴": [
+  "dgtle.com"
+ ],
+ "威锋网": [
+  "weiphone.com"
+ ],
+ "BOSS直聘": [
+  "zhipin.com"
+ ],
+ "智联招聘": [
+  "zhaopin.com"
+ ],
+ "前程无忧": [
+  "51job.com"
+ ],
+ "猎聘": [
+  "liepin.com"
+ ],
+ "拉勾网": [
+  "lagou.com"
+ ],
+ "58同城": [
+  "58.com"
+ ],
+ "贝壳找房": [
+  "ke.com"
+ ],
+ "安居客": [
+  "anjuke.com"
+ ],
+ "链家": [
+  "lianjia.com"
+ ],
+ "小米": [
+  "mi.com"
+ ],
+ "OPPO": [
+  "oppo.com"
+ ],
+ "vivo": [
+  "vivo.com"
+ ],
+ "荣耀": [
+  "honor.com"
+ ],
+ "一加": [
+  "oneplus.com"
+ ],
+ "魅族": [
+  "meizu.com"
+ ],
+ "锤子": [
+  "smartisan.com"
+ ],
+ "努比亚": [
+  "nubia.com"
+ ],
+ "中兴": [
+  "zte.com.cn"
+ ],
+ "联想": [
+  "lenovo.com"
+ ],
+ "百度": [
+  "bdstatic.com",
+  "bdimg.com",
+  "baidubcs.com",
+  "bcebos.com"
+ ],
+ "搜狗": [
+  "so.com"
+ ],
+ "360": [
+  "qhimg.com"
+ ],
+ "网易": [
+  "netease.com",
+  "126.net",
+  "127.net"
+ ],
+ "搜狐": [
+  "sohu.com",
+  "sohucs.com"
+ ],
+ "新浪": [
+  "sina.com.cn"
+ ],
+ "腾讯": [
+  "gtimg.cn",
+  "qlogo.cn"
+ ],
+ "字节跳动": [
+  "bytecdn.cn",
+  "byteimg.com"
+ ],
+ "豆包": [
+  "doubao.com"
+ ],
+ "文心一言": [
+  "yiyan.baidu.com"
+ ],
+ "通义千问": [
+  "tongyi.aliyun.com"
+ ],
+ "Kimi": [
+  "kimi.moonshot.cn"
+ ],
+ "智谱清言": [
+  "chatglm.cn"
+ ],
+ "讯飞星火": [
+  "xinghuo.xfyun.cn"
+ ],
+ "腾讯元宝": [
+  "yuanbao.tencent.com"
+ ],
+ "天工AI": [
+  "tiangong.cn"
+ ],
+ "商汤商量": [
+  "sensetime.com"
+ ],
+ "MiniMax": [
+  "minimaxi.com"
+ ],
+ "百川智能": [
+  "baichuan-ai.com"
+ ],
+ "零一万物": [
+  "01.ai"
+ ],
+ "阶跃星辰": [
+  "stepfun.com"
+ ],
+ "面壁智能": [
+  "modelbest.cn"
+ ],
+ "书生大模型": [
+  "intern-ai.com"
+ ],
+ "百度文库": [
+  "wenku.baidu.com"
+ ],
+ "有道云笔记": [
+  "note.youdao.com"
+ ],
+ "印象笔记": [
+  "yinxiang.com"
+ ],
+ "为知笔记": [
+  "wiznote.com"
+ ],
+ "语雀": [
+  "yuque.com"
+ ],
+ "Notion": [
+  "notion.so"
+ ],
+ "通义听悟": [
+  "tingwu.aliyun.com"
+ ],
+ "讯飞听见": [
+  "iflyrec.com"
+ ],
+ "网易见外": [
+  "jianwai.youdao.com"
+ ],
+ "南京银行": [
+  "njcb.com.cn"
+ ],
+ "宁波银行": [
+  "nbcb.com.cn"
+ ],
+ "杭州银行": [
+  "hzbank.com.cn"
+ ],
+ "徽商银行": [
+  "hsbank.com.cn"
+ ],
+ "江苏银行": [
+  "jsbchina.com"
+ ],
+ "浙商银行": [
+  "czbank.com"
+ ],
+ "渤海银行": [
+  "cbhb.com.cn"
+ ],
+ "恒丰银行": [
+  "hfbank.com.cn"
+ ],
+ "光大证券": [
+  "ebscn.com"
+ ],
+ "中信证券": [
+  "citics.com"
+ ],
+ "华泰证券": [
+  "htsc.com.cn"
+ ],
+ "国泰君安": [
+  "gtja.com"
+ ],
+ "海通证券": [
+  "htsec.com"
+ ],
+ "招商证券": [
+  "cmschina.com.cn"
+ ],
+ "天天基金": [
+  "1234567.com.cn"
+ ],
+ "天天基金网": [
+  "fund.eastmoney.com"
+ ],
+ "蛋卷基金": [
+  "danjuanfunds.com"
+ ],
+ "且慢": [
+  "qiemian.com"
+ ],
+ "邮储银行": [
+  "psbc.com"
+ ],
+ "京东到家": [
+  "daojia.com"
+ ],
+ "亚马逊中国": [
+  "amazon.cn"
+ ],
+ "聚美优品": [
+  "jumei.com"
+ ],
+ "育儿网": [
+  "ci123.com"
+ ],
+ "母婴之家": [
+  "muying.com"
+ ],
+ "童装商城": [
+  "tongzhuang.com"
+ ],
+ "玩具商城": [
+  "wanju.com"
+ ],
+ "美妆商城": [
+  "meizhuang.com"
+ ],
+ "穿搭优选": [
+  "chuanda.com"
+ ],
+ "潮品商城": [
+  "chaopin.com"
+ ],
+ "潮玩商城": [
+  "chaowan.com"
+ ],
+ "二手商城": [
+  "ershou.com"
+ ],
+ "闲置商城": [
+  "xianzhi.com"
+ ],
+ "好物分享": [
+  "haowu.com"
+ ],
+ "种草笔记": [
+  "zhongcao.com"
+ ],
+ "傲游浏览器": [
+  "maxthon.cn"
+ ],
+ "世界之窗": [
+  "theworld.cn"
+ ],
+ "星愿浏览器": [
+  "twinkstar.com"
+ ],
+ "海豚浏览器": [
+  "dolphin.com"
+ ],
+ "天天浏览器": [
+  "tiantian.com"
+ ],
+ "瑞影浏览器": [
+  "rayying.com"
+ ],
+ "Vivaldi": [
+  "vivaldi.com"
+ ],
+ "Brave": [
+  "brave.com"
+ ],
+ "Firefox": [
+  "mozilla.org"
+ ],
+ "Opera": [
+  "opera.com"
+ ],
+ "WiFi钥匙": [
+  "wifichannel.com"
+ ],
+ "万能WiFi密码": [
+  "wifimima.com"
+ ],
+ "WiFi信号增强器": [
+  "wifizengqiang.com"
+ ],
+ "密码管理器": [
+  "1password.com"
+ ],
+ "LastPass": [
+  "lastpass.com"
+ ],
+ "Bitwarden": [
+  "bitwarden.com"
+ ],
+ "KeePass": [
+  "keepass.info"
+ ],
+ "日历": [
+  "calendar.google.com"
+ ],
+ "待办": [
+  "todoist.com"
+ ],
+ "滴答清单": [
+  "dida365.com"
+ ],
+ "番茄ToDo": [
+  "fanqieto.com"
+ ],
+ "Forest": [
+  "forestapp.cc"
+ ],
+ "番茄钟": [
+  "fanqiezhong.com"
+ ],
+ "幕布": [
+  "mubu.com"
+ ],
+ "XMind": [
+  "xmind.cn"
+ ],
+ "MindMaster": [
+  "mindmaster.cn"
+ ],
+ "ProcessOn": [
+  "processon.com"
+ ],
+ "Draw.io": [
+  "draw.io"
+ ],
+ "Canva": [
+  "canva.cn"
+ ],
+ "稿定设计": [
+  "gaoding.com"
+ ],
+ "创客贴": [
+  "chuangkit.com"
+ ],
+ "图怪兽": [
+  "tuguaishou.com"
+ ],
+ "美图设计室": [
+  "meitudesign.com"
+ ],
+ "天天酷跑": [
+  "tt.kp.sdo.com"
+ ],
+ "节奏大师": [
+  "rhythm.qq.com"
+ ],
+ "植物大战僵尸": [
+  "popcap.com"
+ ],
+ "愤怒的小鸟": [
+  "angrybirds.com"
+ ],
+ "糖果传奇": [
+  "candycrush.com"
+ ],
+ "部落冲突": [
+  "supercell.com"
+ ],
+ "问道手游": [
+  "wanmei.com"
+ ],
+ "桃花源记": [
+  "taohuayuan.com"
+ ],
+ "幻唐志": [
+  "huantang.com"
+ ],
+ "一念逍遥": [
+  "yinianxiaoyao.com"
+ ],
+ "凡人修仙传": [
+  "fanrenxiuxian.com"
+ ],
+ "太古仙尊": [
+  "taiguxianzun.com"
+ ],
+ "想不想修真": [
+  "xiangbuxiangxiuzhen.com"
+ ],
+ "泰拉瑞亚": [
+  "terraria.org"
+ ],
+ "饥荒": [
+  "klei.com"
+ ],
+ "星露谷物语": [
+  "stardewvalley.net"
+ ],
+ "牧场物语": [
+  "bokujou.com"
+ ],
+ "模拟人生": [
+  "thesims.com"
+ ],
+ "模拟城市": [
+  "simcity.com"
+ ],
+ "哈利波特魔法觉醒": [
+  "warnerbros.com"
+ ],
+ "新东方": [
+  "xdf.cn"
+ ],
+ "高途课堂": [
+  "gaotu.com"
+ ],
+ "跟谁学": [
+  "genshuixue.com"
+ ],
+ "新东方在线": [
+  "koolearn.com"
+ ],
+ "沪江网校": [
+  "hujiang.com"
+ ],
+ "环球网校": [
+  "hqwx.com"
+ ],
+ "中公教育": [
+  "offcn.com"
+ ],
+ "华图教育": [
+  "huatu.com"
+ ],
+ "粉笔": [
+  "fenbi.com"
+ ],
+ "班墨": [
+  "banmo.com"
+ ],
+ "一起作业": [
+  "17zuoye.com"
+ ],
+ "作业盒子": [
+  "zuoyebao.com"
+ ],
+ "小盒学生": [
+  "xiaohe.com"
+ ],
+ "阿凡题": [
+  "afanti.com"
+ ],
+ "作业通": [
+  "zuoyetong.com"
+ ],
+ "快对作业": [
+  "kuaidui.com"
+ ],
+ "互帮作业": [
+  "hubang.com"
+ ],
+ "作业互助组": [
+  "zuoye.com"
+ ],
+ "答案狗": [
+  "daangou.com"
+ ],
+ "对答案": [
+  "duidaan.com"
+ ],
+ "作业答案": [
+  "zuoyeedaan.com"
+ ],
+ "试卷宝": [
+  "shijuanbao.com"
+ ],
+ "题库": [
+  "tiku.com"
+ ],
+ "猿题库": [
+  "yuantiku.com"
+ ],
+ "摩拜单车": [
+  "mobike.com"
+ ],
+ "ofo小黄车": [
+  "ofo.com"
+ ],
+ "PP租车": [
+  "ppzuche.com"
+ ],
+ "宝驾租车": [
+  "baojiazuche.com"
+ ],
+ "面包旅行": [
+  "mianbaolvxing.com"
+ ],
+ "蝉游记": [
+  "chanyouji.com"
+ ],
+ "旅拍": [
+  "lvpai.com"
+ ],
+ "旅图": [
+  "lvtu.com"
+ ],
+ "旅记": [
+  "lvji.com"
+ ],
+ "旅行日记": [
+  "lvxingriji.com"
+ ],
+ "旅行笔记": [
+  "lvxingbiji.com"
+ ],
+ "旅行攻略": [
+  "lvxinggonglue.com"
+ ],
+ "抱抱": [
+  "baobao.com"
+ ],
+ "派派": [
+  "paipai.com"
+ ],
+ "碰碰": [
+  "pengpeng.com"
+ ],
+ "耳语": [
+  "eriyu.com"
+ ],
+ "遇见": [
+  "yujian.com"
+ ],
+ "炫色": [
+  "xuanse.com"
+ ],
+ "私密圈": [
+  "simiquan.com"
+ ],
+ "闺蜜": [
+  "guimi.com"
+ ],
+ "悟空问答": [
+  "wukong.com"
+ ],
+ "天涯社区": [
+  "tianya.cn"
+ ],
+ "猫扑": [
+  "mop.com"
+ ],
+ "铁血社区": [
+  "tiexue.net"
+ ],
+ "安卓论坛": [
+  "anzhu.com"
+ ],
+ "数码论坛": [
+  "shuma.com"
+ ],
+ "中关村在线": [
+  "zol.com.cn"
+ ],
+ "太平洋电脑网": [
+  "pconline.com.cn"
+ ],
+ "泡泡网": [
+  "pcpop.com"
+ ],
+ "驱动之家": [
+  "mydrivers.com"
+ ],
+ "波波视频": [
+  "bobo.com"
+ ],
+ "秒拍": [
+  "miaopai.com"
+ ],
+ "美拍": [
+  "meipai.com"
+ ],
+ "小咖秀": [
+  "xiaokaxiu.com"
+ ],
+ "NOW直播": [
+  "now.qq.com"
+ ],
+ "一直播": [
+  "yizhibo.com"
+ ],
+ "奇秀直播": [
+  "qx.com"
+ ],
+ "来疯直播": [
+  "laifeng.com"
+ ],
+ "六间房": [
+  "6.cn"
+ ],
+ "牵手": [
+  "qianshou.com"
+ ],
+ "心动": [
+  "xindong.com"
+ ],
+ "心遇": [
+  "xinyu.com"
+ ],
+ "爱聊": [
+  "ailiao.com"
+ ],
+ "觅伊": [
+  "miyi.com"
+ ],
+ "甜聊": [
+  "tianliao.com"
+ ],
+ "趣聊": [
+  "quliao.com"
+ ],
+ "暖聊": [
+  "nuanliao.com"
+ ],
+ "蜜聊": [
+  "miliao.com"
+ ],
+ "附近交友": [
+  "fujinjiaoyou.com"
+ ],
+ "同城约会": [
+  "tongchengyuehui.com"
+ ],
+ "同城聊欢": [
+  "tongchengliaohuan.com"
+ ],
+ "同城热恋": [
+  "tongchengrelian.com"
+ ],
+ "附近热恋": [
+  "fujinrelian.com"
+ ],
+ "闪聊": [
+  "shanliao.com"
+ ],
+ "速聊": [
+  "suliao.com"
+ ],
+ "播客公社": [
+  "bokegongshe.com"
+ ],
+ "播客天下": [
+  "boketianxia.com"
+ ],
+ "播客星球": [
+  "bokexingqiu.com"
+ ],
+ "播客空间": [
+  "bokekongjian.com"
+ ],
+ "播客之家": [
+  "bokeku.com"
+ ],
+ "FitTime": [
+  "fittime.cn"
+ ],
+ "跑步记录": [
+  "paobu.com"
+ ],
+ "运动记录": [
+  "yundong.com"
+ ],
+ "健身记录": [
+  "jianshen.com"
+ ],
+ "瑜伽": [
+  "yu jia.com"
+ ],
+ "瑜伽课程": [
+  "yujia.com"
+ ],
+ "减脂": [
+  "jianzhi.com"
+ ],
+ "减肥": [
+  "jianfei.com"
+ ],
+ "赶集网": [
+  "ganji.com"
+ ],
+ "房天下": [
+  "fang.com"
+ ],
+ "新浪乐居": [
+  "leju.com"
+ ],
+ "腾讯房产": [
+  "house.qq.com"
+ ],
+ "搜狐焦点": [
+  "focus.cn"
+ ],
+ "自如": [
+  "ziroom.com"
+ ],
+ "蛋壳公寓": [
+  "danke.com"
+ ],
+ "我爱我家": [
+  "5i5j.com"
+ ],
+ "中原地产": [
+  "centanet.com"
+ ],
+ "21世纪不动产": [
+  "21cn.com"
+ ],
+ "摩托罗拉": [
+  "motorola.com"
+ ],
+ "索尼": [
+  "sony.com"
+ ],
+ "三星": [
+  "samsung.com"
+ ],
+ "LG": [
+  "lg.com"
+ ],
+ "HTC": [
+  "htc.com"
+ ],
+ "诺基亚": [
+  "nokia.com"
+ ],
+ "黑莓": [
+  "blackberry.com"
+ ],
+ "火绒": [
+  "huorong.cn"
+ ],
+ "DU Booster": [
+  "duapps.com"
+ ],
+ "多开分身": [
+  "duokaifenshen.com"
+ ],
+ "微商助手": [
+  "weishang.com"
+ ],
+ "应用分身": [
+  "fen shen.com"
+ ],
+ "多开精灵": [
+  "duokai.com"
+ ],
+ "应用转生": [
+  "appzhuansheng.com"
+ ],
+ "应用黑域": [
+  "heiyu.com"
+ ],
+ "XPrivacy": [
+  "xprivacy.com"
+ ],
+ "AppHider": [
+  "apphider.com"
+ ],
+ "Magisk": [
+  "magisk.me"
+ ],
+ "LSPosed": [
+  "lsposed.org"
+ ],
+ "EdXposed": [
+  "edxposed.com"
+ ],
+ "应用变量": [
+  "yingyongbianliang.com"
+ ],
+ "天气通": [
+  "tianqi.com"
+ ],
+ "最美天气": [
+  "zuimei.com"
+ ],
+ "2345天气": [
+  "2345.com"
+ ],
+ "天气王": [
+  "tianqiwang.com"
+ ],
+ "路况": [
+  "lukuang.com"
+ ],
+ "限行": [
+  "xianxing.com"
+ ],
+ "违章查询": [
+  "weizhang.com"
+ ],
+ "车轮查违章": [
+  "chelun.com"
+ ],
+ "交管12123": [
+  "122.gov.cn"
+ ],
+ "QQ": [
+  "qq.com"
+ ],
+ "哔哩哔哩": [
+  "bilibili.com",
+  "hdslb.com",
+  "bilivideo.com",
+  "biliapi.net"
+ ],
+ "爱奇艺": [
+  "iqiyi.com",
+  "qiyi.com",
+  "iqiyipic.com"
+ ],
+ "优酷": [
+  "youku.com",
+  "ykimg.com"
+ ],
+ "腾讯视频": [
+  "v.qq.com",
+  "qqlive.com"
+ ],
+ "芒果TV": [
+  "mgtv.com",
+  "hunantv.com"
+ ],
+ "通用广告SDK": [
+  "pangle.io",
+  "gromore.com",
+  "csjplatform.com",
+  "pangolin-sdk-toutiao.com",
+  "gdt.qq.com",
+  "e.qq.com",
+  "kwaidsp.com",
+  "adkwai.com",
+  "mobads.baidu.com",
+  "pos.baidu.com",
+  "miuiads.mi.com",
+  "adx.mi.com",
+  "adsmind.com",
+  "admaster.cn",
+  "umeng.com",
+  "alibabafun.com"
+ ],
+ "途牛": [
+  "tuniu.com"
+ ],
+ "12306": [
+  "12306.cn"
+ ],
+ "用友": [
+  "yonyou.com"
+ ],
+ "金蝶": [
+  "kingdee.com"
+ ],
+ "中国联通": [
+  "chinaunicom.cn"
+ ],
+ "中国电信": [
+  "chinatelecom.cn"
+ ],
+ "美团外卖": [
+  "meituanwaimai.com",
+  "wmwai.com"
+ ],
+ "盒马": [
+  "freshhema.com",
+  "hema.com"
+ ],
+ "叮咚买菜": [
+  "100.me",
+  "ddxq.com"
+ ],
+ "永辉": [
+  "yonghui.com"
+ ],
+ "红果免费短剧": [
+  "fqnovel.com",
+  "novelquickapp.com",
+  "hongguoduanju.com",
+  "fqnovelvod.com",
+  "qznovel.com",
+  "qznovelvod.com",
+  "fqmanhua.com",
+  "fqmanhua.cn",
+  "qzmanhua.com",
+  "changdunovel.com"
+ ],
+ "红果免费漫剧": [
+  "fqnovel.com",
+  "novelquickapp.com",
+  "hongguoduanju.com",
+  "fqnovelvod.com",
+  "qznovel.com",
+  "qznovelvod.com",
+  "fqmanhua.com",
+  "fqmanhua.cn",
+  "qzmanhua.com",
+  "changdunovel.com"
+ ]
+}

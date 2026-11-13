@@ -1,0 +1,83 @@
+name: Update Filters
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */8 * * *
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Update_Filters:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 检出仓库（浅克隆）
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 合并上游规则
+        run: python3 adblock.py
+
+      - name: 安全检查
+        run: |
+          N=$(grep -c '^0.0.0.0' rules/hosts.txt || echo 0)
+          echo "规则数: $N"
+          if [ "$N" -lt 1000 ]; then echo "::error::规则数异常偏低"; exit 1; fi
+          if grep -qE 'gitee\.com|github\.com' rules/hosts.txt; then echo "::error::仓库域名被误拦"; exit 1; fi
+
+      - name: 发布产物到 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: rule
+          name: 规则产物
+          overwrite_files: true
+          fail_on_unmatched_files: false
+          files: |
+            rules/hosts.txt
+            rules/adguard.txt
+            rules/domains.txt
+            rules/dnsmasq.conf
+            rules/clash.yaml
+            rules/surge.list
+            rules/lite.txt
+            rules/lite_domains.txt
+            rules/all.txt
+            rules/build_report.txt
+
+      - name: 同步到 Gitee
+        timeout-minutes: 8
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          if [ -z "${GITEE_TOKEN}" ]; then echo "未配置 Token，跳过"; exit 0; fi
+          git remote add gitee "https://oauth2:${GITEE_TOKEN}@gitee.com/ADS9/ad.git"
+          export GIT_TERMINAL_PROMPT=0
+          for i in 1 2 3; do
+            if git fetch --depth=1 gitee m 2>/dev/null; then
+              git add -A
+              PARENT=$(git rev-parse FETCH_HEAD)
+              TREE=$(git write-tree)
+              C=$(git commit-tree "$TREE" -p "$PARENT" -m "同步自 GitHub 构建 $(date -u '+%F %H:%M') UTC")
+              if timeout 240 git push gitee "$C:m"; then echo "Gitee 同步成功"; exit 0; fi
+            fi
+            echo "第 ${i} 次失败"; sleep 5
+          done
+          echo "::warning::Gitee 同步失败"
+
+  Delete_Workflow_Runs:
+    needs: [ Update_Filters ]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 3
+          keep_minimum_runs: 6
