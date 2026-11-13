@@ -18,11 +18,25 @@ APP_LIST = os.path.join(ROOT, "app_list.json")
 APPS_DIR = os.path.join(ROOT, "apps")
 
 
+HOSTS_TXT = os.path.join(ROOT, "hosts.txt")
+
+
 def load_blocked():
-    if not os.path.exists(PUB_D):
-        sys.exit("[失败] 找不到 .publish/d，请先运行爬虫")
-    with open(PUB_D, encoding="utf-8") as f:
-        return {line.strip() for line in f if line.strip()}
+    """合并后的 hosts.txt 是完整规则集，.publish/d 只是爬虫那部分。
+    两者取并集，避免上游源贡献的域名不参与分组。"""
+    doms = set()
+    if os.path.exists(HOSTS_TXT):
+        with open(HOSTS_TXT, encoding="utf-8", errors="ignore") as f:
+            for line in f:
+                if line.startswith("0.0.0.0"):
+                    doms.add(line.split()[1].strip())
+    if os.path.exists(PUB_D):
+        with open(PUB_D, encoding="utf-8") as f:
+            doms |= {line.strip() for line in f if line.strip()}
+    if not doms:
+        sys.exit("[失败] hosts.txt 与 .publish/d 都不存在，请先跑合并或爬虫")
+    print("[分组] 可用域名来源: hosts.txt + .publish/d，合计 %d 条" % len(doms))
+    return doms
 
 
 def load_apps():
