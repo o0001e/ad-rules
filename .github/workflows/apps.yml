@@ -43,6 +43,11 @@ jobs:
       - name: 生成 App 分组
         run: python3 -u scripts/gen_apps.py
 
+      - name: 打包分组
+        run: |
+          cd rules && zip -q -r apps.zip apps && cd ..
+          echo "分组文件数: $(ls rules/apps | wc -l)"
+
       - name: 发布分组到 Release
         uses: softprops/action-gh-release@v2
         with:
@@ -50,8 +55,19 @@ jobs:
           name: App 分组
           overwrite_files: true
           fail_on_unmatched_files: false
-          files: |
-            rules/apps/*.txt
+          files: rules/apps.zip
+
+      - name: 提交分组到仓库
+        run: |
+          git config user.email "adqgg@users.noreply.github.com"
+          git config user.name "adqgg"
+          git add -A rules/apps
+          git commit -q -m "App 分组更新 $(date -u '+%F %H:%M') UTC" || echo "无变化"
+          for i in 1 2 3; do
+            if git pull -q --no-rebase -X ours origin main && git push -q origin main; then echo "GitHub 已更新"; exit 0; fi
+            echo "第 ${i} 次推送失败"; sleep 5
+          done
+          echo "::warning::GitHub 推送失败"
 
       - name: 同步到 Gitee
         timeout-minutes: 8
