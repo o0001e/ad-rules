@@ -11,7 +11,6 @@ ad-arrow.com	2026-11-14
 ad-brix.com	2026-11-14
 ad-clicks.com	2026-11-14
 ad-cloud.jp	2026-11-14
-ad-ebis.bookpass.auone.jp	2026-11-13
 ad-ebis.toysub.jp	2026-11-14
 ad-gbn.com	2026-11-14
 ad-img.diyidan.net	2026-11-14
@@ -60,7 +59,6 @@ ad.greedland.net	2026-11-14
 ad.gtbrowser.com	2026-11-14
 ad.icasthq.com	2026-11-14
 ad.ikonke.com	2026-11-14
-ad.iloveinterracial.com	2026-11-13
 ad.jamba.net	2026-11-14
 ad.juksy.com	2026-11-14
 ad.kissanime.co	2026-11-14
@@ -73,7 +71,6 @@ ad.mail.sohu.com	2026-11-14
 ad.mobiuspace.net	2026-11-14
 ad.naver.com	2026-11-14
 ad.ne.com	2026-11-14
-ad.nicovideo.jp	2026-11-13
 ad.ordersuit.info	2026-11-14
 ad.qn.img-space.com	2026-11-14
 ad.reklamport.com	2026-11-14
@@ -100,7 +97,6 @@ ad.zhangyue.com	2026-11-14
 adb-analytics.live-now.com	2026-11-14
 adebis.satori.marketing	2026-11-14
 ads-gdl.imovideo.ru	2026-11-14
-ads-jp.tiktok.com	2026-11-13
 ads-pixiv.net	2026-11-14
 ads-rolandgarros.com	2026-11-14
 ads-t.ru	2026-11-14
@@ -117,14 +113,10 @@ ads.advance.net	2026-11-14
 ads.aerserv.com	2026-11-14
 ads.al.com	2026-11-14
 ads.alafish.cn	2026-11-14
-ads.albawaba.com	2026-11-13
-ads.almasdarnews.com	2026-11-13
-ads.alt.com	2026-11-13
 ads.apn.co.za	2026-11-14
 ads.aspalliance.com	2026-11-14
 ads.associatedcontent.com	2026-11-14
 ads.astalavista.us	2026-11-14
-ads.aws.viber.com	2026-11-13
 ads.baobinhthuan.com.vn	2026-11-14
 ads.baohaiduong.vn	2026-11-14
 ads.carocean.co.uk	2026-11-14
@@ -139,7 +131,6 @@ ads.globo.com	2026-11-14
 ads.hearstmags.com	2026-11-14
 ads.heytapmobi.com	2026-11-14
 ads.homedy.net	2026-11-14
-ads.indiatimes.com	2026-11-13
 ads.isoftmarketing.com	2026-11-14
 ads.jianchiapp.com	2026-11-14
 ads.kelkoo.com	2026-11-14
@@ -161,7 +152,6 @@ ads.phunuonline.com.vn	2026-11-14
 ads.pno.net	2026-11-14
 ads.pof.com	2026-11-14
 ads.prd.ie.internal.unity3d.com	2026-11-14
-ads.rediff.com	2026-11-13
 ads.rmbl.ws	2026-11-14
 ads.samsung.com	2026-11-14
 ads.saymedia.com	2026-11-14
@@ -244,11 +234,9 @@ analytics.126.net	2026-11-14
 analytics.21cn.com	2026-11-14
 analytics.30m.com	2026-11-14
 analytics.adam.page	2026-11-14
-analytics.adultempire.com	2026-11-13
 analytics.amakings.com	2026-11-14
 analytics.andrewsmith.com.au	2026-11-14
 analytics.arunraghavan.net	2026-11-14
-analytics.audionow.de	2026-11-13
 analytics.banksneveraskthat.com	2026-11-14
 analytics.basistheory.com	2026-11-14
 analytics.betterplaces.nl	2026-11-14
@@ -287,7 +275,6 @@ analytics.lifestyledemocracy.com	2026-11-14
 analytics.littlekingdesigns.com	2026-11-14
 analytics.live.com	2026-11-14
 analytics.livesense.marketing	2026-11-14
-analytics.livestream.com	2026-11-13
 analytics.logsss.com	2026-11-14
 analytics.lunge.de	2026-11-14
 analytics.makeitmeme.com	2026-11-14
@@ -366,7 +353,6 @@ beacon.krxd.net	2026-11-14
 beacon.lycos.com	2026-11-14
 beacon.s.llnwi.net	2026-11-14
 beacon.tingyun.com	2026-11-14
-beacon.www.theguardian.com	2026-11-13
 bf-ad.net	2026-11-14
 blitz-analytics-batch-server.blitz.gg	2026-11-14
 boxfulironist.click	2026-11-14
@@ -594,7 +580,6 @@ marketing.iriworldwide.com	2026-11-14
 marketing.izeno.com	2026-11-14
 marketing.juicepharma.com	2026-11-14
 marketing.kestlerfinancial.com	2026-11-14
-marketing.kozzyavm.com	2026-11-13
 marketing.lakepointadvisorygroup.com	2026-11-14
 marketing.landuscooperative.com	2026-11-14
 marketing.leadingresponse.com	2026-11-14
@@ -695,7 +680,6 @@ marketing.vantagepoint-financial.com	2026-11-14
 marketing.verantis.com	2026-11-14
 marketing.visitmontrose.com	2026-11-14
 marketing.voiply.us	2026-11-14
-marketing.voxer.com	2026-11-13
 marketing.vrijekavelsvathorst.nl	2026-11-14
 marketing.vroozi.com	2026-11-14
 marketing.wallindustries.com	2026-11-14
@@ -755,7 +739,6 @@ r-ad.ne.jp	2026-11-14
 raxesmutsje.click	2026-11-14
 regluespitons.click	2026-11-14
 related-ads.com	2026-11-14
-rem-track.bild.de	2026-11-13
 report-stats.ad.jiguang.cn	2026-11-14
 rosolilongies.click	2026-11-14
 safe-click.net	2026-11-14
@@ -786,7 +769,6 @@ splash-screen.net	2026-11-14
 srt94.click	2026-11-14
 stat-ssl.akiba-souken.com	2026-11-14
 stat-ssl.cc-rashinban.com	2026-11-14
-stat-ssl.eiga.com	2026-11-13
 stat-ssl.fx-rashinban.com	2026-11-14
 stat-ssl.icotto-jp.com	2026-11-14
 stat-ssl.pathee.com	2026-11-14
@@ -816,7 +798,6 @@ stat.landingpro.pl	2026-11-14
 stat.letv.com	2026-11-14
 stat.marshfieldclinic.org	2026-11-14
 stat.moevideo.net	2026-11-14
-stat.mql5.com	2026-11-13
 stat.ncl.com	2026-11-14
 stat.pchome.net	2026-11-14
 stat.pptv.com	2026-11-14
@@ -858,10 +839,8 @@ stats.asmodee.net	2026-11-14
 stats.asymptotic.io	2026-11-14
 stats.auto-dombrowski.de	2026-11-14
 stats.autoscout24.ch	2026-11-14
-stats.avg.com	2026-11-13
 stats.bananatimer.com	2026-11-14
 stats.bankofthewest.com	2026-11-14
-stats.bbc.co.uk	2026-11-13
 stats.bcdtravel.com	2026-11-14
 stats.beanr.coffee	2026-11-14
 stats.beatricew.com	2026-11-14
@@ -953,7 +932,6 @@ stats.declanbyrd.co.uk	2026-11-14
 stats.deja-lu.de	2026-11-14
 stats.deloitte.com	2026-11-14
 stats.depends-on-the-definition.com	2026-11-14
-stats.dev.zaloapp.com	2026-11-13
 stats.develop.wwdcscholars.com	2026-11-14
 stats.devenet.eu	2026-11-14
 stats.devenet.info	2026-11-14
@@ -1002,11 +980,6 @@ stats.executebig.org	2026-11-14
 stats.extramilefloorcare.com	2026-11-14
 stats.eyehelp.co	2026-11-14
 stats.fabiofranchino.com	2026-11-14
-stats.faluninfo.at	2026-11-13
-stats.faluninfo.ba	2026-11-13
-stats.faluninfo.mk	2026-11-13
-stats.faluninfo.rs	2026-11-13
-stats.faluninfo.si	2026-11-13
 stats.fastbackward.app	2026-11-14
 stats.felipesere.com	2026-11-14
 stats.femtobill.com	2026-11-14
@@ -1219,12 +1192,10 @@ stats.planxti.com	2026-11-14
 stats.poesieundgenuss.com	2026-11-14
 stats.pointflottant.com	2026-11-14
 stats.polekatfitness.com	2026-11-14
-stats.popscreen.com	2026-11-13
 stats.portalmonitor.io	2026-11-14
 stats.postcollectors.com	2026-11-14
 stats.poweringpastcoal.org	2026-11-14
 stats.preeventualist.org	2026-11-14
-stats.pri.org	2026-11-13
 stats.pricewell.io	2026-11-14
 stats.principedepaz.gt	2026-11-14
 stats.processserver101.com	2026-11-14
@@ -1279,13 +1250,11 @@ stats.seva.rocks	2026-11-14
 stats.sexemodel.com	2026-11-14
 stats.sexplore.app	2026-11-14
 stats.shareup.app	2026-11-14
-stats.shepherd.com	2026-11-13
 stats.shh.io	2026-11-14
 stats.shiftx.com	2026-11-14
 stats.simplinetworks.com	2026-11-14
 stats.sirdata.com	2026-11-14
 stats.ski.com	2026-11-14
-stats.slideshare.net	2026-11-13
 stats.smartdestinations.com	2026-11-14
 stats.socialeurope.eu	2026-11-14
 stats.soundbite.so	2026-11-14
@@ -1443,8 +1412,6 @@ track.noz.de	2026-11-14
 track.olx.com.br	2026-11-14
 track.shop.atleticodemadrid.com	2026-11-14
 track.slickinbox.com	2026-11-14
-track.slideshare.net	2026-11-13
-track.storm.mg	2026-11-13
 track.strife.com	2026-11-14
 track.td3x.com	2026-11-14
 track.thesaurus.com	2026-11-14

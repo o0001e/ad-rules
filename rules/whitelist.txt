@@ -1,5 +1,5 @@
 # AD-QGG 白名单
-# Count: 438
+# Count: 441
 0.0.0.0 12306.cn
 0.0.0.0 126.com
 0.0.0.0 163.com
@@ -54,7 +54,9 @@
 0.0.0.0 bilibili.com
 0.0.0.0 bilivideo.com
 0.0.0.0 bytecdn.cn
+0.0.0.0 bytedance.com
 0.0.0.0 bytedance.net
+0.0.0.0 byteimg.com
 0.0.0.0 cdn.163.com
 0.0.0.0 cdn.amemv.com
 0.0.0.0 cdn.baidu.com
@@ -378,6 +380,7 @@
 0.0.0.0 qunar.com
 0.0.0.0 qzmanhua.com
 0.0.0.0 qznovel.com
+0.0.0.0 qznovelvod.com
 0.0.0.0 raw.giteeusercontent.com
 0.0.0.0 sina.com
 0.0.0.0 sinaimg.cn

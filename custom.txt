@@ -77,3 +77,18 @@ v5-se-zjnbtc-reading-ad.qznovelvod.com
 v96-reading-ad.qznovelvod.com
 win.gdt.qq.com
 www.google-analytics.com
+# —— 2026-11-14 从 DNS 日志（06:47 批，249559 行）抓取的广告主接口 ——
+# 随机子域主接口：v1d.pkoplink.com，428 次请求中 301 次是随机哈希子域（红果激励广告落地页）
+v1d.pkoplink.com
+# 字节广告接口（红果/漫剧/头条）
+ads5-normal.zijieapi.com
+ads5-normal-hl.zijieapi.com
+ads3-normal.zijieapi.com
+# 字节监控上报（与业务域 vcs/thanos 分开）
+mon.zijieapi.com
+# 红果阅读页广告子域（新出现，原规则未覆盖）
+v9-reading-ad.qznovelvod.com
+v5-dj-reading-ad.qznovelvod.com
+v6-reading-ad.qznovelvod.com
+v5-se-bjtc-reading-ad.qznovelvod.com
+v5-se-sjy-daily-reading-ad.qznovelvod.com
