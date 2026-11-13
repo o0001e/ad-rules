@@ -403,14 +403,19 @@ def load_dead():
     return out
 
 
-def dns_alive(d, tries=2):
+def dns_alive(d, tries=3):
+    """只有明确“域名不存在”(NXDOMAIN) 才判失效；超时/网络错误一律按存活处理，避免误删"""
+    socket.setdefaulttimeout(2.0)
     for _ in range(tries):
         try:
-            socket.setdefaulttimeout(2.5)
             socket.getaddrinfo(d, None, socket.AF_INET)
             return True
+        except socket.gaierror as e:
+            if e.errno == socket.EAI_NONAME:   # -2 域名不存在
+                continue                        # 再确认一次
+            return True                         # EAI_AGAIN/EAI_FAIL 等：网络问题，不算失效
         except Exception:
-            continue
+            return True
     return False
 
 

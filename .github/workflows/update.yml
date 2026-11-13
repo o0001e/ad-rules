@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.email "adqgg@local"
           git config user.name "adqgg"
-          git add -f -A rules
+          git add -f -A rules dead.txt
           if git diff --cached --quiet; then echo "产物无变化，跳过提交"; exit 0; fi
           git commit -m "规则更新 $(date -u '+%F %H:%M') UTC"
           for i in 1 2 3; do
@@ -63,7 +63,7 @@ jobs:
             echo "推送失败，对齐远端后重试（第 $i 次）"
             git fetch -q --depth=1 origin main
             git reset -q --mixed FETCH_HEAD
-            git add -f -A rules
+            git add -f -A rules dead.txt
             git commit -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
             sleep 5
           done

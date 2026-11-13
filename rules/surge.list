@@ -67,6 +67,7 @@ DOMAIN,ad-display.wikawika.xyz
 DOMAIN,ad-download.hismarttv.com
 DOMAIN,ad-drs-ipv6.52qumao.com
 DOMAIN,ad-drs.52qumao.com
+DOMAIN,ad-ebis.bookpass.auone.jp
 DOMAIN,ad-ebis.mynavi-job20s.jp
 DOMAIN,ad-ettoday.cdn.hinet.net
 DOMAIN,ad-fam.com
@@ -150,11 +151,11 @@ DOMAIN,ad.api.moji.com
 DOMAIN,ad.api.youshiad.cn
 DOMAIN,ad.apl298.me
 DOMAIN,ad.apsalar.com
-DOMAIN,ad.atown.jp
 DOMAIN,ad.aucfan.com
 DOMAIN,ad.aucview.com
 DOMAIN,ad.baihemob.com
 DOMAIN,ad.bayescom.com
+DOMAIN,ad.bench.utorrent.com
 DOMAIN,ad.bestools.group
 DOMAIN,ad.bitmedia.io
 DOMAIN,ad.bluepartner.eu
@@ -178,6 +179,7 @@ DOMAIN,ad.cooks.com
 DOMAIN,ad.cpcstar.com
 DOMAIN,ad.cub.red
 DOMAIN,ad.cyapi.cn
+DOMAIN,ad.daum.net
 DOMAIN,ad.ddo.jp
 DOMAIN,ad.deepthought.industries
 DOMAIN,ad.deviantart.com
@@ -239,6 +241,7 @@ DOMAIN,ad.icheck.com.vn
 DOMAIN,ad.ichiban-boshi.com
 DOMAIN,ad.ichiru.net
 DOMAIN,ad.iinfo.cz
+DOMAIN,ad.iloveinterracial.com
 DOMAIN,ad.imp.joins.com
 DOMAIN,ad.infoseek.com
 DOMAIN,ad.inhaabit.com
@@ -251,7 +254,6 @@ DOMAIN,ad.jetsoftware.com
 DOMAIN,ad.jibunde-esute.com
 DOMAIN,ad.jorte.com
 DOMAIN,ad.k98y.cn
-DOMAIN,ad.kapos.hu
 DOMAIN,ad.kazakinfo.com
 DOMAIN,ad.keenspace.com
 DOMAIN,ad.khan.co.kr
@@ -299,6 +301,7 @@ DOMAIN,ad.netmedia.hu
 DOMAIN,ad.netowl.jp
 DOMAIN,ad.nettvservices.com
 DOMAIN,ad.network60.com
+DOMAIN,ad.nicovideo.jp
 DOMAIN,ad.norfolkbroads.com
 DOMAIN,ad.nttnavi.co.jp
 DOMAIN,ad.ntvmsnbc.com
@@ -342,6 +345,7 @@ DOMAIN,ad.sina.com.cn
 DOMAIN,ad.sinovision.net
 DOMAIN,ad.sitemaji.com
 DOMAIN,ad.smaad.jp
+DOMAIN,ad.snappea.com
 DOMAIN,ad.style
 DOMAIN,ad.sunflower.vn
 DOMAIN,ad.sxp.smartclip.net
@@ -436,6 +440,7 @@ DOMAIN,ads-go.adroi.com.cn
 DOMAIN,ads-image.production-public.tubi.io
 DOMAIN,ads-img.mozilla.org
 DOMAIN,ads-interfaces.sc-cdn.net
+DOMAIN,ads-jp.tiktok.com
 DOMAIN,ads-leaseweb.appsgeyser.com
 DOMAIN,ads-lot.ru
 DOMAIN,ads-m.rustore.ru
@@ -487,8 +492,11 @@ DOMAIN,ads.adstream.com.ro
 DOMAIN,ads.adthrive.com
 DOMAIN,ads.adverline.com
 DOMAIN,ads.aitype.net
+DOMAIN,ads.albawaba.com
 DOMAIN,ads.allvertical.com
+DOMAIN,ads.almasdarnews.com
 DOMAIN,ads.alobacsi.vn
+DOMAIN,ads.alt.com
 DOMAIN,ads.amazingmedia.com
 DOMAIN,ads.amdmb.com
 DOMAIN,ads.amigos.com
@@ -506,6 +514,7 @@ DOMAIN,ads.as4x.tmcs.net
 DOMAIN,ads.as4x.tmcs.ticketmaster.com
 DOMAIN,ads.auctioncity.co.nz
 DOMAIN,ads.auctions.yahoo.com
+DOMAIN,ads.aws.viber.com
 DOMAIN,ads.b10f.jp
 DOMAIN,ads.baazee.com
 DOMAIN,ads.baddiesonlyporn.com
@@ -608,6 +617,7 @@ DOMAIN,ads.eu.msn.com
 DOMAIN,ads.exoclick.com
 DOMAIN,ads.exosrv.com
 DOMAIN,ads.fairfax.com.au
+DOMAIN,ads.feedly.com
 DOMAIN,ads.feelingtouch.com
 DOMAIN,ads.ferianc.com
 DOMAIN,ads.fetnet.net
@@ -618,7 +628,6 @@ DOMAIN,ads.financialcontent.com
 DOMAIN,ads.flashgames247.com
 DOMAIN,ads.flooble.com
 DOMAIN,ads.floridatoday.com
-DOMAIN,ads.fnch.ch
 DOMAIN,ads.fool.com
 DOMAIN,ads.footymad.net
 DOMAIN,ads.forbes.net
@@ -676,6 +685,7 @@ DOMAIN,ads.illuminatednation.com
 DOMAIN,ads.imbc.com
 DOMAIN,ads.imgur.com
 DOMAIN,ads.indeed.com
+DOMAIN,ads.indiatimes.com
 DOMAIN,ads.indystar.com
 DOMAIN,ads.infi.net
 DOMAIN,ads.injersey.com
@@ -715,7 +725,6 @@ DOMAIN,ads.lmmob.com
 DOMAIN,ads.lot-tissimo.com
 DOMAIN,ads.luffy.my.id
 DOMAIN,ads.ma7.tv
-DOMAIN,ads.mail.bg
 DOMAIN,ads.markettimes.vn
 DOMAIN,ads.marry.vn
 DOMAIN,ads.massinfra.nl
@@ -744,6 +753,7 @@ DOMAIN,ads.mustangworks.com
 DOMAIN,ads.mycricket.com
 DOMAIN,ads.mysimon.com
 DOMAIN,ads.mytelus.com
+DOMAIN,ads.nationalreview.com
 DOMAIN,ads.ndtv1.com
 DOMAIN,ads.netbul.com
 DOMAIN,ads.networksolutions.com
@@ -818,6 +828,7 @@ DOMAIN,ads.rcgroups.com
 DOMAIN,ads.reader.yueyouxs.com
 DOMAIN,ads.realcities.com
 DOMAIN,ads.recoletos.es
+DOMAIN,ads.rediff.com
 DOMAIN,ads.register.com
 DOMAIN,ads.revjet.com
 DOMAIN,ads.roanoke.com
@@ -964,6 +975,7 @@ DOMAIN,ads.zhinengxiyifang.cn
 DOMAIN,ads.zijieapi.com
 DOMAIN,ads.zorvec.name
 DOMAIN,ads.zunia.vn
+DOMAIN,ads3-normal-hl.zijieapi.com
 DOMAIN,adserver-1277986481.ap-northeast-1.elb.amazonaws.com
 DOMAIN,adserver-2.ig.com.br
 DOMAIN,adserver-4.ig.com.br
@@ -1158,6 +1170,7 @@ DOMAIN,adx.xiaodutv.com
 DOMAIN,adx.xtv.vn
 DOMAIN,adx.yiche.com
 DOMAIN,adxserver.ad.cmvideo.cn
+DOMAIN,aeventlog.beacon.qq.com
 DOMAIN,af-ad.co.uk
 DOMAIN,afi.biyou.web-marketing.ai
 DOMAIN,afi.iryou.web-marketing.ai
@@ -1283,6 +1296,7 @@ DOMAIN,analytics.adliners.de
 DOMAIN,analytics.admon.com.vn
 DOMAIN,analytics.adobe.io
 DOMAIN,analytics.adobe.ly
+DOMAIN,analytics.adultempire.com
 DOMAIN,analytics.adultswim.co.uk
 DOMAIN,analytics.afirstsoft.cn
 DOMAIN,analytics.agenedia.com
@@ -1315,6 +1329,7 @@ DOMAIN,analytics.asml.com
 DOMAIN,analytics.atlas5.co
 DOMAIN,analytics.atom.com
 DOMAIN,analytics.audioeye.com
+DOMAIN,analytics.audionow.de
 DOMAIN,analytics.autozone.com
 DOMAIN,analytics.avanser.com.au
 DOMAIN,analytics.avcdn.net
@@ -1339,6 +1354,7 @@ DOMAIN,analytics.bkav.com.vn
 DOMAIN,analytics.blackboard.com
 DOMAIN,analytics.bleacherreport.com
 DOMAIN,analytics.blender.org
+DOMAIN,analytics.bloomberg.com
 DOMAIN,analytics.blue
 DOMAIN,analytics.boing.es
 DOMAIN,analytics.bolavip.com
@@ -1581,6 +1597,7 @@ DOMAIN,analytics.lexisnexisrisk.com
 DOMAIN,analytics.liine.com
 DOMAIN,analytics.liveact-vault.com
 DOMAIN,analytics.liveact.cri-mw.jp
+DOMAIN,analytics.livestream.com
 DOMAIN,analytics.loadweb.com
 DOMAIN,analytics.loop-cloud.de
 DOMAIN,analytics.lunarclientprod.com
@@ -1841,6 +1858,7 @@ DOMAIN,analytics.theinstitutes.org
 DOMAIN,analytics.thekrazycouponlady.com
 DOMAIN,analytics.themarketiq.com
 DOMAIN,analytics.thenest.com
+DOMAIN,analytics.thenewslens.com
 DOMAIN,analytics.threedeepmarketing.com
 DOMAIN,analytics.ticimax.cloud
 DOMAIN,analytics.ticinolibero.ch
@@ -1984,9 +2002,11 @@ DOMAIN,analytics.ziftsolutions.com
 DOMAIN,analytics.zim.vn
 DOMAIN,anarchytyroma.click
 DOMAIN,android-stat.acestream.net
+DOMAIN,android.bugly.qq.com
 DOMAIN,android.push.126.net
 DOMAIN,anon-stats.eff.org
 DOMAIN,anormal-tracker.de
+DOMAIN,anti-sdk-report.m.jd.com
 DOMAIN,antrumciphers.click
 DOMAIN,ao-marketing.dbiyes.com
 DOMAIN,ao-marketing.essendant.com
@@ -2034,6 +2054,7 @@ DOMAIN,app.marketing.richardsonrfpd.com
 DOMAIN,app.marketing.wolterskluwerfs.com
 DOMAIN,applog.lc.quark.cn
 DOMAIN,aqua-adserver.com
+DOMAIN,astrategy.beacon.qq.com
 DOMAIN,atb-stats-api.imolive.tv
 DOMAIN,athena-ads.wikia.com
 DOMAIN,audio.ad
@@ -2057,6 +2078,7 @@ DOMAIN,beacon.adelphic.com
 DOMAIN,beacon.affil.walmart.com
 DOMAIN,beacon.aimtell.com
 DOMAIN,beacon.carfax.com
+DOMAIN,beacon.cdn.qq.com
 DOMAIN,beacon.cdnma.com
 DOMAIN,beacon.cdnpure.com
 DOMAIN,beacon.coofis.com
@@ -2092,6 +2114,7 @@ DOMAIN,beacon.walmart.com
 DOMAIN,beacon.watch.impress.co.jp
 DOMAIN,beacon.webpresence.work
 DOMAIN,beacon.wikia-services.com
+DOMAIN,beacon.www.theguardian.com
 DOMAIN,beacon.ztgame.com
 DOMAIN,behavior-tracking-event-gateway.imweb.me
 DOMAIN,beltanekwarta.click
@@ -2116,7 +2139,9 @@ DOMAIN,bright-sdk.com
 DOMAIN,bs-adserver.b-cdn.net
 DOMAIN,business-ad.cdn-go.cn
 DOMAIN,c-stat.eu
+DOMAIN,c3.gdt.qq.com
 DOMAIN,call-tracking.by
+DOMAIN,canvas-cdn.gdt.qq.com
 DOMAIN,cash-ads.com
 DOMAIN,cddp-track.aligames.com
 DOMAIN,cdn-ad.wtzw.com
@@ -2299,6 +2324,7 @@ DOMAIN,client-logs-a.wbx2.com
 DOMAIN,cloud-log.yy.com
 DOMAIN,cloyerpapaw.click
 DOMAIN,cms-stats-view.vitrinabox.com
+DOMAIN,cn-hz-app-log.cn-hangzhou.log.aliyuncs.com
 DOMAIN,cn.hotclips.click
 DOMAIN,coitionultime.click
 DOMAIN,coldongjiffies.click
@@ -2375,8 +2401,10 @@ DOMAIN,doubleclick.ne.jp
 DOMAIN,doubleclick.net
 DOMAIN,doubleclick.uk.net
 DOMAIN,download-stats.mozilla.org
+DOMAIN,dsp-api-cn.metricslinks.com
 DOMAIN,dsp-click.youdao.com
 DOMAIN,dsp-track-global.zmaticoo.com
+DOMAIN,dsp-x.jd.com
 DOMAIN,dt-tracker.mamikos.com
 DOMAIN,dts-log.anker.com
 DOMAIN,e-ad-monitor.huya.com
@@ -2529,6 +2557,7 @@ DOMAIN,info.marketing.spxflow.com
 DOMAIN,inpage-push.com
 DOMAIN,inpage-push.net
 DOMAIN,intake-analytics.wikimedia.org
+DOMAIN,ipv4.gdt.qq.com
 DOMAIN,ir-sdk.guardease.com
 DOMAIN,is-log.furunavi.jp
 DOMAIN,is-tracking-pixel-api-prod.appspot.com
@@ -2555,13 +2584,17 @@ DOMAIN,leserservice-tracking.de
 DOMAIN,lever-analytics.com
 DOMAIN,lf3-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN,lf3-analytics.bytescm.com
+DOMAIN,lf3-sf-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,lf6-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN,lf9-ad-union-sdk.pglstatp-toutiao.com
+DOMAIN,lf9-sf-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,line1-log.biligame.net
 DOMAIN,link.marketing.bleacherreport.com
 DOMAIN,links.marketing.getprizepool.com
 DOMAIN,lists-tracking.komando.com
 DOMAIN,literally-analytics.appspot.com
+DOMAIN,live-player-log-service.bytedance.com
+DOMAIN,live-player-log.zijieapi.com
 DOMAIN,log-185a61e7.bendigobank.com.au
 DOMAIN,log-2ffe60ee.westpac.com.au
 DOMAIN,log-ads.r7.com
@@ -2588,6 +2621,7 @@ DOMAIN,log-player.arte.tv
 DOMAIN,log-pq.shopfully.cloud
 DOMAIN,log-pub-hk.aoshitang.com
 DOMAIN,log-report.com
+DOMAIN,log-sdk.clickwifi.net
 DOMAIN,log-sdk.ksapisrv.com
 DOMAIN,log-sg.bytegsdk.com
 DOMAIN,log-sg.capcutapi.com
@@ -2749,6 +2783,7 @@ DOMAIN,log.popin.cc
 DOMAIN,log.prezi.com
 DOMAIN,log.pvpgang.com
 DOMAIN,log.qchannel03.cn
+DOMAIN,log.qiniuapi.com
 DOMAIN,log.quora.com
 DOMAIN,log.rabobank.nl
 DOMAIN,log.radiko.jp
@@ -2766,6 +2801,7 @@ DOMAIN,log.sina.cn
 DOMAIN,log.smartclearpro.com
 DOMAIN,log.snapdeal.com
 DOMAIN,log.snow.me
+DOMAIN,log.snssdk.com
 DOMAIN,log.stat.kugou.com
 DOMAIN,log.stickflow.xyz
 DOMAIN,log.strawpoll.com
@@ -2773,6 +2809,7 @@ DOMAIN,log.strm.yandex.ru
 DOMAIN,log.tagcade.com
 DOMAIN,log.tagtic.cn
 DOMAIN,log.talkie-ai.com
+DOMAIN,log.tbs.qq.com
 DOMAIN,log.tf.co.kr
 DOMAIN,log.theleader.vn
 DOMAIN,log.thuonggiaonline.vn
@@ -2808,6 +2845,7 @@ DOMAIN,log.xpln.tech
 DOMAIN,log.yapaytech.com
 DOMAIN,log.ycapp.yiche.com
 DOMAIN,log.yougameover.com
+DOMAIN,log.ys7.com
 DOMAIN,log.zalo.video
 DOMAIN,log.zamba.vn
 DOMAIN,log.zcool.com.cn
@@ -3456,6 +3494,7 @@ DOMAIN,marketing.kisales.com
 DOMAIN,marketing.knoxville.org
 DOMAIN,marketing.konareefresort.com
 DOMAIN,marketing.konecranes.com
+DOMAIN,marketing.kozzyavm.com
 DOMAIN,marketing.kpfilms.com
 DOMAIN,marketing.kurtzon.com
 DOMAIN,marketing.labdepotinc.com
@@ -4031,6 +4070,7 @@ DOMAIN,marketing.visualskus.com
 DOMAIN,marketing.voicefirstsolutions.com
 DOMAIN,marketing.voltexelectrical.co.nz
 DOMAIN,marketing.voltexelectrical.com.au
+DOMAIN,marketing.voxer.com
 DOMAIN,marketing.wachsws.com
 DOMAIN,marketing.wainscotsolutions.com
 DOMAIN,marketing.waitrainer.com
@@ -4092,14 +4132,17 @@ DOMAIN,merchant-center-analytics.goog
 DOMAIN,metrics-ad-drcn.dt.hihonorcloud.com
 DOMAIN,metrics.iij.ad.jp
 DOMAIN,metrics.marketing.lighting.philips.kz
+DOMAIN,mi.gdt.qq.com
 DOMAIN,midas-tracker.hellay.net
 DOMAIN,miniapp-ad.cdn.bcebos.com
 DOMAIN,mkt-advertisement.tuhu.cn
 DOMAIN,mm-sdk-analytics.api.cx.metamask.io
 DOMAIN,mng-ads.com
+DOMAIN,mobads-logs.baidu.com
 DOMAIN,mon.ad.xelements.cn
 DOMAIN,monitor-ads-test.huan.tv
 DOMAIN,monitor.ads.8le8le.com
+DOMAIN,monitor.v2.tcyad.com
 DOMAIN,monitoring-sdk.experimentation.intuit.com
 DOMAIN,mplaylist-ads.zadn.vn
 DOMAIN,mplaylist-ads.zascdn.me
@@ -4134,6 +4177,8 @@ DOMAIN,open-ad.vivo.com.cn
 DOMAIN,open-adx.com
 DOMAIN,open-analytics.hrw.org
 DOMAIN,otclick-adv.ru
+DOMAIN,oth.str.beacon.qq.com
+DOMAIN,otheve.beacon.qq.com
 DOMAIN,ournet-analytics.com
 DOMAIN,outwakebinate.click
 DOMAIN,owmedia.rabbit.click
@@ -4141,9 +4186,11 @@ DOMAIN,p.midbound.click
 DOMAIN,p1-ad.adukwai.com
 DOMAIN,p16-ad.byteoversea.com
 DOMAIN,p2-ad.adukwai.com
+DOMAIN,p26-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p3-ad-sign.byteimg.com
 DOMAIN,p3-ad-sign.byteimg.com.queniusy.com
 DOMAIN,p3-ad.adukwai.com
+DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p4-ad.adukwai.com
 DOMAIN,p5-ad.adukwai.com
 DOMAIN,p66-ad.adkwai.com
@@ -4177,6 +4224,7 @@ DOMAIN,priestsuede.click
 DOMAIN,privacy-analytics-proxy.cookiebot.com
 DOMAIN,pro-advert.de
 DOMAIN,prod-analytics.royal.drmgms.com
+DOMAIN,prod.log.shortbread.aws.dev
 DOMAIN,prod.tahoe-analytics.publishers.advertising.a2z.com
 DOMAIN,prod.tracking.refinitiv.com
 DOMAIN,production-tracking.riviu.co
@@ -4199,6 +4247,7 @@ DOMAIN,promo.roadie.com
 DOMAIN,promo.skf.com
 DOMAIN,promo.streaming-illimite.net
 DOMAIN,promo.tops.co.th
+DOMAIN,promotion-partner.kuaishou.com
 DOMAIN,propeller-tracking.com
 DOMAIN,protected-redirect.click
 DOMAIN,pubfuture-ad.com
@@ -4249,6 +4298,8 @@ DOMAIN,ratel-ad.com
 DOMAIN,ravelin.click
 DOMAIN,re-ads.com
 DOMAIN,red-just-fit.click
+DOMAIN,rem-track.bild.de
+DOMAIN,report.qqweb.qq.com
 DOMAIN,report.tencentmusic.com
 DOMAIN,revengine-tracker.remp.dailymaverick.co.za
 DOMAIN,revetetupik.click
@@ -4337,6 +4388,8 @@ DOMAIN,server.ad.logic-test.viasat.io
 DOMAIN,server.ad.logic.viasat.io
 DOMAIN,service-ad-image-ga.prd.pluto.tv
 DOMAIN,service-ad-impression-proxy-use1-1.prd.pluto.tv
+DOMAIN,sf3-fe-tos.pglstatp-toutiao.com
+DOMAIN,sf6-fe-tos.pglstatp-toutiao.com
 DOMAIN,shareasale-analytics.com
 DOMAIN,showmethat.click
 DOMAIN,sltint.adv.ott.cibntv.net
@@ -4410,6 +4463,7 @@ DOMAIN,splash.appsgeyser.com
 DOMAIN,ssp-ad.momento.dev
 DOMAIN,ssp-adx.ads.heytapmobi.com
 DOMAIN,ssp-sdk-config.uc.cn
+DOMAIN,ssp.vivo.com.cn
 DOMAIN,st-ads-jssdk.vivo.com.cn
 DOMAIN,stat-58home.58che.com
 DOMAIN,stat-analytics.mediavitrina.ru
@@ -4417,6 +4471,7 @@ DOMAIN,stat-rock.com
 DOMAIN,stat-ssl.autoway.jp
 DOMAIN,stat-ssl.bushikaku.net
 DOMAIN,stat-ssl.career-tasu.jp
+DOMAIN,stat-ssl.eiga.com
 DOMAIN,stat-ssl.hitosara.com
 DOMAIN,stat-ssl.icotto.jp
 DOMAIN,stat-ssl.idaten.ne.jp
@@ -4512,6 +4567,7 @@ DOMAIN,stat.mersz.hu
 DOMAIN,stat.mint.ca
 DOMAIN,stat.mixi.media
 DOMAIN,stat.moji.com
+DOMAIN,stat.mql5.com
 DOMAIN,stat.mtv3.fi
 DOMAIN,stat.mydaddy.cc
 DOMAIN,stat.nate.com
@@ -4628,8 +4684,10 @@ DOMAIN,stats.asp24.pl
 DOMAIN,stats.astrr.ru
 DOMAIN,stats.autofarm.network
 DOMAIN,stats.autohome.com.cn
+DOMAIN,stats.avg.com
 DOMAIN,stats.avito.ru
 DOMAIN,stats.backcountry.com
+DOMAIN,stats.bbc.co.uk
 DOMAIN,stats.bdc.ca
 DOMAIN,stats.becu.org
 DOMAIN,stats.betternet.de
@@ -4683,6 +4741,7 @@ DOMAIN,stats.davidickedelivery.com
 DOMAIN,stats.de
 DOMAIN,stats.defense.gov
 DOMAIN,stats.deutschlandsim.de
+DOMAIN,stats.dev.zaloapp.com
 DOMAIN,stats.developingperspective.com
 DOMAIN,stats.dice.com
 DOMAIN,stats.digital-natives.de
@@ -4702,6 +4761,11 @@ DOMAIN,stats.extendedstayamerica.com
 DOMAIN,stats.externulls.com
 DOMAIN,stats.fairmont.com
 DOMAIN,stats.falck.dk
+DOMAIN,stats.faluninfo.at
+DOMAIN,stats.faluninfo.ba
+DOMAIN,stats.faluninfo.mk
+DOMAIN,stats.faluninfo.rs
+DOMAIN,stats.faluninfo.si
 DOMAIN,stats.familyvacationcritic.com
 DOMAIN,stats.fastcompany.com
 DOMAIN,stats.fd.nl
@@ -4774,7 +4838,6 @@ DOMAIN,stats.jkdesa.com
 DOMAIN,stats.jpush.cn
 DOMAIN,stats.justpaste.it
 DOMAIN,stats.kaltura.com
-DOMAIN,stats.kc.ie
 DOMAIN,stats.ks-labs.de
 DOMAIN,stats.ksearchnet.com
 DOMAIN,stats.lab.zalo.ai
@@ -4840,10 +4903,12 @@ DOMAIN,stats.pixeldrain.com
 DOMAIN,stats.plainsending.com
 DOMAIN,stats.polldaddy.com
 DOMAIN,stats.popcap.com
+DOMAIN,stats.popscreen.com
 DOMAIN,stats.postescanada-canadapost.ca
 DOMAIN,stats.postescanada.ca
 DOMAIN,stats.prebytes.com
 DOMAIN,stats.premiumsim.de
+DOMAIN,stats.pri.org
 DOMAIN,stats.print.work
 DOMAIN,stats.proff.no
 DOMAIN,stats.pronouns.page
@@ -4885,6 +4950,7 @@ DOMAIN,stats.sfwmd.gov
 DOMAIN,stats.sg-light-edge.com
 DOMAIN,stats.sgs.com
 DOMAIN,stats.sharenet.co.za
+DOMAIN,stats.shepherd.com
 DOMAIN,stats.shopify.com
 DOMAIN,stats.sim.de
 DOMAIN,stats.sim24.de
@@ -4893,6 +4959,7 @@ DOMAIN,stats.simzdarma.cz
 DOMAIN,stats.sixseven.at
 DOMAIN,stats.slashed.cloud
 DOMAIN,stats.slicedthread.com
+DOMAIN,stats.slideshare.net
 DOMAIN,stats.smartclip.net
 DOMAIN,stats.smartmobil.de
 DOMAIN,stats.someecards.com
@@ -4995,10 +5062,12 @@ DOMAIN,str2-fsca-track.bestbuy.com
 DOMAIN,stream-log.dditscdn.com
 DOMAIN,sumo.ad
 DOMAIN,t-adx.52qumao.com
+DOMAIN,t-dsp.pinduoduo.com
 DOMAIN,t.ad.nl
 DOMAIN,t2.click.subway.com
 DOMAIN,t2.t2b.click
 DOMAIN,talpa-analytics.com
+DOMAIN,tap-dsp.iem.taptap.cn
 DOMAIN,target.ads.jihuoniao.com
 DOMAIN,tc-log.mattel163.com
 DOMAIN,tedo-stats.de
@@ -5008,6 +5077,7 @@ DOMAIN,test-ad.lucia-c.com
 DOMAIN,test-ad.mens-lucia.com
 DOMAIN,test.marketing.championhomes.com
 DOMAIN,text-link-ads.com
+DOMAIN,texto.click
 DOMAIN,third-tracking.com
 DOMAIN,tiktok-ads.hara.vn
 DOMAIN,tip-ads.de
@@ -5252,6 +5322,7 @@ DOMAIN,track.sendo.vn
 DOMAIN,track.shrinkplus.com
 DOMAIN,track.sigmob.cn
 DOMAIN,track.simonton.com
+DOMAIN,track.slideshare.net
 DOMAIN,track.social.com
 DOMAIN,track.sodapdf.com
 DOMAIN,track.solutions.ostechnology.co.jp
@@ -5262,6 +5333,7 @@ DOMAIN,track.sparta-tracking.xyz
 DOMAIN,track.spothero.com
 DOMAIN,track.ssg.com
 DOMAIN,track.starmakerstudios.com
+DOMAIN,track.storm.mg
 DOMAIN,track.sunmedia.tv
 DOMAIN,track.taimi.com
 DOMAIN,track.tappx.com
@@ -5322,12 +5394,14 @@ DOMAIN,tracker.3dissue.com
 DOMAIN,tracker.520call.me
 DOMAIN,tracker.adbinead.com
 DOMAIN,tracker.adcluster.com.tr
+DOMAIN,tracker.adsales.rakuten.co.jp
 DOMAIN,tracker.affirm.com
 DOMAIN,tracker.anandtech.com
 DOMAIN,tracker.atrapalo.com
 DOMAIN,tracker.au.zitcha.app
 DOMAIN,tracker.awr.im
 DOMAIN,tracker.azet.sk
+DOMAIN,tracker.bang.com
 DOMAIN,tracker.beezup.com
 DOMAIN,tracker.bestshopping.com
 DOMAIN,tracker.blutv.com
@@ -5542,6 +5616,7 @@ DOMAIN,tracking.chacha.com
 DOMAIN,tracking.channelsight.com
 DOMAIN,tracking.chem-agilent.com
 DOMAIN,tracking.chilipiper.com
+DOMAIN,tracking.christianpost.com
 DOMAIN,tracking.cirrusinsight.com
 DOMAIN,tracking.clarivate.com
 DOMAIN,tracking.cognyte.com
@@ -5973,12 +6048,26 @@ DOMAIN,usc.adserver.snapads.com
 DOMAIN,user-event-log.aminer.cn
 DOMAIN,user-stats.rbl.ms
 DOMAIN,v.adx.hubcloud.com.cn
+DOMAIN,v.gdt.qq.com
 DOMAIN,v1-ad.video.yximgs.com
 DOMAIN,v1.sellbuy.click
+DOMAIN,v11-be-pack.pglstatp-toutiao.com
+DOMAIN,v13-reading-ad.qznovelvod.com
 DOMAIN,v16-ad.byteoversea.com
 DOMAIN,v2-ad.video.yximgs.com
+DOMAIN,v2.gdt.qq.com
+DOMAIN,v26-be-pack.pglstatp-toutiao.com
+DOMAIN,v26-reading-ad.qznovelvod.com
+DOMAIN,v2mi.gdt.qq.com
 DOMAIN,v3-ad.video.yximgs.com
+DOMAIN,v3.gdt.qq.com
+DOMAIN,v5-daily-cm-reading-ad.qznovelvod.com
+DOMAIN,v5-ex-be-pack.pglstatp-toutiao.com
+DOMAIN,v5-ex-reading-ad.qznovelvod.com
+DOMAIN,v5-se-gddgtc-reading-ad.qznovelvod.com
+DOMAIN,v5-se-zjnbtc-reading-ad.qznovelvod.com
 DOMAIN,v66-ad.ndcjl.com
+DOMAIN,v96-reading-ad.qznovelvod.com
 DOMAIN,video-ad-stats.googlesyndication.com
 DOMAIN,video-ad.sm.cn
 DOMAIN,video-ads-module.ad-tech.nbcuni.com
@@ -6012,9 +6101,11 @@ DOMAIN,webpageviews.click
 DOMAIN,whopping-click.com
 DOMAIN,widget.push.forja.ma
 DOMAIN,wikia-ads.wikia.com
+DOMAIN,win.gdt.qq.com
 DOMAIN,wl-analytics.tsp.li
 DOMAIN,wmedia-track.uc.cn
 DOMAIN,workerhome.click
+DOMAIN,world-ad.jp
 DOMAIN,wstats.click
 DOMAIN,wtr-digital-analytics.ew.r.appspot.com
 DOMAIN,ww2.ads-on-line.com
