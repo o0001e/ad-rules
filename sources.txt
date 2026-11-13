@@ -31,3 +31,13 @@ https://github.com/Potterli20/file/releases/download/dns-hosts-all/dnshosts-all-
 https://filters.adtidy.org/android/filters/224_optimized.txt
 https://filters.adtidy.org/extension/ublock/filters/224.txt
 https://easylist-downloads.adblockplus.org/easylistchina.txt
+https://filters.adtidy.org/android/filters/228_optimized.txt
+https://filters.adtidy.org/android/filters/14_optimized.txt
+https://filters.adtidy.org/android/filters/19_optimized.txt
+https://filters.adtidy.org/android/filters/220_optimized.txt
+https://easylist.to/easylist/easyprivacy.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext
+https://filters.adtidy.org/android/filters/2_optimized.txt
+https://filters.adtidy.org/android/filters/17_optimized.txt
+https://filters.adtidy.org/android/filters/11_optimized.txt
+https://filters.adtidy.org/android/filters/15_optimized.txt
