@@ -1,0 +1,4 @@
+0.0.0.0 ad.alimama.com
+0.0.0.0 baichuan-sdk.alicdn.com
+0.0.0.0 click.tanx.com
+0.0.0.0 sdk-config.tanx.com

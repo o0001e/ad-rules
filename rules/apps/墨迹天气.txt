@@ -1,0 +1,2 @@
+0.0.0.0 ad.api.moji.com
+0.0.0.0 stat.moji.com

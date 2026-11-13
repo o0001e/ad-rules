@@ -1,0 +1,6 @@
+0.0.0.0 ads.samsung.com
+0.0.0.0 analytics.bigdata.samsung.com
+0.0.0.0 tracking.americas.business.samsung.com
+0.0.0.0 tracking.apac.business.samsung.com
+0.0.0.0 tracking.europe.business.samsung.com
+0.0.0.0 tracking.smartbusiness.samsung.com

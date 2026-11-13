@@ -1,0 +1,2 @@
+0.0.0.0 ad-cdn.qingting.fm
+0.0.0.0 ad.qingting.fm

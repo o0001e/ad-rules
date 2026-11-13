@@ -1,0 +1,2 @@
+0.0.0.0 analytics.brave.com
+0.0.0.0 search.anonymous.ads.brave.com

@@ -1,0 +1,4 @@
+0.0.0.0 ad.hunyuan.tencent.com
+0.0.0.0 log.tpns.gz2.tencent.com
+0.0.0.0 log.tpns.sh.tencent.com
+0.0.0.0 log.tpns.tencent.com

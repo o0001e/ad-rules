@@ -1,0 +1,6 @@
+0.0.0.0 ad-log-upload.mihoyo.com
+0.0.0.0 hkrpg-log-upload.mihoyo.com
+0.0.0.0 log-upload-eur.mihoyo.com
+0.0.0.0 log-upload-os.mihoyo.com
+0.0.0.0 log-upload-v6.mihoyo.com
+0.0.0.0 log-upload.mihoyo.com

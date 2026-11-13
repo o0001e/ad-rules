@@ -1,0 +1,2 @@
+0.0.0.0 log.flight.qunar.com
+0.0.0.0 ma-adx.ctrip.com

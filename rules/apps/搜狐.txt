@@ -1,0 +1,5 @@
+0.0.0.0 ad.mail.sohu.com
+0.0.0.0 ad.sohu.com
+0.0.0.0 ads.sohu.com
+0.0.0.0 push.tv.sohu.com
+0.0.0.0 track.sohu.com

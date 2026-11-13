@@ -61,7 +61,7 @@ jobs:
         run: |
           git config user.email "adqgg@users.noreply.github.com"
           git config user.name "adqgg"
-          git add -A rules/apps
+          git add -f -A rules/apps
           git commit -q -m "App 分组更新 $(date -u '+%F %H:%M') UTC" || echo "无变化"
           for i in 1 2 3; do
             if git pull -q --no-rebase -X ours origin main && git push -q origin main; then echo "GitHub 已更新"; exit 0; fi
