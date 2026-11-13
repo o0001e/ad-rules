@@ -1,7 +1,1 @@
 0.0.0.0 ads-img-al.xhscdn.com
-0.0.0.0 ads-img-bak.xhscdn.com
-0.0.0.0 ads-img-qc.xhscdn.com
-0.0.0.0 ads-video-al.xhscdn.com
-0.0.0.0 ads-video-qc.xhscdn.com
-0.0.0.0 apm-track.xiaohongshu.com
-0.0.0.0 spider-tracker.xiaohongshu.com

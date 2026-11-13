@@ -1,4 +1,2 @@
 0.0.0.0 dualstack-logs.amap.com
 0.0.0.0 logs.amap.com
-0.0.0.0 optimus-ads-ykx.amap.com
-0.0.0.0 optimus-ads.amap.com

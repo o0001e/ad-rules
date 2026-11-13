@@ -1,7 +1,3 @@
-0.0.0.0 ad.api.3g.youku.com
-0.0.0.0 ad.mobile.youku.com
 0.0.0.0 ad.youku.com
-0.0.0.0 adx-core.youku.com
 0.0.0.0 adx-open-service.youku.com
-0.0.0.0 push.m.youku.com
 0.0.0.0 sdk.m.youku.com

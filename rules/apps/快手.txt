@@ -4,3 +4,4 @@
 0.0.0.0 p4-ad.adukwai.com
 0.0.0.0 p5-ad.adukwai.com
 0.0.0.0 p66-ad.adkwai.com
+0.0.0.0 ulog-sdk.gifshow.com
