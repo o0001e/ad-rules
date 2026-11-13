@@ -1,0 +1,91 @@
+# 可后缀放行主域（32 条）：无被拦广告子域，可写 *.域名
+
+*.12306.cn
+*.360.cn
+*.360.com
+*.58cdn.com
+*.alicdn.com
+*.aliyuncs.com
+*.b23.tv
+*.bytedance.net
+*.byteimg.com
+*.changdunovel.com
+*.dbankcdn.com
+*.douyinpic.com
+*.douyinvod.com
+*.fqmanhua.cn
+*.fqmanhua.com
+*.fqnovelvod.com
+*.gitee.com
+*.giteeusercontent.com
+*.hongguoduanju.com
+*.iqiyi.cn
+*.jdimg.com
+*.kuaishouapp.com
+*.kwaicdn.com
+*.myqcloud.com
+*.novelquickapp.com
+*.pddcdn.com
+*.qcloud.com
+*.qhimg.com
+*.qiniu.com
+*.qzmanhua.com
+*.qznovel.com
+*.weixin.com
+
+# 必须精确放行主域（54 条）：有广告子域被拦，禁止写 *.
+
+# 163.com
+# 360buyimg.com
+# 51job.com
+# alipay.com
+# amap.com
+# amemv.com
+# baidu.com
+# bdstatic.com
+# biliapi.net
+# bilibili.com
+# bilivideo.com
+# bytecdn.cn
+# ctrip.com
+# dianping.com
+# didi.cn
+# doubanio.com
+# douyin.com
+# ele.me
+# fqnovel.com
+# gaode.com
+# gifshow.com
+# gtimg.cn
+# hdslb.com
+# huawei.com
+# iqiyi.com
+# jd.com
+# ke.com
+# kuaishou.com
+# kwai.com
+# lianjia.com
+# meituan.com
+# meituan.net
+# mgtv.com
+# mi.com
+# pddpic.com
+# pinduoduo.com
+# qq.com
+# qznovelvod.com
+# sinaimg.cn
+# smzdm.com
+# snssdk.com
+# so.com
+# sogou.com
+# taobao.com
+# tmall.com
+# weibo.com
+# wps.cn
+# xhscdn.com
+# xiaohongshu.com
+# xiaojukeji.com
+# youku.com
+# zhaopin.com
+# zhihu.com
+# zhimg.com

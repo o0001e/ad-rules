@@ -1,0 +1,8 @@
+# 爱奇艺 广告拦截 7条
+0.0.0.0 ad.iqiyi.com
+0.0.0.0 ad.qiyi.com
+0.0.0.0 adx.iqiyi.com
+0.0.0.0 dsp.iqiyi.com
+0.0.0.0 report.iqiyi.com
+0.0.0.0 ssp.iqiyi.com
+0.0.0.0 union.iqiyi.com

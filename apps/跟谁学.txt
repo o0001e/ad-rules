@@ -1,0 +1,2 @@
+# 跟谁学 广告拦截 1条
+0.0.0.0 click.genshuixue.com

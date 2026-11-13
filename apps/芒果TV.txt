@@ -1,0 +1,3 @@
+# 芒果TV 广告拦截 2条
+0.0.0.0 log.hunantv.com
+0.0.0.0 ssp.mgtv.com

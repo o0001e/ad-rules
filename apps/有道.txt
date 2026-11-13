@@ -1,0 +1,6 @@
+# 有道 广告拦截 5条
+0.0.0.0 ad.youdao.com
+0.0.0.0 ads.youdao.com
+0.0.0.0 dsp.youdao.com
+0.0.0.0 promo.note.youdao.com
+0.0.0.0 union.youdao.com

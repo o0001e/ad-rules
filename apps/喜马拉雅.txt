@@ -1,0 +1,4 @@
+# 喜马拉雅 广告拦截 3条
+0.0.0.0 ad.ximalaya.com
+0.0.0.0 adx.ximalaya.com
+0.0.0.0 ssp.ximalaya.com

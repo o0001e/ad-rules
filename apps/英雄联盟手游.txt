@@ -1,0 +1,2 @@
+# 英雄联盟手游 广告拦截 1条
+0.0.0.0 analytics.riotgames.com

@@ -1,0 +1,4 @@
+# 腾讯地图 广告拦截 3条
+0.0.0.0 analytics.map.qq.com
+0.0.0.0 stat.map.qq.com
+0.0.0.0 track.map.qq.com

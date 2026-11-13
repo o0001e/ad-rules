@@ -1,0 +1,11 @@
+# 优酷 广告拦截 10条
+0.0.0.0 ad.youku.com
+0.0.0.0 adimg.youku.com
+0.0.0.0 adx.ykimg.com
+0.0.0.0 adx.youku.com
+0.0.0.0 monitor.youku.com
+0.0.0.0 promo.youku.com
+0.0.0.0 ssp.youku.com
+0.0.0.0 stat.ykimg.com
+0.0.0.0 union.ykimg.com
+0.0.0.0 union.youku.com

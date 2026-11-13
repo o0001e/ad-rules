@@ -1,0 +1,5 @@
+# 当当 广告拦截 4条
+0.0.0.0 click.dangdang.com
+0.0.0.0 promo.dangdang.com
+0.0.0.0 report.dangdang.com
+0.0.0.0 union.dangdang.com

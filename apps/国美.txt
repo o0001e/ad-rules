@@ -1,0 +1,9 @@
+# 国美 广告拦截 8条
+0.0.0.0 ad.gome.com.cn
+0.0.0.0 click.gome.com.cn
+0.0.0.0 dsp.gome.com.cn
+0.0.0.0 impression.gome.com.cn
+0.0.0.0 log.gome.com.cn
+0.0.0.0 report.gome.com.cn
+0.0.0.0 ssp.gome.com.cn
+0.0.0.0 union.gome.com.cn
