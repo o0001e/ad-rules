@@ -3,7 +3,7 @@
 ! Version: 20261113
 ! Expires: 1 day
 ! Homepage: https://github.com/o0001e/ad-rules
-! 拦截条数: 2567
+! 拦截条数: 2568
 ! 配套白名单: whitelist.txt / whitelist_adguard.txt
 
 ||0n.click^
@@ -56,7 +56,6 @@
 ||ad-411.com^
 ||ad-adapex.io^
 ||ad-alp.net^
-||ad-analyze.jp^
 ||ad-arata.com^
 ||ad-arrow.com^
 ||ad-back.net^
@@ -87,7 +86,6 @@
 ||ad-move.jp^
 ||ad-nex.com^
 ||ad-opt.site^
-||ad-optima.com^
 ||ad-pay.de^
 ||ad-plus.cn^
 ||ad-scope.com^
@@ -157,6 +155,7 @@
 ||ad.youku.com^
 ||ad1.xiaomi.com^
 ||ada.baidu.com^
+||adaos-ads.net^
 ||adash-c.m.taobao.com^
 ||adash-c.ut.taobao.com^
 ||adash.m.taobao.com^
@@ -604,10 +603,12 @@
 ||cdn-exp-sg-recommend.pt.xiaomi.com^
 ||cdn-haokanapk.baidu.com^
 ||cdn.exp.xiaomi.com^
+||celeb-ads.com^
 ||center-api.game.kuaishou.com^
 ||cfg-2.pddpic.com^
 ||cfg.imtt.qq.com^
 ||cgi.pub.qq.com^
+||cgi.qianbao.qq.com^
 ||cgicol.amap.com^
 ||chance-ad.com^
 ||channel.m.163.com^
@@ -663,12 +664,14 @@
 ||collector.ximalaya.com^
 ||collectorbs.ctc.ximalaya.com^
 ||commdata.v.qq.com^
+||commdata6.v.qq.com^
 ||community.bz.mgtv.com^
 ||config.push.sogou.com^
 ||connect-api.cloud.huawei.com^
 ||content.ad^
 ||cook.iqiyi.com^
 ||coreuserbiz.zhihu.com^
+||corssdk.map.qq.com^
 ||count.mail.163.com^
 ||count.taobao.com^
 ||counter.kingsoft.com^
@@ -739,7 +742,7 @@
 ||data159.click^
 ||data284.click^
 ||data369.click^
-||data527.click^
+||data741.click^
 ||data852.click^
 ||data963.click^
 ||datagw-edge.alipay.com^
@@ -932,7 +935,6 @@
 ||fexclick.baidu.com^
 ||ff.win.taobao.com^
 ||file-yuedu.iqiyi.com^
-||file.daihuo.qq.com^
 ||files2.sogou.com^
 ||firevent.jd.com^
 ||fl.reg.163.com^
@@ -1151,7 +1153,6 @@
 ||idm-su.baidu.com^
 ||idm.iot.mi.com^
 ||iebar.baidu.com^
-||if.mingxing.qq.com^
 ||iface.iqiyi.com^
 ||iface2.dns.iqiyi.com^
 ||iface2.iqiyi.com^
@@ -1228,6 +1229,7 @@
 ||is-lq.snssdk.com^
 ||is.snssdk.com^
 ||isdspeed.qq.com^
+||isee.weishi.qq.com^
 ||isite.baidu.com^
 ||isp-report.gifshow.com^
 ||ist-track.com^
@@ -1239,7 +1241,6 @@
 ||j.br.baidu.com^
 ||janapi.jd.com^
 ||jcm.jd.com^
-||jdjkljs.click^
 ||jdqd.jd.com^
 ||jellyfish.pandora.xiaomi.com^
 ||jing.58.com^
@@ -1249,7 +1250,6 @@
 ||joeser.click^
 ||jolmen.click^
 ||jpush.cn^
-||jpush.html5.qq.com^
 ||jpushjd.m.jd.com^
 ||jpushsc.m.jd.com^
 ||jqmt.qq.com^
@@ -1305,6 +1305,7 @@
 ||lcs.baidu.com^
 ||ldhy.click^
 ||lead-ad.jp^
+||leadlab.click^
 ||leads.baidu.com^
 ||lens.zhihu.com^
 ||lf-hl.snssdk.com^
@@ -1358,7 +1359,6 @@
 ||log.web.kugou.com^
 ||log.weibo.com^
 ||log.weixin.qq.com^
-||log.wtlogin.qq.com^
 ||log0-applog-lf.fqnovel.com^
 ||log0-applog-lq.fqnovel.com^
 ||log0-misc-alinc2.amemv.com^
@@ -1378,6 +1378,7 @@
 ||log5-misc-hl.amemv.com^
 ||log5-misc-lf.amemv.com^
 ||log5-misc-lq.amemv.com^
+||log6.reader.qq.com^
 ||logapi-and.zhipin.com^
 ||logapi-ios.zhipin.com^
 ||logapi.zhipin.com^
@@ -1411,7 +1412,6 @@
 ||m-adash.m.taobao.com^
 ||m-ali.ykimg.com^
 ||m-cloud.zhihu.com^
-||m-game.book.qq.com^
 ||m-vision.ketang.kuaishou.com^
 ||m.gamer.qq.com^
 ||m.intl.taobao.com^
@@ -1427,6 +1427,7 @@
 ||mall.bilibili.com^
 ||mam.netease.com^
 ||mam6.netease.com^
+||mamagyi.click^
 ||map.baidu.com^
 ||mapi.m.jd.com^
 ||mapp.qzone.qq.com^
@@ -1450,7 +1451,6 @@
 ||mdc.html5.qq.com^
 ||mdt.qq.com^
 ||me.bz.mgtv.com^
-||mediaid.click^
 ||mercury-sdk.snssdk.com^
 ||mercury.jd.com^
 ||mercury.snssdk.com^
@@ -1542,6 +1542,7 @@
 ||mpro.baidu.com^
 ||mpush-api.aliyun.com^
 ||mpush.qq.com^
+||mqqad.html5.qq.com^
 ||mqtt.zhihu.com^
 ||mres.ximalaya.com^
 ||ms.bdimg.com^
@@ -1596,6 +1597,7 @@
 ||neon.click^
 ||new-service.biliapi.net^
 ||news.58.com^
+||newsc.html5.qq.com^
 ||newstreamcdncmnet.inter.iqiyi.com^
 ||newton-api.ele.me^
 ||nex.163.com^
@@ -1672,6 +1674,7 @@
 ||oss.weread.qq.com^
 ||ossapi.baidu.com^
 ||oth.eve.qq.com^
+||other-log.pro^
 ||ott-v0-al.data.mgtv.com^
 ||ott.liveapi.mgtv.com^
 ||ott.v1.data.mgtv.com^
@@ -1776,7 +1779,6 @@
 ||plugin.mobopay.baidu.com^
 ||pmmtk-a.pinduoduo.com^
 ||pms.mb.qq.com^
-||pnewsapp.tc.qq.com^
 ||pns.ximalaya.com^
 ||policy.jd.com^
 ||popme.163.com^
@@ -1822,7 +1824,6 @@
 ||push.mobile.kugou.com^
 ||push.pgl.qq.com^
 ||push.qq.com^
-||push.weread.qq.com^
 ||push.wps.cn^
 ||push.yuedu.163.com^
 ||push.zhanzhang.baidu.com^
@@ -1861,7 +1862,6 @@
 ||r.release.qq.com^
 ||r1.ykimg.com^
 ||ranoby.click^
-||ravelin.click^
 ||rc-boe.snssdk.com^
 ||rc.snssdk.com^
 ||rcd.iqiyi.com^
@@ -1880,10 +1880,12 @@
 ||render-prod-backup-tile.amap.com^
 ||report-uri.io^
 ||report.cms.qq.com^
+||report.imtt.qq.com^
 ||report.meeting.tencent.com^
 ||report.meituan.com^
 ||report.nfa.qq.com^
 ||report.qq.com^
+||report.syzs.qq.com^
 ||report.vip.qq.com^
 ||res-danmu.youku.com^
 ||res-ga.smzdm.com^
@@ -2045,6 +2047,7 @@
 ||splashimgretrybssdl.cloud.kugou.com^
 ||sports.iqiyi.com^
 ||spro.so.com^
+||sprout-ad.com^
 ||sptest.baidu.com^
 ||srt94.click^
 ||ssp.qq.com^
@@ -2086,7 +2089,6 @@
 ||static.g.iqiyi.com^
 ||static.iqiyi.com^
 ||static.pay.baidu.com^
-||static.qblv.qq.com^
 ||static.qiyi.com^
 ||static.ws.126.net^
 ||static.zhihu.com^
@@ -2110,7 +2112,6 @@
 ||stream.snssdk.com^
 ||study-image.nos.netease.com^
 ||stun.kugou.com^
-||stun.qqlive.qq.com^
 ||style-browse-openapi.test.gifshow.com^
 ||su.bdimg.com^
 ||su.bdstatic.com^
@@ -2155,7 +2156,6 @@
 ||tdrec.youku.com^
 ||tdum.alibaba.com^
 ||techain.baidu.com^
-||tedo-stats.de^
 ||teinfo.wps.cn^
 ||tejia.taobao.com^
 ||temai.m.taobao.com^
@@ -2192,7 +2192,6 @@
 ||tmfmazu.m.qq.com^
 ||tmfsdk.m.qq.com^
 ||tmfsdk4.m.qq.com^
-||tmfsdktcp.m.qq.com^
 ||tnc3-aliec2.bytedance.com^
 ||tnc3-aliec2.snssdk.com^
 ||tnc3-alisc1.bytedance.com^
@@ -2212,6 +2211,7 @@
 ||tpstelemetry.tencent.com^
 ||tpush.html5.qq.com^
 ||trace.qq.com^
+||track-js.link^
 ||track-web.net^
 ||track.58.com^
 ||track.lt^
@@ -2262,6 +2262,7 @@
 ||uapps.click^
 ||ucstat.baidu.com^
 ||udd1i5.zhihu.com^
+||udns.weixin.qq.com^
 ||udpolimenew.baidu.com^
 ||udpolimeok.baidu.com^
 ||uestat.video.qiyi.com^
@@ -2272,6 +2273,7 @@
 ||ug.qbimg.qq.com^
 ||ug.snssdk.com^
 ||ugcdn.taobao.com^
+||ugcup.music.qq.com^
 ||ugdtimg.com^
 ||uil.cbs.baidu.com^
 ||uisong.baidu.com^
@@ -2318,6 +2320,7 @@
 ||upload3.gifshow.com^
 ||uploads1.gifshow.com^
 ||uploads2.gifshow.com^
+||uplog.inews.qq.com^
 ||upos-sz-static.bilivideo.com^
 ||upos-sz-staticcos.bilivideo.com^
 ||upsups.click^
@@ -2521,7 +2524,6 @@
 ||y-track.com^
 ||y.gtimg.cn^
 ||yanadu.click^
-||yango-ads.com^
 ||yaolu.mh.163.com^
 ||yaolu.yuedu.163.com^
 ||yeah.qq.com^
@@ -2550,7 +2552,6 @@
 ||yuedu.iqiyi.com^
 ||yun.baidu.com^
 ||yun.tim.qq.com^
-||ywab.reader.qq.com^
 ||zebeaa.click^
 ||zhanzhang.toutiao.com^
 ||zhidao.baidu.com^
