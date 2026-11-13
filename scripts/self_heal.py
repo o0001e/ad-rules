@@ -209,16 +209,34 @@ def run(ver):
             errors.append("apps 回滚失败: " + r.stderr.decode()[:80])
         return 1 if errors else 0
 
-    if missing:
-        log("本版丢失 App 文件 %d 个（%s），从上一版恢复" % (len(missing), missing[:3]))
-        for fn in missing:
+    # 只有 app_list 里人工配置过的厂商才算"必须存在"，
+    # 自动按根域生成的组随域名变化自然增删属于正常，不能回滚复活过期文件
+    curated = set()
+    try:
+        import json
+        al = json.load(open(os.path.join(ROOT, "app_list.json"), encoding="utf-8"))
+        curated = set(al.keys())
+    except Exception:
+        pass
+
+    def is_curated(fn):
+        return fn[:-4] in curated
+
+    real_missing = [fn for fn in missing if is_curated(fn)]
+    auto_gone = [fn for fn in missing if not is_curated(fn)]
+    if auto_gone:
+        log("自动分组自然移除 %d 个（%s），无需恢复" % (len(auto_gone), auto_gone[:3]))
+    if real_missing:
+        log("厂商分组丢失 %d 个（%s），从上一版恢复" % (len(real_missing), real_missing[:3]))
+        for fn in real_missing:
             t = git_show("apps/" + fn)
             if t:
                 open(os.path.join(APPS, fn), "w", encoding="utf-8").write(t)
 
-    if emptied:
-        log("App 文件被清空 %d 个（%s），从上一版恢复" % (len(emptied), emptied[:3]))
-        for fn in emptied:
+    real_emptied = [fn for fn in emptied if is_curated(fn)]
+    if real_emptied:
+        log("厂商分组被清空 %d 个（%s），从上一版恢复" % (len(real_emptied), real_emptied[:3]))
+        for fn in real_emptied:
             t = git_show("apps/" + fn)
             if t:
                 open(os.path.join(APPS, fn), "w", encoding="utf-8").write(t)
