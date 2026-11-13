@@ -1,0 +1,2 @@
+# yeehaw.com.cn 广告拦截 1条
+0.0.0.0 logs-bigdata.yeehaw.com.cn

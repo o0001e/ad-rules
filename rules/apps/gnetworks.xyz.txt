@@ -1,2 +1,0 @@
-# gnetworks.xyz 广告拦截 1条
-0.0.0.0 analytics.gnetworks.xyz

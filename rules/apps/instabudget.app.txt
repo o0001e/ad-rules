@@ -1,2 +1,0 @@
-# instabudget.app 广告拦截 1条
-0.0.0.0 stats.instabudget.app

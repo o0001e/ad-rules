@@ -1,2 +1,0 @@
-# traderlink.com 广告拦截 1条
-0.0.0.0 analytics.traderlink.com

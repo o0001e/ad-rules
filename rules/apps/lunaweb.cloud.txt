@@ -1,2 +1,0 @@
-# lunaweb.cloud 广告拦截 1条
-0.0.0.0 analytics.lunaweb.cloud

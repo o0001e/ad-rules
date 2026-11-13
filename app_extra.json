@@ -19,6 +19,7 @@
 "mon.zijieapi.com",
 "n98-v-readingvideo.qznovelvod.com",
 "p3-ad-sign.byteimg.com",
+"pitaya.bytedance.com",
 "scc.bytedance.com",
 "v11-reading-video.qznovelvod.com",
 "v26-reading-ad.qznovelvod.com",
@@ -258,8 +259,27 @@
 "sf3-fe-tos.pglstatp-toutiao.com"
 ],
 "红果免费漫剧": [
+"ads3-normal-hl.zijieapi.com",
+"frontier100-toutiao-hl.fqnovel.com",
+"i-hl.snssdk.com",
+"is-hl.snssdk.com",
 "is.snssdk.com",
-"pitaya.bytedance.com"
+"lf3-analytics.bytescm.com",
+"mon.snssdk.com",
+"mon.zijieapi.com",
+"n98-v-readingvideo.qznovelvod.com",
+"p3-ad-sign.byteimg.com",
+"pitaya.bytedance.com",
+"scc.bytedance.com",
+"v11-reading-video.qznovelvod.com",
+"v26-reading-ad.qznovelvod.com",
+"v5-daily-cm-reading-ad.qznovelvod.com",
+"v5-ex-reading-ad.qznovelvod.com",
+"v5-se-gddgtc-reading-ad.qznovelvod.com",
+"v5-se-zjnbtc-reading-ad.qznovelvod.com",
+"v96-reading-ad.qznovelvod.com",
+"vcs.zijieapi.com",
+"www.bytedance.com"
 ],
 "红果短剧": [
 "ads3-normal-hl.zijieapi.com",
@@ -272,6 +292,7 @@
 "mon.zijieapi.com",
 "n98-v-readingvideo.qznovelvod.com",
 "p3-ad-sign.byteimg.com",
+"pitaya.bytedance.com",
 "scc.bytedance.com",
 "v11-reading-video.qznovelvod.com",
 "v26-reading-ad.qznovelvod.com",
@@ -284,7 +305,26 @@
 "www.bytedance.com"
 ],
 "红果漫剧": [
+"ads3-normal-hl.zijieapi.com",
+"frontier100-toutiao-hl.fqnovel.com",
+"i-hl.snssdk.com",
+"is-hl.snssdk.com",
 "is.snssdk.com",
-"pitaya.bytedance.com"
+"lf3-analytics.bytescm.com",
+"mon.snssdk.com",
+"mon.zijieapi.com",
+"n98-v-readingvideo.qznovelvod.com",
+"p3-ad-sign.byteimg.com",
+"pitaya.bytedance.com",
+"scc.bytedance.com",
+"v11-reading-video.qznovelvod.com",
+"v26-reading-ad.qznovelvod.com",
+"v5-daily-cm-reading-ad.qznovelvod.com",
+"v5-ex-reading-ad.qznovelvod.com",
+"v5-se-gddgtc-reading-ad.qznovelvod.com",
+"v5-se-zjnbtc-reading-ad.qznovelvod.com",
+"v96-reading-ad.qznovelvod.com",
+"vcs.zijieapi.com",
+"www.bytedance.com"
 ]
 }

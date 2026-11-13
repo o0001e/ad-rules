@@ -1,2 +1,0 @@
-# metro-cc.ru 广告拦截 1条
-0.0.0.0 analytics.metro-cc.ru

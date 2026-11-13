@@ -1,0 +1,2 @@
+# sloegem.com 广告拦截 1条
+0.0.0.0 gem-log.sloegem.com

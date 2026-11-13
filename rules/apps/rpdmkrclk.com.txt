@@ -1,0 +1,2 @@
+# rpdmkrclk.com 广告拦截 1条
+0.0.0.0 click-v4.rpdmkrclk.com

@@ -1,2 +1,0 @@
-# cable.tech 广告拦截 1条
-0.0.0.0 stats.cable.tech

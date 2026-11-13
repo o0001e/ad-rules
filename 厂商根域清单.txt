@@ -58,10 +58,10 @@ Zoom	zoom.us	1
 百度	bdstatic.com bdimg.com baidubcs.com bcebos.com	2
 知乎	zhihu.com zhimg.com	2
 穷游	qyer.com	1
-红果免费漫剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	2
-红果免费短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	20
-红果漫剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	2
-红果短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	20
+红果免费漫剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	21
+红果免费短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	21
+红果漫剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	21
+红果短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	21
 网易	netease.com 126.net 127.net	15
 美团	meituan.net dianping.com	2
 联想	lenovo.com	2

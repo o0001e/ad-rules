@@ -1,0 +1,2 @@
+# x17online.com 广告拦截 1条
+0.0.0.0 ads.x17online.com

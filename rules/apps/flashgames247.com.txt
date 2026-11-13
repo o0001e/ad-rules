@@ -1,2 +1,0 @@
-# flashgames247.com 广告拦截 1条
-0.0.0.0 ads.flashgames247.com

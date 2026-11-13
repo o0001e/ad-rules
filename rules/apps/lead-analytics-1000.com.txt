@@ -1,0 +1,2 @@
+# lead-analytics-1000.com 广告拦截 1条
+0.0.0.0 www.lead-analytics-1000.com

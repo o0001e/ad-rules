@@ -1,2 +1,0 @@
-# onetouchtv.me 广告拦截 1条
-0.0.0.0 ads.onetouchtv.me

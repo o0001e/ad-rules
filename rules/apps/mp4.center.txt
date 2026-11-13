@@ -1,0 +1,2 @@
+# mp4.center 广告拦截 1条
+0.0.0.0 track.mp4.center

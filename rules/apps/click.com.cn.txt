@@ -1,2 +1,0 @@
-# click.com.cn 广告拦截 1条
-0.0.0.0 bd1.click.com.cn

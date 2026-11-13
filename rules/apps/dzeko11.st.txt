@@ -1,2 +1,0 @@
-# dzeko11.st 广告拦截 1条
-0.0.0.0 ads.dzeko11.st

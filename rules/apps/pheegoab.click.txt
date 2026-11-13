@@ -1,0 +1,2 @@
+# pheegoab.click 广告拦截 1条
+0.0.0.0 pheegoab.click

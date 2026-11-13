@@ -1,0 +1,2 @@
+# progressive.com 广告拦截 1条
+0.0.0.0 click.e.progressive.com

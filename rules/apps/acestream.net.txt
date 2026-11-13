@@ -1,2 +1,0 @@
-# acestream.net 广告拦截 1条
-0.0.0.0 android-stat.acestream.net

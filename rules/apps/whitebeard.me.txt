@@ -1,2 +1,0 @@
-# whitebeard.me 广告拦截 1条
-0.0.0.0 analytics-cms.whitebeard.me

@@ -1,0 +1,2 @@
+# lura.live 广告拦截 1条
+0.0.0.0 player-analytics.mp.lura.live

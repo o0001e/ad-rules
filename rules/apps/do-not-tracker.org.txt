@@ -1,0 +1,2 @@
+# do-not-tracker.org 广告拦截 1条
+0.0.0.0 do-not-tracker.org

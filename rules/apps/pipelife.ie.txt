@@ -1,0 +1,2 @@
+# pipelife.ie 广告拦截 1条
+0.0.0.0 analytics.pipelife.ie

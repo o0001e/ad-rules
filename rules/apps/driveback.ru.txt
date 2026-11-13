@@ -1,2 +1,0 @@
-# driveback.ru 广告拦截 1条
-0.0.0.0 dbex-tracker-v2.driveback.ru

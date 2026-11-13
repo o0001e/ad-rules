@@ -1,2 +1,0 @@
-# adp.ch 广告拦截 1条
-0.0.0.0 www.tracking.adp.ch

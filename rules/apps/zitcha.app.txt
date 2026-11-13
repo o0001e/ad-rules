@@ -1,0 +1,2 @@
+# zitcha.app 广告拦截 1条
+0.0.0.0 tracker.au.zitcha.app

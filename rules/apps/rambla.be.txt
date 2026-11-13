@@ -1,2 +1,0 @@
-# rambla.be 广告拦截 1条
-0.0.0.0 analytics.rambla.be

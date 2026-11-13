@@ -1,2 +1,0 @@
-# style24.it 广告拦截 1条
-0.0.0.0 tracking.style24.it

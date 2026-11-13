@@ -1,2 +1,0 @@
-# swogo.net 广告拦截 1条
-0.0.0.0 tracking.swogo.net

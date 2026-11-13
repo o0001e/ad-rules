@@ -1,0 +1,2 @@
+# 4over.com 广告拦截 1条
+0.0.0.0 marketing.4over.com

@@ -1,0 +1,2 @@
+# neoogilvy.uy 广告拦截 1条
+0.0.0.0 analytics.neoogilvy.uy

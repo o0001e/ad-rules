@@ -1,2 +1,0 @@
-# faceless-reels.io 广告拦截 1条
-0.0.0.0 analytics.faceless-reels.io

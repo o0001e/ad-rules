@@ -1,0 +1,2 @@
+# digi8.vn 广告拦截 1条
+0.0.0.0 analytics.digi8.vn

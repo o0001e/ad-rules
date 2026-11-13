@@ -1,0 +1,2 @@
+# dermatologyadvisor.com 广告拦截 1条
+0.0.0.0 track.info.dermatologyadvisor.com

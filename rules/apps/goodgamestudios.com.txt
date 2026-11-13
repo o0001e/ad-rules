@@ -1,2 +1,0 @@
-# goodgamestudios.com 广告拦截 1条
-0.0.0.0 gi-client-tracking.goodgamestudios.com

@@ -1,2 +1,0 @@
-# lippeshirts.de 广告拦截 1条
-0.0.0.0 stats.lippeshirts.de

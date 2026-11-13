@@ -1,2 +1,0 @@
-# videograph.ai 广告拦截 1条
-0.0.0.0 adv-analytics-collector.videograph.ai

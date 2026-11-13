@@ -1,0 +1,2 @@
+# cavalier-romand.ch 广告拦截 1条
+0.0.0.0 ads.cavalier-romand.ch

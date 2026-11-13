@@ -1,0 +1,2 @@
+# fkk24.de 广告拦截 1条
+0.0.0.0 tracking.fkk24.de

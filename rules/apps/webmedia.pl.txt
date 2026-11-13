@@ -1,0 +1,2 @@
+# webmedia.pl 广告拦截 1条
+0.0.0.0 stat.webmedia.pl

@@ -1,4 +1,4 @@
-# 红果短剧 广告拦截 20条
+# 红果短剧 广告拦截 21条
 0.0.0.0 ads3-normal-hl.zijieapi.com
 0.0.0.0 frontier100-toutiao-hl.fqnovel.com
 0.0.0.0 i-hl.snssdk.com
@@ -9,6 +9,7 @@
 0.0.0.0 mon.zijieapi.com
 0.0.0.0 n98-v-readingvideo.qznovelvod.com
 0.0.0.0 p3-ad-sign.byteimg.com
+0.0.0.0 pitaya.bytedance.com
 0.0.0.0 scc.bytedance.com
 0.0.0.0 v11-reading-video.qznovelvod.com
 0.0.0.0 v26-reading-ad.qznovelvod.com

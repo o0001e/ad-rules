@@ -1,0 +1,2 @@
+# ggcorp.me 广告拦截 1条
+0.0.0.0 adv-mydarkness.ggcorp.me

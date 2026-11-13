@@ -1,0 +1,2 @@
+# people-group.net 广告拦截 1条
+0.0.0.0 ads.people-group.net
