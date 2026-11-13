@@ -1,4 +1,4 @@
-# 腾讯欢乐斗地主 广告拦截 17条
+# 腾讯欢乐斗地主 广告拦截 18条
 0.0.0.0 cmshow.gtimg.cn
 0.0.0.0 discuz.gtimg.cn
 0.0.0.0 g.gtimg.cn
@@ -13,6 +13,7 @@
 0.0.0.0 tianxuan.gtimg.cn
 0.0.0.0 vatplat.gtimg.cn
 0.0.0.0 vfiles.gtimg.cn
+0.0.0.0 vm.gtimg.cn
 0.0.0.0 xj.gtimg.cn
 0.0.0.0 y.gtimg.cn
 0.0.0.0 zplan.gtimg.cn

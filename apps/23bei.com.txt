@@ -1,2 +1,0 @@
-# 23bei.com 广告拦截 1条
-0.0.0.0 cdn93d99x0e.23bei.com

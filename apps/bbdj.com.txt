@@ -1,2 +1,0 @@
-# bbdj.com 广告拦截 1条
-0.0.0.0 du1.bbdj.com

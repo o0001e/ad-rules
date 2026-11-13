@@ -1,4 +1,4 @@
-# 阿里巴巴 广告拦截 140条
+# 阿里巴巴 广告拦截 141条
 0.0.0.0 abtest.alibaba.com
 0.0.0.0 accscdn.m.taobao.com
 0.0.0.0 accscdn4public.m.taobao.com
@@ -93,6 +93,7 @@
 0.0.0.0 orange-dc.alibaba.com
 0.0.0.0 p4psearch.china.alibaba.com
 0.0.0.0 pages-fast.m.taobao.com
+0.0.0.0 pages.tmall.com
 0.0.0.0 pcookie.taobao.com
 0.0.0.0 pindao.huoban.taobao.com
 0.0.0.0 qh-material.taobao.com

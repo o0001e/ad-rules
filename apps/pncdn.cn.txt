@@ -1,3 +1,2 @@
-# pncdn.cn 广告拦截 2条
-0.0.0.0 1.pncdn.cn
+# pncdn.cn 广告拦截 1条
 0.0.0.0 100.pncdn.cn

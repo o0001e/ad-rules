@@ -6,8 +6,6 @@ image-ad.sm.cn
 lf3-analytics.bytescm.com
 log-api.pangolin-sdk-toutiao-b.com
 log.avlyun.com
-m-adnet.dutils.com
-m-adnet.hiaiabc.com
 mkt-advertisement.tuhu.cn
 p3-ad-sign.byteimg.com
 report.tencentmusic.com

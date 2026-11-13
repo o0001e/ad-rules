@@ -1,2 +1,0 @@
-# diymianmo.com 广告拦截 1条
-0.0.0.0 dd1.diymianmo.com

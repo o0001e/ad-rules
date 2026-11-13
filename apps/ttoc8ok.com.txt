@@ -1,0 +1,2 @@
+# ttoc8ok.com 广告拦截 1条
+0.0.0.0 ttoc8ok.com

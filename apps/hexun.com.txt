@@ -1,3 +1,2 @@
-# hexun.com 广告拦截 2条
-0.0.0.0 hxsame.hexun.com
+# hexun.com 广告拦截 1条
 0.0.0.0 itv.hexun.com

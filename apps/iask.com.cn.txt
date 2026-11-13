@@ -1,2 +1,0 @@
-# iask.com.cn 广告拦截 1条
-0.0.0.0 mwzbp.iask.com.cn

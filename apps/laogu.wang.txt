@@ -1,2 +1,0 @@
-# laogu.wang 广告拦截 1条
-0.0.0.0 wap1.laogu.wang

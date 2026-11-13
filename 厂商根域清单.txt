@@ -3,12 +3,12 @@
 12306	12306.cn	1
 21世纪不动产	21cn.com	2
 2345天气	2345.com	1
-360浏览器	360.cn 360.com	5
+360浏览器	360.cn 360.com	4
 58同城	58.com	16
 BOSS直聘	zhipin.com	5
 Bitwarden	bitwarden.com	1
 Brave	brave.com	3
-B站	bilibili.com hdslb.com bilivideo.com biliapi.net b23.tv	38
+B站	bilibili.com hdslb.com bilivideo.com biliapi.net b23.tv	41
 Canva	canva.cn	1
 Canva可画	canva.cn	1
 DU Booster	duapps.com	2
@@ -19,11 +19,11 @@ MOMO陌陌	immomo.com	1
 MiniMax	minimaxi.com	1
 NOW直播	now.qq.com	1
 Opera	opera.com	2
-QQ	qq.com	328
+QQ	qq.com	326
 QQ浏览器	browser.qq.com	2
 QQ炫舞	x5.qq.com	1
-QQ空间	qq.com	328
-QQ邮箱	qq.com	328
+QQ空间	qq.com	326
+QQ邮箱	qq.com	326
 QQ音乐	y.qq.com qqmusic.com	4
 QQ飞车	speed.qq.com	1
 Soul	soulapp.cn	3
@@ -47,16 +47,16 @@ vivo 商城	vivo.com	4
 中国工商银行	icbc.com.cn	1
 亚马逊中国	amazon.cn	1
 交通银行	bankcomm.com	1
-京东	jd.com 360buyimg.com	82
-京东养车	jd.com 360buyimg.com	82
-京东特价版	jd.com 360buyimg.com	82
-京东金融	jd.com 360buyimg.com	82
+京东	jd.com 360buyimg.com	83
+京东养车	jd.com 360buyimg.com	83
+京东特价版	jd.com 360buyimg.com	83
+京东金融	jd.com 360buyimg.com	83
 人人车	renrenche.com	2
 什么值得买	smzdm.com	7
 企业微信	work.weixin.qq.com	1
 优信二手车	xin.com	5
-优酷	youku.com ykimg.com	108
-优酷视频	youku.com ykimg.com	108
+优酷	youku.com ykimg.com	109
+优酷视频	youku.com ykimg.com	109
 作业帮	zuoyebang.com	1
 使命召唤手游	codm.qq.com	1
 傲游浏览器	maxthon.cn	1
@@ -67,10 +67,10 @@ vivo 商城	vivo.com	4
 凤凰FM	ifeng.com	6
 创客贴	chuangkit.com	1
 前程无忧	51job.com	5
-剪映	pangolin-sdk-toutiao1.com pangolin-sdk-toutiao-b.com pangolin-dsp-toutiao.com gromore.pangolin-sdk-toutiao.com lemon.lv	2
+剪映	pangolin-sdk-toutiao1.com pangolin-sdk-toutiao-b.com pangolin-dsp-toutiao.com gromore.pangolin-sdk-toutiao.com lemon.lv	1
 努比亚	nubia.com	3
 千千音乐	qianqian.com	4
-华为商城	huawei.com hicloud.com	12
+华为商城	huawei.com hicloud.com	11
 华为运动健康	huawei.com	8
 华图教育	huatu.com	1
 华泰证券	htsc.com.cn	1
@@ -81,7 +81,7 @@ vivo 商城	vivo.com	4
 和平精英	gp.qq.com	1
 咕咚	codoon.com	1
 哈啰出行	hello-inc.com hellobike.com	1
-哔哩哔哩	bilibili.com hdslb.com bilivideo.com biliapi.net	38
+哔哩哔哩	bilibili.com hdslb.com bilivideo.com biliapi.net	41
 唯品会	vip.com vipcdn.com	6
 商汤商量	sensetime.com	3
 喜马拉雅	ximalaya.com xmcdn.com	32
@@ -95,7 +95,7 @@ vivo 商城	vivo.com	4
 夸克网盘	uc.cn quark.cn	9
 奇秀直播	qx.com	2
 好物分享	haowu.com	1
-好看视频	baidu.com	292
+好看视频	baidu.com	294
 字节跳动	bytecdn.cn byteimg.com	2
 学习强国	xuexi.cn	3
 学堂在线	xuetangx.com	1
@@ -104,18 +104,18 @@ vivo 商城	vivo.com	4
 密码管理器	1password.com	2
 小咖秀	xiaokaxiu.com	1
 小猿搜题	yuanfudao.com	2
-小米	mi.com	28
-小米商城	mi.com	28
+小米	mi.com	29
+小米商城	mi.com	29
 小红书	xiaohongshu.com xhscdn.com	49
 工商银行	icbc.com.cn	1
 平安银行	pingan.com	1
 当当	dangdang.com	4
 微信	weixin.com wechat.com	2
-微信读书	weread.qq.com	2
-微博	weibo.com sina.com sinaimg.cn	48
-微博轻享版	weibo.com sina.com sinaimg.cn	48
+微信读书	weread.qq.com	1
+微博	weibo.com sina.com sinaimg.cn	49
+微博轻享版	weibo.com sina.com sinaimg.cn	49
 微盟	weimob.com	3
-微视	weishi.qq.com	4
+微视	weishi.qq.com	3
 快手	kuaishou.com gifshow.com kwai.com kuaishouzt.com kwcdn.com adkwai.com	70
 快手极速版	kuaishou.com gifshow.com kwai.com kuaishouzt.com kwcdn.com adkwai.com	70
 懂车帝	dongchedi.com	1
@@ -133,9 +133,9 @@ vivo 商城	vivo.com	4
 掌阅	zhangyue.com ireader.com	1
 探探	tantanapp.com	4
 探探－探索精彩探索爱	tantanapp.com	4
-搜狐	sohu.com sohucs.com	16
+搜狐	sohu.com sohucs.com	13
 搜狐焦点	focus.cn	2
-搜狐视频关注流	sohu.com sohucs.com	16
+搜狐视频关注流	sohu.com sohucs.com	13
 搜狗	so.com	7
 搜狗浏览器	sogou.com	51
 携程	ctrip.com qunar.com trip.com	15
@@ -145,7 +145,7 @@ vivo 商城	vivo.com	4
 斗鱼	douyu.com douyucdn.cn	3
 新东方	xdf.cn	5
 新东方在线	koolearn.com	3
-新浪	sina.com.cn	20
+新浪	sina.com.cn	19
 新浪乐居	leju.com	4
 星愿浏览器	twinkstar.com	1
 智联招聘	zhaopin.com	1
@@ -162,8 +162,8 @@ vivo 商城	vivo.com	4
 泡泡网	pcpop.com	1
 波波视频	bobo.com	1
 海豚浏览器	dolphin.com	1
-淘宝	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	153
-淘宝特价版	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	153
+淘宝	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	154
+淘宝特价版	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	154
 滴滴	didiglobal.com xiaojukeji.com	20
 滴滴出行	didi.cn xiaojukeji.com didiglobal.com	24
 爱卡汽车	xcar.com.cn	5
@@ -178,7 +178,7 @@ vivo 商城	vivo.com	4
 瓜子二手车	guazi.com	2
 用友	yonyou.com	1
 百合网	baihe.com	5
-百度	bdstatic.com bdimg.com baidubcs.com bcebos.com	31
+百度	bdstatic.com bdimg.com baidubcs.com bcebos.com	32
 百度地图	map.baidu.com	1
 百度文库	wenku.baidu.com	1
 百度网盘	pan.baidu.com	1
@@ -206,10 +206,10 @@ vivo 商城	vivo.com	4
 美图秀秀	meitu.com	3
 美柚	meiyou.com	2
 联想	lenovo.com	3
-腾讯	gtimg.cn qlogo.cn	17
+腾讯	gtimg.cn qlogo.cn	18
 腾讯会议	meeting.tencent.com	2
-腾讯地图	map.qq.com	9
-腾讯欢乐斗地主	gtimg.cn qlogo.cn	17
+腾讯地图	map.qq.com	8
+腾讯欢乐斗地主	gtimg.cn qlogo.cn	18
 腾讯视频	v.qq.com qqlive.com	1
 芒果TV	mgtv.com hunantv.com	50
 花椒直播	huajiao.com	1
@@ -219,7 +219,7 @@ vivo 商城	vivo.com	4
 荣耀	honor.com	3
 荣耀商城	honor.com	3
 薄荷健康	boohee.com	1
-虎扑	hupu.com hoopchina.com	4
+虎扑	hupu.com hoopchina.com	3
 虎牙	huya.com	7
 虎牙直播	huya.com	7
 蚂蚁财富	antfortune.com	1
@@ -235,7 +235,7 @@ vivo 商城	vivo.com	4
 跟谁学	genshuixue.com	1
 车轮查违章	chelun.com	2
 转转	zhuanzhuan.com	1
-迅雷	xunlei.com	4
+迅雷	xunlei.com	2
 途牛	tuniu.com	2
 通用广告SDK	pangle.io gromore.com csjplatform.com pangolin-sdk-toutiao.com gdt.qq.com e.qq.com	19
 酷我音乐	kuwo.cn kuwo.com	3
@@ -246,11 +246,10 @@ vivo 商城	vivo.com	4
 锤子	smartisan.com	1
 问道手游	wanmei.com	1
 闲鱼	goofish.com	1
-阴阳师	163.com	59
+阴阳师	163.com	60
 阿里健康	alihealth.cn	2
-阿里巴巴	alibaba.com taobao.com tmall.com	140
+阿里巴巴	alibaba.com taobao.com tmall.com	141
 陌陌	immomo.com	1
 饿了么	ele.me elemecdn.com	13
 高德地图	amap.com gaode.com	29
-魅族	meizu.com	1
 黑莓	blackberry.com	2

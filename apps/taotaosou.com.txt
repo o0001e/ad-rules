@@ -1,3 +1,0 @@
-# taotaosou.com 广告拦截 2条
-0.0.0.0 re.taotaosou.com
-0.0.0.0 show.kc.taotaosou.com

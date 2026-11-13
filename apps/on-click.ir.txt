@@ -1,2 +1,0 @@
-# on-click.ir 广告拦截 1条
-0.0.0.0 on-click.ir

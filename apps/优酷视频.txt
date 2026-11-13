@@ -1,4 +1,4 @@
-# 优酷视频 广告拦截 108条
+# 优酷视频 广告拦截 109条
 0.0.0.0 a-dxk.play.api.3g.youku.com
 0.0.0.0 acg.youku.com
 0.0.0.0 acs.youku.com
@@ -94,6 +94,7 @@
 0.0.0.0 un-acs.youku.com
 0.0.0.0 union.ykimg.com
 0.0.0.0 union.youku.com
+0.0.0.0 v.youku.com
 0.0.0.0 val.api.youku.com
 0.0.0.0 wan.youku.com
 0.0.0.0 xpgw-xcdn.youku.com

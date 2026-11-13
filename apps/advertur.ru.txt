@@ -1,0 +1,2 @@
+# advertur.ru 广告拦截 1条
+0.0.0.0 advertur.ru

@@ -1,2 +1,0 @@
-# trafficmanager.net 广告拦截 1条
-0.0.0.0 cnzz.trafficmanager.net

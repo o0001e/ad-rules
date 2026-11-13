@@ -1,0 +1,2 @@
+# bepolite.eu 广告拦截 1条
+0.0.0.0 bepolite.eu

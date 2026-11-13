@@ -1,2 +1,0 @@
-# 92wy.com 广告拦截 1条
-0.0.0.0 business.92wy.com

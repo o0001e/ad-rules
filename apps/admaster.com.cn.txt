@@ -1,0 +1,2 @@
+# admaster.com.cn 广告拦截 1条
+0.0.0.0 admaster.com.cn

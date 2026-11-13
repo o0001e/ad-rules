@@ -1,2 +1,0 @@
-# 0575bbs.com 广告拦截 1条
-0.0.0.0 appimg.0575bbs.com

@@ -1,2 +1,3 @@
-# 失效域名备份（0条，连续2次DNS解析失败）
-
+# 失效域名备份（2条，连续2次DNS解析失败）
+m-adnet.dutils.com
+m-adnet.hiaiabc.com
