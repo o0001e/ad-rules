@@ -1,6 +1,7 @@
-# 腾讯视频 广告拦截 5条
+# 腾讯视频 广告拦截 6条
 0.0.0.0 appcfg.v.qq.com
 0.0.0.0 bksoup.v.qq.com
 0.0.0.0 commdata.v.qq.com
+0.0.0.0 commdata6.v.qq.com
 0.0.0.0 mcgi.v.qq.com
 0.0.0.0 soup.v.qq.com

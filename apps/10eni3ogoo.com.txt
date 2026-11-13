@@ -1,2 +1,0 @@
-# 10eni3ogoo.com 广告拦截 1条
-0.0.0.0 10eni3ogoo.com

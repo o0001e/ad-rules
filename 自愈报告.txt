@@ -1,6 +1,4 @@
 自愈报告 20261113（回滚源: HEAD）
-执行时间: 2026-11-13 08:40:42
+执行时间: 2026-11-13 08:52:02
 
-- 主规则从 2568 条暴涨到 6002 条，疑似上游混入垃圾，保留但仍记录
-- 本版丢失 App 文件 8 个（['ad-analyze.jp.txt', 'ad-optima.com.txt', 'adaos-ads.net.txt']），从上一版恢复
-- App 文件被清空 8 个（['ad-analyze.jp.txt', 'ad-optima.com.txt', 'adaos-ads.net.txt']），从上一版恢复
+- 自动分组自然移除 158 个（['0fs3mb0hh7.com.txt', '0fs6pe6w0j.com.txt', '0hr4wyjfv3.com.txt']），无需恢复

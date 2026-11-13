@@ -20,11 +20,11 @@ MiniMax	minimaxi.com	1
 NOW直播	now.qq.com	1
 Opera	opera.com	2
 PP视频	ashiping.com chenshipin.com cheshipin.com	1
-QQ	qq.com	334
+QQ	qq.com	335
 QQ浏览器	browser.qq.com	2
 QQ炫舞	x5.qq.com	1
-QQ空间	qq.com	334
-QQ邮箱	qq.com	334
+QQ空间	qq.com	335
+QQ邮箱	qq.com	335
 QQ音乐	y.qq.com qqmusic.com	9
 QQ飞车	speed.qq.com	1
 Soul	soulapp.cn	3
@@ -115,7 +115,7 @@ vivo 商城	vivo.com	4
 微博	weibo.com sina.com sinaimg.cn	48
 微博轻享版	weibo.com sina.com sinaimg.cn	48
 微盟	weimob.com	3
-微视	weishi.qq.com	3
+微视	weishi.qq.com	4
 快手	kuaishou.com gifshow.com kwai.com kuaishouzt.com kwcdn.com adkwai.com	70
 快手极速版	kuaishou.com gifshow.com kwai.com kuaishouzt.com kwcdn.com adkwai.com	70
 懂车帝	dongchedi.com	1
@@ -205,9 +205,9 @@ vivo 商城	vivo.com	4
 联想	lenovo.com	3
 腾讯	gtimg.cn qlogo.cn	17
 腾讯会议	meeting.tencent.com	2
-腾讯地图	map.qq.com	8
+腾讯地图	map.qq.com	9
 腾讯欢乐斗地主	gtimg.cn qlogo.cn	17
-腾讯视频	v.qq.com qqlive.com	5
+腾讯视频	v.qq.com qqlive.com	6
 芒果TV	mgtv.com hunantv.com	50
 花椒直播	huajiao.com	1
 苏宁易购	suning.com	2

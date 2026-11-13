@@ -1,0 +1,2 @@
+# p0pn18sxvh.com 广告拦截 1条
+0.0.0.0 p0pn18sxvh.com
