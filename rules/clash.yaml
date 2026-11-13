@@ -171,6 +171,7 @@ payload:
   - DOMAIN-SUFFIX,ad.api.youshiad.cn
   - DOMAIN-SUFFIX,ad.apl298.me
   - DOMAIN-SUFFIX,ad.apsalar.com
+  - DOMAIN-SUFFIX,ad.atown.jp
   - DOMAIN-SUFFIX,ad.aucfan.com
   - DOMAIN-SUFFIX,ad.aucview.com
   - DOMAIN-SUFFIX,ad.auditude.com
@@ -250,7 +251,6 @@ payload:
   - DOMAIN-SUFFIX,ad.hankooki.com
   - DOMAIN-SUFFIX,ad.happynest.vn
   - DOMAIN-SUFFIX,ad.hbv.de
-  - DOMAIN-SUFFIX,ad.hefei.cc
   - DOMAIN-SUFFIX,ad.hiiir.com
   - DOMAIN-SUFFIX,ad.holmesmind.com
   - DOMAIN-SUFFIX,ad.horvitznewspapers.net
@@ -277,7 +277,6 @@ payload:
   - DOMAIN-SUFFIX,ad.jibunde-esute.com
   - DOMAIN-SUFFIX,ad.jorte.com
   - DOMAIN-SUFFIX,ad.k98y.cn
-  - DOMAIN-SUFFIX,ad.kapos.hu
   - DOMAIN-SUFFIX,ad.kazakinfo.com
   - DOMAIN-SUFFIX,ad.keenspace.com
   - DOMAIN-SUFFIX,ad.khan.co.kr
@@ -310,7 +309,6 @@ payload:
   - DOMAIN-SUFFIX,ad.mail.ru
   - DOMAIN-SUFFIX,ad.mangareader.net
   - DOMAIN-SUFFIX,ad.maoyan.com
-  - DOMAIN-SUFFIX,ad.mazc.org
   - DOMAIN-SUFFIX,ad.mcloud.139.com
   - DOMAIN-SUFFIX,ad.mediamixer.co.kr
   - DOMAIN-SUFFIX,ad.mediaprimaplus.com.my
@@ -416,6 +414,7 @@ payload:
   - DOMAIN-SUFFIX,ad.xn--o9jem5iv41o982db8k.jp
   - DOMAIN-SUFFIX,ad.xrea.com
   - DOMAIN-SUFFIX,ad.xunkids.com
+  - DOMAIN-SUFFIX,ad.yixin.im
   - DOMAIN-SUFFIX,ad.ymcdn.org
   - DOMAIN-SUFFIX,ad.zankhana.ltd
   - DOMAIN-SUFFIX,ad.zhuanzhuan.com
@@ -628,7 +627,6 @@ payload:
   - DOMAIN-SUFFIX,ads.dandelionchocolate.jp
   - DOMAIN-SUFFIX,ads.data.pplive.com
   - DOMAIN-SUFFIX,ads.datateam.co.uk
-  - DOMAIN-SUFFIX,ads.ddj.com
   - DOMAIN-SUFFIX,ads.deltha.hu
   - DOMAIN-SUFFIX,ads.democratandchronicle.com
   - DOMAIN-SUFFIX,ads.dennisnet.co.uk
@@ -671,6 +669,7 @@ payload:
   - DOMAIN-SUFFIX,ads.flooble.com
   - DOMAIN-SUFFIX,ads.floridatoday.com
   - DOMAIN-SUFFIX,ads.flurry.com
+  - DOMAIN-SUFFIX,ads.fnch.ch
   - DOMAIN-SUFFIX,ads.fool.com
   - DOMAIN-SUFFIX,ads.footymad.net
   - DOMAIN-SUFFIX,ads.forbes.net
@@ -758,6 +757,7 @@ payload:
   - DOMAIN-SUFFIX,ads.kinxxx.com
   - DOMAIN-SUFFIX,ads.kompass.com
   - DOMAIN-SUFFIX,ads.krawall.de
+  - DOMAIN-SUFFIX,ads.ksl.com
   - DOMAIN-SUFFIX,ads.kure.tv
   - DOMAIN-SUFFIX,ads.lamchame.vn
   - DOMAIN-SUFFIX,ads.laodongnghean.vn
@@ -1177,7 +1177,6 @@ payload:
   - DOMAIN-SUFFIX,adv.gazeta.pl
   - DOMAIN-SUFFIX,adv.hu
   - DOMAIN-SUFFIX,adv.hwupgrade.it
-  - DOMAIN-SUFFIX,adv.mpvc.it
   - DOMAIN-SUFFIX,adv.mxmcdn.net
   - DOMAIN-SUFFIX,adv.nexthardware.com
   - DOMAIN-SUFFIX,adv.r7.com
@@ -2150,6 +2149,7 @@ payload:
   - DOMAIN-SUFFIX,avigatejungle.click
   - DOMAIN-SUFFIX,awake-stats.jpush.cn
   - DOMAIN-SUFFIX,aws-analytics.nmg.com.hk
+  - DOMAIN-SUFFIX,b-click.net
   - DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com
   - DOMAIN-SUFFIX,b2-data.ads.heytapmobi.com
   - DOMAIN-SUFFIX,b8bsb.55002298.click
@@ -2866,6 +2866,7 @@ payload:
   - DOMAIN-SUFFIX,log.mix.sina.com.cn
   - DOMAIN-SUFFIX,log.mmstat.com
   - DOMAIN-SUFFIX,log.mofa.go.kr
+  - DOMAIN-SUFFIX,log.mopo.de
   - DOMAIN-SUFFIX,log.mp3.zing.vn
   - DOMAIN-SUFFIX,log.newsvine.com
   - DOMAIN-SUFFIX,log.ngaynay.vn
@@ -6316,7 +6317,6 @@ payload:
   - DOMAIN-SUFFIX,wl-analytics.tsp.li
   - DOMAIN-SUFFIX,wmedia-track.uc.cn
   - DOMAIN-SUFFIX,workerhome.click
-  - DOMAIN-SUFFIX,world-ad.jp
   - DOMAIN-SUFFIX,wstats.click
   - DOMAIN-SUFFIX,wtg-ads.com
   - DOMAIN-SUFFIX,wtr-digital-analytics.ew.r.appspot.com

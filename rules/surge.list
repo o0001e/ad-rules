@@ -170,6 +170,7 @@ DOMAIN,ad.api.moji.com
 DOMAIN,ad.api.youshiad.cn
 DOMAIN,ad.apl298.me
 DOMAIN,ad.apsalar.com
+DOMAIN,ad.atown.jp
 DOMAIN,ad.aucfan.com
 DOMAIN,ad.aucview.com
 DOMAIN,ad.auditude.com
@@ -249,7 +250,6 @@ DOMAIN,ad.guru
 DOMAIN,ad.hankooki.com
 DOMAIN,ad.happynest.vn
 DOMAIN,ad.hbv.de
-DOMAIN,ad.hefei.cc
 DOMAIN,ad.hiiir.com
 DOMAIN,ad.holmesmind.com
 DOMAIN,ad.horvitznewspapers.net
@@ -276,7 +276,6 @@ DOMAIN,ad.jetsoftware.com
 DOMAIN,ad.jibunde-esute.com
 DOMAIN,ad.jorte.com
 DOMAIN,ad.k98y.cn
-DOMAIN,ad.kapos.hu
 DOMAIN,ad.kazakinfo.com
 DOMAIN,ad.keenspace.com
 DOMAIN,ad.khan.co.kr
@@ -309,7 +308,6 @@ DOMAIN,ad.magokoro-care-shoku.com
 DOMAIN,ad.mail.ru
 DOMAIN,ad.mangareader.net
 DOMAIN,ad.maoyan.com
-DOMAIN,ad.mazc.org
 DOMAIN,ad.mcloud.139.com
 DOMAIN,ad.mediamixer.co.kr
 DOMAIN,ad.mediaprimaplus.com.my
@@ -415,6 +413,7 @@ DOMAIN,ad.xmmnsl.com
 DOMAIN,ad.xn--o9jem5iv41o982db8k.jp
 DOMAIN,ad.xrea.com
 DOMAIN,ad.xunkids.com
+DOMAIN,ad.yixin.im
 DOMAIN,ad.ymcdn.org
 DOMAIN,ad.zankhana.ltd
 DOMAIN,ad.zhuanzhuan.com
@@ -627,7 +626,6 @@ DOMAIN,ads.dada.it
 DOMAIN,ads.dandelionchocolate.jp
 DOMAIN,ads.data.pplive.com
 DOMAIN,ads.datateam.co.uk
-DOMAIN,ads.ddj.com
 DOMAIN,ads.deltha.hu
 DOMAIN,ads.democratandchronicle.com
 DOMAIN,ads.dennisnet.co.uk
@@ -670,6 +668,7 @@ DOMAIN,ads.flashgames247.com
 DOMAIN,ads.flooble.com
 DOMAIN,ads.floridatoday.com
 DOMAIN,ads.flurry.com
+DOMAIN,ads.fnch.ch
 DOMAIN,ads.fool.com
 DOMAIN,ads.footymad.net
 DOMAIN,ads.forbes.net
@@ -757,6 +756,7 @@ DOMAIN,ads.kiemsat.vn
 DOMAIN,ads.kinxxx.com
 DOMAIN,ads.kompass.com
 DOMAIN,ads.krawall.de
+DOMAIN,ads.ksl.com
 DOMAIN,ads.kure.tv
 DOMAIN,ads.lamchame.vn
 DOMAIN,ads.laodongnghean.vn
@@ -1176,7 +1176,6 @@ DOMAIN,adv.freeonline.it
 DOMAIN,adv.gazeta.pl
 DOMAIN,adv.hu
 DOMAIN,adv.hwupgrade.it
-DOMAIN,adv.mpvc.it
 DOMAIN,adv.mxmcdn.net
 DOMAIN,adv.nexthardware.com
 DOMAIN,adv.r7.com
@@ -2149,6 +2148,7 @@ DOMAIN,aux-log.bidmatic.io
 DOMAIN,avigatejungle.click
 DOMAIN,awake-stats.jpush.cn
 DOMAIN,aws-analytics.nmg.com.hk
+DOMAIN,b-click.net
 DOMAIN,b1-data.ads.heytapmobi.com
 DOMAIN,b2-data.ads.heytapmobi.com
 DOMAIN,b8bsb.55002298.click
@@ -2865,6 +2865,7 @@ DOMAIN,log.medietall.no
 DOMAIN,log.mix.sina.com.cn
 DOMAIN,log.mmstat.com
 DOMAIN,log.mofa.go.kr
+DOMAIN,log.mopo.de
 DOMAIN,log.mp3.zing.vn
 DOMAIN,log.newsvine.com
 DOMAIN,log.ngaynay.vn
@@ -6315,7 +6316,6 @@ DOMAIN,willow-assets.click
 DOMAIN,wl-analytics.tsp.li
 DOMAIN,wmedia-track.uc.cn
 DOMAIN,workerhome.click
-DOMAIN,world-ad.jp
 DOMAIN,wstats.click
 DOMAIN,wtg-ads.com
 DOMAIN,wtr-digital-analytics.ew.r.appspot.com

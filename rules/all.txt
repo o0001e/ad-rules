@@ -170,6 +170,7 @@
 0.0.0.0 ad.api.youshiad.cn
 0.0.0.0 ad.apl298.me
 0.0.0.0 ad.apsalar.com
+0.0.0.0 ad.atown.jp
 0.0.0.0 ad.aucfan.com
 0.0.0.0 ad.aucview.com
 0.0.0.0 ad.auditude.com
@@ -249,7 +250,6 @@
 0.0.0.0 ad.hankooki.com
 0.0.0.0 ad.happynest.vn
 0.0.0.0 ad.hbv.de
-0.0.0.0 ad.hefei.cc
 0.0.0.0 ad.hiiir.com
 0.0.0.0 ad.holmesmind.com
 0.0.0.0 ad.horvitznewspapers.net
@@ -276,7 +276,6 @@
 0.0.0.0 ad.jibunde-esute.com
 0.0.0.0 ad.jorte.com
 0.0.0.0 ad.k98y.cn
-0.0.0.0 ad.kapos.hu
 0.0.0.0 ad.kazakinfo.com
 0.0.0.0 ad.keenspace.com
 0.0.0.0 ad.khan.co.kr
@@ -309,7 +308,6 @@
 0.0.0.0 ad.mail.ru
 0.0.0.0 ad.mangareader.net
 0.0.0.0 ad.maoyan.com
-0.0.0.0 ad.mazc.org
 0.0.0.0 ad.mcloud.139.com
 0.0.0.0 ad.mediamixer.co.kr
 0.0.0.0 ad.mediaprimaplus.com.my
@@ -415,6 +413,7 @@
 0.0.0.0 ad.xn--o9jem5iv41o982db8k.jp
 0.0.0.0 ad.xrea.com
 0.0.0.0 ad.xunkids.com
+0.0.0.0 ad.yixin.im
 0.0.0.0 ad.ymcdn.org
 0.0.0.0 ad.zankhana.ltd
 0.0.0.0 ad.zhuanzhuan.com
@@ -627,7 +626,6 @@
 0.0.0.0 ads.dandelionchocolate.jp
 0.0.0.0 ads.data.pplive.com
 0.0.0.0 ads.datateam.co.uk
-0.0.0.0 ads.ddj.com
 0.0.0.0 ads.deltha.hu
 0.0.0.0 ads.democratandchronicle.com
 0.0.0.0 ads.dennisnet.co.uk
@@ -670,6 +668,7 @@
 0.0.0.0 ads.flooble.com
 0.0.0.0 ads.floridatoday.com
 0.0.0.0 ads.flurry.com
+0.0.0.0 ads.fnch.ch
 0.0.0.0 ads.fool.com
 0.0.0.0 ads.footymad.net
 0.0.0.0 ads.forbes.net
@@ -757,6 +756,7 @@
 0.0.0.0 ads.kinxxx.com
 0.0.0.0 ads.kompass.com
 0.0.0.0 ads.krawall.de
+0.0.0.0 ads.ksl.com
 0.0.0.0 ads.kure.tv
 0.0.0.0 ads.lamchame.vn
 0.0.0.0 ads.laodongnghean.vn
@@ -1176,7 +1176,6 @@
 0.0.0.0 adv.gazeta.pl
 0.0.0.0 adv.hu
 0.0.0.0 adv.hwupgrade.it
-0.0.0.0 adv.mpvc.it
 0.0.0.0 adv.mxmcdn.net
 0.0.0.0 adv.nexthardware.com
 0.0.0.0 adv.r7.com
@@ -2149,6 +2148,7 @@
 0.0.0.0 avigatejungle.click
 0.0.0.0 awake-stats.jpush.cn
 0.0.0.0 aws-analytics.nmg.com.hk
+0.0.0.0 b-click.net
 0.0.0.0 b1-data.ads.heytapmobi.com
 0.0.0.0 b2-data.ads.heytapmobi.com
 0.0.0.0 b8bsb.55002298.click
@@ -2865,6 +2865,7 @@
 0.0.0.0 log.mix.sina.com.cn
 0.0.0.0 log.mmstat.com
 0.0.0.0 log.mofa.go.kr
+0.0.0.0 log.mopo.de
 0.0.0.0 log.mp3.zing.vn
 0.0.0.0 log.newsvine.com
 0.0.0.0 log.ngaynay.vn
@@ -6315,7 +6316,6 @@
 0.0.0.0 wl-analytics.tsp.li
 0.0.0.0 wmedia-track.uc.cn
 0.0.0.0 workerhome.click
-0.0.0.0 world-ad.jp
 0.0.0.0 wstats.click
 0.0.0.0 wtg-ads.com
 0.0.0.0 wtr-digital-analytics.ew.r.appspot.com
