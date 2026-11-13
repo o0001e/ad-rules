@@ -175,7 +175,7 @@ def read_sources():
     files = []
     ex = ThreadPoolExecutor(max_workers=24)
     futs = {ex.submit(download, u, i): i for i, u in enumerate(urls)}
-    done, pending = _wait(futs, timeout=150)
+    done, pending = _wait(futs, timeout=45)
     for f in done:
         try:
             p = f.result()
