@@ -55,6 +55,13 @@ jd.com pinduoduo.com xiaohongshu.com kuaishou.com
 
 TARGET = 8000
 
+# 云厂商 / CDN 共享域：只允许拦具体子域，绝不允许拦父域
+SHARED_INFRA = re.compile(
+    r"([-.])(amazonaws\.com|cloudfront\.net|azurewebsites\.net|azureedge\.net|"
+    r"appspot\.com|googleapis\.com|edgesuite\.net|akamaihd\.net|akamaized\.net|"
+    r"cloudflare\.net|herokuapp\.com|vercel\.app|netlify\.app|githubusercontent\.com|"
+    r"aliyuncs\.com|myqcloud\.com|qiniucdn\.com|bcebos\.com)$")
+
 
 def is_protected(d):
     return any(d == p or d.endswith("." + p) for p in PROTECT)
@@ -196,7 +203,7 @@ def collapse(blocked, white):
     """eTLD+1 归并：父域已拦 → 删子域"""
     dropped = set()
     for d in blocked:
-        if d in white:
+        if d in white or SHARED_INFRA.search(d):
             continue
         parts = d.split(".")
         for i in range(1, len(parts) - 1):
@@ -269,6 +276,17 @@ def write(blocked, white, apps, srcs=None):
     with open(os.path.join(OUT, "all.txt"), "w", encoding="utf-8") as f:
         f.write("".join("0.0.0.0 %s\n" % d for d in sorted(allset)))
 
+    # 源评分：每个源贡献多少条、最终存活多少条
+    src_total = collections.Counter()
+    for d, ids in srcs.items():
+        for i in ids:
+            src_total[i] += 1
+    with open(os.path.join(OUT, "source_score.txt"), "w", encoding="utf-8") as f:
+        f.write("# 源编号\t解析域名数\t最终存活\t存活率\n")
+        for i in sorted(src_total):
+            live = sum(1 for d in blocked if i in srcs.get(d, ()))
+            f.write("%02d\t%d\t%d\t%.1f%%\n" % (i, src_total[i], live, live * 100.0 / max(src_total[i], 1)))
+
     # 来源统计：每个域名被几个独立源收录
     with open(os.path.join(OUT, "source_report.txt"), "w", encoding="utf-8") as f:
         f.write("# 域名\t收录源数\t来源编号\n")
@@ -313,7 +331,7 @@ def main():
             continue
         if SAFE_WORDS.search(d) and not ad_like(d):
             continue   # 业务接口，非广告特征
-        if c >= 2 or ad_like(d):
+        if c >= 2 or (ad_like(d) and not SHARED_INFRA.search(d)):
             keep.add(d)
     # App 厂商根域下的域名一律保留（否则分组会空）
     apps_pre = json.load(open(APPS, encoding="utf-8")) if os.path.exists(APPS) else {}

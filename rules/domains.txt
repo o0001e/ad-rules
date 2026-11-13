@@ -1316,9 +1316,9 @@ analytics-fe.digital-cloud-prem.medallia.eu
 analytics-fe.digital-cloud.medallia.ca
 analytics-fe.digital-cloud.medallia.com
 analytics-fe.digital-cloud.medallia.eu
-analytics-gateway.delta.dp.lightricks.com
 analytics-gw.games.wanmei.com
 analytics-helper.com
+analytics-ingestion-production.tubitv.com
 analytics-ingestion.production-public.tubi.io
 analytics-ingress-global.bitmovin.com
 analytics-ingress.bitmovin.com

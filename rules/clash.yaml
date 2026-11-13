@@ -1,5 +1,5 @@
 # AD-QGG Clash rule-provider (behavior: domain)
-# Update: 20261113 20:34
+# Update: 20261113 20:55
 payload:
   - '+.123-tracker.com'
   - '+.5363316.marketing.numi.com'
@@ -1319,9 +1319,9 @@ payload:
   - '+.analytics-fe.digital-cloud.medallia.ca'
   - '+.analytics-fe.digital-cloud.medallia.com'
   - '+.analytics-fe.digital-cloud.medallia.eu'
-  - '+.analytics-gateway.delta.dp.lightricks.com'
   - '+.analytics-gw.games.wanmei.com'
   - '+.analytics-helper.com'
+  - '+.analytics-ingestion-production.tubitv.com'
   - '+.analytics-ingestion.production-public.tubi.io'
   - '+.analytics-ingress-global.bitmovin.com'
   - '+.analytics-ingress.bitmovin.com'

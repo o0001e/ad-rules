@@ -1,5 +1,5 @@
 # AD-QGG Filter
-# Update: 20261113 20:34
+# Update: 20261113 20:55
 # Count: 6478
 0.0.0.0 123-tracker.com
 0.0.0.0 5363316.marketing.numi.com
@@ -1319,9 +1319,9 @@
 0.0.0.0 analytics-fe.digital-cloud.medallia.ca
 0.0.0.0 analytics-fe.digital-cloud.medallia.com
 0.0.0.0 analytics-fe.digital-cloud.medallia.eu
-0.0.0.0 analytics-gateway.delta.dp.lightricks.com
 0.0.0.0 analytics-gw.games.wanmei.com
 0.0.0.0 analytics-helper.com
+0.0.0.0 analytics-ingestion-production.tubitv.com
 0.0.0.0 analytics-ingestion.production-public.tubi.io
 0.0.0.0 analytics-ingress-global.bitmovin.com
 0.0.0.0 analytics-ingress.bitmovin.com

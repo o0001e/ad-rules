@@ -1,32 +1,39 @@
-# AD-QGG Filters
+# AD-QGG 国内 App 广告域名过滤
 
-纯合并型广告规则订阅：多源并行下载 → 统一解析 → eTLD+1 归并 → 多格式输出。每 8 小时更新一次。
+多源订阅合并，无爬虫。每 8 小时自动更新，产物发布到 Release，GitHub 与 Gitee 双写。
 
-## 订阅地址
+## 订阅地址（优先 jsDelivr）
 
 | 用途 | 地址 |
 |---|---|
-| **hosts（推荐）** | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/hosts.txt` |
-| hosts（国内 CDN） | `https://gitee.com/ADS9/ad/raw/m/rules/hosts.txt` |
-| AdGuard | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/adguard.txt` |
-| 纯域名 | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/domains.txt` |
-| Clash | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/clash.yaml` |
-| dnsmasq | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/dnsmasq.conf` |
-| 全量（含单 App 分组） | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/all.txt` |
+| 主规则（jsDelivr，国内快） | `https://cdn.jsdelivr.net/gh/o0001e/ad-rules@main/rules/hosts.txt` |
+| 主规则（GitHub raw） | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/hosts.txt` |
+| 主规则（Gitee，备用） | `https://gitee.com/ADS9/ad/raw/m/rules/hosts.txt` |
+| 白名单（jsDelivr） | `https://cdn.jsdelivr.net/gh/o0001e/ad-rules@main/rules/whitelist.txt` |
+| 白名单（GitHub raw） | `https://raw.githubusercontent.com/o0001e/ad-rules/main/rules/whitelist.txt` |
+| 白名单（Gitee） | `https://gitee.com/ADS9/ad/raw/m/rules/whitelist.txt` |
 
-Release 镜像：`https://github.com/o0001e/ad-rules/releases/download/rule/hosts.txt`
+其他格式把文件名换掉即可：`adguard.txt`、`domains.txt`、`dnsmasq.conf`、`clash.yaml`、`surge.list`、`all.txt`。
 
-## 结构
+## 流水线
 
-- `sources.txt` — 上游规则源，一行一个直链
-- `whitelist.txt` — 白名单（整域放行）
-- `custom.txt` — 人工补充规则
-- `app_list.json` — 厂商根域 → App 名称映射，用来拆单 App 分组
-- `adblock.py` — 合并脚本
-- `rules/` — 构建产物（不入库，由 Actions 发布到 Release）
+| 流水线 | 频率 | 作用 |
+|---|---|---|
+| Update Filters | 每 8 小时 | 拉 45 个源 → 解析 → eTLD+1 归并 → 11 种产物 → 发 Release → 双写 |
+| Trim Dead Domains | 主流水线成功后 | 取产物做 DNS 校验，剔死域后重发 |
+| Weekly App Groups | 每周日 04:00 | 爬虫补 App 分组 |
 
-## 本地运行
+## 规则口径
 
-```bash
-python3 adblock.py
-```
+- 保护名单：qq / weixin / alipay / taobao / gov.cn / 12306 / gitee / github / jsdelivr 等整域放行
+- 云厂商共享域（amazonaws、azurewebsites、appspot、edgesuite 等）只拦具体子域，绝不上溯父域
+- 业务接口词（api / login / pay / static / vod 等）默认不算广告
+- DNS 校验确认失效的域名写进 dead.txt，合并时跳过
+- 产物少于 1000 条时拒绝覆盖
+
+## 报告
+
+- `rules/source_report.txt`：每个域名被几个源收录
+- `rules/source_score.txt`：每个源的贡献量和存活率
+- `rules/regress_report.txt`：白名单误伤检测
+- `rules/whitelist_suggested.txt`：从真机 DNS 日志挖出的白名单建议（需人工确认）
