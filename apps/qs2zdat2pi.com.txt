@@ -1,0 +1,2 @@
+# qs2zdat2pi.com 广告拦截 1条
+0.0.0.0 qs2zdat2pi.com
