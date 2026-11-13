@@ -15,6 +15,10 @@ https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/MergeRules
 https://raw.githubusercontent.com/qq5460168/EasyAds/refs/heads/main/dns.txt
 https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/AD.Reject.list
 
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt
+https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt
 # === 国际/标准源 ===
 https://filters.adtidy.org/android/filters/224_optimized.txt
 https://filters.adtidy.org/extension/ublock/filters/224.txt

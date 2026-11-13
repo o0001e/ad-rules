@@ -404,6 +404,23 @@ def write(blocked, white, suffix_ok, suffix_exact):
     ver = datetime.datetime.now().strftime("%Y%m%d")
     n = len(blocked)
 
+    # eTLD+1 归并（仿 adblockfilters）：父域已拦则删掉所有子域，白名单里的子域保留
+    white_all = set(white) | set(suffix_ok) | set(suffix_exact)
+    dropped = set()
+    for d in blocked:
+        if d in white_all:
+            continue
+        parts = d.split(".")
+        for i in range(1, len(parts) - 1):
+            parent = ".".join(parts[i:])
+            if parent in blocked and parent not in dropped:
+                dropped.add(d)
+                break
+    if dropped:
+        print(f"[归并] 短域覆盖长域，去掉 {len(dropped)} 个冗余子域")
+    blocked = blocked - dropped
+    n = len(blocked)
+
     # 健康检查 1：上游抽风时不要把规则清空
     if n < 1000:
         print(f"[警告] 本次只生成 {n} 条规则，低于安全线 1000，拒绝覆盖已有文件")
@@ -435,6 +452,22 @@ def write(blocked, white, suffix_ok, suffix_exact):
     adg += ["||" + h + "^" for h in sorted(blocked)]
     _save(os.path.join(OUT, "adguard.txt"), "\n".join(adg) + "\n")
     _save(os.path.join(OUT, "domains.txt"), "\n".join(sorted(blocked)) + "\n")
+
+    # eTLD+1 归并（仿 adblockfilters）：父域已拦且子域不在白名单时，删掉冗余子域
+    white_all = set(white) | set(suffix_ok) | set(suffix_exact)
+    collapsed = 0
+    for h in list(blocked):
+        if h in white_all:
+            continue
+        parts = h.split(".")
+        for i in range(1, len(parts) - 1):
+            if ".".join(parts[i:]) in blocked:
+                blocked.discard(h)
+                collapsed += 1
+                break
+    if collapsed:
+        print("[归并] eTLD+1 父域覆盖，删除冗余子域 %d 条 → %d 条" % (collapsed, len(blocked)))
+    n = len(blocked)
 
     # Lite 版：只保留国内厂商 + .cn 域名，给手机 DNS 订阅用（条数少、解析快）
     def root_of(d):
