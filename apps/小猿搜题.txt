@@ -1,3 +1,0 @@
-# 小猿搜题 广告拦截 2条
-0.0.0.0 beacon.yuanfudao.com
-0.0.0.0 report.yuanfudao.com

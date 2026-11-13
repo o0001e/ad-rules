@@ -1668,5 +1668,38 @@
   "admaster.cn",
   "umeng.com",
   "alibabafun.com"
+ ],
+ "途牛": [
+  "tuniu.com"
+ ],
+ "12306": [
+  "12306.cn"
+ ],
+ "用友": [
+  "yonyou.com"
+ ],
+ "金蝶": [
+  "kingdee.com"
+ ],
+ "中国联通": [
+  "chinaunicom.cn"
+ ],
+ "中国电信": [
+  "chinatelecom.cn"
+ ],
+ "美团外卖": [
+  "meituanwaimai.com",
+  "wmwai.com"
+ ],
+ "盒马": [
+  "freshhema.com",
+  "hema.com"
+ ],
+ "叮咚买菜": [
+  "100.me",
+  "ddxq.com"
+ ],
+ "永辉": [
+  "yonghui.com"
  ]
 }

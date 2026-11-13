@@ -1,2 +1,0 @@
-# 星愿浏览器 广告拦截 1条
-0.0.0.0 stat.twinkstar.com

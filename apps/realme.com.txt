@@ -1,4 +1,0 @@
-# realme.com 广告拦截 3条
-0.0.0.0 iot-eu-logser.realme.com
-0.0.0.0 iot-in-logser.realme.com
-0.0.0.0 iot-logser.realme.com

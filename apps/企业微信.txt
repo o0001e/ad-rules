@@ -1,2 +1,0 @@
-# 企业微信 广告拦截 1条
-0.0.0.0 track.work.weixin.qq.com

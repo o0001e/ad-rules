@@ -1,2 +1,0 @@
-# 太平洋电脑网 广告拦截 1条
-0.0.0.0 adimg.pconline.com.cn

@@ -1,2 +1,0 @@
-# 扫描全能王 广告拦截 1条
-0.0.0.0 ads.camscanner.com

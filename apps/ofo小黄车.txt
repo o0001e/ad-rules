@@ -1,3 +1,0 @@
-# ofo小黄车 广告拦截 2条
-0.0.0.0 ads.ofo.com
-0.0.0.0 promo.ofo.com

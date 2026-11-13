@@ -141,7 +141,7 @@ def main():
     generated = len(groups)
 
     # 安全阀：新产出比旧产出少一半以上，说明本次爬取异常（超时/断网），宁可不动旧文件
-    if old_total > 200 and total < old_total * 0.5:
+    if old_total > 200 and total < old_total * 0.3:
         print("[分组][警告] 新产出仅 %d 条，旧产物 %d 条（%d 个文件），疑似抓取不完整，跳过覆盖"
               % (total, old_total, old_files))
         return
@@ -161,6 +161,17 @@ def main():
             continue
         os.remove(os.path.join(APPS_DIR, fn))
         removed += 1
+
+    # 厂商根域覆盖清单
+    lines = ["# 厂商根域覆盖清单", "# 厂商\t根域\t拦截子域数"]
+    for company in sorted(groups):
+        roots = apps.get(company, [])
+        if not roots and "." in company:
+            continue   # 自动生成的根域组不列入厂商清单
+        cnt = len(groups[company])
+        lines.append("%s\t%s\t%d" % (company, " ".join(roots[:6]) or "-", cnt))
+    with open(os.path.join(ROOT, "厂商根域清单.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(lines) + "\n")
 
     print("[分组] 拦截域名 %d 条，生成 %d 个 App 文件，清理陈旧 %d 个"
           % (len(blocked), generated, removed))

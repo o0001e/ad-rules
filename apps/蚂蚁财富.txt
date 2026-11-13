@@ -1,2 +1,0 @@
-# 蚂蚁财富 广告拦截 1条
-0.0.0.0 promote.antfortune.com

@@ -1,4 +1,0 @@
-# Brave 广告拦截 3条
-0.0.0.0 ads.brave.com
-0.0.0.0 analytics.brave.com
-0.0.0.0 stats.brave.com

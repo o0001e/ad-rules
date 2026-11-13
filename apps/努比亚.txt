@@ -1,4 +1,0 @@
-# 努比亚 广告拦截 3条
-0.0.0.0 ads.nubia.com
-0.0.0.0 report.nubia.com
-0.0.0.0 ssp.nubia.com

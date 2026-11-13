@@ -1,4 +1,0 @@
-# 荔枝 广告拦截 3条
-0.0.0.0 ad.lizhi.fm
-0.0.0.0 ads.lizhi.fm
-0.0.0.0 stat.lizhi.fm

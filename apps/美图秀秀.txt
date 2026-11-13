@@ -1,4 +1,0 @@
-# 美图秀秀 广告拦截 3条
-0.0.0.0 ads.meitu.com
-0.0.0.0 adx.meitu.com
-0.0.0.0 dsp.meitu.com

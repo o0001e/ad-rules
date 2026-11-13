@@ -1,5 +1,0 @@
-# 世纪佳缘 广告拦截 4条
-0.0.0.0 ads.jiayuan.com
-0.0.0.0 click.jiayuan.com
-0.0.0.0 monitor.jiayuan.com
-0.0.0.0 union.jiayuan.com

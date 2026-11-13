@@ -1,7 +1,0 @@
-# cmvideo.cn 广告拦截 6条
-0.0.0.0 ad.cmvideo.cn
-0.0.0.0 ggc.cmvideo.cn
-0.0.0.0 ggic.cmvideo.cn
-0.0.0.0 ggtagcache.cmvideo.cn
-0.0.0.0 ggv.cmvideo.cn
-0.0.0.0 ggx.cmvideo.cn
