@@ -61,6 +61,25 @@ jobs:
             rules/all.txt
             rules/whitelist.txt
 
+      - name: 根目录兼容副本
+        run: |
+          cp rules/hosts.txt hosts.txt
+          cp rules/all.txt all.txt
+          cp rules/adguard.txt adguard.txt
+
+      - name: 推送到 GitHub 主分支
+        run: |
+          git config user.email "adqgg@users.noreply.github.com"
+          git config user.name "adqgg"
+          git rm -r --cached -q rules/apps 2>/dev/null || true
+          git rm --cached -q -r rules 2>/dev/null || true
+          git add -f rules/hosts.txt rules/whitelist.txt
+          git commit -q -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
+          git push origin HEAD:main || true
+
+      - name: Gitee 可用性体检
+        run: python3 scripts/gitee_check.py || true
+
       - name: 同步到 Gitee
         timeout-minutes: 8
         env:

@@ -53,7 +53,7 @@ jobs:
         run: |
           git config user.email "adqgg@users.noreply.github.com"
           git config user.name "adqgg"
-          git add -f -A rules
+          git add -f rules/hosts.txt rules/whitelist.txt rules/all.txt
           git commit -q -m "轻量更新 $(date -u '+%F %H:%M') UTC" || true
           git push origin HEAD:main || true
 
@@ -69,7 +69,9 @@ jobs:
           export GIT_TERMINAL_PROMPT=0
           for i in 1 2 3; do
             if git fetch --depth=1 gitee m 2>/dev/null; then
-              git add -f -A rules
+              git rm -r --cached -q rules/apps 2>/dev/null || true
+              git rm --cached -q -r rules 2>/dev/null || true
+              git add -f rules/hosts.txt rules/whitelist.txt
               TREE=$(git write-tree)
               C=$(git commit-tree "$TREE" -p FETCH_HEAD -m "轻量更新 $(date -u '+%F %H:%M') UTC")
               if timeout 240 git push gitee "$C:m"; then exit 0; fi
