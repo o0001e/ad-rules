@@ -1,6 +1,6 @@
 # AD-QGG Filter
-# Update: 20261113 20:14
-# Count: 6479
+# Update: 20261113 20:34
+# Count: 6478
 0.0.0.0 123-tracker.com
 0.0.0.0 5363316.marketing.numi.com
 0.0.0.0 a-ads.com
@@ -172,7 +172,6 @@
 0.0.0.0 ad.api.3g.youku.com
 0.0.0.0 ad.api.moji.com
 0.0.0.0 ad.api.youshiad.cn
-0.0.0.0 ad.api.yyapi.net
 0.0.0.0 ad.apl298.me
 0.0.0.0 ad.apsalar.com
 0.0.0.0 ad.aucfan.com
@@ -265,7 +264,6 @@
 0.0.0.0 ad.house365.com
 0.0.0.0 ad.hpplay.cn
 0.0.0.0 ad.huajiao.com
-0.0.0.0 ad.hunyuan.tencent.com
 0.0.0.0 ad.hyena.cz
 0.0.0.0 ad.icheck.com.vn
 0.0.0.0 ad.ichiban-boshi.com
@@ -460,6 +458,7 @@
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-api.videy.co
 0.0.0.0 ads-api.x.com
+0.0.0.0 ads-banner.s3.ap-south-1.amazonaws.com
 0.0.0.0 ads-bid.leadmoad.com
 0.0.0.0 ads-bidder-api.twitter.com
 0.0.0.0 ads-bilek.com
@@ -483,10 +482,7 @@
 0.0.0.0 ads-drcn.platform.hihonorcloud.com
 0.0.0.0 ads-game-187f4.firebaseapp.com
 0.0.0.0 ads-go.adroi.com.cn
-0.0.0.0 ads-i1.xhscdn.com
-0.0.0.0 ads-i2.xhscdn.com
-0.0.0.0 ads-i3.xhscdn.com
-0.0.0.0 ads-i4.xhscdn.com
+0.0.0.0 ads-image.production-public.tubi.io
 0.0.0.0 ads-img-al.xhscdn.com
 0.0.0.0 ads-img-bak.xhscdn.com
 0.0.0.0 ads-img-qc.xhscdn.com
@@ -658,7 +654,6 @@
 0.0.0.0 ads.djc.com
 0.0.0.0 ads.dk
 0.0.0.0 ads.dogusdigital.com
-0.0.0.0 ads.doit.com.cn
 0.0.0.0 ads.domeus.com
 0.0.0.0 ads.drf.com
 0.0.0.0 ads.dzeko11.st
@@ -814,7 +809,6 @@
 0.0.0.0 ads.music.126.net
 0.0.0.0 ads.mustangworks.com
 0.0.0.0 ads.mycricket.com
-0.0.0.0 ads.mykudou.com
 0.0.0.0 ads.mysimon.com
 0.0.0.0 ads.mytelus.com
 0.0.0.0 ads.nationalreview.com
@@ -880,6 +874,7 @@
 0.0.0.0 ads.pressdemo.com
 0.0.0.0 ads.printscr.com
 0.0.0.0 ads.prisacom.com
+0.0.0.0 ads.pro-market.net.edgesuite.net
 0.0.0.0 ads.program3.com
 0.0.0.0 ads.proxibid.com
 0.0.0.0 ads.pruc.org
@@ -981,7 +976,6 @@
 0.0.0.0 ads.ultimate-guitar.com
 0.0.0.0 ads.ultimatesurrender.com
 0.0.0.0 ads.uncrate.com
-0.0.0.0 ads.unitychina.cn
 0.0.0.0 ads.urbandictionary.com
 0.0.0.0 ads.usatoday.com
 0.0.0.0 ads.uutest.cn
@@ -1050,6 +1044,7 @@
 0.0.0.0 adserver-2.ig.com.br
 0.0.0.0 adserver-4.ig.com.br
 0.0.0.0 adserver-5.ig.com.br
+0.0.0.0 adserver-us.adtech.advertising.com
 0.0.0.0 adserver.100free.com
 0.0.0.0 adserver.3digit.de
 0.0.0.0 adserver.71i.de
@@ -1058,6 +1053,7 @@
 0.0.0.0 adserver.adverty.com
 0.0.0.0 adserver.airmiles.ca
 0.0.0.0 adserver.asiantb.com
+0.0.0.0 adserver.associationheadquarters.com
 0.0.0.0 adserver.betandwin.de
 0.0.0.0 adserver.bing.com
 0.0.0.0 adserver.bizhat.com
@@ -1093,6 +1089,7 @@
 0.0.0.0 adserver.icmedienhaus.de
 0.0.0.0 adserver.infotorg.se
 0.0.0.0 adserver.interfree.it
+0.0.0.0 adserver.irishwebmasterforum.com
 0.0.0.0 adserver.ision.de
 0.0.0.0 adserver.isonews.com
 0.0.0.0 adserver.janes.org
@@ -1322,6 +1319,7 @@
 0.0.0.0 analytics-fe.digital-cloud.medallia.ca
 0.0.0.0 analytics-fe.digital-cloud.medallia.com
 0.0.0.0 analytics-fe.digital-cloud.medallia.eu
+0.0.0.0 analytics-gateway.delta.dp.lightricks.com
 0.0.0.0 analytics-gw.games.wanmei.com
 0.0.0.0 analytics-helper.com
 0.0.0.0 analytics-ingestion.production-public.tubi.io
@@ -1330,6 +1328,7 @@
 0.0.0.0 analytics-ipv6.tiktokw.us
 0.0.0.0 analytics-lgs.corebridgefinancial.com
 0.0.0.0 analytics-log.withhive.com
+0.0.0.0 analytics-logger.service.junctiontv.net
 0.0.0.0 analytics-nssl.bradyid.com
 0.0.0.0 analytics-prd.aws.wehaa.net
 0.0.0.0 analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com
@@ -1388,6 +1387,7 @@
 0.0.0.0 analytics.alrajhibank.com.sa
 0.0.0.0 analytics.americanfunds.com
 0.0.0.0 analytics.amig.com
+0.0.0.0 analytics.amplitude.com
 0.0.0.0 analytics.andisearch.com
 0.0.0.0 analytics.animexx.de
 0.0.0.0 analytics.any.do
@@ -1501,6 +1501,7 @@
 0.0.0.0 analytics.corusent.com
 0.0.0.0 analytics.cosmicstack.org
 0.0.0.0 analytics.cosmonova.net
+0.0.0.0 analytics.cosmopolitanmag.com.tr
 0.0.0.0 analytics.crea.ca
 0.0.0.0 analytics.crowdkeep.com
 0.0.0.0 analytics.cyrillus.be
@@ -1562,7 +1563,6 @@
 0.0.0.0 analytics.explus.vn
 0.0.0.0 analytics.facebook.com
 0.0.0.0 analytics.faceitanalytics.com
-0.0.0.0 analytics.faceless-reels.io
 0.0.0.0 analytics.fatmedia.io
 0.0.0.0 analytics.fcgtalent.fi
 0.0.0.0 analytics.ff.avast.com
@@ -1616,6 +1616,7 @@
 0.0.0.0 analytics.haworth.com
 0.0.0.0 analytics.hazeldenbettyford.org
 0.0.0.0 analytics.hebela.vn
+0.0.0.0 analytics.helpukrainewinwidget.org
 0.0.0.0 analytics.hermesworld.com
 0.0.0.0 analytics.hiexpress.com
 0.0.0.0 analytics.histmag.org
@@ -1710,7 +1711,6 @@
 0.0.0.0 analytics.mercadolibre.com
 0.0.0.0 analytics.metro-cc.ru
 0.0.0.0 analytics.metro.be
-0.0.0.0 analytics.metro.cn
 0.0.0.0 analytics.metro.co.in
 0.0.0.0 analytics.metro.com.kz
 0.0.0.0 analytics.metro.de
@@ -1993,7 +1993,6 @@
 0.0.0.0 analytics.ubports.com
 0.0.0.0 analytics.ubs.com
 0.0.0.0 analytics.uhhospitals.org
-0.0.0.0 analytics.umetrip.com
 0.0.0.0 analytics.unand.ac.id
 0.0.0.0 analytics.underarmour.com
 0.0.0.0 analytics.ungdungtructuyen.vn
@@ -2083,7 +2082,6 @@
 0.0.0.0 analytics.yext-static.com
 0.0.0.0 analytics.yicai.com
 0.0.0.0 analytics.ynap.biz
-0.0.0.0 analytics.ynu.edu.cn
 0.0.0.0 analytics.yola.net
 0.0.0.0 analytics.yolacdn.net
 0.0.0.0 analytics.yollamedia.com
@@ -2108,7 +2106,6 @@
 0.0.0.0 ao-marketing.dbiyes.com
 0.0.0.0 ao-marketing.essendant.com
 0.0.0.0 apex-ad.com
-0.0.0.0 api-access.pangolin-sdk-toutiao.com.queniuyk.com
 0.0.0.0 api-access.pangolin-sdk-toutiao2.com
 0.0.0.0 api-access.pangolin-sdk-toutiao3.com
 0.0.0.0 api-access.pangolin-sdk-toutiao4.com
@@ -2125,7 +2122,6 @@
 0.0.0.0 api-analytics.prod.birdapp.com
 0.0.0.0 api-analytics.rozetka.com.ua
 0.0.0.0 api-hotmart-tracking-manager.hotmart.com
-0.0.0.0 api-log-upload.wenext.technology
 0.0.0.0 api-push.com
 0.0.0.0 api-push.meizu.com
 0.0.0.0 api-visitor-analytics.intercom.com
@@ -2146,7 +2142,6 @@
 0.0.0.0 app-analytics-services.com
 0.0.0.0 app-analytics-v2.snapchat.com
 0.0.0.0 app-analytics.snapchat.com
-0.0.0.0 app-log-lab.immomo.com
 0.0.0.0 app-log-oversea.immomo.com
 0.0.0.0 app-tracking.hlogo.de
 0.0.0.0 app.market.xiaomi.com
@@ -2183,6 +2178,7 @@
 0.0.0.0 bds.snssdk.com
 0.0.0.0 beacon-1.newrelic.com
 0.0.0.0 beacon-api.aliyuncs.com
+0.0.0.0 beacon-fullpage-predictor.goguardian.com
 0.0.0.0 beacon.adelphic.com
 0.0.0.0 beacon.affil.walmart.com
 0.0.0.0 beacon.aimtell.com
@@ -2225,6 +2221,7 @@
 0.0.0.0 beacon.wikia-services.com
 0.0.0.0 beacon.www.theguardian.com
 0.0.0.0 beacon.ztgame.com
+0.0.0.0 behavior-tracking-event-gateway.imweb.me
 0.0.0.0 beltanekwarta.click
 0.0.0.0 benefit-ads.com
 0.0.0.0 beta-log.anninhthudo.vn
@@ -2305,7 +2302,9 @@
 0.0.0.0 click-plus.net
 0.0.0.0 click-rtb2-apac.affinity.net
 0.0.0.0 click-rtb2-apac.applabs.live
+0.0.0.0 click-rtb2-apac.onenativeads.com
 0.0.0.0 click-rtb2-eu.affinity.net
+0.0.0.0 click-rtb2-eu.convergeselect.com
 0.0.0.0 click-rtb2-eu.mediarise.io
 0.0.0.0 click-rtb2-eu.n-data.io
 0.0.0.0 click-rtb2-useast.adsync.global
@@ -2445,8 +2444,10 @@
 0.0.0.0 coitionultime.click
 0.0.0.0 coldongjiffies.click
 0.0.0.0 collecting.click
+0.0.0.0 collector-analytics.efigence.com
 0.0.0.0 colloidsaga.click
 0.0.0.0 commercial-analytics-collector.news.co.uk
+0.0.0.0 conduit-beacon-usw2.mtvnservices.com
 0.0.0.0 conduit-beacon.mtvnservices.com
 0.0.0.0 config.ads.vungle.com
 0.0.0.0 console.ad.logic-prod.viasat.io
@@ -2454,6 +2455,7 @@
 0.0.0.0 console.ad.logic.viasat.io
 0.0.0.0 content-website-analytics.com
 0.0.0.0 content.ad
+0.0.0.0 cookiemon-analytics.azurewebsites.net
 0.0.0.0 cookpad-ads.com
 0.0.0.0 corporate-marketing.hrs.com
 0.0.0.0 cpm.reload.ad
@@ -2537,6 +2539,7 @@
 0.0.0.0 easter-analytics.com
 0.0.0.0 easy-ads.com
 0.0.0.0 easy-web-stats.com
+0.0.0.0 eats-ads-event-capture.coupang.com
 0.0.0.0 ebis-tracking.hirakata-skin-clinic.com
 0.0.0.0 ebis-tracking.okinawa-keisei.com
 0.0.0.0 ebis-tracking.shinyokohama-beauty.com
@@ -2577,6 +2580,7 @@
 0.0.0.0 events-tracker.deliveroo.net
 0.0.0.0 events.ads.vungle.com
 0.0.0.0 ever-track-51.com
+0.0.0.0 external-api.impression-neo.naver.com
 0.0.0.0 extlog.snssdk.com
 0.0.0.0 eyc-marketing.eyc.com
 0.0.0.0 f-cashloan.snssdk.com
@@ -2705,6 +2709,7 @@
 0.0.0.0 ir-sdk.dun.163.com
 0.0.0.0 ir-sdk.guardease.com
 0.0.0.0 is-log.furunavi.jp
+0.0.0.0 is-tracking-pixel-api-prod.appspot.com
 0.0.0.0 is.snssdk.com
 0.0.0.0 is.snssdk.com.queniukw.com
 0.0.0.0 isc-tracking.eventim.com
@@ -2735,6 +2740,7 @@
 0.0.0.0 lf3-ad-union-sdk.pglstatp-toutiao.com
 0.0.0.0 lf3-analytics.bytescm.com
 0.0.0.0 lf6-ad-union-sdk.pglstatp-toutiao.com
+0.0.0.0 lf9-ad-union-sdk.pglstatp-toutiao.com
 0.0.0.0 line1-log.biligame.net
 0.0.0.0 link.marketing.bleacherreport.com
 0.0.0.0 links.marketing.getprizepool.com
@@ -2750,6 +2756,7 @@
 0.0.0.0 log-api.sooplive.com
 0.0.0.0 log-auth.flysleep.cn
 0.0.0.0 log-auth.zztfly.com
+0.0.0.0 log-bridge-mobile.kr.karrotmarket.com
 0.0.0.0 log-collector.shopee.vn
 0.0.0.0 log-dmp.suishenyun.cn
 0.0.0.0 log-dttc.sggp.org.vn
@@ -2758,7 +2765,6 @@
 0.0.0.0 log-gateway.zoom.us
 0.0.0.0 log-h5.imdada.cn
 0.0.0.0 log-hl.snssdk.com
-0.0.0.0 log-klink.zijieapi.com
 0.0.0.0 log-lb.skyperfectv.co.jp
 0.0.0.0 log-mediation.easemobi.net
 0.0.0.0 log-player.arte.tv
@@ -2775,8 +2781,6 @@
 0.0.0.0 log-upload-eur.mihoyo.com
 0.0.0.0 log-upload-os.hoyolab.com
 0.0.0.0 log-upload-os.hoyoverse.com
-0.0.0.0 log-upload-os.mihoyo.com
-0.0.0.0 log-upload-v6.mihoyo.com
 0.0.0.0 log-upload.mihoyo.com
 0.0.0.0 log-va.tiktokv.com
 0.0.0.0 log-verify.dutils.com
@@ -2837,6 +2841,7 @@
 0.0.0.0 log.daqi.com
 0.0.0.0 log.dav.edu.vn
 0.0.0.0 log.doanhnhan.vn
+0.0.0.0 log.documentmanagerpdfdocxlssale.live
 0.0.0.0 log.down61.com
 0.0.0.0 log.dpa.com
 0.0.0.0 log.dramaboxdb.com
@@ -2967,7 +2972,6 @@
 0.0.0.0 log.tossinvest.com
 0.0.0.0 log.tosspayments.com
 0.0.0.0 log.tpns.gz2.tencent.com
-0.0.0.0 log.tpns.sh.tencent.com
 0.0.0.0 log.tpns.tencent.com
 0.0.0.0 log.trend.rankify.best
 0.0.0.0 log.ttbc-hcm.gov.vn
@@ -3053,7 +3057,7 @@
 0.0.0.0 market.21cn.com
 0.0.0.0 market.bellelily.com
 0.0.0.0 market.duowan.com
-0.0.0.0 market.yandex.
+0.0.0.0 market.yandex
 0.0.0.0 marketing-ap.mmc.co.jp
 0.0.0.0 marketing-company.getinsured.com
 0.0.0.0 marketing-fl.waterstonemortgage.com
@@ -4294,6 +4298,7 @@
 0.0.0.0 marketing.zenjuries.com
 0.0.0.0 masque-ads.b-cdn.net
 0.0.0.0 master-push.com
+0.0.0.0 master-shopify-tracker.s3.amazonaws.com
 0.0.0.0 mathilde-ads.com
 0.0.0.0 matzotipid.click
 0.0.0.0 mb-tracking.com
@@ -4395,7 +4400,6 @@
 0.0.0.0 pay-ads.com
 0.0.0.0 pay-click.ru
 0.0.0.0 pc-ads.com
-0.0.0.0 pco-sm-log.tantanapp.com
 0.0.0.0 pd.ads.cn.miaozhen.com
 0.0.0.0 peach-analytics.vercel.app
 0.0.0.0 pectosealvia.click
@@ -4450,7 +4454,6 @@
 0.0.0.0 pubfuture-ad.com
 0.0.0.0 publisher-event.ads.prd.ie.internal.unity3d.com
 0.0.0.0 push-ad.com
-0.0.0.0 push-ads-cn.heytapmobi.com
 0.0.0.0 push-api.topaz-analytics.com
 0.0.0.0 push-free.com
 0.0.0.0 push-notifications.top
@@ -4467,7 +4470,6 @@
 0.0.0.0 push.delivery
 0.0.0.0 push.delivery.ethinking.de
 0.0.0.0 push.domitize.com
-0.0.0.0 push.douban.com
 0.0.0.0 push.esputnik.com
 0.0.0.0 push.getbeamer.com
 0.0.0.0 push.gifshow.com
@@ -4490,6 +4492,7 @@
 0.0.0.0 push.yuedu.163.com
 0.0.0.0 push.zhangyue.com
 0.0.0.0 pushche.rabbit.click
+0.0.0.0 pushd-android-logs.s3.amazonaws.com
 0.0.0.0 pwr-ads.com
 0.0.0.0 q-stats.nl
 0.0.0.0 qa-analytics.com
@@ -4611,7 +4614,6 @@
 0.0.0.0 sf-ads.io
 0.0.0.0 shareasale-analytics.com
 0.0.0.0 showmethat.click
-0.0.0.0 simetra.tracking.ringieraxelspringer.tech
 0.0.0.0 slate-assets.click
 0.0.0.0 sltint.adv.ott.cibntv.net
 0.0.0.0 slunkenfulgora.click
@@ -4749,7 +4751,6 @@
 0.0.0.0 stat.duokanbox.com
 0.0.0.0 stat.dyna.ultraweb.hu
 0.0.0.0 stat.eagleplatform.com
-0.0.0.0 stat.fengniao.com
 0.0.0.0 stat.fly.codes
 0.0.0.0 stat.funshion.com
 0.0.0.0 stat.funshion.net
@@ -4891,7 +4892,6 @@
 0.0.0.0 stats-messages.gifs.com
 0.0.0.0 stats-newyork1.bloxcms.com
 0.0.0.0 stats-proto.pandora.com
-0.0.0.0 stats-sdk.tange365.com
 0.0.0.0 stats-sg.ganymede.eu
 0.0.0.0 stats-ssl.mdanderson.org
 0.0.0.0 stats.123c.vn
@@ -5074,7 +5074,6 @@
 0.0.0.0 stats.isabelsommerfeld.com
 0.0.0.0 stats.itc.ua
 0.0.0.0 stats.itweb.co.za
-0.0.0.0 stats.ixarea.com
 0.0.0.0 stats.jamesevers.co.uk
 0.0.0.0 stats.jetzt-aktivieren.de
 0.0.0.0 stats.jiosaavn.com
@@ -5248,8 +5247,6 @@
 0.0.0.0 stats.tennistalk.com
 0.0.0.0 stats.thegeneral.com
 0.0.0.0 stats.thermofisher.com
-0.0.0.0 stats.thermofisher.com.cn
-0.0.0.0 stats.thermoscientific.cn
 0.0.0.0 stats.thoughtcatalog.com
 0.0.0.0 stats.tiffany.ie
 0.0.0.0 stats.tinkerer.tools
@@ -5385,6 +5382,7 @@
 0.0.0.0 track.58.com
 0.0.0.0 track.91app.io
 0.0.0.0 track.accesstrade.vn
+0.0.0.0 track.adflow-prod.minionplatform.com
 0.0.0.0 track.adform.net
 0.0.0.0 track.adshay.vn
 0.0.0.0 track.adspire.io
@@ -5427,7 +5425,6 @@
 0.0.0.0 track.collegeboard.com
 0.0.0.0 track.collegeboard.org
 0.0.0.0 track.concur.ca
-0.0.0.0 track.concur.cn
 0.0.0.0 track.concur.com
 0.0.0.0 track.concur.com.au
 0.0.0.0 track.concur.com.sg
@@ -5784,7 +5781,6 @@
 0.0.0.0 tracker.wordstream.com
 0.0.0.0 tracker.wpserveur.net
 0.0.0.0 tracker.xgen.dev
-0.0.0.0 tracker.xiaomixiaoai.com
 0.0.0.0 tracker.zmaticoo.com
 0.0.0.0 tracki.click
 0.0.0.0 tracking-adnet.vivo.com.cn
@@ -5799,6 +5795,7 @@
 0.0.0.0 tracking-api.sub100.com.br
 0.0.0.0 tracking-app.diginetica.net
 0.0.0.0 tracking-aws-5.com
+0.0.0.0 tracking-config-service.glority.com
 0.0.0.0 tracking-explore-uat.agilent.com
 0.0.0.0 tracking-explore.agilent.com
 0.0.0.0 tracking-live.kr3m.com
@@ -5817,6 +5814,7 @@
 0.0.0.0 tracking.abraservice.com
 0.0.0.0 tracking.abrdn.com
 0.0.0.0 tracking.acceptance.industrial.omron.eu
+0.0.0.0 tracking.adactioninteractive.com
 0.0.0.0 tracking.adalyser.com
 0.0.0.0 tracking.adgoon.it
 0.0.0.0 tracking.adp-iat.adp.ca
@@ -5845,7 +5843,6 @@
 0.0.0.0 tracking.api.shoppinggives.com
 0.0.0.0 tracking.applift.com
 0.0.0.0 tracking.apprubeus.com.br
-0.0.0.0 tracking.apptrackerlink.com
 0.0.0.0 tracking.appwifi.com
 0.0.0.0 tracking.arbor.edu
 0.0.0.0 tracking.arcadis.com
@@ -6181,6 +6178,7 @@
 0.0.0.0 tracking.precisely.com
 0.0.0.0 tracking.precollege.wisc.edu
 0.0.0.0 tracking.prepr.io
+0.0.0.0 tracking.prismpartner.smt.docomo.ne.jp
 0.0.0.0 tracking.prophet.com
 0.0.0.0 tracking.prophix.com
 0.0.0.0 tracking.protective.com
@@ -6202,6 +6200,7 @@
 0.0.0.0 tracking.response.terex.com
 0.0.0.0 tracking.resumecompanion.com
 0.0.0.0 tracking.retailrocket.net
+0.0.0.0 tracking.ringieraxelspringer.tech
 0.0.0.0 tracking.rinoebastel.com
 0.0.0.0 tracking.risk.lexisnexis.co.jp
 0.0.0.0 tracking.risk.lexisnexis.co.uk
@@ -6282,7 +6281,6 @@
 0.0.0.0 tracking.tchibo.hu
 0.0.0.0 tracking.tchibo.pl
 0.0.0.0 tracking.tchibo.sk
-0.0.0.0 tracking.tdk.cn
 0.0.0.0 tracking.tdk.com
 0.0.0.0 tracking.te.com
 0.0.0.0 tracking.techcenter.mercedes-benz.com
@@ -6350,6 +6348,7 @@
 0.0.0.0 tracking.zakelijk.cz.nl
 0.0.0.0 tracking.zierlicheladies.de
 0.0.0.0 trading-ad.net
+0.0.0.0 traffic-stats.streamsolutions.co.uk
 0.0.0.0 trk.analytics.wisetracker.co.kr
 0.0.0.0 trk.zinsser-analytic.com
 0.0.0.0 tryzens-analytics.com

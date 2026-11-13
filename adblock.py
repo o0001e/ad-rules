@@ -60,46 +60,111 @@ def is_protected(d):
     return any(d == p or d.endswith("." + p) for p in PROTECT)
 
 
+HOST_PREFIXES = ("0.0.0.0", "127.0.0.1", "::1", "::")
+DOM_FIX = re.compile(r"^(domain-suffix|domain|host|domain-wildcard)\\s*,\\s*")
+OK_DOM = re.compile(r"[a-z0-9.-]+$")
+
+
 def normalize(line):
-    h = line.strip().lower()
+    h = line.strip()
     if not h or h[0] in "#![" or h.startswith("//"):
         return None
-    h = re.sub(r"^0\.0\.0\.0\s+|^127\.0\.0\.1\s+|^::1\s+|^::\s+", "", h)
-    m = re.match(r"^(domain-suffix|domain|host|domain-wildcard)\s*,\s*(.*)$", h)
-    if m:
-        h = m.group(2).strip().lstrip(".")
-    h = re.sub(r"^[+*]\.", "", h)
-    h = h.replace("||", "").replace("^", "").replace("@@", "").strip(". ")
-    h = h.split("$")[0].split("/")[0].strip()
-    if re.fullmatch(r"[a-z0-9.-]+", h) and "." in h and len(h) < 80:
-        return h
-    return None
+    h = h.lower()
+    # hosts 格式快速路径
+    first = h.split(" ", 1)
+    if len(first) == 2 and first[0] in HOST_PREFIXES:
+        h = first[1].strip()
+        if not h or h[0] == "#":
+            return None
+    elif first[0] in HOST_PREFIXES:
+        return None
+    if h.startswith("domain"):
+        m = DOM_FIX.match(h)
+        if m:
+            h = h[m.end():].lstrip(".")
+    if h[:2] in ("+.", "*."):
+        h = h[2:]
+    if h.startswith("||"):
+        h = h[2:]
+    if h.startswith("@@"):
+        h = h[2:]
+        if h.startswith("||"):
+            h = h[2:]
+    if "|" in h:
+        h = h.replace("|", "")
+    if "^" in h:
+        h = h.replace("^", "")
+    if "$" in h:
+        h = h.split("$", 1)[0]
+    if "/" in h:
+        h = h.split("/", 1)[0]
+    h = h.strip(". ")
+    if "." not in h or len(h) > 79:
+        return None
+    if not OK_DOM.fullmatch(h):
+        return None
+    return h
 
 
 def download(url, idx):
     os.makedirs(CACHE, exist_ok=True)
     f = os.path.join(CACHE, "src%02d.txt" % idx)
-    if os.path.exists(f) and time.time() - os.path.getmtime(f) < 6 * 3600:
-        return f
-    for attempt in range(3):
+    meta_f = os.path.join(CACHE, "meta.json")
+    meta = {}
+    if os.path.exists(meta_f):
         try:
-            req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=60) as r:
+            meta = json.load(open(meta_f, encoding="utf-8"))
+        except Exception:
+            meta = {}
+
+    def save_meta():
+        try:
+            json.dump(meta, open(meta_f, "w", encoding="utf-8"))
+        except Exception:
+            pass
+
+    cached = os.path.exists(f)
+    if cached and time.time() - os.path.getmtime(f) < 6 * 3600:
+        return f
+
+    headers = dict(UA)
+    if cached and meta.get(url):
+        headers.update(meta[url])
+
+    for attempt in range(2):
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=10) as r:
                 data = r.read()
             open(f, "wb").write(data)
+            etag = {"If-None-Match": r.headers.get("ETag")} if r.headers.get("ETag") else {}
+            lm = r.headers.get("Last-Modified")
+            if lm:
+                etag["If-Modified-Since"] = lm
+            if etag:
+                meta[url] = etag
+                save_meta()
             return f
+        except urllib.error.HTTPError as e:
+            if e.code == 304 and cached:
+                os.utime(f, None)
+                return f
+            if attempt == 1:
+                print(f"[源{idx}] 失败 {url} HTTP {e.code}")
+                return f if cached else None
         except Exception as e:
-            if attempt == 2:
+            if attempt == 1:
                 print(f"[源{idx}] 失败 {url} {e}")
-                return None
-            time.sleep(2)
+                return f if cached else None
+            time.sleep(0.5)
+    return f if cached else None
 
 
 def read_sources():
     urls = [l.strip() for l in open(SOURCES, encoding="utf-8")
             if l.strip() and not l.strip().startswith("#")]
     files = []
-    with ThreadPoolExecutor(max_workers=10) as ex:
+    with ThreadPoolExecutor(max_workers=24) as ex:
         for i, f in enumerate(ex.map(lambda a: download(*a), [(u, i) for i, u in enumerate(urls)]), 1):
             if f:
                 files.append((i, f))

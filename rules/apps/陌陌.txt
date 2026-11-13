@@ -1,2 +1,1 @@
-0.0.0.0 app-log-lab.immomo.com
 0.0.0.0 app-log-oversea.immomo.com
