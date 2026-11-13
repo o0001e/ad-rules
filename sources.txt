@@ -26,6 +26,7 @@ https://gcore.jsdelivr.net/gh/Noyllopa/NoAppDownload@master/NoAppDownload.txt
 https://gcore.jsdelivr.net/gh/xinggsf/Adblock-Plus-Rule@master/mv.txt
 https://bitbucket.org/hacamer/adrules/raw/main/adblock.txt
 https://bitbucket.org/hacamer/adrules/raw/main/adblock_lite.txt
+https://github.com/Potterli20/file/releases/download/dns-hosts-all/dnshosts-all-domain-blacklist_lite.txt
 # === 国际/标准源 ===
 https://filters.adtidy.org/android/filters/224_optimized.txt
 https://filters.adtidy.org/extension/ublock/filters/224.txt
