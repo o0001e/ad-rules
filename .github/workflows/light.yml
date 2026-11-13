@@ -101,3 +101,18 @@ jobs:
             sleep 5
           done
           echo "::warning::Gitee 同步失败"
+
+  Notify_Failure:
+    needs: [ Light ]
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: 开 Issue 告警
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `${{ github.workflow }} 失败 ${{ github.run_id }}`;
+            const body = `工作流 [${{ github.workflow }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}) 失败，请检查日志。`;
+            await github.rest.issues.create({ owner: context.repo.owner, repo: context.repo.repo, title, body });
