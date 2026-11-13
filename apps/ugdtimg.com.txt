@@ -1,3 +1,2 @@
-# ugdtimg.com 广告拦截 2条
-0.0.0.0 pgdt.ugdtimg.com
+# ugdtimg.com 广告拦截 1条
 0.0.0.0 ugdtimg.com

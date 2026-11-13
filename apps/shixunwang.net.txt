@@ -1,0 +1,2 @@
+# shixunwang.net 广告拦截 1条
+0.0.0.0 ee.shixunwang.net

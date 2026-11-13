@@ -1,0 +1,2 @@
+# 魅族 广告拦截 1条
+0.0.0.0 norma-external-collect.meizu.com

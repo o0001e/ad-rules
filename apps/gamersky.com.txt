@@ -1,2 +1,4 @@
-# gamersky.com 广告拦截 1条
+# gamersky.com 广告拦截 3条
+0.0.0.0 ab3de9.gamersky.com
+0.0.0.0 pc-util.gamersky.com
 0.0.0.0 wmbd.gamersky.com

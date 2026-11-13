@@ -1,4 +1,4 @@
-# 红果免费短剧 广告拦截 61条
+# 红果免费短剧 广告拦截 62条
 0.0.0.0 api3-normal-hl.fqnovel.com
 0.0.0.0 api3-normal-lf.fqnovel.com
 0.0.0.0 api3-normal-lq.fqnovel.com
@@ -28,6 +28,7 @@
 0.0.0.0 rtlog3-applog-hl.fqnovel.com
 0.0.0.0 rtlog3-applog-lf.fqnovel.com
 0.0.0.0 rtlog3-applog-lq.fqnovel.com
+0.0.0.0 rtlog3-applog.fqnovel.com
 0.0.0.0 rtlog5-applog-hl.fqnovel.com
 0.0.0.0 rtlog5-applog-lf.fqnovel.com
 0.0.0.0 rtlog5-applog-lq.fqnovel.com

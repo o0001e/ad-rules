@@ -1,0 +1,2 @@
+# falang.net 广告拦截 1条
+0.0.0.0 k6d.falang.net

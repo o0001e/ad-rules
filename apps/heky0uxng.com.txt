@@ -1,2 +1,0 @@
-# heky0uxng.com 广告拦截 1条
-0.0.0.0 heky0uxng.com

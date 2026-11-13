@@ -1,4 +1,4 @@
-# 搜狗浏览器 广告拦截 50条
+# 搜狗浏览器 广告拦截 51条
 0.0.0.0 123.sogou.com
 0.0.0.0 adsence.sogou.com
 0.0.0.0 amfi.gou.sogou.com
@@ -30,6 +30,7 @@
 0.0.0.0 pd.sogou.com
 0.0.0.0 ping.acc.sogou.com
 0.0.0.0 ping.pinyin.sogou.com
+0.0.0.0 pingback.sogou.com
 0.0.0.0 psfq.gou.sogou.com
 0.0.0.0 pull.push.sogou.com
 0.0.0.0 pv.sogou.com

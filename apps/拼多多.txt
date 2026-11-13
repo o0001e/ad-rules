@@ -1,4 +1,5 @@
-# 拼多多 广告拦截 36条
+# 拼多多 广告拦截 37条
+0.0.0.0 ad-static.pddpic.com
 0.0.0.0 adim.pinduoduo.com
 0.0.0.0 apm-a.pinduoduo.com
 0.0.0.0 apm.pinduoduo.com

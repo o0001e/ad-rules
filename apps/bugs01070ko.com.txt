@@ -1,0 +1,2 @@
+# bugs01070ko.com 广告拦截 1条
+0.0.0.0 bugs01070ko.com

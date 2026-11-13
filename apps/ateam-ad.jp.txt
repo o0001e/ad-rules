@@ -1,0 +1,2 @@
+# ateam-ad.jp 广告拦截 1条
+0.0.0.0 ateam-ad.jp

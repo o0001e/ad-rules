@@ -1,2 +1,0 @@
-# geav5man0.com 广告拦截 1条
-0.0.0.0 geav5man0.com

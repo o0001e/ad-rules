@@ -1,0 +1,3 @@
+# cnbanbao.com 广告拦截 2条
+0.0.0.0 ab.cnbanbao.com
+0.0.0.0 dm.cnbanbao.com

@@ -1,0 +1,2 @@
+# xjwhtz10.com 广告拦截 1条
+0.0.0.0 xjwhtz10.com

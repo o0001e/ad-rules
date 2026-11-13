@@ -1,0 +1,2 @@
+# qncye.net 广告拦截 1条
+0.0.0.0 a.qncye.net

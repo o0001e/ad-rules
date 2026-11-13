@@ -1,14 +1,9 @@
-# WPS Office 广告拦截 42条
+# WPS Office 广告拦截 37条
 0.0.0.0 1.wps.cn
 0.0.0.0 account.wps.cn
 0.0.0.0 ad.docer.wps.cn
 0.0.0.0 ads.wps.cn
 0.0.0.0 android-lrcresource.wps.cn
-0.0.0.0 api-ad-adapter-ff.wps.com
-0.0.0.0 api-ad-adapter-mb.wps.com
-0.0.0.0 api-ad-adapter-sg.wps.com
-0.0.0.0 api-ad-adapter-us.wps.com
-0.0.0.0 api-ad-adapter.wps.com
 0.0.0.0 api.mini.wps.cn
 0.0.0.0 co-sentry.wps.cn
 0.0.0.0 counter.kingsoft.com
@@ -29,7 +24,6 @@
 0.0.0.0 monitor.wps.com
 0.0.0.0 mostat.wps.cn
 0.0.0.0 moupdate10332052.wps.cn
-0.0.0.0 movip.wps.com
 0.0.0.0 notify.wps.cn
 0.0.0.0 pcfg.wps.cn
 0.0.0.0 push.wps.cn
@@ -40,4 +34,5 @@
 0.0.0.0 union.wps.cn
 0.0.0.0 up.wps.kingsoft.com
 0.0.0.0 update.wps.cn
+0.0.0.0 wps.com
 0.0.0.0 wpsweb-dc.wps.cn

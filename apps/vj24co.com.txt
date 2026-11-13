@@ -1,0 +1,2 @@
+# vj24co.com 广告拦截 1条
+0.0.0.0 vjvj.vj24co.com

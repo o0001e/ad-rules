@@ -1,6 +1,7 @@
-# xiaomi.com 广告拦截 79条
+# xiaomi.com 广告拦截 81条
 0.0.0.0 a0.app.xiaomi.com
 0.0.0.0 actfile.cdn.pandora.xiaomi.com
+0.0.0.0 ad.india.xiaomi.com
 0.0.0.0 ad.intl.xiaomi.com
 0.0.0.0 ad.xiaomi.com
 0.0.0.0 ad1.xiaomi.com
@@ -20,14 +21,9 @@
 0.0.0.0 box.pandora.xiaomi.com
 0.0.0.0 broker.mqtt.pandora.xiaomi.com
 0.0.0.0 bss.pandora.xiaomi.com
-0.0.0.0 cc.sys.intl.xiaomi.com
-0.0.0.0 ccc.sys.intl.xiaomi.com
 0.0.0.0 cdn-exp-sg-recommend.pt.xiaomi.com
 0.0.0.0 cdn.exp.xiaomi.com
 0.0.0.0 data.game.xiaomi.com
-0.0.0.0 data.mistat.india.xiaomi.com
-0.0.0.0 data.mistat.intl.xiaomi.com
-0.0.0.0 data.mistat.rus.xiaomi.com
 0.0.0.0 de.pandora.xiaomi.com
 0.0.0.0 developer.xiaomi.com
 0.0.0.0 dvb.pandora.xiaomi.com
@@ -46,6 +42,9 @@
 0.0.0.0 misc.pandora.xiaomi.com
 0.0.0.0 mishop.cdn.pandora.xiaomi.com
 0.0.0.0 mishop.pandora.xiaomi.com
+0.0.0.0 mistat.india.xiaomi.com
+0.0.0.0 mistat.intl.xiaomi.com
+0.0.0.0 mistat.rus.xiaomi.com
 0.0.0.0 mistat.xiaomi.com
 0.0.0.0 notice.game.xiaomi.com
 0.0.0.0 o2o.api.xiaomi.com
@@ -59,14 +58,18 @@
 0.0.0.0 register.xmpush.global.xiaomi.com
 0.0.0.0 resolver.mi.xiaomi.com
 0.0.0.0 ru.video.intl.xiaomi.com
-0.0.0.0 sdkconfig.ad.india.xiaomi.com
+0.0.0.0 sdkconfig.eu.xiaomi.com
+0.0.0.0 sdkconfig.india.xiaomi.com
+0.0.0.0 sdkconfig.intl.xiaomi.com
+0.0.0.0 sdkconfig.rus.xiaomi.com
+0.0.0.0 sdkconfig.xiaomi.com
 0.0.0.0 shenghuo.xiaomi.com
 0.0.0.0 ssp.xiaomi.com
 0.0.0.0 starfish.pandora.xiaomi.com
 0.0.0.0 stat.pandora.xiaomi.com
 0.0.0.0 stat.xiaomi.com
 0.0.0.0 stats.music.xiaomi.com
-0.0.0.0 storeconfig.mistat.intl.xiaomi.com
+0.0.0.0 sys.intl.xiaomi.com
 0.0.0.0 sys.tv.india.xiaomi.com
 0.0.0.0 tat.pandora.xiaomi.com
 0.0.0.0 test-api-installer.pt.xiaomi.com
@@ -76,5 +79,4 @@
 0.0.0.0 tvmanager.pandora.xiaomi.com
 0.0.0.0 tvmgr.pandora.xiaomi.com
 0.0.0.0 tz.sec.xiaomi.com
-0.0.0.0 video.market.xiaomi.com
 0.0.0.0 w.pandora.xiaomi.com

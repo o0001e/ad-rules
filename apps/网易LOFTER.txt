@@ -1,4 +1,4 @@
-# 网易LOFTER 广告拦截 79条
+# 网易LOFTER 广告拦截 78条
 0.0.0.0 a.nstool.ntes53.netease.com
 0.0.0.0 a29.gdl.netease.com
 0.0.0.0 acstatic-dun.126.net
@@ -46,7 +46,7 @@
 0.0.0.0 mimg.126.net
 0.0.0.0 mimg.127.net
 0.0.0.0 monitor.netease.com
-0.0.0.0 mooc-image.nos.netease.com
+0.0.0.0 nos.netease.com
 0.0.0.0 nosup-jd1.127.net
 0.0.0.0 nstool.netease.com
 0.0.0.0 p5.music.126.net
@@ -65,7 +65,6 @@
 0.0.0.0 static.ws.126.net
 0.0.0.0 statis.push.netease.com
 0.0.0.0 statistic.live.126.net
-0.0.0.0 study-image.nos.netease.com
 0.0.0.0 union.127.net
 0.0.0.0 vmonitor.ws.netease.com
 0.0.0.0 wanproxy-hz.127.net

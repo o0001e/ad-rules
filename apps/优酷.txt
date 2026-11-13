@@ -1,4 +1,4 @@
-# 优酷 广告拦截 107条
+# 优酷 广告拦截 108条
 0.0.0.0 a-dxk.play.api.3g.youku.com
 0.0.0.0 acg.youku.com
 0.0.0.0 acs.youku.com
@@ -83,6 +83,7 @@
 0.0.0.0 stat.ykimg.com
 0.0.0.0 stat.youku.com
 0.0.0.0 static.arm.youku.com
+0.0.0.0 static.youku.com
 0.0.0.0 statis.api.3g.youku.com
 0.0.0.0 statis.mobile.youku.com
 0.0.0.0 store.tv.api.3g.youku.com

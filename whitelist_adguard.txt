@@ -1,4 +1,4 @@
-! 白名单 436 条，@@|主机^ 精确匹配，不放行子域
+! 白名单 441 条，@@|主机^ 精确匹配，不放行子域
 
 @@|12306.cn^
 @@|126.com^
@@ -13,6 +13,7 @@
 @@|alibaba.com^
 @@|alicdn.com^
 @@|alipay.com^
+@@|aliyun.com^
 @@|aliyuncs.com^
 @@|amap.com^
 @@|amemv.com^
@@ -278,6 +279,7 @@
 @@|open.xiaohongshu.com^
 @@|open.youku.com^
 @@|open.zhihu.com^
+@@|oppo.com^
 @@|order.163.com^
 @@|order.amemv.com^
 @@|order.baidu.com^
@@ -388,7 +390,9 @@
 @@|sogou.com^
 @@|sohu.com^
 @@|taobao.com^
+@@|tencent.com^
 @@|tmall.com^
+@@|toutiao.com^
 @@|user.163.com^
 @@|user.amemv.com^
 @@|user.baidu.com^
@@ -432,6 +436,7 @@
 @@|xhscdn.com^
 @@|xiaohongshu.com^
 @@|xiaojukeji.com^
+@@|xiaomi.com^
 @@|youku.com^
 @@|zhaopin.com^
 @@|zhihu.com^

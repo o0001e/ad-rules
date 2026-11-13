@@ -1,11 +1,10 @@
-# 哔哩哔哩 广告拦截 37条
+# 哔哩哔哩 广告拦截 38条
 0.0.0.0 activity.hdslb.com
 0.0.0.0 ad.bilibili.com
 0.0.0.0 ali-bj-pcdn-16.biliapi.net
 0.0.0.0 ali-bj-pcdn-27.biliapi.net
 0.0.0.0 ali-web-player-tracker.biliapi.net
 0.0.0.0 api.biliapi.net
-0.0.0.0 api.live.bilibili.com
 0.0.0.0 api.vc.bilibili.com
 0.0.0.0 app.biliapi.net
 0.0.0.0 app.bilibili.com
@@ -15,6 +14,7 @@
 0.0.0.0 cm.bilibili.com
 0.0.0.0 d1--tf-gotcha04.bilivideo.com
 0.0.0.0 data.bilibili.com
+0.0.0.0 dl.hdslb.com
 0.0.0.0 gaoneng.bilibili.com
 0.0.0.0 httpdns.bilivideo.com
 0.0.0.0 hw-sh-pcdn-09.biliapi.net
@@ -33,6 +33,7 @@
 0.0.0.0 miniapp.bilibili.com
 0.0.0.0 new-service.biliapi.net
 0.0.0.0 proxy-tf-all-ws.bilivideo.com
+0.0.0.0 space.bilibili.com
 0.0.0.0 stat.bilibili.com
 0.0.0.0 upos-sz-static.bilivideo.com
 0.0.0.0 upos-sz-staticcos.bilivideo.com

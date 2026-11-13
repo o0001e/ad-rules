@@ -1,0 +1,6 @@
+# yahoo.com 广告拦截 5条
+0.0.0.0 ads.yahoo.com
+0.0.0.0 analytics.query.yahoo.com
+0.0.0.0 analytics.yahoo.com
+0.0.0.0 gemini.yahoo.com
+0.0.0.0 geo.yahoo.com

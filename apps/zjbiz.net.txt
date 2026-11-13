@@ -1,0 +1,2 @@
+# zjbiz.net 广告拦截 1条
+0.0.0.0 gk1.zjbiz.net

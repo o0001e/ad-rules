@@ -1,5 +1,2 @@
-# baidustatic.com 广告拦截 4条
+# baidustatic.com 广告拦截 1条
 0.0.0.0 baidustatic.com
-0.0.0.0 cpro.baidustatic.com
-0.0.0.0 dup.baidustatic.com
-0.0.0.0 ubmcmm.baidustatic.com

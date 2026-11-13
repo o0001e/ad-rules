@@ -1,17 +1,16 @@
-# 人工维护的补充规则（来自 DNS 流量日志，2026-11-13）
-# 已剔除：支付日志(log.wechatpay.cn)、语音上报(log.voicecloud.cn)、推送通道(sdk-push.*)、视频流(pull-*)
-image-ad.sm.cn
-api-access.pangolin-sdk-toutiao1.com
-log-api.pangolin-sdk-toutiao-b.com
+# 自建规则（存活域名）
 api-access.pangolin-sdk-toutiao-b.com
+api-access.pangolin-sdk-toutiao1.com
+applog.lc.quark.cn
+image-ad.sm.cn
+lf3-analytics.bytescm.com
+log-api.pangolin-sdk-toutiao-b.com
+log.avlyun.com
+m-adnet.dutils.com
+m-adnet.hiaiabc.com
+mkt-advertisement.tuhu.cn
+p3-ad-sign.byteimg.com
+report.tencentmusic.com
+sdktt.data.comfylink.com
 ug.pangolin-dsp-toutiao.com
 www.pangolin-dsp-toutiao.com
-p3-ad-sign.byteimg.com
-m-adnet.hiaiabc.com
-m-adnet.dutils.com
-mkt-advertisement.tuhu.cn
-lf3-analytics.bytescm.com
-sdktt.data.comfylink.com
-applog.lc.quark.cn
-log.avlyun.com
-report.tencentmusic.com

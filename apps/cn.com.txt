@@ -1,0 +1,4 @@
+# cn.com 广告拦截 3条
+0.0.0.0 cxsh.cn.com
+0.0.0.0 iyuedu.cn.com
+0.0.0.0 zisu.cn.com

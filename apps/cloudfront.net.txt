@@ -1,0 +1,5 @@
+# cloudfront.net 广告拦截 4条
+0.0.0.0 d13jhr4vol1304.cloudfront.net
+0.0.0.0 d15cjcet1djbmv.cloudfront.net
+0.0.0.0 d2kadvyeq051an.cloudfront.net
+0.0.0.0 d3iih5w7xp5hdg.cloudfront.net

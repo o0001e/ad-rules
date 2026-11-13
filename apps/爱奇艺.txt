@@ -1,4 +1,4 @@
-# 爱奇艺 广告拦截 114条
+# 爱奇艺 广告拦截 110条
 0.0.0.0 access.if.iqiyi.com
 0.0.0.0 act.vip.iqiyi.com
 0.0.0.0 ad.iqiyi.com
@@ -46,7 +46,6 @@
 0.0.0.0 emoticon.sns.iqiyi.com
 0.0.0.0 file-yuedu.iqiyi.com
 0.0.0.0 flux.iqiyi.com
-0.0.0.0 fp.iqiyipic.com
 0.0.0.0 gamecenter.iqiyi.com
 0.0.0.0 gamestatic.iqiyi.com
 0.0.0.0 hotchat-im.iqiyi.com
@@ -59,9 +58,9 @@
 0.0.0.0 intl.iqiyi.com
 0.0.0.0 ip-geo.iqiyi.com
 0.0.0.0 iqid.iqiyi.com
+0.0.0.0 iqiyipic.com
 0.0.0.0 jr.if.iqiyi.com
 0.0.0.0 l-rcd.iqiyi.com
-0.0.0.0 m.iqiyipic.com
 0.0.0.0 mbdapp.iqiyi.com
 0.0.0.0 mbdlog.iqiyi.com
 0.0.0.0 mesh.if.iqiyi.com
@@ -79,9 +78,6 @@
 0.0.0.0 paopao-monitor.iqiyi.com
 0.0.0.0 paopao.iqiyi.com
 0.0.0.0 phnpush.iqiyi.com
-0.0.0.0 pic0.iqiyipic.com
-0.0.0.0 pic7.iqiyipic.com
-0.0.0.0 pic8.iqiyipic.com
 0.0.0.0 puma-api.iqiyi.com
 0.0.0.0 puma.api.iqiyi.com
 0.0.0.0 qiyu.iqiyi.com

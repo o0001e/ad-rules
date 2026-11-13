@@ -1,0 +1,2 @@
+# co.uk 广告拦截 1条
+0.0.0.0 adskeeper.co.uk

@@ -1,0 +1,2 @@
+# jyjyj.cn 广告拦截 1条
+0.0.0.0 o1.jyjyj.cn

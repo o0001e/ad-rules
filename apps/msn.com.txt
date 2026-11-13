@@ -1,0 +1,2 @@
+# msn.com 广告拦截 1条
+0.0.0.0 c-5uwzmx78pmca09x24aiux2euavx2ekwu.g00.msn.com
