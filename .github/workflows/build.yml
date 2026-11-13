@@ -80,6 +80,7 @@ jobs:
       - name: 同步产物到根目录
         run: |
           cp dist/hosts.txt dist/adguard.txt dist/domains.txt \
+             dist/lite.txt dist/lite_domains.txt \
              dist/whitelist.txt dist/whitelist_adguard.txt dist/whitelist_suffix.txt .
           cp dist/build_report.txt 构建报告.txt || true
 
@@ -88,6 +89,25 @@ jobs:
 
       - name: 生成 App 分组（按 app_list.json + 榜单自动映射拆分）
         run: python3 -u scripts/gen_apps.py || echo "::warning::分组生成失败，跳过"
+
+      - name: 发布产物到 Release（推送失败时订阅仍可更新）
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: rule
+          name: 规则产物
+          overwrite_files: true
+          fail_on_unmatched_files: false
+          files: |
+            hosts.txt
+            adguard.txt
+            domains.txt
+            lite.txt
+            lite_domains.txt
+            all.txt
+            whitelist.txt
+            whitelist_adguard.txt
+            whitelist_suffix.txt
+            厂商根域清单.txt
 
       - name: 自愈检查（异常自动回滚）
         run: python3 scripts/self_heal.py || true

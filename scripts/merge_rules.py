@@ -14,7 +14,7 @@
   python3 scripts/merge_rules.py            # 联网拉源并构建
   python3 scripts/merge_rules.py --offline  # 只用本地缓存 src_cache/*.txt
 """
-import os, re, sys, glob, time, urllib.request, datetime, collections
+import os, re, sys, json, glob, time, urllib.request, datetime, collections
 from concurrent.futures import ThreadPoolExecutor
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -435,6 +435,28 @@ def write(blocked, white, suffix_ok, suffix_exact):
     adg += ["||" + h + "^" for h in sorted(blocked)]
     _save(os.path.join(OUT, "adguard.txt"), "\n".join(adg) + "\n")
     _save(os.path.join(OUT, "domains.txt"), "\n".join(sorted(blocked)) + "\n")
+
+    # Lite 版：只保留国内厂商 + .cn 域名，给手机 DNS 订阅用（条数少、解析快）
+    def root_of(d):
+        parts = d.split(".")
+        if len(parts) >= 3 and parts[-2] in ("com", "net", "org", "gov") and parts[-1] == "cn":
+            return ".".join(parts[-3:])
+        return ".".join(parts[-2:]) if len(parts) >= 2 else d
+
+    domestic_roots = set()
+    try:
+        for v in json.load(open(os.path.join(ROOT, "app_list.json"), encoding="utf-8")).values():
+            for h in (v if isinstance(v, list) else [v]):
+                domestic_roots.add(h.strip().lower())
+    except Exception:
+        pass
+    domestic_roots |= {b.lower() for b in BIG_BRANDS}
+    lite = {h for h in blocked if root_of(h) in domestic_roots or h.endswith(".cn")}
+    _save(os.path.join(OUT, "lite.txt"),
+          "# AD-QGG Lite（仅国内厂商域名）\n# Version: %s\n" % ver +
+          "\n".join("0.0.0.0 " + h for h in sorted(lite)) + "\n")
+    _save(os.path.join(OUT, "lite_domains.txt"), "\n".join(sorted(lite)) + "\n")
+    print("[Lite] 国内域名 %d 条（占全量 %.0f%%）" % (len(lite), len(lite) * 100.0 / max(n, 1)))
     open(os.path.join(OUT, "hosts.txt"), "w", encoding="utf-8").write(
         "\n".join([f"# AD-QGG hosts {ver} 条数: {n}"] + ["0.0.0.0 " + h for h in sorted(blocked)]) + "\n")
 
