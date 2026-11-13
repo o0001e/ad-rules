@@ -47,12 +47,6 @@ jobs:
       - name: 合并上游源与自建规则
         run: python3 scripts/merge_rules.py
 
-      - name: 抓取热门 App 名单并匹配域名（前 500）
-        run: python3 -u scripts/app_rank.py || echo "::warning::榜单抓取失败，使用既有 app_list"
-
-      - name: 生成 App 分组（按 app_list.json + 榜单自动映射拆分）
-        run: python3 -u scripts/gen_apps.py || echo "::warning::分组生成失败，跳过"
-
       - name: 规则数安全检查
         run: |
           COUNT=$(grep -c '^0.0.0.0' dist/hosts.txt 2>/dev/null || echo 0)
@@ -70,6 +64,12 @@ jobs:
           cp dist/hosts.txt dist/adguard.txt dist/domains.txt \
              dist/whitelist.txt dist/whitelist_adguard.txt dist/whitelist_suffix.txt .
           cp dist/build_report.txt 构建报告.txt || true
+
+      - name: 抓取热门 App 名单并匹配域名（前 500）
+        run: python3 -u scripts/app_rank.py || echo "::warning::榜单抓取失败，使用既有 app_list"
+
+      - name: 生成 App 分组（按 app_list.json + 榜单自动映射拆分）
+        run: python3 -u scripts/gen_apps.py || echo "::warning::分组生成失败，跳过"
 
       - name: 自愈检查（异常自动回滚）
         run: python3 scripts/self_heal.py || true
