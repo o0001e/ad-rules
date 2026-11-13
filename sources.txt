@@ -41,3 +41,11 @@ https://filters.adtidy.org/android/filters/2_optimized.txt
 https://filters.adtidy.org/android/filters/17_optimized.txt
 https://filters.adtidy.org/android/filters/11_optimized.txt
 https://filters.adtidy.org/android/filters/15_optimized.txt
+https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt
+https://github.com/Potterli20/file/releases/download/ad-youtube-hosts/ad-youtube-hosts.txt
+https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt
+https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
+https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts
+https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt
+https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt
