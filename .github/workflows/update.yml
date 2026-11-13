@@ -58,6 +58,8 @@ jobs:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
           if [ -z "${GITEE_TOKEN}" ]; then echo "未配置 Token，跳过"; exit 0; fi
+          git config user.email "adqgg@users.noreply.github.com"
+          git config user.name "adqgg"
           git remote add gitee "https://oauth2:${GITEE_TOKEN}@gitee.com/ADS9/ad.git"
           export GIT_TERMINAL_PROMPT=0
           for i in 1 2 3; do
