@@ -1,2 +1,1 @@
-# 多米音乐 广告拦截 1条
-0.0.0.0 ad.duomi.com
+0.0.0.0 service.ad.duomi.com

@@ -1,4 +1,3 @@
-# 原神 广告拦截 6条
 0.0.0.0 ad-log-upload.mihoyo.com
 0.0.0.0 hkrpg-log-upload.mihoyo.com
 0.0.0.0 log-upload-eur.mihoyo.com

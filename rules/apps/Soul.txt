@@ -1,3 +1,2 @@
-# Soul 广告拦截 2条
 0.0.0.0 ad-r.soulapp.cn
 0.0.0.0 soul-ad.soulapp.cn

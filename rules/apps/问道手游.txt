@@ -1,3 +1,2 @@
-# 问道手游 广告拦截 2条
 0.0.0.0 analytics-gw.games.wanmei.com
 0.0.0.0 analytics.wanmei.com

@@ -1,5 +1,3 @@
-# 三星 广告拦截 6条
-0.0.0.0 ads.samsung.com
 0.0.0.0 analytics.bigdata.samsung.com
 0.0.0.0 tracking.americas.business.samsung.com
 0.0.0.0 tracking.apac.business.samsung.com

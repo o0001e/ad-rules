@@ -1,13 +1,7 @@
-# 优酷 广告拦截 12条
 0.0.0.0 ad.api.3g.youku.com
-0.0.0.0 ad.api.mobile.youku.com
 0.0.0.0 ad.mobile.youku.com
 0.0.0.0 ad.youku.com
 0.0.0.0 adx-core.youku.com
 0.0.0.0 adx-open-service.youku.com
-0.0.0.0 dev-push.m.youku.com
-0.0.0.0 p-log.ykimg.com
-0.0.0.0 passport-log.youku.com
 0.0.0.0 push.m.youku.com
 0.0.0.0 sdk.m.youku.com
-0.0.0.0 stat.youku.com

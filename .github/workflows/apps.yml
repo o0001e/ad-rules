@@ -43,6 +43,9 @@ jobs:
       - name: 生成 App 分组
         run: python3 -u scripts/gen_apps.py
 
+      - name: DNS 校验（清死域，只删确认 NXDOMAIN 的）
+        run: python3 -u scripts/validate.py || echo "校验失败，沿用旧 dead.txt"
+
       - name: 打包分组
         run: |
           cd rules && zip -q -r apps.zip apps && cd ..

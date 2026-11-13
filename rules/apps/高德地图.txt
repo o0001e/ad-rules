@@ -1,4 +1,3 @@
-# 高德地图 广告拦截 4条
 0.0.0.0 dualstack-logs.amap.com
 0.0.0.0 logs.amap.com
 0.0.0.0 optimus-ads-ykx.amap.com

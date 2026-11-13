@@ -1,3 +1,2 @@
-# 美团 广告拦截 2条
 0.0.0.0 analytics.meituan.net
 0.0.0.0 data-sdk-uuid-log.d.meituan.net

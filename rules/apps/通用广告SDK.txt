@@ -1,4 +1,3 @@
-# 通用广告SDK 广告拦截 3条
 0.0.0.0 p66-ad.adkwai.com
 0.0.0.0 pangolin-sdk-toutiao.com
 0.0.0.0 umeng.com

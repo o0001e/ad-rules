@@ -1,4 +1,3 @@
-# 快手 广告拦截 12条
 0.0.0.0 ad.partner.gifshow.com
 0.0.0.0 beta2-ad-open-api.test.gifshow.com
 0.0.0.0 log-sdk.gifshow.com

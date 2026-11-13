@@ -1,4 +1,3 @@
-# Opera 广告拦截 3条
 0.0.0.0 adx.opera.com
 0.0.0.0 dl-adx.op-mobile.opera.com
 0.0.0.0 s-adx.op-mobile.opera.com

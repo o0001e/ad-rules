@@ -1,5 +1,3 @@
-# 芒果TV 广告拦截 4条
-0.0.0.0 click.hunantv.com
+0.0.0.0 apperr.log.mgtv.com
 0.0.0.0 log.hunantv.com
-0.0.0.0 log.mgtv.com
 0.0.0.0 log.v2.hunantv.com

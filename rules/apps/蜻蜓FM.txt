@@ -1,3 +1,2 @@
-# 蜻蜓FM 广告拦截 2条
 0.0.0.0 ad-cdn.qingting.fm
 0.0.0.0 ad.qingting.fm

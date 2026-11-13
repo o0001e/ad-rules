@@ -20,6 +20,7 @@ SOURCES = os.path.join(ROOT, "sources.txt")
 WHITE = os.path.join(ROOT, "whitelist.txt")
 CUSTOM = os.path.join(ROOT, "custom.txt")
 APPS = os.path.join(ROOT, "app_list.json")
+DEAD = os.path.join(ROOT, "dead.txt")
 UA = {"User-Agent": "Mozilla/5.0 (AdQggFilters/1.0)"}
 
 # 绝不拦截：登录 / 支付 / 政务 / 系统服务 / 仓库自身
@@ -260,7 +261,13 @@ def main():
         ranked = sorted(keep, key=lambda d: (ad_like(d), doms[d], -len(d)), reverse=True)
         keep = set(ranked[:TARGET])
         print("[限额] 截断到 %d 条" % TARGET)
-    blocked = keep | extra
+    dead = set()
+    if os.path.exists(DEAD):
+        dead = {l.strip() for l in open(DEAD, encoding="utf-8")
+                if l.strip() and not l.strip().startswith("#")}
+    blocked = (keep | extra) - dead
+    if dead:
+        print("[死域] 跳过 %d 条已确认无效的域名" % len(dead & (keep | extra)))
     blocked, dropped = collapse(blocked, white)
     if dropped:
         print("[归并] 去掉 %d 个冗余子域" % dropped)

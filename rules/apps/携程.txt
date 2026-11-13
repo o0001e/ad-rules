@@ -1,3 +1,2 @@
-# 携程 广告拦截 2条
 0.0.0.0 log.flight.qunar.com
 0.0.0.0 ma-adx.ctrip.com

@@ -1,3 +1,2 @@
-# 魅族 广告拦截 2条
 0.0.0.0 api-push.meizu.com
 0.0.0.0 push.res.meizu.com

@@ -1,4 +1,3 @@
-# 微博 广告拦截 3条
 0.0.0.0 ad.us.sinaimg.cn
 0.0.0.0 ad.weibo.com
 0.0.0.0 ads.sina.com
