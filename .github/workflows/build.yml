@@ -1,0 +1,141 @@
+name: ad-rule-build
+
+on:
+  # 每天北京时间 02:00 触发（UTC 18:00）
+  schedule:
+    - cron: '0 18 * * *'
+  # 支持手动点运行，可选跳过爬虫做快速验证
+  workflow_dispatch:
+    inputs:
+      skip_crawl:
+        description: '跳过爬虫，只合并（快速验证用）'
+        required: false
+        default: 'false'
+
+concurrency:
+  group: ad-rule-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 恢复爬虫缓存（DNS 与 CT 结果，跨运行复用）
+        uses: actions/cache@v4
+        with:
+          path: .publish
+          key: crawl-cache-v2-${{ github.run_id }}
+          restore-keys: |
+            crawl-cache-v2-
+
+      - name: 准备环境
+        run: |
+          python3 --version
+          pip install --quiet requests
+
+      - name: 爬虫抓取（限时 40 分钟，失败不阻断）
+        if: ${{ github.event.inputs.skip_crawl != 'true' }}
+        run: timeout 2400 python3 -u scripts/crawl_rules.py || echo "爬虫超时或失败，跳过"
+
+      - name: 合并上游源与自建规则
+        run: python3 scripts/merge_rules.py
+
+      - name: 生成 App 分组（按 app_list.json 拆分）
+        run: python3 -u scripts/gen_apps.py || echo "::warning::分组生成失败，跳过"
+
+      - name: 规则数安全检查
+        run: |
+          COUNT=$(grep -c '^0.0.0.0' dist/hosts.txt 2>/dev/null || echo 0)
+          echo "本次规则数 ${COUNT}"
+          if [ "${COUNT}" -lt 1000 ]; then
+            echo "规则数异常，低于 1000，放弃本次提交"
+            exit 1
+          fi
+          if [ "${COUNT}" -gt 200000 ]; then
+            echo "规则数异常膨胀 ${COUNT}，仍继续"
+          fi
+
+      - name: 同步产物到根目录
+        run: |
+          cp dist/hosts.txt dist/adguard.txt dist/domains.txt \
+             dist/whitelist.txt dist/whitelist_adguard.txt dist/whitelist_suffix.txt .
+          cp dist/build_report.txt 构建报告.txt || true
+
+      - name: 自愈检查（异常自动回滚）
+        run: python3 scripts/self_heal.py || true
+
+      - name: 提交并推送
+        run: |
+          git config user.name "AutoRuleBot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "无变更，结束"
+            exit 0
+          fi
+          git commit -m "自动构建规则 $(date -u '+%F %H:%M') UTC"
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              echo "推送成功"
+              break
+            fi
+            echo "第 ${i} 次推送失败，重试"
+            sleep 3
+          done
+
+      - name: 同步到 Gitee
+        if: ${{ vars.SYNC_GITEE == 'true' }}
+        timeout-minutes: 8
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          if [ -z "${GITEE_TOKEN}" ]; then
+            echo "未配置 GITEE_TOKEN，跳过 Gitee 同步"
+            exit 0
+          fi
+          curl -s -m 10 -o /dev/null -w "gitee.com HTTP %{http_code}\n" https://gitee.com/ || echo "连通性检查失败"
+          git remote remove gitee 2>/dev/null || true
+          git remote add gitee "https://oauth2:${GITEE_TOKEN}@gitee.com/ADS9/ad.git"
+          export GIT_TERMINAL_PROMPT=0
+          git config --global http.postBuffer 524288000
+          for i in 1 2 3; do
+            echo "--- 第 ${i} 次尝试 ---"
+            if git fetch --depth=1 gitee m 2>/dev/null || git fetch gitee m 2>/dev/null; then
+              git add -A
+              PARENT=$(git rev-parse FETCH_HEAD)
+              TREE=$(git write-tree)
+              C=$(git commit-tree "$TREE" -p "$PARENT" -m "同步自 GitHub 构建 $(date -u '+%F %H:%M') UTC")
+              if timeout 240 git push gitee "$C:m"; then
+                echo "Gitee 同步成功 $C"
+                exit 0
+              fi
+            fi
+            echo "第 ${i} 次失败"
+            sleep 5
+          done
+          echo "::warning::Gitee 同步失败，不影响 GitHub 上的结果"
+          exit 0
+
+      - name: 上传到七牛云
+        env:
+          QINIU_AK: ${{ secrets.QINIU_AK }}
+          QINIU_SK: ${{ secrets.QINIU_SK }}
+          QINIU_BUCKET: ${{ secrets.QINIU_BUCKET }}
+          QINIU_DOMAIN: ${{ vars.QINIU_DOMAIN }}
+        run: |
+          if [ -z "${QINIU_AK}" ]; then
+            echo "未配置七牛密钥，跳过七牛上传"
+            exit 0
+          fi
+          python3 scripts/upload_qiniu.py || echo "::warning::七牛上传失败，不影响主流程"
+
+      - name: 输出报告
+        if: always()
+        run: cat dist/build_report.txt 2>/dev/null || echo "无报告"

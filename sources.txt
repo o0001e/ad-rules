@@ -1,0 +1,21 @@
+# 上游广告规则源（每行一个直链，支持 AdGuard / hosts / 裸域名）
+# 想加源：在这里加一行即可，不用改脚本和流水线
+
+# === 国内活跃源 ===
+https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt
+https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
+https://raw.githubusercontent.com/045200/ad-filter/multi/hosts.txt
+https://raw.githubusercontent.com/zimoadmin/adgrule/main/rule/hosts.txt
+https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt
+https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt
+https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
+https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts
+https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/MergeRules/QingYaMerge.txt
+https://raw.githubusercontent.com/qq5460168/EasyAds/refs/heads/main/dns.txt
+https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/AD.Reject.list
+
+# === 国际/标准源 ===
+https://filters.adtidy.org/android/filters/224_optimized.txt
+https://filters.adtidy.org/extension/ublock/filters/224.txt
+https://easylist-downloads.adblockplus.org/easylistchina.txt

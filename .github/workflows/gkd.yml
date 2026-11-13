@@ -1,0 +1,107 @@
+name: gkd-rule-update
+
+on:
+  # 每天北京时间 03:30（UTC 19:30，错开构建）
+  schedule:
+    - cron: '30 19 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: gkd-rule-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 更新 GKD 订阅规则
+        run: python3 -u scripts/update_gkd.py
+
+      - name: 校验文件
+        run: |
+          for f in gkd.json gkd-custom.json; do
+            SIZE=$(stat -c%s "$f" 2>/dev/null || echo 0)
+            echo "$f = ${SIZE} bytes"
+            if [ "$SIZE" -lt 102400 ]; then
+              echo "$f 过小，异常"
+              exit 1
+            fi
+          done
+
+      - name: 提交并推送
+        run: |
+          git config user.name "AutoRuleBot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "无变更，结束"
+            exit 0
+          fi
+          git commit -m "自动更新 GKD 规则 $(date -u '+%F %H:%M') UTC"
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              echo "推送成功"
+              break
+            fi
+            echo "第 ${i} 次推送失败，重试"
+            sleep 3
+          done
+
+      - name: 同步到 Gitee
+        if: ${{ vars.SYNC_GITEE == 'true' }}
+        timeout-minutes: 8
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          if [ -z "${GITEE_TOKEN}" ]; then
+            echo "未配置 GITEE_TOKEN，跳过 Gitee 同步"
+            exit 0
+          fi
+          curl -s -m 10 -o /dev/null -w "gitee.com HTTP %{http_code}\n" https://gitee.com/ || echo "连通性检查失败"
+          git remote remove gitee 2>/dev/null || true
+          git remote add gitee "https://oauth2:${GITEE_TOKEN}@gitee.com/ADS9/ad.git"
+          export GIT_TERMINAL_PROMPT=0
+          git config --global http.postBuffer 524288000
+          for i in 1 2 3; do
+            echo "--- 第 ${i} 次尝试 ---"
+            if git fetch --depth=1 gitee m 2>/dev/null || git fetch gitee m 2>/dev/null; then
+              git add -A
+              PARENT=$(git rev-parse FETCH_HEAD)
+              TREE=$(git write-tree)
+              C=$(git commit-tree "$TREE" -p "$PARENT" -m "同步自 GitHub 构建 $(date -u '+%F %H:%M') UTC")
+              if [ -z "$C" ]; then
+                echo "生成提交失败，跳过本轮"
+                sleep 5
+                continue
+              fi
+              if timeout 240 git push gitee "$C:m"; then
+                echo "Gitee 同步成功 $C"
+                exit 0
+              fi
+            fi
+            echo "第 ${i} 次失败"
+            sleep 5
+          done
+          echo "::warning::Gitee 同步失败，不影响 GitHub 上的结果"
+          exit 0
+
+      - name: 上传到七牛云
+        env:
+          QINIU_AK: ${{ secrets.QINIU_AK }}
+          QINIU_SK: ${{ secrets.QINIU_SK }}
+          QINIU_BUCKET: ${{ secrets.QINIU_BUCKET }}
+          QINIU_DOMAIN: ${{ vars.QINIU_DOMAIN }}
+          QINIU_SKIP_APPS: '1'
+        run: |
+          if [ -z "${QINIU_AK}" ]; then
+            echo "未配置七牛密钥，跳过七牛上传"
+            exit 0
+          fi
+          python3 scripts/upload_qiniu.py || echo "::warning::七牛上传失败，不影响主流程"
