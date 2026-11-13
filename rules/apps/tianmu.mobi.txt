@@ -1,0 +1,3 @@
+# tianmu.mobi 广告拦截 2条
+0.0.0.0 ad.tianmu.mobi
+0.0.0.0 tracker.tianmu.mobi

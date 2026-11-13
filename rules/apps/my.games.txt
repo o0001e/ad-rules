@@ -1,0 +1,2 @@
+# my.games 广告拦截 1条
+0.0.0.0 stat.gc.my.games

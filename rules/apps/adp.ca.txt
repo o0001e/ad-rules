@@ -1,0 +1,3 @@
+# adp.ca 广告拦截 2条
+0.0.0.0 tracking.adp-iat.adp.ca
+0.0.0.0 tracking.adp.ca

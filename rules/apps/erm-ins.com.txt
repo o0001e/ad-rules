@@ -1,0 +1,2 @@
+# erm-ins.com 广告拦截 1条
+0.0.0.0 marketing.erm-ins.com

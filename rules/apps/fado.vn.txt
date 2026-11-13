@@ -1,0 +1,3 @@
+# fado.vn 广告拦截 2条
+0.0.0.0 tracker.fado.vn
+0.0.0.0 tracking.fado.vn

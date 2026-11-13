@@ -1,0 +1,5 @@
+# viber.com 广告拦截 4条
+0.0.0.0 ads-d.viber.com
+0.0.0.0 ads.aws.viber.com
+0.0.0.0 ads.cdn.viber.com
+0.0.0.0 ads.viber.com

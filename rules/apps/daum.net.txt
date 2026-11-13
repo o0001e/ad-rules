@@ -1,0 +1,4 @@
+# daum.net 广告拦截 3条
+0.0.0.0 ad.daum.net
+0.0.0.0 stat.tiara.daum.net
+0.0.0.0 track.tiara.daum.net

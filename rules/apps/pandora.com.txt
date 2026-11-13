@@ -1,0 +1,4 @@
+# pandora.com 广告拦截 3条
+0.0.0.0 adserver.pandora.com
+0.0.0.0 stats-proto.pandora.com
+0.0.0.0 stats.pandora.com

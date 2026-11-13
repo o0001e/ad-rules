@@ -1,0 +1,3 @@
+# mediarise.io 广告拦截 2条
+0.0.0.0 click-rtb2-eu.mediarise.io
+0.0.0.0 click-rtb2-useast.mediarise.io

@@ -1,0 +1,5 @@
+# co.th 广告拦截 4条
+0.0.0.0 ads.bangkokpost.co.th
+0.0.0.0 promo.tops.co.th
+0.0.0.0 smetrics.marketing.lighting.philips.co.th
+0.0.0.0 stat.matichon.co.th

@@ -1,0 +1,4 @@
+# huxiu.com 广告拦截 3条
+0.0.0.0 api-ad-product.huxiu.com
+0.0.0.0 log-api-mn.huxiu.com
+0.0.0.0 log-api.huxiu.com

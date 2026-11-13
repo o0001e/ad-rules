@@ -1,0 +1,2 @@
+# witglobal.net 广告拦截 1条
+0.0.0.0 analytics.witglobal.net

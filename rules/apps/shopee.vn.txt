@@ -1,0 +1,2 @@
+# shopee.vn 广告拦截 1条
+0.0.0.0 log-collector.shopee.vn

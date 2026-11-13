@@ -1,0 +1,5 @@
+# vungle.com 广告拦截 4条
+0.0.0.0 ads.api.vungle.com
+0.0.0.0 adx-cn.ads.vungle.com
+0.0.0.0 config.ads.vungle.com
+0.0.0.0 events.ads.vungle.com

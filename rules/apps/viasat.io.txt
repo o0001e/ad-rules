@@ -1,0 +1,13 @@
+# viasat.io 广告拦截 12条
+0.0.0.0 api.ad.logic-prod.viasat.io
+0.0.0.0 api.ad.logic-test.viasat.io
+0.0.0.0 api.ad.logic.viasat.io
+0.0.0.0 console.ad.logic-prod.viasat.io
+0.0.0.0 console.ad.logic-test.viasat.io
+0.0.0.0 console.ad.logic.viasat.io
+0.0.0.0 server.ad.logic-prod.viasat.io
+0.0.0.0 server.ad.logic-test.viasat.io
+0.0.0.0 server.ad.logic.viasat.io
+0.0.0.0 static.ad.logic-prod.viasat.io
+0.0.0.0 static.ad.logic-test.viasat.io
+0.0.0.0 static.ad.logic.viasat.io

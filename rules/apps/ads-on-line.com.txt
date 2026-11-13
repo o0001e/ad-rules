@@ -1,0 +1,2 @@
+# ads-on-line.com 广告拦截 1条
+0.0.0.0 ww2.ads-on-line.com

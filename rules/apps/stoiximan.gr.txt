@@ -1,0 +1,2 @@
+# stoiximan.gr 广告拦截 1条
+0.0.0.0 ads.stoiximan.gr

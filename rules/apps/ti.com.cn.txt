@@ -1,0 +1,3 @@
+# ti.com.cn 广告拦截 2条
+0.0.0.0 tracking.mail.ti.com.cn
+0.0.0.0 tracking.ti.com.cn

@@ -1,0 +1,3 @@
+# supernotes.app 广告拦截 2条
+0.0.0.0 app-stats.supernotes.app
+0.0.0.0 site-stats.supernotes.app

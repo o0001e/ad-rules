@@ -1,0 +1,3 @@
+# ifood.tv 广告拦截 2条
+0.0.0.0 analytics.ifood.tv
+0.0.0.0 log.ifood.tv

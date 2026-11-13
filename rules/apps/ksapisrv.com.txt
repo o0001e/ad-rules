@@ -1,0 +1,4 @@
+# ksapisrv.com 广告拦截 3条
+0.0.0.0 log-sdk.ksapisrv.com
+0.0.0.0 push.ksapisrv.com
+0.0.0.0 ulog-sdk.ksapisrv.com

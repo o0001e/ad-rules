@@ -1,0 +1,5 @@
+# com.my 广告拦截 4条
+0.0.0.0 ad.mediaprimaplus.com.my
+0.0.0.0 smetrics.marketing.lighting.philips.com.my
+0.0.0.0 stats.celcom.com.my
+0.0.0.0 www.adserver.com.my

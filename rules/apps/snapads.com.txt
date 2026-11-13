@@ -1,0 +1,3 @@
+# snapads.com 广告拦截 2条
+0.0.0.0 adserver.shadow.snapads.com
+0.0.0.0 adserver.snapads.com

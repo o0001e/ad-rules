@@ -1,0 +1,2 @@
+# pelikan.sk 广告拦截 1条
+0.0.0.0 api-analytics.pelikan.sk

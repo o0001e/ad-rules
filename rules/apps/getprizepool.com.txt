@@ -1,0 +1,2 @@
+# getprizepool.com 广告拦截 1条
+0.0.0.0 links.marketing.getprizepool.com

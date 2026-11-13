@@ -1,0 +1,3 @@
+# hinet.net 广告拦截 2条
+0.0.0.0 ad-ettoday.cdn.hinet.net
+0.0.0.0 adv-ettoday.cdn.hinet.net

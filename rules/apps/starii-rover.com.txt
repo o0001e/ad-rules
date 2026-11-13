@@ -1,0 +1,3 @@
+# starii-rover.com 广告拦截 2条
+0.0.0.0 datafinder-beacon.starii-rover.com
+0.0.0.0 web-beacon.starii-rover.com

@@ -1,0 +1,2 @@
+# queenstownnz.nz 广告拦截 1条
+0.0.0.0 marketing.queenstownnz.nz

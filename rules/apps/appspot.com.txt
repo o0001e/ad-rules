@@ -1,0 +1,10 @@
+# appspot.com 广告拦截 9条
+0.0.0.0 ads-dot-fbc-web-2018.uc.r.appspot.com
+0.0.0.0 bdg-analytics.appspot.com
+0.0.0.0 ga-beacon.appspot.com
+0.0.0.0 ga-tracker-dot-detmir-bonus.appspot.com
+0.0.0.0 literally-analytics.appspot.com
+0.0.0.0 sc-analytics.appspot.com
+0.0.0.0 tracker-dot-dfty-optimeeze-leroymerlinfr.appspot.com
+0.0.0.0 tracker-dot-optimeeze.appspot.com
+0.0.0.0 wtr-digital-analytics.ew.r.appspot.com

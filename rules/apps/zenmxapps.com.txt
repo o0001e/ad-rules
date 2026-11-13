@@ -1,0 +1,3 @@
+# zenmxapps.com 广告拦截 2条
+0.0.0.0 mxvp-ad-config-prod-1.zenmxapps.com
+0.0.0.0 tracking-server-prod-1.zenmxapps.com

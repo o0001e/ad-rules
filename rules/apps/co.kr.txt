@@ -1,0 +1,27 @@
+# co.kr 广告拦截 26条
+0.0.0.0 ad.about.co.kr
+0.0.0.0 ad.aceplanet.co.kr
+0.0.0.0 ad.cauly.co.kr
+0.0.0.0 ad.khan.co.kr
+0.0.0.0 ad.livere.co.kr
+0.0.0.0 ad.mediamixer.co.kr
+0.0.0.0 ad.mojisead.co.kr
+0.0.0.0 ad.tpmn.co.kr
+0.0.0.0 ads.inven.co.kr
+0.0.0.0 analytics.brunch.co.kr
+0.0.0.0 analytics.edaily.co.kr
+0.0.0.0 analytics.kode.co.kr
+0.0.0.0 log.adplex.co.kr
+0.0.0.0 log.bunjang.co.kr
+0.0.0.0 log.cloud.sbs.co.kr
+0.0.0.0 log.etoday.co.kr
+0.0.0.0 log.targetpush.co.kr
+0.0.0.0 log.tf.co.kr
+0.0.0.0 log.zdnet.co.kr
+0.0.0.0 smetrics.marketing.lighting.philips.co.kr
+0.0.0.0 stat.kbs.co.kr
+0.0.0.0 tracker.cauly.co.kr
+0.0.0.0 tracker.digitalcamp.co.kr
+0.0.0.0 tracker.joongang.co.kr
+0.0.0.0 tracking.adweb.co.kr
+0.0.0.0 trk.analytics.wisetracker.co.kr

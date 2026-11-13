@@ -1,0 +1,2 @@
+# protected-redirect.click 广告拦截 1条
+0.0.0.0 protected-redirect.click

@@ -1,0 +1,2 @@
+# 2gis.ru 广告拦截 1条
+0.0.0.0 stat.api.2gis.ru

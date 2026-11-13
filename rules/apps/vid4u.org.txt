@@ -1,0 +1,2 @@
+# vid4u.org 广告拦截 1条
+0.0.0.0 tracking.vid4u.org

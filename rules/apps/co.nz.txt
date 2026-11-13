@@ -1,0 +1,21 @@
+# co.nz 广告拦截 20条
+0.0.0.0 ads-api.production.nebula-drupal.stuff.co.nz
+0.0.0.0 ads-api.stuff.co.nz
+0.0.0.0 ads.apn.co.nz
+0.0.0.0 ads.auctioncity.co.nz
+0.0.0.0 ads.nzcity.co.nz
+0.0.0.0 ads.xtra.co.nz
+0.0.0.0 analytics.spark.co.nz
+0.0.0.0 marketing.advanceflooring.co.nz
+0.0.0.0 marketing.driveline.co.nz
+0.0.0.0 marketing.electroquip.co.nz
+0.0.0.0 marketing.ezicarrental.co.nz
+0.0.0.0 marketing.globalmedics.co.nz
+0.0.0.0 marketing.voltexelectrical.co.nz
+0.0.0.0 nzme-ads.co.nz
+0.0.0.0 smetrics.marketing.lighting.philips.co.nz
+0.0.0.0 stat.kiwibank.co.nz
+0.0.0.0 stats.dmail.co.nz
+0.0.0.0 stats.ipadhire.co.nz
+0.0.0.0 stats.spark.co.nz
+0.0.0.0 tracking.corporatetraveller.co.nz

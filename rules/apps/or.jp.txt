@@ -1,0 +1,3 @@
+# or.jp 广告拦截 2条
+0.0.0.0 beacon.nc-net.or.jp
+0.0.0.0 stats.nhk.or.jp

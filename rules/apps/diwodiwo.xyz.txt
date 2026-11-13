@@ -1,0 +1,4 @@
+# diwodiwo.xyz 广告拦截 3条
+0.0.0.0 ad-channel.diwodiwo.xyz
+0.0.0.0 ad-display.diwodiwo.xyz
+0.0.0.0 pica-ad-api.diwodiwo.xyz

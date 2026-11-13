@@ -1,0 +1,2 @@
+# wehaa.net 广告拦截 1条
+0.0.0.0 analytics-prd.aws.wehaa.net

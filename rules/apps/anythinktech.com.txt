@@ -1,0 +1,5 @@
+# anythinktech.com 广告拦截 4条
+0.0.0.0 adx-bj-req.anythinktech.com
+0.0.0.0 adx-bj.anythinktech.com
+0.0.0.0 adx-cn.anythinktech.com
+0.0.0.0 adx-os.anythinktech.com

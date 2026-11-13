@@ -1,0 +1,3 @@
+# thesaigontimes.vn 广告拦截 2条
+0.0.0.0 ads.thesaigontimes.vn
+0.0.0.0 cdn-ads.thesaigontimes.vn

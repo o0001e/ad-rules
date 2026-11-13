@@ -1,0 +1,4 @@
+# netflix.com 广告拦截 3条
+0.0.0.0 beacon.netflix.com
+0.0.0.0 logs.dradis.netflix.com
+0.0.0.0 logs.netflix.com

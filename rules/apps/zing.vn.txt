@@ -1,0 +1,8 @@
+# zing.vn 广告拦截 7条
+0.0.0.0 ad.zing.vn
+0.0.0.0 log.mp3.zing.vn
+0.0.0.0 log.tv.zing.vn
+0.0.0.0 stat.play.zing.vn
+0.0.0.0 tracking.banner.g6.zing.vn
+0.0.0.0 tracking.playzing.g6.zing.vn
+0.0.0.0 tracking.tv.zing.vn

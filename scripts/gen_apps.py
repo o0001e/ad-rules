@@ -9,7 +9,7 @@
     python3 scripts/gen_apps.py
 """
 import json
-import os, time
+import os, time, re, json
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -18,7 +18,7 @@ APP_LIST = os.path.join(ROOT, "app_list.json")
 APPS_DIR = os.path.join(ROOT, "rules", "apps")
 
 
-HOSTS_TXT = os.path.join(ROOT, "hosts.txt")
+HOSTS_TXT = os.path.join(ROOT, "rules", "hosts.txt")
 
 
 def load_blocked():
@@ -65,11 +65,35 @@ def safe_name(name):
 def main():
     blocked = load_blocked()
     apps = load_apps()
+    # 合并 DNS 日志真机数据（app_extra.json：App 名 → 真实广告域）
+    extra_path = os.path.join(ROOT, "app_extra.json")
+    extra = {}
+    if os.path.exists(extra_path):
+        try:
+            extra = json.load(open(extra_path, encoding="utf-8"))
+            print(f"[真机] app_extra.json: {len(extra)} 个 App，{sum(len(v) for v in extra.values())} 个域名")
+        except Exception as e:
+            print("[真机] 读取失败", e)
+
     os.makedirs(APPS_DIR, exist_ok=True)
 
     # 先统计现有产物的规模，用于防止"爬虫只抓到一点点就覆盖"的灾难
     old_total = 0
     old_files = 0
+    # 真机域名并入对应分组（覆盖爬虫挖不到的）
+    for nm, ds in extra.items():
+        safe = re.sub(r'[\\/:*?"<>|]', "_", nm)
+        path = os.path.join(APPS_DIR, safe + ".txt")
+        exist = set()
+        if os.path.exists(path):
+            exist = {l.split()[-1] for l in open(path, encoding="utf-8") if l.strip()}
+        add_set = set(ds) - exist
+        if add_set:
+            with open(path, "a", encoding="utf-8") as f:
+                for d in sorted(add_set):
+                    f.write("0.0.0.0 %s\n" % d)
+            print(f"[真机] {nm} 补 {len(add_set)} 条")
+
     for fn in os.listdir(APPS_DIR):
         if not fn.endswith(".txt"):
             continue
@@ -132,10 +156,18 @@ def main():
         groups.setdefault(nm, [])
         groups[nm] = sorted(set(groups[nm]) | set(doms))
 
-    # 分组太多时按域名数排序截断，保证每组至少 2 条
+    # 分组太多时截断：人工配置的 App（app_list + app_extra）永不截断，其余按域名数取大的
     if len(groups) > MAX_GROUPS:
-        ordered = sorted(groups.items(), key=lambda kv: -len(kv[1]))[:MAX_GROUPS]
-        groups = dict(ordered)
+        must = {k for k in groups if k in apps or k in extra}
+        rest = sorted([kv for kv in groups.items() if kv[0] not in must],
+                      key=lambda kv: -len(kv[1]))
+        picked = {k: groups[k] for k in must}
+        for k, v in rest:
+            if len(picked) >= MAX_GROUPS:
+                break
+            picked[k] = v
+        groups = picked
+        print("[分组] 超过上限，保留人工配置 %d 个 + 自动 %d 个" % (len(must), len(picked) - len(must)))
 
     total = sum(len(v) for v in groups.values())
     generated = len(groups)
@@ -145,6 +177,10 @@ def main():
         print("[分组][警告] 新产出仅 %d 条，旧产物 %d 条（%d 个文件），疑似抓取不完整，跳过覆盖"
               % (total, old_total, old_files))
         return
+
+    # 真机数据的 App 直接成组（爬虫挖不到也能有内容）
+    for nm, ds in extra.items():
+        groups[nm] = sorted(set(groups.get(nm, [])) | set(ds))
 
     expected = set()
     written = skipped = 0

@@ -1,1 +1,2 @@
+# 千千音乐 广告拦截 1条
 0.0.0.0 click.qianqian.com

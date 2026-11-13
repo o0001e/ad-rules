@@ -1,0 +1,8 @@
+# b-cdn.net 广告拦截 7条
+0.0.0.0 ad-serve.b-cdn.net
+0.0.0.0 ahoy-internal-ads-hv.b-cdn.net
+0.0.0.0 bs-adserver.b-cdn.net
+0.0.0.0 masque-ads.b-cdn.net
+0.0.0.0 sp-wukong-tracker.b-cdn.net
+0.0.0.0 track-dark-bz.b-cdn.net
+0.0.0.0 tracking.b-cdn.net

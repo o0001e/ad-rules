@@ -1,0 +1,2 @@
+# 520call.me 广告拦截 1条
+0.0.0.0 tracker.520call.me

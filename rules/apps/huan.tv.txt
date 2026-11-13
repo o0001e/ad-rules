@@ -1,0 +1,4 @@
+# huan.tv 广告拦截 3条
+0.0.0.0 ads.huan.tv
+0.0.0.0 log.appstore3.huan.tv
+0.0.0.0 monitor-ads-test.huan.tv

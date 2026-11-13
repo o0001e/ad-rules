@@ -1,0 +1,2 @@
+# u-car.com.tw 广告拦截 1条
+0.0.0.0 ad.u-car.com.tw

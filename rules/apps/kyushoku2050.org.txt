@@ -1,0 +1,2 @@
+# kyushoku2050.org 广告拦截 1条
+0.0.0.0 stats.kyushoku2050.org

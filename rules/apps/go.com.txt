@@ -1,0 +1,5 @@
+# go.com 广告拦截 4条
+0.0.0.0 ad.go.com
+0.0.0.0 analytics.disney.go.com
+0.0.0.0 api.ads.watchabc.go.com
+0.0.0.0 log.go.com

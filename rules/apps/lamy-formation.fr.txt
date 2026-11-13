@@ -1,0 +1,2 @@
+# lamy-formation.fr 广告拦截 1条
+0.0.0.0 stat.lamy-formation.fr

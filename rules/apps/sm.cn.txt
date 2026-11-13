@@ -1,0 +1,5 @@
+# sm.cn 广告拦截 4条
+0.0.0.0 image-ad.sm.cn
+0.0.0.0 log.m.sm.cn
+0.0.0.0 sdk-log.partner.sm.cn
+0.0.0.0 video-ad.sm.cn

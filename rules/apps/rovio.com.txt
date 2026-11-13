@@ -1,0 +1,3 @@
+# rovio.com 广告拦截 2条
+0.0.0.0 ads-cloud.rovio.com
+0.0.0.0 ads.cdn.rovio.com

@@ -1,0 +1,4 @@
+# gazeta.pl 广告拦截 3条
+0.0.0.0 ad.gazeta.pl
+0.0.0.0 adv.gazeta.pl
+0.0.0.0 analytics.gazeta.pl

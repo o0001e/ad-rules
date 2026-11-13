@@ -1,0 +1,3 @@
+# adwangmai.com 广告拦截 2条
+0.0.0.0 adx.adwangmai.com
+0.0.0.0 sdk.mobads.adwangmai.com

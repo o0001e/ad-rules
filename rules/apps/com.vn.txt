@@ -1,0 +1,26 @@
+# com.vn 广告拦截 25条
+0.0.0.0 ad-ndtv.3s.com.vn
+0.0.0.0 ad.24h.com.vn
+0.0.0.0 ad.icheck.com.vn
+0.0.0.0 ads.baoangiang.com.vn
+0.0.0.0 ads.baobinhthuan.com.vn
+0.0.0.0 ads.baocantho.com.vn
+0.0.0.0 ads.phunuonline.com.vn
+0.0.0.0 ads.suckhoegiadinh.com.vn
+0.0.0.0 adv.baoangiang.com.vn
+0.0.0.0 analytics.admon.com.vn
+0.0.0.0 analytics.bkav.com.vn
+0.0.0.0 analytics.evn.com.vn
+0.0.0.0 analytics.fsoft.com.vn
+0.0.0.0 analytics.ntlc.com.vn
+0.0.0.0 log.baogialai.com.vn
+0.0.0.0 log.hemera.com.vn
+0.0.0.0 log.oto.com.vn
+0.0.0.0 log.saigondautu.com.vn
+0.0.0.0 log.xoso.com.vn
+0.0.0.0 logs.docnhanh.com.vn
+0.0.0.0 smetrics.marketing.lighting.philips.com.vn
+0.0.0.0 track.icheck.com.vn
+0.0.0.0 track.pnj.com.vn
+0.0.0.0 tracking.dantri.com.vn
+0.0.0.0 tracking.vtcnew.com.vn

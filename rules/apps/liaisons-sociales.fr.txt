@@ -1,0 +1,2 @@
+# liaisons-sociales.fr 广告拦截 1条
+0.0.0.0 stat.liaisons-sociales.fr

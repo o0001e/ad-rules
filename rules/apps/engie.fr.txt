@@ -1,0 +1,5 @@
+# engie.fr 广告拦截 4条
+0.0.0.0 tracking.mobiliteverte.engie.fr
+0.0.0.0 tracking.monespaceprime.engie.fr
+0.0.0.0 tracking.particuliers.engie.fr
+0.0.0.0 tracking.pro.engie.fr

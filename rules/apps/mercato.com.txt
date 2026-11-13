@@ -1,0 +1,3 @@
+# mercato.com 广告拦截 2条
+0.0.0.0 click-staging.food.mercato.com
+0.0.0.0 click.food.mercato.com

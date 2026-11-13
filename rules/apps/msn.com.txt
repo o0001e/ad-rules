@@ -1,0 +1,4 @@
+# msn.com 广告拦截 3条
+0.0.0.0 ads.eu.msn.com
+0.0.0.0 ads.msn.com
+0.0.0.0 analytics.msnbc.msn.com

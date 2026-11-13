@@ -1,0 +1,6 @@
+# wisc.edu 广告拦截 5条
+0.0.0.0 tracking.continuingstudies.wisc.edu
+0.0.0.0 tracking.online.wisc.edu
+0.0.0.0 tracking.pdc.wisc.edu
+0.0.0.0 tracking.precollege.wisc.edu
+0.0.0.0 tracking.summer.wisc.edu

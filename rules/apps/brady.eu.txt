@@ -1,0 +1,2 @@
+# brady.eu 广告拦截 1条
+0.0.0.0 tracking.brady.eu

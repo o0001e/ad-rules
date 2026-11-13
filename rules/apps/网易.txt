@@ -1,3 +1,4 @@
+# 网易 广告拦截 15条
 0.0.0.0 ad.bn.netease.com
 0.0.0.0 ads.music.126.net
 0.0.0.0 advert.lx.netease.com

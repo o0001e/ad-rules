@@ -1,0 +1,5 @@
+# janssenmedicalcloud.me 广告拦截 4条
+0.0.0.0 tracking.dz.janssenmedicalcloud.me
+0.0.0.0 tracking.janssenmedicalcloud.me
+0.0.0.0 tracking.ma.janssenmedicalcloud.me
+0.0.0.0 tracking.ng.janssenmedicalcloud.me

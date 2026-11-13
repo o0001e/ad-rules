@@ -1,1 +1,2 @@
+# 悦跑圈 广告拦截 1条
 0.0.0.0 advert.api.thejoyrun.com

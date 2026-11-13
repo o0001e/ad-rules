@@ -1,0 +1,2 @@
+# leadlander.com 广告拦截 1条
+0.0.0.0 tracking.leadlander.com

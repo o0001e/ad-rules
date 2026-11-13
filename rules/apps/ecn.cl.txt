@@ -1,0 +1,2 @@
+# ecn.cl 广告拦截 1条
+0.0.0.0 analytics.lasegunda.ecn.cl

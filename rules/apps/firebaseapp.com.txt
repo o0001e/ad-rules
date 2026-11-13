@@ -1,0 +1,3 @@
+# firebaseapp.com 广告拦截 2条
+0.0.0.0 ads-game-187f4.firebaseapp.com
+0.0.0.0 stockbook-ads.firebaseapp.com

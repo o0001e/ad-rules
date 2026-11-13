@@ -1,0 +1,4 @@
+# box.com 广告拦截 3条
+0.0.0.0 analytics.box.com
+0.0.0.0 client-log.box.com
+0.0.0.0 images.marketing.box.com

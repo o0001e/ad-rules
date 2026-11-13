@@ -1,0 +1,2 @@
+# 360safe.com 广告拦截 1条
+0.0.0.0 stat.360safe.com

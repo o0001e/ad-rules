@@ -1,0 +1,7 @@
+# net.vn 广告拦截 6条
+0.0.0.0 ads.fptplay.net.vn
+0.0.0.0 adx.hoanggia.net.vn
+0.0.0.0 log-tamnhin.kienthuc.net.vn
+0.0.0.0 log.giaoduc.net.vn
+0.0.0.0 log.kienthuc.net.vn
+0.0.0.0 vietnamdaily-log.kienthuc.net.vn

@@ -1,0 +1,2 @@
+# fx-rashinban.com 广告拦截 1条
+0.0.0.0 stat-ssl.fx-rashinban.com

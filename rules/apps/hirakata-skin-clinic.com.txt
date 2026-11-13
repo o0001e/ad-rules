@@ -1,0 +1,2 @@
+# hirakata-skin-clinic.com 广告拦截 1条
+0.0.0.0 ebis-tracking.hirakata-skin-clinic.com

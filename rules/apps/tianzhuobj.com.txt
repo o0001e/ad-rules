@@ -1,0 +1,2 @@
+# tianzhuobj.com 广告拦截 1条
+0.0.0.0 adx-bid.tianzhuobj.com

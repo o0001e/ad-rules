@@ -1,0 +1,5 @@
+# kajicam.com 广告拦截 4条
+0.0.0.0 api-ad-data.kajicam.com
+0.0.0.0 api-ad.kajicam.com
+0.0.0.0 log.kajicam.com
+0.0.0.0 zjres-ad.kajicam.com

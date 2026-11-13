@@ -1,0 +1,3 @@
+# cams.com 广告拦截 2条
+0.0.0.0 adserver.cams.com
+0.0.0.0 promo.cams.com

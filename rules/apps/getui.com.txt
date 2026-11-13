@@ -1,0 +1,4 @@
+# getui.com 广告拦截 3条
+0.0.0.0 cdn-sdk-opt.getui.com
+0.0.0.0 sdk-open-phone.getui.com
+0.0.0.0 sdk.open.talk.getui.com

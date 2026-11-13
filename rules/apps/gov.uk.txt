@@ -1,0 +1,5 @@
+# gov.uk 广告拦截 4条
+0.0.0.0 stats.centralswindonnorth-pc.gov.uk
+0.0.0.0 stats.southswindon-pc.gov.uk
+0.0.0.0 stats.tfl.gov.uk
+0.0.0.0 stats.westswindon-pc.gov.uk

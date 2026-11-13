@@ -1,0 +1,7 @@
+# hoyoverse.com 广告拦截 6条
+0.0.0.0 ad-log-upload-os.hoyoverse.com
+0.0.0.0 apm-log-upload-os.hoyoverse.com
+0.0.0.0 hkrpg-log-upload-os.hoyoverse.com
+0.0.0.0 log-upload-os.hoyoverse.com
+0.0.0.0 sdk-log-upload-os.hoyoverse.com
+0.0.0.0 ys-log-upload-os.hoyoverse.com

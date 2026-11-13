@@ -1,3 +1,9 @@
+# 剪映 广告拦截 8条
+0.0.0.0 api-access.pangolin-sdk-toutiao.com
+0.0.0.0 api-access.pangolin-sdk-toutiao1.com
+0.0.0.0 gromore.pangolin-sdk-toutiao.com
+0.0.0.0 log-api.pangolin-sdk-toutiao.com
 0.0.0.0 pangolin-dsp-toutiao.com
 0.0.0.0 pangolin-sdk-toutiao-b.com
 0.0.0.0 pangolin-sdk-toutiao1.com
+0.0.0.0 sf3-fe-tos.pglstatp-toutiao.com

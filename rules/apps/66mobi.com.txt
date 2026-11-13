@@ -1,0 +1,3 @@
+# 66mobi.com 广告拦截 2条
+0.0.0.0 bj.ad.track.66mobi.com
+0.0.0.0 sdk-track.66mobi.com

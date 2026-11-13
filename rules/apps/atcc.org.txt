@@ -1,0 +1,3 @@
+# atcc.org 广告拦截 2条
+0.0.0.0 elq-tracking.genomes.atcc.org
+0.0.0.0 tracking.go.atcc.org

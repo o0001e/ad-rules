@@ -1,0 +1,7 @@
+# 企业微信 广告拦截 6条
+0.0.0.0 cfg.imtt.qq.com
+0.0.0.0 h.trace.qq.com
+0.0.0.0 oth.str.mdt.qq.com
+0.0.0.0 otheve.beacon.qq.com
+0.0.0.0 tbsone.imtt.qq.com
+0.0.0.0 www.qq.com

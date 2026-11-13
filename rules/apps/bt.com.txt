@@ -1,0 +1,3 @@
+# bt.com 广告拦截 2条
+0.0.0.0 images.marketing.businessdirect.bt.com
+0.0.0.0 tracking.businessdirect.bt.com

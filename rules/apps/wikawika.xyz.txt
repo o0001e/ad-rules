@@ -1,0 +1,3 @@
+# wikawika.xyz 广告拦截 2条
+0.0.0.0 ad-channel.wikawika.xyz
+0.0.0.0 ad-display.wikawika.xyz

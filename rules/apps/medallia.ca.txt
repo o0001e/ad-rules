@@ -1,0 +1,2 @@
+# medallia.ca 广告拦截 1条
+0.0.0.0 analytics-fe.digital-cloud.medallia.ca

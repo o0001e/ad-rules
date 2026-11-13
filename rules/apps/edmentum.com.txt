@@ -1,0 +1,2 @@
+# edmentum.com 广告拦截 1条
+0.0.0.0 kinesis.us-east-1.analytics.edmentum.com

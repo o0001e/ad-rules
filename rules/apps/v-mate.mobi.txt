@@ -1,0 +1,2 @@
+# v-mate.mobi 广告拦截 1条
+0.0.0.0 log.apk.v-mate.mobi

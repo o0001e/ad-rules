@@ -1,0 +1,4 @@
+# roxtec.com 广告拦截 3条
+0.0.0.0 marketing.roxtec.com
+0.0.0.0 uk-marketing.roxtec.com
+0.0.0.0 us-marketing.roxtec.com

@@ -1,0 +1,3 @@
+# smartclip.net 广告拦截 2条
+0.0.0.0 ad.sxp.smartclip.net
+0.0.0.0 stats.smartclip.net

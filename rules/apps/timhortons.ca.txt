@@ -1,0 +1,4 @@
+# timhortons.ca 广告拦截 3条
+0.0.0.0 ablink.track.timhortons.ca
+0.0.0.0 data.promo.timhortons.ca
+0.0.0.0 unsubscribe.promo.timhortons.ca

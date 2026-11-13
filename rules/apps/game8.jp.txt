@@ -1,0 +1,2 @@
+# game8.jp 广告拦截 1条
+0.0.0.0 tracking.game8.jp

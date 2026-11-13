@@ -1,0 +1,3 @@
+# duowan.com 广告拦截 2条
+0.0.0.0 market.duowan.com
+0.0.0.0 stats.v.duowan.com

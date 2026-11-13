@@ -1,3 +1,4 @@
+# 优酷 广告拦截 12条
 0.0.0.0 ad.api.3g.youku.com
 0.0.0.0 ad.api.mobile.youku.com
 0.0.0.0 ad.mobile.youku.com

@@ -1,0 +1,2 @@
+# go-track.net 广告拦截 1条
+0.0.0.0 run.go-track.net

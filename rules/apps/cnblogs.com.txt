@@ -1,0 +1,3 @@
+# cnblogs.com 广告拦截 2条
+0.0.0.0 ad-api.cnblogs.com
+0.0.0.0 analytics.cnblogs.com

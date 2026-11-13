@@ -1,0 +1,3 @@
+# unionesarda.it 广告拦截 2条
+0.0.0.0 adv.unionesarda.it
+0.0.0.0 cdn-adv.unionesarda.it

@@ -1,0 +1,4 @@
+# adwo.com 广告拦截 3条
+0.0.0.0 ad-bg.adwo.com
+0.0.0.0 ad-count.adwo.com
+0.0.0.0 ad.adwo.com

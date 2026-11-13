@@ -1,0 +1,2 @@
+# 8le8le.com 广告拦截 1条
+0.0.0.0 monitor.ads.8le8le.com

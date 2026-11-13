@@ -1,0 +1,4 @@
+# exoclkneu.com 广告拦截 3条
+0.0.0.0 click-eu-v4.exoclkneu.com
+0.0.0.0 click-v4.exoclkneu.com
+0.0.0.0 click.exoclkneu.com

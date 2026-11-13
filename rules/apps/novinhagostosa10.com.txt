@@ -1,0 +1,2 @@
+# novinhagostosa10.com 广告拦截 1条
+0.0.0.0 ads.novinhagostosa10.com

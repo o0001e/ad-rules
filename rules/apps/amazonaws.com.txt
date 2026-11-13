@@ -1,0 +1,9 @@
+# amazonaws.com 广告拦截 8条
+0.0.0.0 advice-ads.s3.amazonaws.com
+0.0.0.0 analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com
+0.0.0.0 analytics.s3.amazonaws.com
+0.0.0.0 digital-ads.s3.amazonaws.com
+0.0.0.0 goshare-fleet-ads.s3.ap-southeast-1.amazonaws.com
+0.0.0.0 instaread-ads.s3.amazonaws.com
+0.0.0.0 nitrous-analytics.s3.amazonaws.com
+0.0.0.0 yc-ads.s3.amazonaws.com

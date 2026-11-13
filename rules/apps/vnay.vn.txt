@@ -1,0 +1,4 @@
+# vnay.vn 广告拦截 3条
+0.0.0.0 ad-admin.vnay.vn
+0.0.0.0 advert-admin.vnay.vn
+0.0.0.0 log.vnay.vn

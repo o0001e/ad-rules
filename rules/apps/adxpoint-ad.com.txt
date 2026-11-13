@@ -1,0 +1,2 @@
+# adxpoint-ad.com 广告拦截 1条
+0.0.0.0 rtb-useast-v4.adxpoint-ad.com

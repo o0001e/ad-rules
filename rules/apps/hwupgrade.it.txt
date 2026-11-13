@@ -1,0 +1,3 @@
+# hwupgrade.it 广告拦截 2条
+0.0.0.0 adserver.hwupgrade.it
+0.0.0.0 adv.hwupgrade.it

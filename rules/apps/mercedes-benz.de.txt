@@ -1,0 +1,3 @@
+# mercedes-benz.de 广告拦截 2条
+0.0.0.0 tracking.c.mercedes-benz.de
+0.0.0.0 tracking.t.mercedes-benz.de

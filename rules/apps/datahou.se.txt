@@ -1,0 +1,2 @@
+# datahou.se 广告拦截 1条
+0.0.0.0 ab-log.datahou.se

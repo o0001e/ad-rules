@@ -1,0 +1,2 @@
+# midas-antilles.fr 广告拦截 1条
+0.0.0.0 analytics.midas-antilles.fr

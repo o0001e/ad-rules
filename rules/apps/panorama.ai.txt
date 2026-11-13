@@ -1,0 +1,2 @@
+# panorama.ai 广告拦截 1条
+0.0.0.0 beacon.panorama.ai

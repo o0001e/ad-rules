@@ -1,2 +1,3 @@
+# 百度 广告拦截 2条
 0.0.0.0 miniapp-ad.cdn.bcebos.com
 0.0.0.0 pmp-ad.cdn.bcebos.com

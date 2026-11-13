@@ -1,0 +1,4 @@
+# insead.edu 广告拦截 3条
+0.0.0.0 marketing.test.insead.edu
+0.0.0.0 tracking.insead.edu
+0.0.0.0 tracking.test.insead.edu

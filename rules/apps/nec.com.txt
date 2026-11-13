@@ -1,0 +1,2 @@
+# nec.com 广告拦截 1条
+0.0.0.0 tracking.global-demand02.nec.com

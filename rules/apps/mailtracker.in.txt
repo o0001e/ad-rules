@@ -1,0 +1,2 @@
+# mailtracker.in 广告拦截 1条
+0.0.0.0 tracking.mailtracker.in

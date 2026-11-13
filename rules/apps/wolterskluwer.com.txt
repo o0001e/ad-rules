@@ -1,0 +1,3 @@
+# wolterskluwer.com 广告拦截 2条
+0.0.0.0 stat.wolterskluwer.com
+0.0.0.0 tm-marketing.wolterskluwer.com

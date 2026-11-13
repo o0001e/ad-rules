@@ -1,0 +1,5 @@
+# cibntv.net 广告拦截 4条
+0.0.0.0 ad.advst.cp33.ott.cibntv.net
+0.0.0.0 api.adv.ott.cibntv.net
+0.0.0.0 sltint.adv.ott.cibntv.net
+0.0.0.0 yk-ssp-ad.cp31.ott.cibntv.net

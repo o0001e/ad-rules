@@ -1,0 +1,3 @@
+# hub-js.com 广告拦截 2条
+0.0.0.0 analytics.hub-js.com
+0.0.0.0 marketing.hub-js.com

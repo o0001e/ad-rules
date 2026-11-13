@@ -1,0 +1,4 @@
+# org.uk 广告拦截 3条
+0.0.0.0 stats.toiletmap.org.uk
+0.0.0.0 stats.wvs.org.uk
+0.0.0.0 track.financialfairness.org.uk

@@ -1,0 +1,2 @@
+# askmiso-dev.com 广告拦截 1条
+0.0.0.0 stats.homepage-2021.askmiso-dev.com

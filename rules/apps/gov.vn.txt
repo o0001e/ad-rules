@@ -1,0 +1,5 @@
+# gov.vn 广告拦截 4条
+0.0.0.0 analytic.angiang.gov.vn
+0.0.0.0 log.ttbc-hcm.gov.vn
+0.0.0.0 tracking.aita.gov.vn
+0.0.0.0 tracking.tuyenquang.gov.vn

@@ -1,0 +1,5 @@
+# aliyuncs.com 广告拦截 4条
+0.0.0.0 beacon-api.aliyuncs.com
+0.0.0.0 cdn-ads.oss-cn-shanghai.aliyuncs.com
+0.0.0.0 log.aliyuncs.com
+0.0.0.0 o2o-ad-dev.oss-cn-shanghai.aliyuncs.com

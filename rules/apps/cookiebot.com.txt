@@ -1,0 +1,2 @@
+# cookiebot.com 广告拦截 1条
+0.0.0.0 privacy-analytics-proxy.cookiebot.com

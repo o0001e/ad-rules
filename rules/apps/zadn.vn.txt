@@ -1,0 +1,4 @@
+# zadn.vn 广告拦截 3条
+0.0.0.0 mplaylist-ads.zadn.vn
+0.0.0.0 sdk.zadn.vn
+0.0.0.0 zalo-ads-480.zadn.vn

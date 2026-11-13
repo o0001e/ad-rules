@@ -1,0 +1,2 @@
+# career-tasu.jp 广告拦截 1条
+0.0.0.0 stat-ssl.career-tasu.jp

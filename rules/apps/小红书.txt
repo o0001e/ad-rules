@@ -1,3 +1,4 @@
+# 小红书 广告拦截 11条
 0.0.0.0 ads-i1.xhscdn.com
 0.0.0.0 ads-i2.xhscdn.com
 0.0.0.0 ads-i3.xhscdn.com

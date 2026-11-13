@@ -1,0 +1,2 @@
+# your-name.click 广告拦截 1条
+0.0.0.0 your-name.click

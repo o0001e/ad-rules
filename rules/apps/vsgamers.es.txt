@@ -1,0 +1,2 @@
+# vsgamers.es 广告拦截 1条
+0.0.0.0 marketing.net.vsgamers.es

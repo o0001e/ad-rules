@@ -1,2 +1,3 @@
+# 陌陌 广告拦截 2条
 0.0.0.0 app-log-lab.immomo.com
 0.0.0.0 app-log-oversea.immomo.com

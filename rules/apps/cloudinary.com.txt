@@ -1,0 +1,3 @@
+# cloudinary.com 广告拦截 2条
+0.0.0.0 analytics-api-s.cloudinary.com
+0.0.0.0 video-analytics-api.cloudinary.com

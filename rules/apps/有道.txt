@@ -1,3 +1,4 @@
+# 有道 广告拦截 4条
 0.0.0.0 ad-sdk-config.youdao.com
 0.0.0.0 dsp-click.youdao.com
 0.0.0.0 log-yex.youdao.com

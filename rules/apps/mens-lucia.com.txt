@@ -1,0 +1,2 @@
+# mens-lucia.com 广告拦截 1条
+0.0.0.0 test-ad.mens-lucia.com

@@ -1,0 +1,2 @@
+# make50.com 广告拦截 1条
+0.0.0.0 log.make50.com

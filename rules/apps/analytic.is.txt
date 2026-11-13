@@ -1,0 +1,2 @@
+# analytic.is 广告拦截 1条
+0.0.0.0 analytic.is

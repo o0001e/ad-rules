@@ -1,0 +1,3 @@
+# botbanhang.vn 广告拦截 2条
+0.0.0.0 ads.botbanhang.vn
+0.0.0.0 chatbox-tracking.botbanhang.vn

@@ -1,0 +1,4 @@
+# 24hstatic.com 广告拦截 3条
+0.0.0.0 ad-us.24hstatic.com
+0.0.0.0 eva-ad.24hstatic.com
+0.0.0.0 nv-ad.24hstatic.com

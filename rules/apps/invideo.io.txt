@@ -1,0 +1,3 @@
+# invideo.io 广告拦截 2条
+0.0.0.0 analytics-api.invideo.io
+0.0.0.0 analytics-dataplane.invideo.io

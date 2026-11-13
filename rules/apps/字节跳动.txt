@@ -1,3 +1,4 @@
+# 字节跳动 广告拦截 3条
 0.0.0.0 p3-ad-sign.byteimg.com
 0.0.0.0 p6-ad-sign.byteimg.com
 0.0.0.0 p9-ad-sign.byteimg.com

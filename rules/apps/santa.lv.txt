@@ -1,0 +1,2 @@
+# santa.lv 广告拦截 1条
+0.0.0.0 ad.santa.lv

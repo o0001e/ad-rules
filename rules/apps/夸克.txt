@@ -1,6 +1,16 @@
+# 夸克 广告拦截 15条
+0.0.0.0 acs.m.taobao.com
+0.0.0.0 adashx.m.taobao.com
 0.0.0.0 ads.uc.cn
+0.0.0.0 amdc.m.taobao.com
 0.0.0.0 applog.lc.quark.cn
+0.0.0.0 audid-api.taobao.com
+0.0.0.0 h-adashx.ut.taobao.com
+0.0.0.0 image-ad.sm.cn
+0.0.0.0 log.m.sm.cn
+0.0.0.0 sdk-log.partner.sm.cn
 0.0.0.0 ssp-sdk-config.uc.cn
 0.0.0.0 track.lc.quark.cn
 0.0.0.0 track.uc.cn
 0.0.0.0 wmedia-track.uc.cn
+0.0.0.0 www.googleadservices.com

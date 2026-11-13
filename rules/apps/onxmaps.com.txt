@@ -1,0 +1,3 @@
+# onxmaps.com 广告拦截 2条
+0.0.0.0 ablink.marketing.onxmaps.com
+0.0.0.0 ablink.offroad-marketing.onxmaps.com

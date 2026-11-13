@@ -1,0 +1,2 @@
+# tangodelta.media 广告拦截 1条
+0.0.0.0 plausible-stats.tangodelta.media

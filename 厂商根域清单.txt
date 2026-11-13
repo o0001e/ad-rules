@@ -1,0 +1,88 @@
+# 厂商根域覆盖清单
+# 厂商	根域	拦截子域数
+21世纪不动产	21cn.com	2
+360浏览器	360.cn 360.com	14
+58同城	58.com	1
+Brave	brave.com	2
+DU Booster	duapps.com	2
+Firefox	mozilla.org	3
+LG	lg.com	1
+LastPass	lastpass.com	1
+Notion	notion.so	1
+Opera	opera.com	3
+QQ	qq.com	37
+Soul	soulapp.cn	2
+UC浏览器	uc.cn ucweb.com	4
+WPS	wps.cn wps.com kingsoft.com kdocs.cn	4
+YY直播	yy.com	2
+Zoom	zoom.us	1
+一加	oneplus.com	1
+三星	samsung.com	6
+中关村在线	zol.com.cn	1
+什么值得买	smzdm.com	1
+企业微信	work.weixin.qq.com	6
+优酷	youku.com ykimg.com	12
+农业银行	abchina.com	1
+剪映	pangolin-sdk-toutiao1.com pangolin-sdk-toutiao-b.com pangolin-dsp-toutiao.com gromore.pangolin-sdk-toutiao.com lemon.lv	8
+千千音乐	qianqian.com	1
+华为运动健康	huawei.com	1
+原神	mihoyo.com yuanshen.com	6
+哈利波特魔法觉醒	warnerbros.com	1
+喜马拉雅	ximalaya.com xmcdn.com	1
+墨迹天气	moji.com	2
+多米音乐	duomi.com	1
+天涯明月刀	tencent.com	4
+夸克	uc.cn quark.cn	15
+字节跳动	bytecdn.cn byteimg.com	3
+宝宝树	babytree.com	1
+小米	mi.com	2
+小红书	xiaohongshu.com xhscdn.com	11
+当当	dangdang.com	1
+微信	weixin.com wechat.com	28
+微博	weibo.com sina.com sinaimg.cn	3
+快手	kuaishou.com gifshow.com kwai.com kuaishouzt.com kwcdn.com adkwai.com	12
+悦跑圈	thejoyrun.com	1
+抖音	douyin.com bytedance.com amemv.com snssdk.com pangle.io gromore.com	124
+掌阅	zhangyue.com ireader.com	3
+探探	tantanapp.com	1
+搜狐	sohu.com sohucs.com	5
+搜狐焦点	focus.cn	2
+携程	ctrip.com qunar.com trip.com	2
+新浪	sina.com.cn	3
+易车	yiche.com	2
+有道	youdao.com	4
+植物大战僵尸	popcap.com	1
+沪江网校	hujiang.com	1
+淘宝	taobao.com tmall.com alibaba.com alicdn.com alimama.com tanx.com	8
+爱奇艺	iqiyi.com qiyi.com iqiyipic.com	2
+百度	bdstatic.com bdimg.com baidubcs.com bcebos.com	2
+知乎	zhihu.com zhimg.com	2
+穷游	qyer.com	1
+红果免费漫剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	2
+红果免费短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	20
+红果漫剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	2
+红果短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	20
+网易	netease.com 126.net 127.net	15
+美团	meituan.net dianping.com	2
+联想	lenovo.com	2
+芒果TV	mgtv.com hunantv.com	4
+花椒直播	huajiao.com	1
+英雄联盟手游	riotgames.com	1
+虎扑	hupu.com hoopchina.com	1
+虎牙	huya.com	2
+蜻蜓FM	qingting.fm	2
+西瓜视频	ixigua.com	1
+豆包	doubao.com	7
+豆瓣	douban.com doubanio.com	1
+赶集网	ganji.com	3
+转转	zhuanzhuan.com	1
+迅雷	xunlei.com	2
+通用广告SDK	pangle.io gromore.com csjplatform.com pangolin-sdk-toutiao.com gdt.qq.com e.qq.com	3
+酷安	coolapk.com	38
+酷我音乐	kuwo.cn kuwo.com	1
+酷狗音乐	kugou.com kglink.com	7
+问道手游	wanmei.com	2
+阴阳师	163.com	3
+陌陌	immomo.com	2
+高德地图	amap.com gaode.com	4
+魅族	meizu.com	2

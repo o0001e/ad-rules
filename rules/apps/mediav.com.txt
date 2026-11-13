@@ -1,0 +1,4 @@
+# mediav.com 广告拦截 3条
+0.0.0.0 click.mediav.com
+0.0.0.0 sdk.mediav.com
+0.0.0.0 track.mediav.com

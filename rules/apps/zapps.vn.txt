@@ -1,0 +1,5 @@
+# zapps.vn 广告拦截 4条
+0.0.0.0 analytics.zapps.vn
+0.0.0.0 tracker-mw-zlivestream.zapps.vn
+0.0.0.0 tracker-zlivestream.zapps.vn
+0.0.0.0 tracking.api.media.zapps.vn

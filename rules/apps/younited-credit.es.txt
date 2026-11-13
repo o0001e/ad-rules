@@ -1,0 +1,2 @@
+# younited-credit.es 广告拦截 1条
+0.0.0.0 tr.marketing.younited-credit.es

@@ -1,0 +1,3 @@
+# philips.kz 广告拦截 2条
+0.0.0.0 metrics.marketing.lighting.philips.kz
+0.0.0.0 smetrics.marketing.lighting.philips.kz

@@ -1,0 +1,3 @@
+# coupang.com 广告拦截 2条
+0.0.0.0 ads-partners.coupang.com
+0.0.0.0 logs-partners.coupang.com

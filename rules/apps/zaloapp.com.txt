@@ -1,0 +1,9 @@
+# zaloapp.com 广告拦截 8条
+0.0.0.0 ads.zaloapp.com
+0.0.0.0 log.api.zaloapp.com
+0.0.0.0 media-ads.zaloapp.com
+0.0.0.0 photo-ads.zaloapp.com
+0.0.0.0 static-ads.zaloapp.com
+0.0.0.0 stats.dev.zaloapp.com
+0.0.0.0 stats.stg.zaloapp.com
+0.0.0.0 stats.zaloapp.com

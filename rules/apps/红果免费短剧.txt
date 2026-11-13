@@ -1,0 +1,21 @@
+# 红果免费短剧 广告拦截 20条
+0.0.0.0 ads3-normal-hl.zijieapi.com
+0.0.0.0 frontier100-toutiao-hl.fqnovel.com
+0.0.0.0 i-hl.snssdk.com
+0.0.0.0 is-hl.snssdk.com
+0.0.0.0 is.snssdk.com
+0.0.0.0 lf3-analytics.bytescm.com
+0.0.0.0 mon.snssdk.com
+0.0.0.0 mon.zijieapi.com
+0.0.0.0 n98-v-readingvideo.qznovelvod.com
+0.0.0.0 p3-ad-sign.byteimg.com
+0.0.0.0 scc.bytedance.com
+0.0.0.0 v11-reading-video.qznovelvod.com
+0.0.0.0 v26-reading-ad.qznovelvod.com
+0.0.0.0 v5-daily-cm-reading-ad.qznovelvod.com
+0.0.0.0 v5-ex-reading-ad.qznovelvod.com
+0.0.0.0 v5-se-gddgtc-reading-ad.qznovelvod.com
+0.0.0.0 v5-se-zjnbtc-reading-ad.qznovelvod.com
+0.0.0.0 v96-reading-ad.qznovelvod.com
+0.0.0.0 vcs.zijieapi.com
+0.0.0.0 www.bytedance.com

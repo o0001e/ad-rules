@@ -1,0 +1,2 @@
+# mes-meilleurs-films.fr 广告拦截 1条
+0.0.0.0 promo.mes-meilleurs-films.fr

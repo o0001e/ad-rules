@@ -1,0 +1,2 @@
+# tsp.li 广告拦截 1条
+0.0.0.0 wl-analytics.tsp.li

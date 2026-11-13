@@ -1,0 +1,2 @@
+# ace-adserver.com 广告拦截 1条
+0.0.0.0 ace-adserver.com

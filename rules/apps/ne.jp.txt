@@ -1,0 +1,9 @@
+# ne.jp 广告拦截 8条
+0.0.0.0 ad-bls-tracking.lemino.docomo.ne.jp
+0.0.0.0 ad.goo.ne.jp
+0.0.0.0 doubleclick.ne.jp
+0.0.0.0 eq-player-log.cdnext.stream.ne.jp
+0.0.0.0 log.gs3.goo.ne.jp
+0.0.0.0 r-ad.ne.jp
+0.0.0.0 stat-ssl.idaten.ne.jp
+0.0.0.0 tracking.wao.ne.jp

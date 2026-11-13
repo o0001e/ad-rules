@@ -1,0 +1,3 @@
+# phunusuckhoe.vn 广告拦截 2条
+0.0.0.0 ads.phunusuckhoe.vn
+0.0.0.0 tracker.phunusuckhoe.vn

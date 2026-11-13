@@ -1,0 +1,3 @@
+# diginetica.net 广告拦截 2条
+0.0.0.0 tracking-app.diginetica.net
+0.0.0.0 tracking.diginetica.net

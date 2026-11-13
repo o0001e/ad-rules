@@ -1,0 +1,3 @@
+# timhortons.com 广告拦截 2条
+0.0.0.0 ablink.track.timhortons.com
+0.0.0.0 data.promo.timhortons.com

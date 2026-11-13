@@ -1,0 +1,4 @@
+# mail.ru 广告拦截 3条
+0.0.0.0 ad.mail.ru
+0.0.0.0 alt-ad.mail.ru
+0.0.0.0 media-stat.mail.ru

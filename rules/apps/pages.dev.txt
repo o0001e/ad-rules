@@ -1,0 +1,2 @@
+# pages.dev 广告拦截 1条
+0.0.0.0 error-tracker.pages.dev

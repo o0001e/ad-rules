@@ -1,0 +1,2 @@
+# creative-asia.com 广告拦截 1条
+0.0.0.0 adserver.creative-asia.com

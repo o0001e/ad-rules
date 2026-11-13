@@ -1,0 +1,4 @@
+# rain.ad 广告拦截 3条
+0.0.0.0 filter.rain.ad
+0.0.0.0 static.rain.ad
+0.0.0.0 xml-v4.rain.ad

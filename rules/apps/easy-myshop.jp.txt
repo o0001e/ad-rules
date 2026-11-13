@@ -1,0 +1,2 @@
+# easy-myshop.jp 广告拦截 1条
+0.0.0.0 ems-a8net-tracking.easy-myshop.jp

@@ -1,0 +1,4 @@
+# junmediadclikrmdi.com 广告拦截 3条
+0.0.0.0 click-eu-v4.junmediadclikrmdi.com
+0.0.0.0 click-v4.junmediadclikrmdi.com
+0.0.0.0 click.junmediadclikrmdi.com

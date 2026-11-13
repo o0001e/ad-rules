@@ -1,0 +1,2 @@
+# curama.jp 广告拦截 1条
+0.0.0.0 tracker.curama.jp

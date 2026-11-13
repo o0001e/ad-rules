@@ -1,0 +1,3 @@
+# com.mx 广告拦截 2条
+0.0.0.0 marketing.netafim.com.mx
+0.0.0.0 smetrics.marketing.lighting.philips.com.mx

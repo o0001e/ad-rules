@@ -1,0 +1,3 @@
+# rustore.ru 广告拦截 2条
+0.0.0.0 ads-m.rustore.ru
+0.0.0.0 stats.rustore.ru

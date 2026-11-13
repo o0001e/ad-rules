@@ -1,0 +1,2 @@
+# forja.ma 广告拦截 1条
+0.0.0.0 widget.push.forja.ma

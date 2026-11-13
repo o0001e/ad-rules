@@ -1,0 +1,2 @@
+# easy-web-stats.com 广告拦截 1条
+0.0.0.0 easy-web-stats.com

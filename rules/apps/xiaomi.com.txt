@@ -1,0 +1,9 @@
+# xiaomi.com 广告拦截 8条
+0.0.0.0 a.market.xiaomi.com
+0.0.0.0 ad.intl.xiaomi.com
+0.0.0.0 ad.xiaomi.com
+0.0.0.0 app.market.xiaomi.com
+0.0.0.0 stat.pandora.xiaomi.com
+0.0.0.0 tracker.ai.xiaomi.com
+0.0.0.0 video.market.xiaomi.com
+0.0.0.0 wtradv.market.xiaomi.com

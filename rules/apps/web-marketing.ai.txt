@@ -1,0 +1,5 @@
+# web-marketing.ai 广告拦截 4条
+0.0.0.0 afi.biyou.web-marketing.ai
+0.0.0.0 afi.iryou.web-marketing.ai
+0.0.0.0 afi.school.web-marketing.ai
+0.0.0.0 afi.sougou.web-marketing.ai

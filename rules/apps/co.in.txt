@@ -1,0 +1,7 @@
+# co.in 广告拦截 6条
+0.0.0.0 analytics.metro.co.in
+0.0.0.0 smetrics.marketing.lighting.philips.co.in
+0.0.0.0 stats.ibtimes.co.in
+0.0.0.0 tracking.c.mercedes-benz.co.in
+0.0.0.0 tracking.m.mercedes-benz.co.in
+0.0.0.0 tracking.t.mercedes-benz.co.in

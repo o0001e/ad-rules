@@ -1,4 +1,8 @@
+# 酷狗音乐 广告拦截 7条
 0.0.0.0 ads.service.kugou.com
+0.0.0.0 d.kugou.com
+0.0.0.0 ipv6.kg.qq.com
 0.0.0.0 log.stat.kugou.com
 0.0.0.0 log.web.kugou.com
+0.0.0.0 mobilelog.kugou.com
 0.0.0.0 push.mobile.kugou.com

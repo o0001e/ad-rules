@@ -1,3 +1,4 @@
+# 掌阅 广告拦截 3条
 0.0.0.0 ad.zhangyue.com
 0.0.0.0 log.ireader.com
 0.0.0.0 push.zhangyue.com

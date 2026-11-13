@@ -1,0 +1,3 @@
+# gifs.com 广告拦截 2条
+0.0.0.0 stats-messages.gifs.com
+0.0.0.0 stats.gifs.com

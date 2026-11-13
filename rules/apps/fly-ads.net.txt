@@ -1,0 +1,2 @@
+# fly-ads.net 广告拦截 1条
+0.0.0.0 fly-ads.net

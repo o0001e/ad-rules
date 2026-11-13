@@ -1,0 +1,3 @@
+# zmaticoo.com 广告拦截 2条
+0.0.0.0 dsp-track-global.zmaticoo.com
+0.0.0.0 tracker.zmaticoo.com

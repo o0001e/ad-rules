@@ -1,0 +1,3 @@
+# agora.io 广告拦截 2条
+0.0.0.0 marketing.agora.io
+0.0.0.0 tracking.agora.io

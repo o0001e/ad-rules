@@ -1,0 +1,3 @@
+# wtzw.com 广告拦截 2条
+0.0.0.0 cdn-ad.wtzw.com
+0.0.0.0 cdn-new-ad.wtzw.com

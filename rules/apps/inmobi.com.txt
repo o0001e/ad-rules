@@ -1,0 +1,5 @@
+# inmobi.com 广告拦截 4条
+0.0.0.0 ads.inmobi.com
+0.0.0.0 analytics-prod2.glance-internal.inmobi.com
+0.0.0.0 analytics.glance.inmobi.com
+0.0.0.0 telemetry.sdk.inmobi.com

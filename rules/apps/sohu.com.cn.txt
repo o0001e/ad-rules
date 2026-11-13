@@ -1,0 +1,2 @@
+# sohu.com.cn 广告拦截 1条
+0.0.0.0 click.hd.sohu.com.cn

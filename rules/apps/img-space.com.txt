@@ -1,0 +1,3 @@
+# img-space.com 广告拦截 2条
+0.0.0.0 ad.qn.img-space.com
+0.0.0.0 stat.img-space.com

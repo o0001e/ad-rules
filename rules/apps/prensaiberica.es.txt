@@ -1,0 +1,3 @@
+# prensaiberica.es 广告拦截 2条
+0.0.0.0 analytics-cdn.prensaiberica.es
+0.0.0.0 analytics.prensaiberica.es

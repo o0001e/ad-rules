@@ -1,0 +1,4 @@
+# mercedes-benz.com.cn 广告拦截 3条
+0.0.0.0 tracking.c.mercedes-benz.com.cn
+0.0.0.0 tracking.m.mercedes-benz.com.cn
+0.0.0.0 tracking.t.mercedes-benz.com.cn

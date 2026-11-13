@@ -1,3 +1,4 @@
+# 新浪 广告拦截 3条
 0.0.0.0 ad.sina.com.cn
 0.0.0.0 beacon.sina.com.cn
 0.0.0.0 log.mix.sina.com.cn
