@@ -67,6 +67,7 @@ ad-display.wikawika.xyz
 ad-download.hismarttv.com
 ad-drs-ipv6.52qumao.com
 ad-drs.52qumao.com
+ad-ebis.bookpass.auone.jp
 ad-ebis.mynavi-job20s.jp
 ad-ettoday.cdn.hinet.net
 ad-fam.com
@@ -150,7 +151,6 @@ ad.api.moji.com
 ad.api.youshiad.cn
 ad.apl298.me
 ad.apsalar.com
-ad.atown.jp
 ad.aucfan.com
 ad.aucview.com
 ad.baihemob.com
@@ -241,6 +241,7 @@ ad.icheck.com.vn
 ad.ichiban-boshi.com
 ad.ichiru.net
 ad.iinfo.cz
+ad.iloveinterracial.com
 ad.imp.joins.com
 ad.infoseek.com
 ad.inhaabit.com
@@ -300,6 +301,7 @@ ad.netmedia.hu
 ad.netowl.jp
 ad.nettvservices.com
 ad.network60.com
+ad.nicovideo.jp
 ad.norfolkbroads.com
 ad.nttnavi.co.jp
 ad.ntvmsnbc.com
@@ -438,6 +440,7 @@ ads-go.adroi.com.cn
 ads-image.production-public.tubi.io
 ads-img.mozilla.org
 ads-interfaces.sc-cdn.net
+ads-jp.tiktok.com
 ads-leaseweb.appsgeyser.com
 ads-lot.ru
 ads-m.rustore.ru
@@ -489,8 +492,11 @@ ads.adstream.com.ro
 ads.adthrive.com
 ads.adverline.com
 ads.aitype.net
+ads.albawaba.com
 ads.allvertical.com
+ads.almasdarnews.com
 ads.alobacsi.vn
+ads.alt.com
 ads.amazingmedia.com
 ads.amdmb.com
 ads.amigos.com
@@ -508,6 +514,7 @@ ads.as4x.tmcs.net
 ads.as4x.tmcs.ticketmaster.com
 ads.auctioncity.co.nz
 ads.auctions.yahoo.com
+ads.aws.viber.com
 ads.b10f.jp
 ads.baazee.com
 ads.baddiesonlyporn.com
@@ -604,6 +611,7 @@ ads.einmedia.com
 ads.eircom.net
 ads.electrocelt.com
 ads.emirates.net.ae
+ads.enrt.eu
 ads.epi.sk
 ads.eu.msn.com
 ads.exoclick.com
@@ -620,7 +628,6 @@ ads.financialcontent.com
 ads.flashgames247.com
 ads.flooble.com
 ads.floridatoday.com
-ads.fnch.ch
 ads.fool.com
 ads.footymad.net
 ads.forbes.net
@@ -678,6 +685,7 @@ ads.illuminatednation.com
 ads.imbc.com
 ads.imgur.com
 ads.indeed.com
+ads.indiatimes.com
 ads.indystar.com
 ads.infi.net
 ads.injersey.com
@@ -820,6 +828,7 @@ ads.rcgroups.com
 ads.reader.yueyouxs.com
 ads.realcities.com
 ads.recoletos.es
+ads.rediff.com
 ads.register.com
 ads.revjet.com
 ads.roanoke.com
@@ -1287,6 +1296,7 @@ analytics.adliners.de
 analytics.admon.com.vn
 analytics.adobe.io
 analytics.adobe.ly
+analytics.adultempire.com
 analytics.adultswim.co.uk
 analytics.afirstsoft.cn
 analytics.agenedia.com
@@ -1319,6 +1329,7 @@ analytics.asml.com
 analytics.atlas5.co
 analytics.atom.com
 analytics.audioeye.com
+analytics.audionow.de
 analytics.autozone.com
 analytics.avanser.com.au
 analytics.avcdn.net
@@ -1393,6 +1404,7 @@ analytics.cloudevo.ai
 analytics.cloudron.io
 analytics.clubic.com
 analytics.cmn.com
+analytics.cn.ru
 analytics.cnblogs.com
 analytics.cnd-motionmedia.de
 analytics.cnnchile.com
@@ -1585,6 +1597,7 @@ analytics.lexisnexisrisk.com
 analytics.liine.com
 analytics.liveact-vault.com
 analytics.liveact.cri-mw.jp
+analytics.livestream.com
 analytics.loadweb.com
 analytics.loop-cloud.de
 analytics.lunarclientprod.com
@@ -2049,6 +2062,7 @@ aux-log.bidmatic.io
 avigatejungle.click
 awake-stats.jpush.cn
 aws-analytics.nmg.com.hk
+b-click.net
 b1-data.ads.heytapmobi.com
 b2-data.ads.heytapmobi.com
 b8bsb.55002298.click
@@ -2100,6 +2114,7 @@ beacon.walmart.com
 beacon.watch.impress.co.jp
 beacon.webpresence.work
 beacon.wikia-services.com
+beacon.www.theguardian.com
 beacon.ztgame.com
 behavior-tracking-event-gateway.imweb.me
 beltanekwarta.click
@@ -3479,6 +3494,7 @@ marketing.kisales.com
 marketing.knoxville.org
 marketing.konareefresort.com
 marketing.konecranes.com
+marketing.kozzyavm.com
 marketing.kpfilms.com
 marketing.kurtzon.com
 marketing.labdepotinc.com
@@ -4054,6 +4070,7 @@ marketing.visualskus.com
 marketing.voicefirstsolutions.com
 marketing.voltexelectrical.co.nz
 marketing.voltexelectrical.com.au
+marketing.voxer.com
 marketing.wachsws.com
 marketing.wainscotsolutions.com
 marketing.waitrainer.com
@@ -4281,6 +4298,7 @@ ratel-ad.com
 ravelin.click
 re-ads.com
 red-just-fit.click
+rem-track.bild.de
 report.qqweb.qq.com
 report.tencentmusic.com
 revengine-tracker.remp.dailymaverick.co.za
@@ -4453,6 +4471,7 @@ stat-rock.com
 stat-ssl.autoway.jp
 stat-ssl.bushikaku.net
 stat-ssl.career-tasu.jp
+stat-ssl.eiga.com
 stat-ssl.hitosara.com
 stat-ssl.icotto.jp
 stat-ssl.idaten.ne.jp
@@ -4548,6 +4567,7 @@ stat.mersz.hu
 stat.mint.ca
 stat.mixi.media
 stat.moji.com
+stat.mql5.com
 stat.mtv3.fi
 stat.mydaddy.cc
 stat.nate.com
@@ -4664,8 +4684,10 @@ stats.asp24.pl
 stats.astrr.ru
 stats.autofarm.network
 stats.autohome.com.cn
+stats.avg.com
 stats.avito.ru
 stats.backcountry.com
+stats.bbc.co.uk
 stats.bdc.ca
 stats.becu.org
 stats.betternet.de
@@ -4719,6 +4741,7 @@ stats.davidickedelivery.com
 stats.de
 stats.defense.gov
 stats.deutschlandsim.de
+stats.dev.zaloapp.com
 stats.developingperspective.com
 stats.dice.com
 stats.digital-natives.de
@@ -4738,6 +4761,11 @@ stats.extendedstayamerica.com
 stats.externulls.com
 stats.fairmont.com
 stats.falck.dk
+stats.faluninfo.at
+stats.faluninfo.ba
+stats.faluninfo.mk
+stats.faluninfo.rs
+stats.faluninfo.si
 stats.familyvacationcritic.com
 stats.fastcompany.com
 stats.fd.nl
@@ -4875,10 +4903,12 @@ stats.pixeldrain.com
 stats.plainsending.com
 stats.polldaddy.com
 stats.popcap.com
+stats.popscreen.com
 stats.postescanada-canadapost.ca
 stats.postescanada.ca
 stats.prebytes.com
 stats.premiumsim.de
+stats.pri.org
 stats.print.work
 stats.proff.no
 stats.pronouns.page
@@ -4920,6 +4950,7 @@ stats.sfwmd.gov
 stats.sg-light-edge.com
 stats.sgs.com
 stats.sharenet.co.za
+stats.shepherd.com
 stats.shopify.com
 stats.sim.de
 stats.sim24.de
@@ -4928,6 +4959,7 @@ stats.simzdarma.cz
 stats.sixseven.at
 stats.slashed.cloud
 stats.slicedthread.com
+stats.slideshare.net
 stats.smartclip.net
 stats.smartmobil.de
 stats.someecards.com
@@ -5290,6 +5322,7 @@ track.sendo.vn
 track.shrinkplus.com
 track.sigmob.cn
 track.simonton.com
+track.slideshare.net
 track.social.com
 track.sodapdf.com
 track.solutions.ostechnology.co.jp
@@ -5300,6 +5333,7 @@ track.sparta-tracking.xyz
 track.spothero.com
 track.ssg.com
 track.starmakerstudios.com
+track.storm.mg
 track.sunmedia.tv
 track.taimi.com
 track.tappx.com
@@ -6071,6 +6105,7 @@ win.gdt.qq.com
 wl-analytics.tsp.li
 wmedia-track.uc.cn
 workerhome.click
+world-ad.jp
 wstats.click
 wtr-digital-analytics.ew.r.appspot.com
 ww2.ads-on-line.com
