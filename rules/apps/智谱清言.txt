@@ -1,0 +1,2 @@
+0.0.0.0 analysis.chatglm.cn
+0.0.0.0 sdata.chatglm.cn

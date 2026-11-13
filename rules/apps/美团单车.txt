@@ -1,0 +1,4 @@
+0.0.0.0 adgame.waimai.meituan.com
+0.0.0.0 httpdns.meituan.com
+0.0.0.0 impdsp.meituan.com
+0.0.0.0 report.meituan.com

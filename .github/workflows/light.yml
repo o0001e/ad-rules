@@ -1,0 +1,71 @@
+name: Hourly Light
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Light:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: python3 -m pip install --quiet requests
+
+      - name: 轻量检查
+        run: python3 scripts/light.py
+
+      - name: 有新规则才发布
+        id: pub
+        run: |
+          if [ -f .cache/light_new.txt ]; then echo "changed=1" >> "$GITHUB_OUTPUT"; else echo "changed=0" >> "$GITHUB_OUTPUT"; fi
+
+      - name: 发布产物
+        if: steps.pub.outputs.changed == '1'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: rule
+          name: 规则产物
+          overwrite_files: true
+          files: |
+            rules/hosts.txt
+            rules/adguard.txt
+            rules/domains.txt
+            rules/all.txt
+            rules/whitelist.txt
+            rules/apps.zip
+
+      - name: 同步 Gitee
+        if: steps.pub.outputs.changed == '1'
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          if [ -z "${GITEE_TOKEN}" ]; then exit 0; fi
+          git config user.email "adqgg@users.noreply.github.com"
+          git config user.name "adqgg"
+          git remote add gitee "https://oauth2:${GITEE_TOKEN}@gitee.com/ADS9/ad.git" 2>/dev/null || true
+          export GIT_TERMINAL_PROMPT=0
+          for i in 1 2 3; do
+            if git fetch --depth=1 gitee m 2>/dev/null; then
+              git add -f -A rules
+              TREE=$(git write-tree)
+              C=$(git commit-tree "$TREE" -p FETCH_HEAD -m "轻量更新 $(date -u '+%F %H:%M') UTC")
+              if timeout 240 git push gitee "$C:m"; then exit 0; fi
+            fi
+            sleep 5
+          done
+          echo "::warning::Gitee 同步失败"

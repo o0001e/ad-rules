@@ -1,0 +1,7 @@
+0.0.0.0 clientlog.music.163.com
+0.0.0.0 clientlog3.music.163.com
+0.0.0.0 clientlogdep.music.163.com
+0.0.0.0 clientlogsf.music.163.com
+0.0.0.0 httpdns.music.163.com
+0.0.0.0 netapm.music.163.com
+0.0.0.0 sentry.music.163.com

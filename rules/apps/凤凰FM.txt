@@ -1,0 +1,12 @@
+0.0.0.0 9fum.ifeng.com
+0.0.0.0 ax.ifeng.com
+0.0.0.0 cdgfa.ifeng.com
+0.0.0.0 deliver.ifeng.com
+0.0.0.0 err.ifengcloud.ifeng.com
+0.0.0.0 exp.3g.ifeng.com
+0.0.0.0 game.ifeng.com
+0.0.0.0 newad.ifeng.com
+0.0.0.0 qcvf.ifeng.com
+0.0.0.0 stadig.ifeng.com
+0.0.0.0 stadig0.ifeng.com
+0.0.0.0 ztyumn.ifeng.com

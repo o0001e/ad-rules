@@ -1,0 +1,2 @@
+0.0.0.0 ip.xindong.com
+0.0.0.0 logc-sg.tsd.xindong.com

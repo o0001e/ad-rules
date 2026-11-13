@@ -1,5 +1,5 @@
 # AD-QGG Clash rule-provider (behavior: domain)
-# Update: 20261113 20:55
+# Update: 20261113 20:57
 payload:
   - '+.123-tracker.com'
   - '+.5363316.marketing.numi.com'

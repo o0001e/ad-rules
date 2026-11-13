@@ -307,6 +307,50 @@ def write(blocked, white, apps, srcs=None):
                 % (ver, n, len(white), len(groups)))
 
 
+def read_sources_from(urls, base=90):
+    files = []
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for i, f in enumerate(ex.map(lambda a: download(*a), [(u, base + i) for i, u in enumerate(urls)]), 1):
+            if f:
+                files.append((i, f))
+    return files
+
+
+def load_white():
+    w = set()
+    for p in (WHITE, CUSTOM):
+        if os.path.exists(p):
+            for l in open(p, encoding="utf-8"):
+                d = normalize(l)
+                if d and p == WHITE:
+                    w.add(d)
+    return w
+
+
+def load_current():
+    f = os.path.join(OUT, "hosts.txt")
+    if not os.path.exists(f):
+        return set()
+    out = set()
+    for l in open(f, encoding="utf-8"):
+        if l.startswith("0.0.0.0 "):
+            out.add(l.split()[1].strip().lower())
+    return out
+
+
+def load_dead():
+    if not os.path.exists(DEAD):
+        return set()
+    return {l.strip() for l in open(DEAD, encoding="utf-8") if l.strip() and not l.strip().startswith("#")}
+
+
+def load_apps():
+    try:
+        return json.load(open(APPS, encoding="utf-8"))
+    except Exception:
+        return {}
+
+
 def main():
     t0 = time.time()
     files = read_sources()

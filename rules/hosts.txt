@@ -1,5 +1,5 @@
 # AD-QGG Filter
-# Update: 20261113 20:55
+# Update: 20261113 20:57
 # Count: 6478
 0.0.0.0 123-tracker.com
 0.0.0.0 5363316.marketing.numi.com

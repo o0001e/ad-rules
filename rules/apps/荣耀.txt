@@ -1,0 +1,2 @@
+0.0.0.0 ads-adnet-drcn.cloud.honor.com
+0.0.0.0 ads.honor.com

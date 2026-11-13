@@ -1,0 +1,4 @@
+0.0.0.0 hqmetrics.sony.com
+0.0.0.0 metrics.sony.com
+0.0.0.0 shqmetrics.sony.com
+0.0.0.0 smetrics.sony.com

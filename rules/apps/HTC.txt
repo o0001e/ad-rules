@@ -1,0 +1,2 @@
+0.0.0.0 metrics.htc.com
+0.0.0.0 smetrics.htc.com

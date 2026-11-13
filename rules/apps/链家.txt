@@ -1,0 +1,2 @@
+0.0.0.0 ad.data.lianjia.com
+0.0.0.0 dig.lianjia.com

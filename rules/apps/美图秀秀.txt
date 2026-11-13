@@ -1,0 +1,6 @@
+0.0.0.0 corp.meitu.com
+0.0.0.0 gg.meitu.com
+0.0.0.0 message.meitu.com
+0.0.0.0 tg.meitu.com
+0.0.0.0 tuiguang.meitu.com
+0.0.0.0 xiuxiu.android.dl.meitu.com

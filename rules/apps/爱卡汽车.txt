@@ -1,0 +1,6 @@
+0.0.0.0 d0.xcar.com.cn
+0.0.0.0 dw.xcar.com.cn
+0.0.0.0 jcmonitor.xcar.com.cn
+0.0.0.0 pv.xcar.com.cn
+0.0.0.0 pvx.xcar.com.cn
+0.0.0.0 zio.xcar.com.cn
