@@ -46,22 +46,6 @@ jobs:
       - name: 安装依赖
         run: pip install --quiet -r requirements.txt
 
-      - name: 爬虫抓取（按需执行，限时 40 分钟，失败不阻断）
-        if: ${{ github.event.inputs.skip_crawl != 'true' }}
-        run: |
-          if [ "${{ github.event_name }}" = "push" ]; then
-            CHANGED=$(git diff --name-only HEAD~1 HEAD 2>/dev/null | tr '\n' ' ')
-            if [ -n "$CHANGED" ] && ! echo "$CHANGED" | tr ' ' '\n' | grep -qvE '^(app_list\.json|README\.md|scripts/gen_apps\.py|scripts/app_rank\.py|厂商根域清单\.txt)$'; then
-              echo "::notice::本次只改动配置/分组脚本，跳过爬虫，复用现有规则"
-              exit 0
-            fi
-          fi
-          # 爬虫和上游下载互不依赖：先把 15 个源在后台拉下来，等爬虫跑完合并时直接命中缓存
-          ( python3 -c "import sys; sys.path.insert(0,'scripts'); import merge_rules as M; M.read_sources()" \
-              > /tmp/prefetch.log 2>&1 & )
-          timeout 2400 python3 -u scripts/crawl_rules.py || echo "爬虫超时或失败，跳过"
-          wait
-
       - name: 合并上游源与自建规则
         run: python3 scripts/merge_rules.py
 
@@ -81,6 +65,7 @@ jobs:
         run: |
           cp dist/hosts.txt dist/adguard.txt dist/domains.txt \
              dist/lite.txt dist/lite_domains.txt \
+             dist/dnsmasq.conf dist/clash.yaml dist/surge.list \
              dist/whitelist.txt dist/whitelist_adguard.txt dist/whitelist_suffix.txt .
           cp dist/build_report.txt 构建报告.txt || true
 
@@ -107,6 +92,9 @@ jobs:
             whitelist.txt
             whitelist_adguard.txt
             whitelist_suffix.txt
+            dnsmasq.conf
+            clash.yaml
+            surge.list
             厂商根域清单.txt
 
       - name: 自愈检查（异常自动回滚）

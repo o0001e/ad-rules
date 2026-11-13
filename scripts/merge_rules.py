@@ -491,6 +491,15 @@ def write(blocked, white, suffix_ok, suffix_exact):
           "# AD-QGG Lite（仅国内厂商域名）\n# Version: %s\n" % ver +
           "\n".join("0.0.0.0 " + h for h in sorted(lite)) + "\n")
     _save(os.path.join(OUT, "lite_domains.txt"), "\n".join(sorted(lite)) + "\n")
+    # 多格式输出（仿 adblockfilters）
+    _save(os.path.join(OUT, "dnsmasq.conf"),
+          "\n".join("address=/%s/0.0.0.0" % h for h in sorted(blocked)) + "\n")
+    _save(os.path.join(OUT, "clash.yaml"),
+          "# AD-QGG Clash rule-provider (behavior: domain)\n# Version: %s\npayload:\n" % ver +
+          "\n".join("  - '+.%s'" % h for h in sorted(blocked)) + "\n")
+    _save(os.path.join(OUT, "surge.list"),
+          "\n".join("DOMAIN,%s" % h for h in sorted(blocked)) + "\n")
+
     print("[Lite] 国内域名 %d 条（占全量 %.0f%%）" % (len(lite), len(lite) * 100.0 / max(n, 1)))
     open(os.path.join(OUT, "hosts.txt"), "w", encoding="utf-8").write(
         "\n".join([f"# AD-QGG hosts {ver} 条数: {n}"] + ["0.0.0.0 " + h for h in sorted(blocked)]) + "\n")
