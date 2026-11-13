@@ -170,7 +170,6 @@ ad.api.moji.com
 ad.api.youshiad.cn
 ad.apl298.me
 ad.apsalar.com
-ad.atown.jp
 ad.aucfan.com
 ad.aucview.com
 ad.auditude.com
@@ -250,6 +249,7 @@ ad.guru
 ad.hankooki.com
 ad.happynest.vn
 ad.hbv.de
+ad.hefei.cc
 ad.hiiir.com
 ad.holmesmind.com
 ad.horvitznewspapers.net
@@ -276,6 +276,7 @@ ad.jetsoftware.com
 ad.jibunde-esute.com
 ad.jorte.com
 ad.k98y.cn
+ad.kapos.hu
 ad.kazakinfo.com
 ad.keenspace.com
 ad.khan.co.kr
@@ -308,6 +309,7 @@ ad.magokoro-care-shoku.com
 ad.mail.ru
 ad.mangareader.net
 ad.maoyan.com
+ad.mazc.org
 ad.mcloud.139.com
 ad.mediamixer.co.kr
 ad.mediaprimaplus.com.my
@@ -413,7 +415,6 @@ ad.xmmnsl.com
 ad.xn--o9jem5iv41o982db8k.jp
 ad.xrea.com
 ad.xunkids.com
-ad.yixin.im
 ad.ymcdn.org
 ad.zankhana.ltd
 ad.zhuanzhuan.com
@@ -626,6 +627,7 @@ ads.dada.it
 ads.dandelionchocolate.jp
 ads.data.pplive.com
 ads.datateam.co.uk
+ads.ddj.com
 ads.deltha.hu
 ads.democratandchronicle.com
 ads.dennisnet.co.uk
@@ -668,7 +670,6 @@ ads.flashgames247.com
 ads.flooble.com
 ads.floridatoday.com
 ads.flurry.com
-ads.fnch.ch
 ads.fool.com
 ads.footymad.net
 ads.forbes.net
@@ -756,7 +757,6 @@ ads.kiemsat.vn
 ads.kinxxx.com
 ads.kompass.com
 ads.krawall.de
-ads.ksl.com
 ads.kure.tv
 ads.lamchame.vn
 ads.laodongnghean.vn
@@ -1176,6 +1176,7 @@ adv.freeonline.it
 adv.gazeta.pl
 adv.hu
 adv.hwupgrade.it
+adv.mpvc.it
 adv.mxmcdn.net
 adv.nexthardware.com
 adv.r7.com
@@ -2148,7 +2149,6 @@ aux-log.bidmatic.io
 avigatejungle.click
 awake-stats.jpush.cn
 aws-analytics.nmg.com.hk
-b-click.net
 b1-data.ads.heytapmobi.com
 b2-data.ads.heytapmobi.com
 b8bsb.55002298.click
@@ -2865,7 +2865,6 @@ log.medietall.no
 log.mix.sina.com.cn
 log.mmstat.com
 log.mofa.go.kr
-log.mopo.de
 log.mp3.zing.vn
 log.newsvine.com
 log.ngaynay.vn
@@ -6316,6 +6315,7 @@ willow-assets.click
 wl-analytics.tsp.li
 wmedia-track.uc.cn
 workerhome.click
+world-ad.jp
 wstats.click
 wtg-ads.com
 wtr-digital-analytics.ew.r.appspot.com
