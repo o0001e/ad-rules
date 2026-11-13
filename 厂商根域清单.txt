@@ -20,11 +20,11 @@ MiniMax	minimaxi.com	1
 NOW直播	now.qq.com	1
 Opera	opera.com	2
 PP视频	ashiping.com chenshipin.com cheshipin.com	1
-QQ	qq.com	335
+QQ	qq.com	334
 QQ浏览器	browser.qq.com	2
 QQ炫舞	x5.qq.com	1
-QQ空间	qq.com	335
-QQ邮箱	qq.com	335
+QQ空间	qq.com	334
+QQ邮箱	qq.com	334
 QQ音乐	y.qq.com qqmusic.com	9
 QQ飞车	speed.qq.com	1
 Soul	soulapp.cn	3
@@ -188,6 +188,9 @@ vivo 商城	vivo.com	4
 神州专车	zuche.com	1
 穷游	qyer.com	3
 粉笔	fenbi.com	2
+红果免费漫剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	61
+红果免费短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	61
+红果漫剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	61
 红果短剧	fqnovel.com novelquickapp.com hongguoduanju.com fqnovelvod.com qznovel.com qznovelvod.com	61
 网易	netease.com 126.net 127.net	79
 网易BUFF游戏饰品交易平台	netease.com 126.net 127.net	79
@@ -207,7 +210,7 @@ vivo 商城	vivo.com	4
 腾讯会议	meeting.tencent.com	2
 腾讯地图	map.qq.com	9
 腾讯欢乐斗地主	gtimg.cn qlogo.cn	17
-腾讯视频	v.qq.com qqlive.com	6
+腾讯视频	v.qq.com qqlive.com	5
 芒果TV	mgtv.com hunantv.com	50
 花椒直播	huajiao.com	1
 苏宁易购	suning.com	2
