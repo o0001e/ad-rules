@@ -2657,7 +2657,7 @@ kv-analytics.kiotviet.vn	6	9,11,13,14,17,37
 lacergrippy.click	7	1,9,14,17,34,37,42
 lathielustly.click	7	1,9,14,17,34,37,42
 launch-analytics-plugin.launchpotato.com	10	1,9,11,13,14,17,22,32,37,42
-layer-ad.de	5	9,11,13,17,24
+layer-ad.de	6	9,11,13,17,24,33
 layer-ad.org	12	1,3,9,11,13,14,17,22,24,34,37,42
 layer-ads.de	8	4,9,11,13,14,17,24,33
 leadlab.click	9	1,9,13,14,22,24,32,37,42
