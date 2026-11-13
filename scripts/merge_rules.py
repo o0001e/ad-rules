@@ -14,7 +14,8 @@
   python3 scripts/merge_rules.py            # 联网拉源并构建
   python3 scripts/merge_rules.py --offline  # 只用本地缓存 src_cache/*.txt
 """
-import os, re, sys, glob, urllib.request, datetime, collections
+import os, re, sys, glob, time, urllib.request, datetime, collections
+from concurrent.futures import ThreadPoolExecutor
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CACHE = os.path.join(ROOT, "src_cache")
@@ -93,6 +94,10 @@ def normalize(line):
     if not h or h.startswith("#") or h.startswith("!") or h.startswith("["):
         return None
     h = re.sub(r"^0\.0\.0\.0\s+|^127\.0\.0\.1\s+|^::1\s+", "", h)
+    # Clash / Surge 风格：DOMAIN-SUFFIX,qq.com / DOMAIN,ad.x.com
+    m = re.match(r"^(domain-suffix|domain|host|domain-wildcard)\s*,\s*(.*)$", h)
+    if m:
+        h = m.group(2).strip().lstrip(".")
     h = h.replace("||", "").replace("^", "").replace("@@", "").strip(". ")
     h = h.split("$")[0].split("/")[0].strip()
     if re.fullmatch(r"[a-z0-9.-]+", h) and "." in h and len(h) < 80:
@@ -108,23 +113,38 @@ def read_sources(offline=False):
             if l and not l.startswith("#"):
                 urls.append(l)
     os.makedirs(CACHE, exist_ok=True)
-    files = []
-    for i, u in enumerate(urls):
+    TTL = 6 * 3600          # 6 小时内不重复下载
+
+    def fetch(i, u):
         fn = os.path.join(CACHE, f"src{i:02d}.txt")
         if offline:
-            if os.path.exists(fn):
-                files.append(fn)
-            continue
-        try:
-            req = urllib.request.Request(u, headers={"User-Agent": "AD-QGG-builder/1.0"})
-            data = urllib.request.urlopen(req, timeout=90).read().decode("utf-8", "ignore")
-            open(fn, "w", encoding="utf-8").write(data)
-            files.append(fn)
-            print(f"[源{i:02d}] {len(data)} 字符  {u}")
-        except Exception as e:
-            print(f"[源{i:02d}] 拉取失败 {u}: {e}")
-            if os.path.exists(fn):
-                files.append(fn)   # 回落到上次缓存
+            return [fn] if os.path.exists(fn) else []
+        if os.path.exists(fn) and time.time() - os.path.getmtime(fn) < TTL:
+            print(f"[源{i:02d}] 用缓存 {os.path.getsize(fn)} 字节")
+            return [fn]
+        for attempt in range(1, 4):          # 失败重试 3 次，退避 2s/4s
+            try:
+                req = urllib.request.Request(u, headers={"User-Agent": "AD-QGG-builder/1.0"})
+                data = urllib.request.urlopen(req, timeout=90).read().decode("utf-8", "ignore")
+                if not data.strip():
+                    raise ValueError("空响应")
+                open(fn, "w", encoding="utf-8").write(data)
+                print(f"[源{i:02d}] {len(data)} 字符  {u}")
+                return [fn]
+            except Exception as e:
+                print(f"[源{i:02d}] 第 {attempt} 次拉取失败: {str(e)[:60]}")
+                time.sleep(2 * attempt)
+        # 全部失败仍回落旧缓存（有总比没有强）
+        if os.path.exists(fn):
+            print(f"[源{i:02d}] 回落到旧缓存")
+            return [fn]
+        print(f"[源{i:02d}][警告] 无可用数据，本源跳过: {u}")
+        return []
+
+    # 并发拉取，15 个源从「串行 ~2 分钟」降到几秒
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        results = list(ex.map(lambda p: fetch(*p), list(enumerate(urls))))
+    files = [f for r in results for f in r]
     return files
 
 
