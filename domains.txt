@@ -66,6 +66,7 @@ ad-feeds.com
 ad-flow.com
 ad-gbn.com
 ad-hatena.com
+ad-house.mobi
 ad-incentive.ximalaya.com
 ad-link.jp
 ad-loan.com
@@ -95,6 +96,7 @@ ad-space.net
 ad-srv.co
 ad-srv.net
 ad-stir.com
+ad-survey.com
 ad-sys.com
 ad-tech.com
 ad-tech.ru
@@ -147,7 +149,6 @@ ad.ximalaya.com
 ad.youku.com
 ad1.xiaomi.com
 ada.baidu.com
-adaos-ads.net
 adash-c.m.taobao.com
 adash-c.ut.taobao.com
 adash.m.taobao.com
@@ -205,6 +206,7 @@ ads-adnet-drcn.cloud.honor.com
 ads-adv.top
 ads-api.vivo.com
 ads-bilek.com
+ads-click.com
 ads-i1.xhscdn.com
 ads-i10.xhscdn.com
 ads-i2.xhscdn.com
@@ -306,6 +308,7 @@ ae.bdstatic.com
 aegis.qq.com
 afd.baidu.com
 afdconf.baidu.com
+aff-track.net
 aff.biz
 afp.iqiyi.com
 afp.qiyi.com
@@ -593,12 +596,10 @@ cdn-apkcd.dsgame.iqiyi.com
 cdn-exp-sg-recommend.pt.xiaomi.com
 cdn-haokanapk.baidu.com
 cdn.exp.xiaomi.com
-celeb-ads.com
 center-api.game.kuaishou.com
 cfg-2.pddpic.com
 cfg.imtt.qq.com
 cgi.pub.qq.com
-cgi.qianbao.qq.com
 cgicol.amap.com
 chance-ad.com
 channel.m.163.com
@@ -627,6 +628,7 @@ click.taobao.com
 click.union.vip.com
 client-api.ele.me
 client.mail.163.com
+client.show.qq.com
 clk.wiki
 cloud.tencent.com
 cloudpush.iqiyi.com
@@ -653,7 +655,6 @@ collector.dcdn.baidu.com
 collector.ximalaya.com
 collectorbs.ctc.ximalaya.com
 commdata.v.qq.com
-commdata6.v.qq.com
 community.bz.mgtv.com
 config.push.sogou.com
 connect-api.cloud.huawei.com
@@ -731,7 +732,6 @@ data159.click
 data284.click
 data369.click
 data527.click
-data741.click
 data852.click
 data963.click
 datagw-edge.alipay.com
@@ -1117,6 +1117,7 @@ hwa.his.huawei.com
 hybrid.miniapp.taobao.com
 hydra.alibaba.com
 hz.youku.com
+i-game.book.qq.com
 i-hl.snssdk.com
 i-lq.snssdk.com
 i-shadow2.ke.com
@@ -1142,6 +1143,7 @@ id1823.click
 idm-su.baidu.com
 idm.iot.mi.com
 iebar.baidu.com
+if.mingxing.qq.com
 iface.iqiyi.com
 iface2.dns.iqiyi.com
 iface2.iqiyi.com
@@ -1218,7 +1220,6 @@ is-hl.snssdk.com
 is-lq.snssdk.com
 is.snssdk.com
 isdspeed.qq.com
-isee.weishi.qq.com
 isite.baidu.com
 isp-report.gifshow.com
 ist-track.com
@@ -1240,6 +1241,7 @@ jmy-pic.baidu.com
 joeser.click
 jolmen.click
 jpush.cn
+jpush.html5.qq.com
 jpushjd.m.jd.com
 jpushsc.m.jd.com
 jqmt.qq.com
@@ -1249,7 +1251,6 @@ jrad.jd.com
 jrclick.jd.com
 js.aq.qq.com
 js.mobojoy.baidu.com
-jsapi.html5.qq.com
 jsapi.qq.com
 jsqmt.qq.com
 jswebcollects.kugou.com
@@ -1296,7 +1297,6 @@ lc-push.zhihu.com
 lcs.baidu.com
 ldhy.click
 lead-ad.jp
-leadlab.click
 leads.baidu.com
 lens.zhihu.com
 lf-hl.snssdk.com
@@ -1321,6 +1321,7 @@ liveplay04.pddpic.com
 lmbsy.qq.com
 lng.xiaohongshu.com
 loan-ad.cn
+loan-stat.com
 location.ximalaya.com
 lofter.httpdns.c.163.com
 log-hl.snssdk.com
@@ -1349,6 +1350,7 @@ log.uu.163.com
 log.web.kugou.com
 log.weibo.com
 log.weixin.qq.com
+log.wtlogin.qq.com
 log0-applog-lf.fqnovel.com
 log0-applog-lq.fqnovel.com
 log0-misc-alinc2.amemv.com
@@ -1401,6 +1403,7 @@ lydrum.click
 m-adash.m.taobao.com
 m-ali.ykimg.com
 m-cloud.zhihu.com
+m-game.book.qq.com
 m-vision.ketang.kuaishou.com
 m.gamer.qq.com
 m.intl.taobao.com
@@ -1416,7 +1419,6 @@ mail.qq.com
 mall.bilibili.com
 mam.netease.com
 mam6.netease.com
-mamagyi.click
 map.baidu.com
 mapi.m.jd.com
 mapp.qzone.qq.com
@@ -1532,7 +1534,6 @@ mp.weixin.qq.com
 mpro.baidu.com
 mpush-api.aliyun.com
 mpush.qq.com
-mqqad.html5.qq.com
 mqtt.zhihu.com
 mres.ximalaya.com
 ms.bdimg.com
@@ -1767,6 +1768,7 @@ playlog.youku.com
 plugin.mobopay.baidu.com
 pmmtk-a.pinduoduo.com
 pms.mb.qq.com
+pnewsapp.tc.qq.com
 pns.ximalaya.com
 policy.jd.com
 popme.163.com
@@ -1823,7 +1825,6 @@ pz0.3dn.mse.sogou.com
 q-stats.nl
 qapm.baidu.com
 qautodl.qq.com
-qbdsp.html5.qq.com
 qbuc.html5.qq.com
 qdsdk.jd.com
 qgw.kugou.com
@@ -1863,6 +1864,7 @@ re.m.taobao.com
 re.taobao.com
 reading-hl.snssdk.com
 reading-lq.snssdk.com
+red-track.xyz
 redirect.pandora.xiaomi.com
 referee.xiaohongshu.com
 register.xmpush.global.xiaomi.com
@@ -2035,7 +2037,6 @@ splashimgbssdl.yun.kugou.com
 splashimgretrybssdl.cloud.kugou.com
 sports.iqiyi.com
 spro.so.com
-sprout-ad.com
 sptest.baidu.com
 srt94.click
 ssp.qq.com
@@ -2049,7 +2050,6 @@ starry.xiaohongshu.com
 stat-common.youku.com
 stat-rock.com
 stat.alibaba.com
-stat.gamedl.qq.com
 stat.kugou.com
 stat.m.jd.com
 stat.media
@@ -2147,6 +2147,7 @@ tdid.m.qq.com
 tdrec.youku.com
 tdum.alibaba.com
 techain.baidu.com
+tedo-stats.de
 teinfo.wps.cn
 tejia.taobao.com
 temai.m.taobao.com
@@ -2179,11 +2180,11 @@ tkweb.baidu.com
 tmallequity.taobao.com
 tmead.y.qq.com
 tmeadbak.y.qq.com
-tmeadcomm.y.qq.com
 tmeadkg.y.qq.com
 tmfmazu.m.qq.com
 tmfsdk.m.qq.com
 tmfsdk4.m.qq.com
+tmfsdktcp.m.qq.com
 tnc3-aliec2.bytedance.com
 tnc3-aliec2.snssdk.com
 tnc3-alisc1.bytedance.com
@@ -2203,7 +2204,6 @@ tpns.tencent.com
 tpstelemetry.tencent.com
 tpush.html5.qq.com
 trace.qq.com
-track-js.link
 track-web.net
 track.58.com
 track.lt
@@ -2223,7 +2223,6 @@ trade.taobao.com
 tradplusad.com
 traffic-monitor.kuaishou.com
 tran.news.so.com
-trpcpb.imtt.qq.com
 ts.amap.com
 ts.qq.com
 tsearch-lq.snssdk.com
@@ -2255,7 +2254,6 @@ u.ctrip.com
 uapps.click
 ucstat.baidu.com
 udd1i5.zhihu.com
-udns.weixin.qq.com
 udpolimenew.baidu.com
 udpolimeok.baidu.com
 uestat.video.qiyi.com
@@ -2266,7 +2264,6 @@ ug.m.taobao.com
 ug.qbimg.qq.com
 ug.snssdk.com
 ugcdn.taobao.com
-ugcup.music.qq.com
 ugdtimg.com
 uil.cbs.baidu.com
 uisong.baidu.com
@@ -2313,7 +2310,6 @@ upload.kuaishouzt.com
 upload3.gifshow.com
 uploads1.gifshow.com
 uploads2.gifshow.com
-uplog.inews.qq.com
 upos-sz-static.bilivideo.com
 upos-sz-staticcos.bilivideo.com
 upsups.click
@@ -2406,6 +2402,7 @@ vip88.click
 viprik.click
 vk-ads.ru
 vmgjt.click
+vmindhls.tc.qq.com
 vmonitor.ws.netease.com
 vod-box.bz.mgtv.com
 voodoo-ads.io
@@ -2545,6 +2542,7 @@ yt-adv.bn.netease.com
 yuedu.iqiyi.com
 yun.baidu.com
 yun.tim.qq.com
+ywab.reader.qq.com
 zebeaa.click
 zhanzhang.toutiao.com
 zhidao.baidu.com
