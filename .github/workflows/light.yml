@@ -70,9 +70,11 @@ jobs:
           PUSHED=0
           for i in 1 2 3; do
             if git push origin HEAD:main; then PUSHED=1; break; fi
-            echo "第 ${i} 次推送失败，先 rebase 远端再试"
-            git fetch -q --depth=5 origin main || true
-            git rebase -q FETCH_HEAD 2>/dev/null || git rebase --abort 2>/dev/null || true
+            echo "第 ${i} 次推送失败，对齐远端后重新提交"
+            git fetch -q --depth=1 origin main || true
+            git reset -q --mixed FETCH_HEAD || true
+            git add -f -A rules hosts.txt all.txt adguard.txt || true
+            git commit -q -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
             sleep 3
           done
           if [ "$PUSHED" != "1" ]; then echo "::error::推送主分支失败"; exit 1; fi
