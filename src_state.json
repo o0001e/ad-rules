@@ -125,12 +125,12 @@
   "age": 0
  },
  "https://easylist-downloads.adblockplus.org/easylistchina.txt": {
-  "sha1": "5a81806987b9947ffb1e7eb3925626501c1f8f18",
+  "sha1": "e27dcb94e0565a7dad3e1bb711bf7bb41c63cc70",
   "since": "2026-11-14",
   "age": 0
  },
  "https://easylist.to/easylist/easyprivacy.txt": {
-  "sha1": "85ca0e171ceee8b2646f5feb37614dfd844c79e1",
+  "sha1": "0c660b5f3de04e6b5352fd69b9f2ff7238de846c",
   "since": "2026-11-14",
   "age": 0
  },
@@ -145,7 +145,7 @@
   "age": 0
  },
  "https://filters.adtidy.org/android/filters/15_optimized.txt": {
-  "sha1": "1d840fe1b2b64601a0543e8b01aa195e04ad320a",
+  "sha1": "3c24e1aee6ea7068806e13efc599a6d27fc50cc4",
   "since": "2026-11-14",
   "age": 0
  },
@@ -165,7 +165,7 @@
   "age": 0
  },
  "https://filters.adtidy.org/android/filters/224_optimized.txt": {
-  "sha1": "369f0260a6e06bed2209c6a6ed6e7a084510cf98",
+  "sha1": "0fa9e87185e45824207a79aa330bdd9258918c21",
   "since": "2026-11-14",
   "age": 0
  },
@@ -175,12 +175,12 @@
   "age": 0
  },
  "https://filters.adtidy.org/android/filters/2_optimized.txt": {
-  "sha1": "fb5bb30c331babf927af5cfb7591877f77ff4ab7",
+  "sha1": "586f2b3d4d1b0db02671d5af3b22b2b0a4a20952",
   "since": "2026-11-14",
   "age": 0
  },
  "https://filters.adtidy.org/extension/ublock/filters/224.txt": {
-  "sha1": "3efb223cd544738b6b32c36fa98f827fe6e7c30c",
+  "sha1": "5cc79b9093a41a721c014647e0d37dde1753f8d4",
   "since": "2026-11-14",
   "age": 0
  },
