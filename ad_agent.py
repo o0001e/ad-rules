@@ -806,6 +806,41 @@ def build_candidates(doms, white, extra):
     return blocked
 
 
+BASELINE = os.path.join(ROOT, "baseline.txt")
+
+
+def load_baseline():
+    if not os.path.exists(BASELINE):
+        return set()
+    return {l.strip() for l in open(BASELINE, encoding="utf-8") if l.strip() and not l.startswith("#")}
+
+
+def save_baseline(blocked):
+    with open(BASELINE, "w", encoding="utf-8") as f:
+        f.write("# 增量基线：上一轮实际发布的规则，下一轮在此基础上增删\n")
+        f.write("".join("%s\n" % d for d in sorted(blocked)))
+
+
+def merge_incremental(fresh, extra, white):
+    """增量合并：上游新出现的加入；上游消失但仍存活的旧规则保留，由死域探测自然剔除"""
+    old = load_baseline()
+    if not old:
+        print("[增量] 无基线，首轮全量写入")
+        return fresh
+    dead = set(load_dead().keys())
+    def covered_by_white(d):
+        parts = d.split(".")
+        return any(".".join(parts[i:]) in white for i in range(len(parts) - 1))
+    new = fresh - old
+    gone = old - fresh
+    gone -= extra                       # custom 永不删
+    gone = {d for d in gone if not covered_by_white(d)}
+    merged = (old | fresh) - dead - gone
+    print("[增量] 上游新增 %d 条 / 沿用旧规则 %d 条 / 剔除上游消失 %d 条（custom、白名单、存活保护）→ 本轮 %d 条" % (
+        len(new), len(old & fresh), len(gone - merged), len(merged)))
+    return merged
+
+
 PENDING = os.path.join(ROOT, "pending.txt")
 
 
@@ -998,6 +1033,7 @@ def main():
     blocked = run_step(4, "生成候选", build_candidates, doms, white, extra)
 
     blocked = run_step(5, "观察期", apply_pending, blocked, doms, extra, critical=False) or blocked
+    blocked = merge_incremental(blocked, extra, white)
     run_step(6, "源质量", source_health, critical=False)
     run_step(7, "源停更", source_staleness, critical=False)
     probed = run_step(8, "存活探测", probe_blocked, blocked, critical=False)
@@ -1014,6 +1050,8 @@ def main():
     run_step(12, "厂商归类", vendor_summary, blocked, critical=False)
     run_step(13, "回归断言", regression_check, blocked, white, extra)
     run_step(14, "写出产物", write, blocked, white)
+    save_baseline(blocked)
+    print("[增量] baseline.txt 已更新 %d 条" % len(blocked))
     print("[完成] 用时 %.1f 秒，%d 个步骤全通过" % (time.time() - t0, len(STEPS_OK)))
     return 0
 
