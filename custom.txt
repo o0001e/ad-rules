@@ -150,3 +150,19 @@ hm.baidu.com
 # 优量汇官方文档实证补充（2026-11-14，腾讯联盟 doucment: Host c.gdt.qq.com 广告请求 / sc.gdt.qq.com 点击监测）
 c.gdt.qq.com
 sc.gdt.qq.com
+
+# 2026-11-14 第二轮日志补漏（淘宝/腾讯埋点）
+amdc.m.taobao.com
+audid-api.taobao.com
+umengacs.m.taobao.com
+oth.str.mdt.qq.com
+rmonitor.qq.com
+# 红果/字节系埋点与广告落地（日志实证：red果包 com.phoenix.read 持续请求）
+seeds-open.comfylink.com
+frontier100-toutiao-hl.fqnovel.com
+rtlog5-applog-hl.fqnovel.com
+log5-applog-hl.fqnovel.com
+frontier-aweme.snssdk.com
+i-hl.snssdk.com
+is-hl.snssdk.com
+download.szytnet.cn

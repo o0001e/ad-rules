@@ -438,3 +438,7 @@
 0.0.0.0 zhaopin.com
 0.0.0.0 zhihu.com
 0.0.0.0 zhimg.com
+# 2026-11-14 日志实证疑似误杀（长期高频 Allowed，属业务链路）
+dns.weixin.qq.com.cn
+appupgrade.vivo.com.cn
+browser.vivo.com.cn
