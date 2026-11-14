@@ -41,3 +41,8 @@ https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
 https://github.com/Potterli20/file/releases/download/ad-youtube-hosts/ad-youtube-hosts.txt
 https://github.com/Potterli20/file/releases/download/dns-hosts-all/dnshosts-all-domain-blacklist_lite.txt
 https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext
+https://raw.githubusercontent.com/Aethersailor/adblockfilters-modified/main/rules/adblockdnslite.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.xiaomi.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.vivo.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.oppo-realme.txt
+https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.huawei.txt

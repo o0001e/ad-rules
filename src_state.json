@@ -1,0 +1,242 @@
+{
+ "https://raw.githubusercontent.com/045200/ad-filter/multi/hosts.txt": {
+  "sha1": "7cdf477f1aeaf379eb68d93ffd0d908a353d4fae",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdns.txt": {
+  "sha1": "a9c7807e0558ded6377ee80b07ea9cb383b7c97c",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt": {
+  "sha1": "fa8382aadb93492cca038e8ce6e49cf0c8ef4ed6",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt": {
+  "sha1": "04a0b724bb294244321e118fe3f5b7df673ad0ed",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/master/SMAdHosts": {
+  "sha1": "d5e8c0c2ee37ceb74a51da83019d47959f4f80ac",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/790953214/qy-Ads-Rule/main/black.txt": {
+  "sha1": "f3a73a5cdd73af08773897002d7884ff7e1e589d",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/AdguardTeam/AdGuardSDNSFilter/master/Filters/rules.txt": {
+  "sha1": "d68a3295dcc9c6b57b78f69a9414d15953912902",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/ChineseFilter/sections/adservers.txt": {
+  "sha1": "45faa4f9390e45e131f0c70668581400975e3f62",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/AdguardTeam/HostlistsRegistry/main/assets/filter_21.txt": {
+  "sha1": "cb8b1fdbd23bf41e1f4da7a55ea6145faf0b87fe",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt": {
+  "sha1": "830e41ec943ea9483065708d2f1b8e2acef27c88",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts": {
+  "sha1": "b19e036a1fb1dfb4653a7a03da570b9a95900ce6",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/MergeRules/QingYaMerge.txt": {
+  "sha1": "42da3ae67fcbaba7438b05742fc8e5b51e6a3927",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/reject-list.txt": {
+  "sha1": "93cd7eadb1627b8c354b47808b904cff747beb41",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt": {
+  "sha1": "f3e35c9552aa3d146d81902084136bab18d0a3dc",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-hosts.txt": {
+  "sha1": "7d35133c099e9b15df31c63ba90d7f68ceec7d3e",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt": {
+  "sha1": "fbcc17e57f8fa8366af5101cab49a398469061bb",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt": {
+  "sha1": "9c334f54355bad68bb4807125d6ff46107c98ae5",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/AD.Reject.list": {
+  "sha1": "baeebde9d717cc77c6effb66290d1026c72ca08d",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt": {
+  "sha1": "5917f901273ac93b61253b31407d9023914db830",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts": {
+  "sha1": "bdcd8bfd30107d8fcc45590eb2fd9282c4b8410d",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt": {
+  "sha1": "e73fa2a6f502f90800304097e5ae70ab20c0e06e",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/qq5460168/EasyAds/refs/heads/main/dns.txt": {
+  "sha1": "4395d936456ebe1c9dabd8544c8ef1a7a7fd6eb8",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts": {
+  "sha1": "8cb9feedee0859a986f96b3045959e4d3db48e9f",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt": {
+  "sha1": "fed2d12d9b955e536071b8c500965e793bddc8af",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/zimoadmin/adgrule/main/rule/hosts.txt": {
+  "sha1": "3fb8cb8af48e29d69d609999be9a3bdb0c352045",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://easylist-downloads.adblockplus.org/easylistchina.txt": {
+  "sha1": "5a81806987b9947ffb1e7eb3925626501c1f8f18",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://easylist.to/easylist/easyprivacy.txt": {
+  "sha1": "85ca0e171ceee8b2646f5feb37614dfd844c79e1",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/11_optimized.txt": {
+  "sha1": "5b726067432989d1056deba8bf549d68efc5062e",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/14_optimized.txt": {
+  "sha1": "4f8b5f2c1f3b126ca0ac07fa16fd1188acd2a2e5",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/15_optimized.txt": {
+  "sha1": "1d840fe1b2b64601a0543e8b01aa195e04ad320a",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/17_optimized.txt": {
+  "sha1": "2dcb7f7fb3ebba3de1144d5284eb53e8deb4994d",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/19_optimized.txt": {
+  "sha1": "9ecc223d5c8c3db156cc6ba668107498050c8c7c",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/220_optimized.txt": {
+  "sha1": "ff30568e28125e5e0796becdc20b41cb5564657d",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/224_optimized.txt": {
+  "sha1": "369f0260a6e06bed2209c6a6ed6e7a084510cf98",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/228_optimized.txt": {
+  "sha1": "3471c5fed837f9100d605504de2eda4661e92127",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/android/filters/2_optimized.txt": {
+  "sha1": "fb5bb30c331babf927af5cfb7591877f77ff4ab7",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://filters.adtidy.org/extension/ublock/filters/224.txt": {
+  "sha1": "3efb223cd544738b6b32c36fa98f827fe6e7c30c",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt": {
+  "sha1": "44f38bf2b92d1aea0dc6cb24c3a3cf587f9a1939",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/jk278/Ad-J/master/Ad-J.txt": {
+  "sha1": "461410928cfe58315bc8f4033b96b6642e2c8a2b",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt": {
+  "sha1": "b8e7a9432323fe4fd2582ed25c3c87c508ee9f08",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://github.com/Potterli20/file/releases/download/ad-youtube-hosts/ad-youtube-hosts.txt": {
+  "sha1": "ad1c666374d4ce975be918da465b4e087ac43f63",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://github.com/Potterli20/file/releases/download/dns-hosts-all/dnshosts-all-domain-blacklist_lite.txt": {
+  "sha1": "30b4a16213cb09beff20381ab916c85fcb667cd0",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext": {
+  "sha1": "afc4e3f0b1c2f61bf4662ffb220733e2d0bc8fdd",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/Aethersailor/adblockfilters-modified/main/rules/adblockdnslite.txt": {
+  "sha1": "84d31b55c8ff8b787b275e05a56df821d82f5ac3",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.xiaomi.txt": {
+  "sha1": "fd4a120be7392cbe7ff031d45f30cbf885793b37",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.vivo.txt": {
+  "sha1": "8b7260707a0299869dc7354e523f027eeb74425d",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.oppo-realme.txt": {
+  "sha1": "8e5f7bc6728c9dadeb0f7c4abf302ca246ae8225",
+  "since": "2026-11-14",
+  "age": 0
+ },
+ "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/native.huawei.txt": {
+  "sha1": "e39a5210f9a05efceeb457ef53f688ca7a1cc8ea",
+  "since": "2026-11-14",
+  "age": 0
+ }
+}
