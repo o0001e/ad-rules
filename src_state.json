@@ -1,6 +1,6 @@
 {
  "https://raw.githubusercontent.com/045200/ad-filter/multi/hosts.txt": {
-  "sha1": "7cdf477f1aeaf379eb68d93ffd0d908a353d4fae",
+  "sha1": "6b32f30a516acdd64aa61706325cff481783eb7c",
   "since": "2026-11-14",
   "age": 0
  },
@@ -45,7 +45,7 @@
   "age": 0
  },
  "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules_domainset.txt": {
-  "sha1": "830e41ec943ea9483065708d2f1b8e2acef27c88",
+  "sha1": "2cc2fa4f93fd1dea79502f0a72c3d377e9eb59fe",
   "since": "2026-11-14",
   "age": 0
  },
@@ -110,7 +110,7 @@
   "age": 0
  },
  "https://raw.githubusercontent.com/rentianyu/Ad-set-hosts/master/hosts": {
-  "sha1": "8cb9feedee0859a986f96b3045959e4d3db48e9f",
+  "sha1": "433ff6978a09da847c3d84a9d8a3af794ff84b38",
   "since": "2026-11-14",
   "age": 0
  },
@@ -120,17 +120,17 @@
   "age": 0
  },
  "https://raw.githubusercontent.com/zimoadmin/adgrule/main/rule/hosts.txt": {
-  "sha1": "3fb8cb8af48e29d69d609999be9a3bdb0c352045",
+  "sha1": "9eb5d99843ba9552cb599b576ffd77d0a63e2238",
   "since": "2026-11-14",
   "age": 0
  },
  "https://easylist-downloads.adblockplus.org/easylistchina.txt": {
-  "sha1": "fd65362d9ec626911ba4716fd806cb77be0a7e21",
+  "sha1": "7ffb98eca0e5d2a73add6ec449b746a5746b9832",
   "since": "2026-11-14",
   "age": 0
  },
  "https://easylist.to/easylist/easyprivacy.txt": {
-  "sha1": "b9eb1e39beaa8519c120edfef01508658a3edb01",
+  "sha1": "cf88d2d0966f2766c4534d1ef971f95303b34d07",
   "since": "2026-11-14",
   "age": 0
  },
@@ -140,7 +140,7 @@
   "age": 0
  },
  "https://filters.adtidy.org/android/filters/14_optimized.txt": {
-  "sha1": "4f8b5f2c1f3b126ca0ac07fa16fd1188acd2a2e5",
+  "sha1": "622fb8b2caf374b5f5bbe3e26bc4801f3874eb10",
   "since": "2026-11-14",
   "age": 0
  },
@@ -155,7 +155,7 @@
   "age": 0
  },
  "https://filters.adtidy.org/android/filters/19_optimized.txt": {
-  "sha1": "9ecc223d5c8c3db156cc6ba668107498050c8c7c",
+  "sha1": "e24c17c316dd28078730ebc0670a23a559c1d44a",
   "since": "2026-11-14",
   "age": 0
  },
@@ -175,7 +175,7 @@
   "age": 0
  },
  "https://filters.adtidy.org/android/filters/2_optimized.txt": {
-  "sha1": "586f2b3d4d1b0db02671d5af3b22b2b0a4a20952",
+  "sha1": "7a1f3847a7e768de43a330c2fde7898a55f4253e",
   "since": "2026-11-14",
   "age": 0
  },

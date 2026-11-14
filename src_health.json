@@ -95,9 +95,9 @@
    210933,
    210933,
    210933,
-   210933
+   211037
   ],
-  "last": 210933
+  "last": 211037
  },
  "https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts": {
   "hist": [
@@ -225,9 +225,9 @@
    204887,
    204887,
    204887,
-   204887
+   203960
   ],
-  "last": 204887
+  "last": 203960
  },
  "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt": {
   "hist": [
@@ -263,11 +263,11 @@
   "hist": [
    52868,
    52868,
-   52868,
    52874,
-   52874
+   52874,
+   52875
   ],
-  "last": 52874
+  "last": 52875
  },
  "https://filters.adtidy.org/android/filters/11_optimized.txt": {
   "hist": [
@@ -285,15 +285,15 @@
    3073,
    3073,
    3073,
-   3073
+   3070
   ],
-  "last": 3073
+  "last": 3070
  },
  "https://filters.adtidy.org/android/filters/15_optimized.txt": {
   "hist": [
    190743,
    190743,
-   190743,
+   190785,
    190785,
    190785
   ],
@@ -315,9 +315,9 @@
    927,
    927,
    927,
-   927
+   925
   ],
-  "last": 927
+  "last": 925
  },
  "https://filters.adtidy.org/android/filters/220_optimized.txt": {
   "hist": [
@@ -333,7 +333,7 @@
   "hist": [
    11070,
    11070,
-   11070,
+   11071,
    11071,
    11071
   ],
@@ -353,17 +353,17 @@
   "hist": [
    28486,
    28486,
-   28486,
    28509,
-   28509
+   28509,
+   28339
   ],
-  "last": 28509
+  "last": 28339
  },
  "https://filters.adtidy.org/extension/ublock/filters/224.txt": {
   "hist": [
    11036,
    11036,
-   11036,
+   11037,
    11037,
    11037
   ],
