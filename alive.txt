@@ -546,6 +546,7 @@ alu.cn	2026-11-14
 am.zdnet.com.cn	2026-11-14
 amae.zjcapital.cn	2026-11-14
 amazonaws.com.cn	2026-11-14
+amdc.m.taobao.com	2026-11-14
 amwm.cn	2026-11-14
 analy.tuniu.cn	2026-11-14
 analysis.watcha.cn	2026-11-14
@@ -630,7 +631,6 @@ appoptimize-drcn.dbankcdn.cn	2026-11-14
 appsad.cn	2026-11-14
 appserverlisttx.dflcs.cn	2026-11-14
 appstore-trace-h5sdk.vivo.com.cn	2026-11-14
-appupgrade.vivo.com.cn	2026-11-14
 appuu.cn	2026-11-14
 aq-ad-h5-fe.c.t.soulapp-inc.cn	2026-11-14
 aqda.scuum.cn	2026-11-14
@@ -688,6 +688,7 @@ atplay.cn	2026-11-14
 atpm.cn	2026-11-14
 atrace.chelaile.net.cn	2026-11-14
 au.ff.avast.sec.miui.com	2026-11-14
+audid-api.taobao.com	2026-11-14
 authbe.sec.intl.miui.com	2026-11-14
 autofan.com.cn	2026-11-14
 autohack.cn	2026-11-14
@@ -806,7 +807,6 @@ br-p.vivoglobal.com	2026-11-14
 brandadsstatic.vivo.com.cn	2026-11-14
 bridgeoos.com	2026-11-14
 bro.flyme.cn	2026-11-14
-browser.vivo.com.cn	2026-11-14
 browsercfg-drcn.cloud.dbankcloud.cn	2026-11-14
 bt.cn	2026-11-14
 btrace.yangshipin.cn	2026-11-14
@@ -1203,7 +1203,6 @@ dmclick.cn	2026-11-14
 dmym.fwol.cn	2026-11-14
 dncvj.cn	2026-11-14
 dnkeeper.platform.dbankcloud.cn	2026-11-14
-dns.weixin.qq.com.cn	2026-11-14
 dns.ximalaya.com	2026-11-14
 dnslog.cn	2026-11-14
 dnspod.cn	2026-11-14
@@ -1225,6 +1224,7 @@ down.qqfarmer.com.cn	2026-11-14
 down.rising.net.cn	2026-11-14
 down.tgjkbx.cn	2026-11-14
 downali.game.uc.cn	2026-11-14
+download.szytnet.cn	2026-11-14
 downmini.kugou.com	2026-11-14
 downmobile.kugou.com	2026-11-14
 dpic.mkj3.cn	2026-11-14
@@ -1524,6 +1524,8 @@ fp-it.portal101.cn	2026-11-14
 fqxkj.cn	2026-11-14
 fraudmetrix.cn	2026-11-14
 frj8.cn	2026-11-14
+frontier-aweme.snssdk.com	2026-11-14
+frontier100-toutiao-hl.fqnovel.com	2026-11-14
 frqzio.cn	2026-11-14
 fs.mv.pc2.kugou.com	2026-11-14
 fs.uc.nearme.com.cn	2026-11-14
@@ -1891,6 +1893,7 @@ hzlockb.cn	2026-11-14
 hzwxbz2.cn	2026-11-14
 i-cn01a.ocloud.heytapmobi.com	2026-11-14
 i-fk.cn	2026-11-14
+i-hl.snssdk.com	2026-11-14
 i-sg01a.ocloud.heytapmobi.com	2026-11-14
 i.flow.browser.oppomobile.com	2026-11-14
 i.mmcdn.cn	2026-11-14
@@ -2034,6 +2037,7 @@ ipyud.cn	2026-11-14
 iqiyim.adtrack.enlightent.cn	2026-11-14
 ir-sdk.dun.163yun.com	2026-11-14
 irhg.uiuin.cn	2026-11-14
+is-hl.snssdk.com	2026-11-14
 is.snssdk.com	2026-11-14
 isdk-gameunion-cn.heytapmobi.com	2026-11-14
 isecure.vivo.com.cn	2026-11-14
@@ -2405,6 +2409,7 @@ log.z3.cn	2026-11-14
 log.zcool.com.cn	2026-11-14
 log1.molitv.cn	2026-11-14
 log2.molitv.cn	2026-11-14
+log5-applog-hl.fqnovel.com	2026-11-14
 logan.sankuai.com	2026-11-14
 logforward.browser.heytapmobi.com	2026-11-14
 logger.qmai.cn	2026-11-14
@@ -2980,6 +2985,7 @@ osscdn.xingyiqy.cn	2026-11-14
 ossp.voicecloud.cn	2026-11-14
 osswc.pplive.cn	2026-11-14
 oth.str.beacon.qq.com	2026-11-14
+oth.str.mdt.qq.com	2026-11-14
 otheve.beacon.qq.com	2026-11-14
 ourl.cn	2026-11-14
 outside.yuncheapp.cn	2026-11-14
@@ -3323,6 +3329,7 @@ rkxy.com.cn	2026-11-14
 rljjt.cn	2026-11-14
 rlri.cn	2026-11-14
 rm.wmvideo.cn	2026-11-14
+rmonitor.qq.com	2026-11-14
 rms-drcn.platform.dbankcloud.cn	2026-11-14
 rn.lzbas.cn	2026-11-14
 ro-up.vivoglobal.com	2026-11-14
@@ -3332,6 +3339,7 @@ rplzmw.cn	2026-11-14
 rsvqlz.cn	2026-11-14
 rtbn2.cn	2026-11-14
 rtlog.vidown.cn	2026-11-14
+rtlog5-applog-hl.fqnovel.com	2026-11-14
 rtwebcollects.kugou.com	2026-11-14
 rtycgmz.cn	2026-11-14
 ru-analyzer-appstore.vivoglobal.com	2026-11-14
@@ -3454,6 +3462,7 @@ securemetrics.apple.com.cn	2026-11-14
 security-platform.kltb.com.cn	2026-11-14
 security.browser.miui.com	2026-11-14
 seectech.cn	2026-11-14
+seeds-open.comfylink.com	2026-11-14
 seek68.cn	2026-11-14
 seeye.cn	2026-11-14
 selfimg.com.cn	2026-11-14
@@ -3997,6 +4006,7 @@ umapi.cn	2026-11-14
 umdc.aliapp.org	2026-11-14
 umeng.cn	2026-11-14
 umeng.com	2026-11-14
+umengacs.m.taobao.com	2026-11-14
 ums-telemetry-cn.heytapmobi.com	2026-11-14
 ums-telemetry-eu-par.heytapmobi.com	2026-11-14
 ums-telemetry-india.heytapmobi.com	2026-11-14

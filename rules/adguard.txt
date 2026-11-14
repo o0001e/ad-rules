@@ -1,6 +1,6 @@
 ! AD-QGG Filter
-! Update: 20261114 03:23
-! Count: 4580
+! Update: 20261114 03:33
+! Count: 4590
 ||0001-metrics1-data-hicloud-com.geac.dbankedge.cn^
 ||0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn^
 ||0002-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn^
@@ -548,6 +548,7 @@
 ||am.zdnet.com.cn^
 ||amae.zjcapital.cn^
 ||amazonaws.com.cn^
+||amdc.m.taobao.com^
 ||amwm.cn^
 ||analy.tuniu.cn^
 ||analysis.watcha.cn^
@@ -632,7 +633,6 @@
 ||appsad.cn^
 ||appserverlisttx.dflcs.cn^
 ||appstore-trace-h5sdk.vivo.com.cn^
-||appupgrade.vivo.com.cn^
 ||appuu.cn^
 ||aq-ad-h5-fe.c.t.soulapp-inc.cn^
 ||aqda.scuum.cn^
@@ -690,6 +690,7 @@
 ||atpm.cn^
 ||atrace.chelaile.net.cn^
 ||au.ff.avast.sec.miui.com^
+||audid-api.taobao.com^
 ||authbe.sec.intl.miui.com^
 ||autofan.com.cn^
 ||autohack.cn^
@@ -808,7 +809,6 @@
 ||brandadsstatic.vivo.com.cn^
 ||bridgeoos.com^
 ||bro.flyme.cn^
-||browser.vivo.com.cn^
 ||browsercfg-drcn.cloud.dbankcloud.cn^
 ||bt.cn^
 ||btrace.yangshipin.cn^
@@ -1205,7 +1205,6 @@
 ||dmym.fwol.cn^
 ||dncvj.cn^
 ||dnkeeper.platform.dbankcloud.cn^
-||dns.weixin.qq.com.cn^
 ||dns.ximalaya.com^
 ||dnslog.cn^
 ||dnspod.cn^
@@ -1227,6 +1226,7 @@
 ||down.rising.net.cn^
 ||down.tgjkbx.cn^
 ||downali.game.uc.cn^
+||download.szytnet.cn^
 ||downmini.kugou.com^
 ||downmobile.kugou.com^
 ||dpic.mkj3.cn^
@@ -1526,6 +1526,8 @@
 ||fqxkj.cn^
 ||fraudmetrix.cn^
 ||frj8.cn^
+||frontier-aweme.snssdk.com^
+||frontier100-toutiao-hl.fqnovel.com^
 ||frqzio.cn^
 ||fs.mv.pc2.kugou.com^
 ||fs.uc.nearme.com.cn^
@@ -1893,6 +1895,7 @@
 ||hzwxbz2.cn^
 ||i-cn01a.ocloud.heytapmobi.com^
 ||i-fk.cn^
+||i-hl.snssdk.com^
 ||i-sg01a.ocloud.heytapmobi.com^
 ||i.flow.browser.oppomobile.com^
 ||i.mmcdn.cn^
@@ -2036,6 +2039,7 @@
 ||iqiyim.adtrack.enlightent.cn^
 ||ir-sdk.dun.163yun.com^
 ||irhg.uiuin.cn^
+||is-hl.snssdk.com^
 ||is.snssdk.com^
 ||isdk-gameunion-cn.heytapmobi.com^
 ||isecure.vivo.com.cn^
@@ -2407,6 +2411,7 @@
 ||log.zcool.com.cn^
 ||log1.molitv.cn^
 ||log2.molitv.cn^
+||log5-applog-hl.fqnovel.com^
 ||logan.sankuai.com^
 ||logforward.browser.heytapmobi.com^
 ||logger.qmai.cn^
@@ -2982,6 +2987,7 @@
 ||ossp.voicecloud.cn^
 ||osswc.pplive.cn^
 ||oth.str.beacon.qq.com^
+||oth.str.mdt.qq.com^
 ||otheve.beacon.qq.com^
 ||ourl.cn^
 ||outside.yuncheapp.cn^
@@ -3325,6 +3331,7 @@
 ||rljjt.cn^
 ||rlri.cn^
 ||rm.wmvideo.cn^
+||rmonitor.qq.com^
 ||rms-drcn.platform.dbankcloud.cn^
 ||rn.lzbas.cn^
 ||ro-up.vivoglobal.com^
@@ -3334,6 +3341,7 @@
 ||rsvqlz.cn^
 ||rtbn2.cn^
 ||rtlog.vidown.cn^
+||rtlog5-applog-hl.fqnovel.com^
 ||rtwebcollects.kugou.com^
 ||rtycgmz.cn^
 ||ru-analyzer-appstore.vivoglobal.com^
@@ -3456,6 +3464,7 @@
 ||security-platform.kltb.com.cn^
 ||security.browser.miui.com^
 ||seectech.cn^
+||seeds-open.comfylink.com^
 ||seek68.cn^
 ||seeye.cn^
 ||selfimg.com.cn^
@@ -3999,6 +4008,7 @@
 ||umdc.aliapp.org^
 ||umeng.cn^
 ||umeng.com^
+||umengacs.m.taobao.com^
 ||ums-telemetry-cn.heytapmobi.com^
 ||ums-telemetry-eu-par.heytapmobi.com^
 ||ums-telemetry-india.heytapmobi.com^

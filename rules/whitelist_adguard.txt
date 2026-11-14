@@ -47,11 +47,13 @@
 @@||api.xiaohongshu.com^
 @@||api.youku.com^
 @@||api.zhihu.com^
+@@||appupgrade.vivo.com.cn^
 @@||b23.tv^
 @@||baidu.com^
 @@||biliapi.net^
 @@||bilibili.com^
 @@||bilivideo.com^
+@@||browser.vivo.com.cn^
 @@||bytecdn.cn^
 @@||bytedance.net^
 @@||cdn.163.com^
@@ -89,6 +91,7 @@
 @@||dbankcdn.com^
 @@||dianping.com^
 @@||didi.cn^
+@@||dns.weixin.qq.com.cn^
 @@||douban.com^
 @@||doubanio.com^
 @@||douyin.com^

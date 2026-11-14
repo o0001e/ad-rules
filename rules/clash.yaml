@@ -546,6 +546,7 @@ payload:
   - DOMAIN-SUFFIX,am.zdnet.com.cn
   - DOMAIN-SUFFIX,amae.zjcapital.cn
   - DOMAIN-SUFFIX,amazonaws.com.cn
+  - DOMAIN-SUFFIX,amdc.m.taobao.com
   - DOMAIN-SUFFIX,amwm.cn
   - DOMAIN-SUFFIX,analy.tuniu.cn
   - DOMAIN-SUFFIX,analysis.watcha.cn
@@ -630,7 +631,6 @@ payload:
   - DOMAIN-SUFFIX,appsad.cn
   - DOMAIN-SUFFIX,appserverlisttx.dflcs.cn
   - DOMAIN-SUFFIX,appstore-trace-h5sdk.vivo.com.cn
-  - DOMAIN-SUFFIX,appupgrade.vivo.com.cn
   - DOMAIN-SUFFIX,appuu.cn
   - DOMAIN-SUFFIX,aq-ad-h5-fe.c.t.soulapp-inc.cn
   - DOMAIN-SUFFIX,aqda.scuum.cn
@@ -688,6 +688,7 @@ payload:
   - DOMAIN-SUFFIX,atpm.cn
   - DOMAIN-SUFFIX,atrace.chelaile.net.cn
   - DOMAIN-SUFFIX,au.ff.avast.sec.miui.com
+  - DOMAIN-SUFFIX,audid-api.taobao.com
   - DOMAIN-SUFFIX,authbe.sec.intl.miui.com
   - DOMAIN-SUFFIX,autofan.com.cn
   - DOMAIN-SUFFIX,autohack.cn
@@ -806,7 +807,6 @@ payload:
   - DOMAIN-SUFFIX,brandadsstatic.vivo.com.cn
   - DOMAIN-SUFFIX,bridgeoos.com
   - DOMAIN-SUFFIX,bro.flyme.cn
-  - DOMAIN-SUFFIX,browser.vivo.com.cn
   - DOMAIN-SUFFIX,browsercfg-drcn.cloud.dbankcloud.cn
   - DOMAIN-SUFFIX,bt.cn
   - DOMAIN-SUFFIX,btrace.yangshipin.cn
@@ -1203,7 +1203,6 @@ payload:
   - DOMAIN-SUFFIX,dmym.fwol.cn
   - DOMAIN-SUFFIX,dncvj.cn
   - DOMAIN-SUFFIX,dnkeeper.platform.dbankcloud.cn
-  - DOMAIN-SUFFIX,dns.weixin.qq.com.cn
   - DOMAIN-SUFFIX,dns.ximalaya.com
   - DOMAIN-SUFFIX,dnslog.cn
   - DOMAIN-SUFFIX,dnspod.cn
@@ -1225,6 +1224,7 @@ payload:
   - DOMAIN-SUFFIX,down.rising.net.cn
   - DOMAIN-SUFFIX,down.tgjkbx.cn
   - DOMAIN-SUFFIX,downali.game.uc.cn
+  - DOMAIN-SUFFIX,download.szytnet.cn
   - DOMAIN-SUFFIX,downmini.kugou.com
   - DOMAIN-SUFFIX,downmobile.kugou.com
   - DOMAIN-SUFFIX,dpic.mkj3.cn
@@ -1524,6 +1524,8 @@ payload:
   - DOMAIN-SUFFIX,fqxkj.cn
   - DOMAIN-SUFFIX,fraudmetrix.cn
   - DOMAIN-SUFFIX,frj8.cn
+  - DOMAIN-SUFFIX,frontier-aweme.snssdk.com
+  - DOMAIN-SUFFIX,frontier100-toutiao-hl.fqnovel.com
   - DOMAIN-SUFFIX,frqzio.cn
   - DOMAIN-SUFFIX,fs.mv.pc2.kugou.com
   - DOMAIN-SUFFIX,fs.uc.nearme.com.cn
@@ -1891,6 +1893,7 @@ payload:
   - DOMAIN-SUFFIX,hzwxbz2.cn
   - DOMAIN-SUFFIX,i-cn01a.ocloud.heytapmobi.com
   - DOMAIN-SUFFIX,i-fk.cn
+  - DOMAIN-SUFFIX,i-hl.snssdk.com
   - DOMAIN-SUFFIX,i-sg01a.ocloud.heytapmobi.com
   - DOMAIN-SUFFIX,i.flow.browser.oppomobile.com
   - DOMAIN-SUFFIX,i.mmcdn.cn
@@ -2034,6 +2037,7 @@ payload:
   - DOMAIN-SUFFIX,iqiyim.adtrack.enlightent.cn
   - DOMAIN-SUFFIX,ir-sdk.dun.163yun.com
   - DOMAIN-SUFFIX,irhg.uiuin.cn
+  - DOMAIN-SUFFIX,is-hl.snssdk.com
   - DOMAIN-SUFFIX,is.snssdk.com
   - DOMAIN-SUFFIX,isdk-gameunion-cn.heytapmobi.com
   - DOMAIN-SUFFIX,isecure.vivo.com.cn
@@ -2405,6 +2409,7 @@ payload:
   - DOMAIN-SUFFIX,log.zcool.com.cn
   - DOMAIN-SUFFIX,log1.molitv.cn
   - DOMAIN-SUFFIX,log2.molitv.cn
+  - DOMAIN-SUFFIX,log5-applog-hl.fqnovel.com
   - DOMAIN-SUFFIX,logan.sankuai.com
   - DOMAIN-SUFFIX,logforward.browser.heytapmobi.com
   - DOMAIN-SUFFIX,logger.qmai.cn
@@ -2980,6 +2985,7 @@ payload:
   - DOMAIN-SUFFIX,ossp.voicecloud.cn
   - DOMAIN-SUFFIX,osswc.pplive.cn
   - DOMAIN-SUFFIX,oth.str.beacon.qq.com
+  - DOMAIN-SUFFIX,oth.str.mdt.qq.com
   - DOMAIN-SUFFIX,otheve.beacon.qq.com
   - DOMAIN-SUFFIX,ourl.cn
   - DOMAIN-SUFFIX,outside.yuncheapp.cn
@@ -3323,6 +3329,7 @@ payload:
   - DOMAIN-SUFFIX,rljjt.cn
   - DOMAIN-SUFFIX,rlri.cn
   - DOMAIN-SUFFIX,rm.wmvideo.cn
+  - DOMAIN-SUFFIX,rmonitor.qq.com
   - DOMAIN-SUFFIX,rms-drcn.platform.dbankcloud.cn
   - DOMAIN-SUFFIX,rn.lzbas.cn
   - DOMAIN-SUFFIX,ro-up.vivoglobal.com
@@ -3332,6 +3339,7 @@ payload:
   - DOMAIN-SUFFIX,rsvqlz.cn
   - DOMAIN-SUFFIX,rtbn2.cn
   - DOMAIN-SUFFIX,rtlog.vidown.cn
+  - DOMAIN-SUFFIX,rtlog5-applog-hl.fqnovel.com
   - DOMAIN-SUFFIX,rtwebcollects.kugou.com
   - DOMAIN-SUFFIX,rtycgmz.cn
   - DOMAIN-SUFFIX,ru-analyzer-appstore.vivoglobal.com
@@ -3454,6 +3462,7 @@ payload:
   - DOMAIN-SUFFIX,security-platform.kltb.com.cn
   - DOMAIN-SUFFIX,security.browser.miui.com
   - DOMAIN-SUFFIX,seectech.cn
+  - DOMAIN-SUFFIX,seeds-open.comfylink.com
   - DOMAIN-SUFFIX,seek68.cn
   - DOMAIN-SUFFIX,seeye.cn
   - DOMAIN-SUFFIX,selfimg.com.cn
@@ -3997,6 +4006,7 @@ payload:
   - DOMAIN-SUFFIX,umdc.aliapp.org
   - DOMAIN-SUFFIX,umeng.cn
   - DOMAIN-SUFFIX,umeng.com
+  - DOMAIN-SUFFIX,umengacs.m.taobao.com
   - DOMAIN-SUFFIX,ums-telemetry-cn.heytapmobi.com
   - DOMAIN-SUFFIX,ums-telemetry-eu-par.heytapmobi.com
   - DOMAIN-SUFFIX,ums-telemetry-india.heytapmobi.com

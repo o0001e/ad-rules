@@ -545,6 +545,7 @@ DOMAIN,alu.cn
 DOMAIN,am.zdnet.com.cn
 DOMAIN,amae.zjcapital.cn
 DOMAIN,amazonaws.com.cn
+DOMAIN,amdc.m.taobao.com
 DOMAIN,amwm.cn
 DOMAIN,analy.tuniu.cn
 DOMAIN,analysis.watcha.cn
@@ -629,7 +630,6 @@ DOMAIN,appoptimize-drcn.dbankcdn.cn
 DOMAIN,appsad.cn
 DOMAIN,appserverlisttx.dflcs.cn
 DOMAIN,appstore-trace-h5sdk.vivo.com.cn
-DOMAIN,appupgrade.vivo.com.cn
 DOMAIN,appuu.cn
 DOMAIN,aq-ad-h5-fe.c.t.soulapp-inc.cn
 DOMAIN,aqda.scuum.cn
@@ -687,6 +687,7 @@ DOMAIN,atplay.cn
 DOMAIN,atpm.cn
 DOMAIN,atrace.chelaile.net.cn
 DOMAIN,au.ff.avast.sec.miui.com
+DOMAIN,audid-api.taobao.com
 DOMAIN,authbe.sec.intl.miui.com
 DOMAIN,autofan.com.cn
 DOMAIN,autohack.cn
@@ -805,7 +806,6 @@ DOMAIN,br-p.vivoglobal.com
 DOMAIN,brandadsstatic.vivo.com.cn
 DOMAIN,bridgeoos.com
 DOMAIN,bro.flyme.cn
-DOMAIN,browser.vivo.com.cn
 DOMAIN,browsercfg-drcn.cloud.dbankcloud.cn
 DOMAIN,bt.cn
 DOMAIN,btrace.yangshipin.cn
@@ -1202,7 +1202,6 @@ DOMAIN,dmclick.cn
 DOMAIN,dmym.fwol.cn
 DOMAIN,dncvj.cn
 DOMAIN,dnkeeper.platform.dbankcloud.cn
-DOMAIN,dns.weixin.qq.com.cn
 DOMAIN,dns.ximalaya.com
 DOMAIN,dnslog.cn
 DOMAIN,dnspod.cn
@@ -1224,6 +1223,7 @@ DOMAIN,down.qqfarmer.com.cn
 DOMAIN,down.rising.net.cn
 DOMAIN,down.tgjkbx.cn
 DOMAIN,downali.game.uc.cn
+DOMAIN,download.szytnet.cn
 DOMAIN,downmini.kugou.com
 DOMAIN,downmobile.kugou.com
 DOMAIN,dpic.mkj3.cn
@@ -1523,6 +1523,8 @@ DOMAIN,fp-it.portal101.cn
 DOMAIN,fqxkj.cn
 DOMAIN,fraudmetrix.cn
 DOMAIN,frj8.cn
+DOMAIN,frontier-aweme.snssdk.com
+DOMAIN,frontier100-toutiao-hl.fqnovel.com
 DOMAIN,frqzio.cn
 DOMAIN,fs.mv.pc2.kugou.com
 DOMAIN,fs.uc.nearme.com.cn
@@ -1890,6 +1892,7 @@ DOMAIN,hzlockb.cn
 DOMAIN,hzwxbz2.cn
 DOMAIN,i-cn01a.ocloud.heytapmobi.com
 DOMAIN,i-fk.cn
+DOMAIN,i-hl.snssdk.com
 DOMAIN,i-sg01a.ocloud.heytapmobi.com
 DOMAIN,i.flow.browser.oppomobile.com
 DOMAIN,i.mmcdn.cn
@@ -2033,6 +2036,7 @@ DOMAIN,ipyud.cn
 DOMAIN,iqiyim.adtrack.enlightent.cn
 DOMAIN,ir-sdk.dun.163yun.com
 DOMAIN,irhg.uiuin.cn
+DOMAIN,is-hl.snssdk.com
 DOMAIN,is.snssdk.com
 DOMAIN,isdk-gameunion-cn.heytapmobi.com
 DOMAIN,isecure.vivo.com.cn
@@ -2404,6 +2408,7 @@ DOMAIN,log.z3.cn
 DOMAIN,log.zcool.com.cn
 DOMAIN,log1.molitv.cn
 DOMAIN,log2.molitv.cn
+DOMAIN,log5-applog-hl.fqnovel.com
 DOMAIN,logan.sankuai.com
 DOMAIN,logforward.browser.heytapmobi.com
 DOMAIN,logger.qmai.cn
@@ -2979,6 +2984,7 @@ DOMAIN,osscdn.xingyiqy.cn
 DOMAIN,ossp.voicecloud.cn
 DOMAIN,osswc.pplive.cn
 DOMAIN,oth.str.beacon.qq.com
+DOMAIN,oth.str.mdt.qq.com
 DOMAIN,otheve.beacon.qq.com
 DOMAIN,ourl.cn
 DOMAIN,outside.yuncheapp.cn
@@ -3322,6 +3328,7 @@ DOMAIN,rkxy.com.cn
 DOMAIN,rljjt.cn
 DOMAIN,rlri.cn
 DOMAIN,rm.wmvideo.cn
+DOMAIN,rmonitor.qq.com
 DOMAIN,rms-drcn.platform.dbankcloud.cn
 DOMAIN,rn.lzbas.cn
 DOMAIN,ro-up.vivoglobal.com
@@ -3331,6 +3338,7 @@ DOMAIN,rplzmw.cn
 DOMAIN,rsvqlz.cn
 DOMAIN,rtbn2.cn
 DOMAIN,rtlog.vidown.cn
+DOMAIN,rtlog5-applog-hl.fqnovel.com
 DOMAIN,rtwebcollects.kugou.com
 DOMAIN,rtycgmz.cn
 DOMAIN,ru-analyzer-appstore.vivoglobal.com
@@ -3453,6 +3461,7 @@ DOMAIN,securemetrics.apple.com.cn
 DOMAIN,security-platform.kltb.com.cn
 DOMAIN,security.browser.miui.com
 DOMAIN,seectech.cn
+DOMAIN,seeds-open.comfylink.com
 DOMAIN,seek68.cn
 DOMAIN,seeye.cn
 DOMAIN,selfimg.com.cn
@@ -3996,6 +4005,7 @@ DOMAIN,umapi.cn
 DOMAIN,umdc.aliapp.org
 DOMAIN,umeng.cn
 DOMAIN,umeng.com
+DOMAIN,umengacs.m.taobao.com
 DOMAIN,ums-telemetry-cn.heytapmobi.com
 DOMAIN,ums-telemetry-eu-par.heytapmobi.com
 DOMAIN,ums-telemetry-india.heytapmobi.com

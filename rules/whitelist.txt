@@ -1,5 +1,5 @@
 # AD-QGG 白名单
-# Count: 438
+# Count: 441
 0.0.0.0 12306.cn
 0.0.0.0 126.com
 0.0.0.0 163.com
@@ -48,11 +48,13 @@
 0.0.0.0 api.xiaohongshu.com
 0.0.0.0 api.youku.com
 0.0.0.0 api.zhihu.com
+0.0.0.0 appupgrade.vivo.com.cn
 0.0.0.0 b23.tv
 0.0.0.0 baidu.com
 0.0.0.0 biliapi.net
 0.0.0.0 bilibili.com
 0.0.0.0 bilivideo.com
+0.0.0.0 browser.vivo.com.cn
 0.0.0.0 bytecdn.cn
 0.0.0.0 bytedance.net
 0.0.0.0 cdn.163.com
@@ -90,6 +92,7 @@
 0.0.0.0 dbankcdn.com
 0.0.0.0 dianping.com
 0.0.0.0 didi.cn
+0.0.0.0 dns.weixin.qq.com.cn
 0.0.0.0 douban.com
 0.0.0.0 doubanio.com
 0.0.0.0 douyin.com

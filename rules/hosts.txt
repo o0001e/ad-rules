@@ -1,6 +1,6 @@
 # AD-QGG Filter
-# Update: 20261114 03:23
-# Count: 4580
+# Update: 20261114 03:33
+# Count: 4590
 0.0.0.0 0001-metrics1-data-hicloud-com.geac.dbankedge.cn
 0.0.0.0 0001-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
 0.0.0.0 0002-metrics1-drcn-dt-dbankcloud-cn.geac.dbankedge.cn
@@ -548,6 +548,7 @@
 0.0.0.0 am.zdnet.com.cn
 0.0.0.0 amae.zjcapital.cn
 0.0.0.0 amazonaws.com.cn
+0.0.0.0 amdc.m.taobao.com
 0.0.0.0 amwm.cn
 0.0.0.0 analy.tuniu.cn
 0.0.0.0 analysis.watcha.cn
@@ -632,7 +633,6 @@
 0.0.0.0 appsad.cn
 0.0.0.0 appserverlisttx.dflcs.cn
 0.0.0.0 appstore-trace-h5sdk.vivo.com.cn
-0.0.0.0 appupgrade.vivo.com.cn
 0.0.0.0 appuu.cn
 0.0.0.0 aq-ad-h5-fe.c.t.soulapp-inc.cn
 0.0.0.0 aqda.scuum.cn
@@ -690,6 +690,7 @@
 0.0.0.0 atpm.cn
 0.0.0.0 atrace.chelaile.net.cn
 0.0.0.0 au.ff.avast.sec.miui.com
+0.0.0.0 audid-api.taobao.com
 0.0.0.0 authbe.sec.intl.miui.com
 0.0.0.0 autofan.com.cn
 0.0.0.0 autohack.cn
@@ -808,7 +809,6 @@
 0.0.0.0 brandadsstatic.vivo.com.cn
 0.0.0.0 bridgeoos.com
 0.0.0.0 bro.flyme.cn
-0.0.0.0 browser.vivo.com.cn
 0.0.0.0 browsercfg-drcn.cloud.dbankcloud.cn
 0.0.0.0 bt.cn
 0.0.0.0 btrace.yangshipin.cn
@@ -1205,7 +1205,6 @@
 0.0.0.0 dmym.fwol.cn
 0.0.0.0 dncvj.cn
 0.0.0.0 dnkeeper.platform.dbankcloud.cn
-0.0.0.0 dns.weixin.qq.com.cn
 0.0.0.0 dns.ximalaya.com
 0.0.0.0 dnslog.cn
 0.0.0.0 dnspod.cn
@@ -1227,6 +1226,7 @@
 0.0.0.0 down.rising.net.cn
 0.0.0.0 down.tgjkbx.cn
 0.0.0.0 downali.game.uc.cn
+0.0.0.0 download.szytnet.cn
 0.0.0.0 downmini.kugou.com
 0.0.0.0 downmobile.kugou.com
 0.0.0.0 dpic.mkj3.cn
@@ -1526,6 +1526,8 @@
 0.0.0.0 fqxkj.cn
 0.0.0.0 fraudmetrix.cn
 0.0.0.0 frj8.cn
+0.0.0.0 frontier-aweme.snssdk.com
+0.0.0.0 frontier100-toutiao-hl.fqnovel.com
 0.0.0.0 frqzio.cn
 0.0.0.0 fs.mv.pc2.kugou.com
 0.0.0.0 fs.uc.nearme.com.cn
@@ -1893,6 +1895,7 @@
 0.0.0.0 hzwxbz2.cn
 0.0.0.0 i-cn01a.ocloud.heytapmobi.com
 0.0.0.0 i-fk.cn
+0.0.0.0 i-hl.snssdk.com
 0.0.0.0 i-sg01a.ocloud.heytapmobi.com
 0.0.0.0 i.flow.browser.oppomobile.com
 0.0.0.0 i.mmcdn.cn
@@ -2036,6 +2039,7 @@
 0.0.0.0 iqiyim.adtrack.enlightent.cn
 0.0.0.0 ir-sdk.dun.163yun.com
 0.0.0.0 irhg.uiuin.cn
+0.0.0.0 is-hl.snssdk.com
 0.0.0.0 is.snssdk.com
 0.0.0.0 isdk-gameunion-cn.heytapmobi.com
 0.0.0.0 isecure.vivo.com.cn
@@ -2407,6 +2411,7 @@
 0.0.0.0 log.zcool.com.cn
 0.0.0.0 log1.molitv.cn
 0.0.0.0 log2.molitv.cn
+0.0.0.0 log5-applog-hl.fqnovel.com
 0.0.0.0 logan.sankuai.com
 0.0.0.0 logforward.browser.heytapmobi.com
 0.0.0.0 logger.qmai.cn
@@ -2982,6 +2987,7 @@
 0.0.0.0 ossp.voicecloud.cn
 0.0.0.0 osswc.pplive.cn
 0.0.0.0 oth.str.beacon.qq.com
+0.0.0.0 oth.str.mdt.qq.com
 0.0.0.0 otheve.beacon.qq.com
 0.0.0.0 ourl.cn
 0.0.0.0 outside.yuncheapp.cn
@@ -3325,6 +3331,7 @@
 0.0.0.0 rljjt.cn
 0.0.0.0 rlri.cn
 0.0.0.0 rm.wmvideo.cn
+0.0.0.0 rmonitor.qq.com
 0.0.0.0 rms-drcn.platform.dbankcloud.cn
 0.0.0.0 rn.lzbas.cn
 0.0.0.0 ro-up.vivoglobal.com
@@ -3334,6 +3341,7 @@
 0.0.0.0 rsvqlz.cn
 0.0.0.0 rtbn2.cn
 0.0.0.0 rtlog.vidown.cn
+0.0.0.0 rtlog5-applog-hl.fqnovel.com
 0.0.0.0 rtwebcollects.kugou.com
 0.0.0.0 rtycgmz.cn
 0.0.0.0 ru-analyzer-appstore.vivoglobal.com
@@ -3456,6 +3464,7 @@
 0.0.0.0 security-platform.kltb.com.cn
 0.0.0.0 security.browser.miui.com
 0.0.0.0 seectech.cn
+0.0.0.0 seeds-open.comfylink.com
 0.0.0.0 seek68.cn
 0.0.0.0 seeye.cn
 0.0.0.0 selfimg.com.cn
@@ -3999,6 +4008,7 @@
 0.0.0.0 umdc.aliapp.org
 0.0.0.0 umeng.cn
 0.0.0.0 umeng.com
+0.0.0.0 umengacs.m.taobao.com
 0.0.0.0 ums-telemetry-cn.heytapmobi.com
 0.0.0.0 ums-telemetry-eu-par.heytapmobi.com
 0.0.0.0 ums-telemetry-india.heytapmobi.com
