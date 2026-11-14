@@ -1,0 +1,91 @@
+name: AD-QGG 规则构建
+
+on:
+  schedule:
+    # UTC；对应北京时间 01:00 / 03:00 / 05:00
+    - cron: '0 17,19,21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rules-main
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 准备 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 智能体生成
+        env:
+          OUT_DIR: rules
+          CACHE_DIR: .cache/src
+          DNS_CHECK: "1"
+          CN_ONLY: "1"
+          DEAD_RATIO_MAX: "0.6"
+          PYTHONUNBUFFERED: "1"
+          PYTHONIOENCODING: utf-8
+        run: python3 ad_agent.py
+
+      - name: 健康巡查
+        run: |
+          echo "===== 健康巡查 ====="
+          N=$(grep -c '^0.0.0.0' rules/hosts.txt || echo 0)
+          A=$(grep -c '^||' rules/adguard.txt || echo 0)
+          D=$(grep -c . rules/domains.txt || echo 0)
+          W=$(grep -c '^0.0.0.0' rules/whitelist.txt || echo 0)
+          echo "hosts=$N adguard=$A domains=$D whitelist=$W"
+          [ "$N" -ge 2000 ] || { echo "规则数异常偏低"; exit 1; }
+          [ "$A" -eq "$N" ] || { echo "adguard 与 hosts 条数不一致"; exit 1; }
+          [ "$D" -eq "$N" ] || { echo "domains 与 hosts 条数不一致"; exit 1; }
+          [ "$W" -ge 300 ] || { echo "白名单过少"; exit 1; }
+          grep -qE 'gitee\.com|github\.com|cnb\.cool' rules/hosts.txt && { echo "仓库域名被误拦"; exit 1; } || true
+          for f in dnsmasq.conf clash.yaml surge.list whitelist_adguard.txt; do
+            [ -s "rules/$f" ] || { echo "$f 为空"; exit 1; }
+          done
+          echo "巡查通过"
+
+      - name: 提交产物
+        run: |
+          git config user.email "adqgg@local"
+          git config user.name "adqgg"
+          H=$(cat rules/hosts.txt rules/adguard.txt rules/domains.txt rules/whitelist.txt src_health.json alive.txt src_state.json pending.txt dead.txt baseline.txt 2>/dev/null | md5sum | cut -d' ' -f1)
+          if [ -f .build_hash ] && [ "$(cat .build_hash)" = "$H" ]; then
+            echo "产物与上轮一致（$H），跳过提交"; exit 0
+          fi
+          echo "$H" > .build_hash
+          git add -f rules/hosts.txt rules/all.txt rules/adguard.txt rules/domains.txt rules/dnsmasq.conf rules/clash.yaml rules/surge.list rules/whitelist.txt rules/whitelist_adguard.txt src_health.json alive.txt src_state.json pending.txt dead.txt baseline.txt .build_hash
+          git commit -m "规则更新 $(date -u '+%F %H:%M') UTC" || echo "无变化"
+          for i in 1 2 3; do
+            if git push; then echo "推送成功（第 $i 次）"; exit 0; fi
+            echo "推送失败，对齐远端后重试（第 $i 次）"
+            git fetch -q --depth=1 origin main
+            git reset -q --mixed FETCH_HEAD
+            git add -f rules src_health.json alive.txt src_state.json pending.txt dead.txt baseline.txt .build_hash
+            git commit -m "规则更新 $(date -u '+%F %H:%M') UTC" || true
+            sleep 5
+          done
+          echo "三次推送均失败"; exit 1
+
+      - name: 失败告警
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const t = `规则更新失败 ${new Date().toISOString().slice(0,16)}`;
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo, title: t,
+              body: `工作流 ${{ github.workflow }} 运行失败\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`
+            });
